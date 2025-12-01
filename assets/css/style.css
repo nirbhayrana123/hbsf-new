@@ -4914,12 +4914,7 @@ h3.overview-para {
     font-weight: 700;
   }
 
-
-  .trf-main {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-  }
-
+ 
   .trf-main .text {
     color: #913832;
     text-align: center;
@@ -6027,23 +6022,8 @@ h3.overview-para {
     /* gentle upward push */
     filter: brightness(1.15) drop-shadow(0 10px 16px rgba(0, 0, 0, 0.35));
     transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
-    /* smooth, slow-mo feel */
   }
-
-
-
-  /* our partner page end */
-
-  /* OUR COLLOBORATION CSS START  */
-
-  .our-collaborations {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: bottom center;
-    overflow: hidden !important;
-  }
+ 
 
   .our-collaborations .text {
     color: #913832;
@@ -6053,10 +6033,7 @@ h3.overview-para {
     font-style: italic;
     font-weight: 400;
   }
-
-
-
-
+ 
   .our-collaborations .input-tag {
     max-width: 484px;
     background-color: transparent;
