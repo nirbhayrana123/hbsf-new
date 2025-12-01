@@ -5235,8 +5235,7 @@
     font-weight: 700;
   }
 
-  .article-heading {
-    margin-top: 3%;
+  .article-heading { 
     font-family: "Bodoni Moda 9pt";
     color: #913832;
   }
@@ -7653,10 +7652,7 @@
     text-decoration: none !important;
     font-weight: 300;
   }
-
-  .article-one .gap {
-    gap: 20px;
-  }
+ 
 
   .article-one .heading {
     color: #913832;
@@ -10828,4 +10824,7 @@
   .founding-members {
     margin-top: 120px;
     margin-bottom: 50px;
+}
+.row.gap.news-article {
+    margin-top: 45px;
 }
