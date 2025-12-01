@@ -3268,8 +3268,8 @@ ol.breadcrumb {
     background-clip: border-box;
     background-repeat: no-repeat;
     position: relative;
-    padding-bottom: 145px !important;
-    margin-bottom: -92px;
+    padding-bottom: 145px ;
+    padding-top: 70px;
   }
 
   .sec-4 .gap {
@@ -3300,9 +3300,8 @@ ol.breadcrumb {
     background-clip: border-box;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 0;
-    margin-bottom: 5rem;
-    overflow-x: hidden;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
   .sec-5 .image {
@@ -3767,13 +3766,7 @@ ol.breadcrumb {
     width: 3px;
     background-color: #913832;
   }
-
-  .description.container-fluid.pb-0 {
-    padding-bottom: 0 !important;
-    position: absolute;
-    bottom: 8%;
-  }
-
+ 
   @keyframes dropdownFadeIn {
     0% {
       opacity: 0;
@@ -3857,8 +3850,7 @@ ol.breadcrumb {
   .description.container-fluid.pb-0 {
     padding-bottom: 0 !important;
     position: absolute;
-    bottom: 8%;
-    z-index: 9;
+    bottom: 8%; 
   }
 
   .ashoka-university-detail-page .gap {
@@ -7435,11 +7427,7 @@ ol.breadcrumb {
     color: rgb(240, 230, 218);
   }
 
-  .sec-1 .nav-link:hover {
-    font-weight: 600;
-    border-radius: 15px;
-  }
-
+ 
   .sec-1 .line-img {
     height: 45px;
     width: 2px;
@@ -7489,10 +7477,8 @@ ol.breadcrumb {
   }
 
 
- .sec-2 {
-    overflow: hidden;
-    min-height: 100vh;
-    overflow-x: hidden;
+ .sec-2 { 
+    min-height: 100vh; 
     background-image: url(../img/sec-2-bg.jpg);
     background-size: cover;
     background-position: center;
