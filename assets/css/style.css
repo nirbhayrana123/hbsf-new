@@ -98,10 +98,18 @@
     padding-top: 150px;
   }
 
-  .top-0 {
+  .pt0 {
     padding-top: 0px;
   }
 
+  h1 {
+    color: #913832;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.4em;
+  }
 
   h2 {
     text-transform: uppercase;
@@ -114,6 +122,15 @@
     font-family: "Bodoni Moda 9pt", serif;
     padding-bottom: 15px;
     margin-bottom: 30px;
+  }
+
+  h5.articlename {
+    color: #913832;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1em;
   }
 
   h2.common-heading.align-left {
@@ -210,7 +227,7 @@
     margin-top: -4px;
   }
 
-  
+
 
   .homedropdown {
     visibility: hidden;
@@ -388,7 +405,7 @@
     text-decoration: underline;
   }
 
- 
+
 
 
 
@@ -535,7 +552,7 @@
     transition: ease-in-out 0.5s;
   }
 
- 
+
 
   .sec-5 .image {
     width: 340px;
@@ -1464,7 +1481,7 @@
     left: 80px;
   }
 
- 
+
 
   .sector-in-focus-1 {
     background-image: url(../img/sector-in-focus-bg.jpg);
@@ -2287,8 +2304,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
-    background-position: bottom center;
-
+    background-position: bottom center; 
     padding-top: 150px;
     overflow: hidden !important;
   }
@@ -2300,15 +2316,7 @@
     font-style: italic;
     font-weight: 400;
   }
-
-  .ashoka-university-detail-page .heading {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+ 
 
   .ashoka-university-detail-page .name {
     color: #913832;
@@ -2449,7 +2457,7 @@
     flex-direction: column;
     gap: 20px;
   }
- 
+
 
   .overview-page .text {
     color: #913832;
@@ -2488,7 +2496,7 @@
   a.nav-link {
     font-size: 24px;
   }
- 
+
 
   .overview-page-2 .second-div .images {
     height: 160px;
@@ -3136,11 +3144,11 @@
     font-weight: 300;
   }
 
-ol.breadcrumb {
+  ol.breadcrumb {
     display: flex;
     gap: 15px;
     margin-bottom: 40px;
-}
+  }
 
   nav.breadcrumb-nav {
     margin-left: 55px;
@@ -3261,7 +3269,7 @@ ol.breadcrumb {
     background-clip: border-box;
     background-repeat: no-repeat;
     position: relative;
-    padding-bottom: 145px ;
+    padding-bottom: 145px;
     padding-top: 70px;
   }
 
@@ -3287,7 +3295,7 @@ ol.breadcrumb {
     max-width: 250px;
   }
 
- .sec-5 {
+  .sec-5 {
     background-image: url(../img/sec-5-bg.jpg);
     background-position: center;
     background-clip: border-box;
@@ -3295,7 +3303,7 @@ ol.breadcrumb {
     background-repeat: no-repeat;
     padding-top: 70px;
     padding-bottom: 70px;
-}
+  }
 
   .sec-5 .image {
     width: 100%;
@@ -3759,7 +3767,7 @@ ol.breadcrumb {
     width: 3px;
     background-color: #913832;
   }
- 
+
   @keyframes dropdownFadeIn {
     0% {
       opacity: 0;
@@ -3809,7 +3817,7 @@ ol.breadcrumb {
     z-index: 3;
   }
 
-  
+
 
   .sec-2 canvas {
     position: absolute;
@@ -3843,7 +3851,7 @@ ol.breadcrumb {
   .description.container-fluid.pb-0 {
     padding-bottom: 0 !important;
     position: absolute;
-    bottom: 8%; 
+    bottom: 8%;
   }
 
   .ashoka-university-detail-page .gap {
@@ -4535,7 +4543,7 @@ ol.breadcrumb {
   }
 
 
-  
+
 
 
 
@@ -4674,7 +4682,7 @@ ol.breadcrumb {
     margin-right: 1rem;
   }
 
- 
+
 
 
   /* Overview Page */
@@ -4926,7 +4934,7 @@ ol.breadcrumb {
     padding: 0.8rem;
   }
 
-  .left-links .publisher  {
+  .left-links .publisher {
     color: #913832;
     font-style: italic;
     font-family: "Bodoni Moda 9pt Italic";
@@ -4964,19 +4972,7 @@ ol.breadcrumb {
     font-weight: 700;
   }
 
-  .article-heading {
-    font-family: "Bodoni Moda 9pt";
-    color: #913832;
-  }
 
-  .article-heading-2 {
-    font-family: "Bodoni Moda 9pt Italic";
-    color: #913832;
-  }
-
-
-
-  /* ***************  The Rotary Foundation Page ****************** */
   .trf-main {
     background-image: url(../img/sector-in-focus-bg.jpg);
     background-repeat: no-repeat;
@@ -4991,32 +4987,19 @@ ol.breadcrumb {
     font-weight: 400;
     padding-bottom: 30px;
   }
-
-
-
+ 
   .footer-text-1 {
     font-family: "Noto Sans";
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1.125rem;
-    /* background-color: lime; */
+    font-size: 1.125rem; 
   }
 
   .footer-text-2 {
     font-family: "Noto Sans";
     color: rgba(255, 255, 255, 0.5);
-    font-size: 20px;
-    /* background-color: lime; */
+    font-size: 20px; 
   }
-
-  /* ***************  Youtube Page ****************** */
-
-  .yt-main {
-    padding-top: 0px !important;
-  }
-
-
-
-
+ 
   .our-partner-1 .text {
     color: #913832;
     text-align: center;
@@ -7292,13 +7275,6 @@ ol.breadcrumb {
   }
 
 
-  h1.heading {
-    color: #913832;
-    font-family: "Bodoni Mopda 9pt";
-    font-size: 5rem;
-    line-height: 120%;
-    font-weight: 600;
-  }
 
   .article-one .text {
     color: #913832;
@@ -7421,7 +7397,7 @@ ol.breadcrumb {
     color: rgb(240, 230, 218);
   }
 
- 
+
   .sec-1 .line-img {
     height: 45px;
     width: 2px;
@@ -7471,8 +7447,8 @@ ol.breadcrumb {
   }
 
 
- .sec-2 { 
-    min-height: 100vh; 
+  .sec-2 {
+    min-height: 100vh;
     background-image: url(../img/sec-2-bg.jpg);
     background-size: cover;
     background-position: center;
@@ -7484,7 +7460,7 @@ ol.breadcrumb {
     display: flex;
     align-items: center;
     background-color: #f3eae1;
-}
+  }
 
   .sec-2 .gap {
     gap: 15px;
@@ -8723,17 +8699,7 @@ ol.breadcrumb {
     color: white;
     cursor: pointer;
   }
-
-  .ashoka-university-detail-page {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: bottom center;
-    margin-top: -290px;
-    padding-top: 290px;
-    overflow: hidden !important;
-  }
+ 
 
   .ashoka-university-detail-page .news-article {
     color: #913832;
@@ -8743,14 +8709,7 @@ ol.breadcrumb {
     font-weight: 400;
   }
 
-  .ashoka-university-detail-page .heading {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+
 
   .ashoka-university-detail-page .name {
     color: #913832;
@@ -8933,8 +8892,8 @@ ol.breadcrumb {
   .error-404 .bottom-img {
     width: -webkit-fill-available;
   }
- 
-  .overview-page { 
+
+  .overview-page {
     overflow: hidden !important;
   }
 
@@ -10307,7 +10266,7 @@ ol.breadcrumb {
 
 
 
-  
+
   .error-404 .error-div .text {
     color: #fff;
     text-align: center;
@@ -10320,9 +10279,9 @@ ol.breadcrumb {
     -webkit-text-stroke-color: #000000fa;
     -webkit-text-stroke-width: 2px;
     margin-bottom: -40px;
-}
+  }
 
- .error-404 .error-div .text-3 {
+  .error-404 .error-div .text-3 {
     color: #913832;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
@@ -10330,4 +10289,4 @@ ol.breadcrumb {
     font-style: normal;
     font-weight: 600;
     margin-left: 30px;
-}
+  }
