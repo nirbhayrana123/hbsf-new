@@ -581,7 +581,6 @@
 
   .imgbginner::after {
     height: 334px;
-
   } 
 
 
@@ -1126,6 +1125,11 @@
     margin-bottom: 3rem;
     font-size: 45px;
   }
+  .about-us-section-1 .main-image {
+   
+    max-width: 77vh;
+    max-height: 580px;
+}
 }
 
 @media (max-width: 1024px) {
@@ -1163,9 +1167,9 @@
   }
 
   .about-us-section-1 .main-image {
-      top: 278px;
+      top: 0;
       right: -35px;
-      max-height: 430px;
+      max-height: 470px;
     }
 
 
@@ -1330,9 +1334,7 @@
     margin-top: 0px;
   }
 
-  .about-us-section-3 {
-    padding-bottom: 400px;
-  }
+ 
 
   .about-us-section-3 .main-image {
     height: 400px;
@@ -1724,7 +1726,7 @@
     right: auto;
     left: 50%;
     top: auto;
-    bottom: 0;
+    bottom: -15px;
     transform: rotate(90deg) translatex(20px);
   }
 
@@ -1749,7 +1751,7 @@
 
   .about-us-section-3 {
     background-size: 185% 100%;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
     margin-top: -45px;
     padding-top: 40px;
   }
@@ -2081,9 +2083,6 @@
     max-width: 350px;
   }
 
-  .about-us-section-3 {
-    padding-bottom: 400px;
-  }
 
   .myswiper .swiper-button-next {
     transform: translateY(-500%);
@@ -2091,7 +2090,6 @@
   }
 
   .about-us-section-3 .main-image {
-
     margin: auto;
     position: relative;
     left: auto;
@@ -2520,10 +2518,6 @@ nav.breadcrumb-nav {
     font-size: 33px;
   }
 
-  .about-us-section-3 {
-    padding-bottom: 600px;
-  }
-
   .about-us-section-3 .main-image {
     height: 400px;
     margin: auto;
@@ -2708,10 +2702,6 @@ nav.breadcrumb-nav {
     font-size: 24px;
   }
 
-
-  .about-us-section-3 {
-    padding-bottom: 600px;
-  }
 
   .hovermove {
     height: 388px;
@@ -3632,7 +3622,7 @@ button.navbar-toggler {
   }
 
   .common-heading {
-    font-size: 31px;
+    font-size: 30px;
   }
 
   .common-read-more-btn .btn-text {
