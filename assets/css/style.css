@@ -141,17 +141,17 @@
     position: relative;
   }
 
-  .border-b::after {
+ .border-b::after {
     content: "";
     position: absolute;
     left: 0;
     right: 0;
     background-color: #913832;
-    width: 90px;
+    width: 60px;
     height: 3px;
     margin: 0 auto;
     bottom: -14px;
-  }
+}
 
   .border-b.white::after {
     background-color: #ffffff;
@@ -4848,15 +4848,15 @@ h3.overview-para {
 
 
   /* SDG Grid Styles */
-  .sdg-grid {
+ .sdg-grid {
     display: grid;
     grid-template-columns: repeat(20, 1fr);
-    gap: 12px;
-    padding-bottom: 60px;
+    gap: 25px 0px;
+    padding-bottom: 70px;
     margin: 0 auto;
     justify-items: center;
     max-width: 1200px;
-  }
+}
 
   .sdg-item {
     width: 100%;
