@@ -3065,9 +3065,13 @@
     }
   }
  
-  @media (max-width: 1500px) {
+  @media (max-width: 1600px) {
     .article-one {
       padding-top: 130px;
+    }
+
+    .dextophomeheader #navbarNavAltMarkup{
+      height: 400px !important;
     }
   }
 

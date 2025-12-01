@@ -4752,16 +4752,7 @@
     background: #e3e3e3;
   }
 
-  .sec-1 {
-    height: 100vh;
-    position: relative;
-    background-image: url(../img/bannderbg.jpg);
-    background-repeat: no-repeat;
-    box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
-    z-index: 99;
-    background-size: cover;
-    background-position: top -90px center;
-  }
+ 
 
   .sec-1 .m-logo {
     display: none;
@@ -8019,17 +8010,15 @@
     color: rgb(145, 56, 50);
   }
 
-  .sec-1 {
-    /* overflow: hidden; */
-    overflow-x: hidden;
-    min-height: 100vh;
-    /* height: 100vh; */
+ .sec-1 {
+    height: 100vh;
     position: relative;
-    background-image: url(../img/sec-1-bg.png);
-    background-position: center;
+    background-image: url(../img/bannderbg.jpg);
     background-repeat: no-repeat;
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
+    z-index: 99;
     background-size: cover;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    background-position: top -90px center;
   }
 
   .sec-1 .description {
@@ -8041,16 +8030,12 @@
     font-style: italic;
     color: rgb(145, 56, 50);
     padding-top: 0 !important;
-    /* Removes space at top */
     margin-top: 0 !important;
-    /* Ensures no top margin */
     display: flex;
-    /* optional: if you want to vertically align inside */
     align-items: flex-start;
   }
 
   .sec-1 .logo {
-    /* height: 150px; */
     height: 12rem;
     width: auto;
     margin-top: 10px;
@@ -8060,7 +8045,6 @@
 
   .sec-1 .nav-link {
     font-family: Noto Sans;
-    /* font-size: 16px; */
     font-size: 1.5rem;
     color: rgb(240, 230, 218);
     transition: ease-in 0.4s;
