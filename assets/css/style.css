@@ -123,7 +123,14 @@
     padding-bottom: 15px;
     margin-bottom: 30px;
   }
-
+.pl-contact h3 {
+    color: #913832;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 4px;
+} 
   h5.articlename {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -2541,9 +2548,7 @@ h3.overview-para {
     font-size: 20px;
   }
 
-  .thank-you-page {
-    overflow: hidden !important;
-  }
+  
 
   .thank-you-page .main-div {
     background-image: url(../img/thank-you-page-bg.jpg);
@@ -2558,23 +2563,22 @@ h3.overview-para {
     padding-bottom: 200px;
   }
 
-  .thankyoucontent .text {
+.thankyoucontent h4 {
     color: #a93b3b;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
-    font-size: 22px;
+    font-size: 35px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
-  }
-
-  .imgthankyu {
+}
+.imgthankyu {
     position: relative;
-  }
-
-  .imgthankyu img {
-    max-width: 70%;
-  }
+    padding-bottom: 70px;
+}
+.imgthankyu img {
+    width: 100%;
+}
 
   .thankyoucontent {
     position: absolute;
@@ -2667,15 +2671,7 @@ h3.overview-para {
     background: #913832;
     color: #fff;
   }
-
-  .contact-us .heading {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 6px;
-  }
+ 
 
   .contact-us .address-name {
     color: #913832;
@@ -2696,8 +2692,7 @@ h3.overview-para {
     margin-right: 50px;
   }
 
-
-
+ 
   .navbar-toggler .menuicon span.linemenu {
     background-color: #F0E6DA;
     display: block;
@@ -3065,12 +3060,7 @@ h3.overview-para {
     width: 20px !important;
   }
 
-   
-
-  .contact-us .heading {
-    margin-left: 0;
-  }
-
+    
   .imgtopshape img {
     width: 150px;
   }
@@ -3104,12 +3094,7 @@ h3.overview-para {
     background-clip: border-box;
     background-position: center;
   }
-
-  section.thank-you-page {
-    padding-bottom: 100px;
-  }
-
-
+ 
   .thank-you-page .row-gap {
     padding-top: 400px;
     padding-bottom: 260px;
@@ -4106,11 +4091,7 @@ h3.overview-para {
     width: 175px;
     top: 30px;
   }
-
-  .thank-you-page {
-    padding-top: 1rem;
-  }
-
+ 
   .sdg-grid .sdg-item:first-child {
     margin-left: 185px;
   }
@@ -7206,12 +7187,7 @@ h3.overview-para {
     /* smooth, slow-mo feel */
   }
 
-  .thank-you-page {
-    overflow: visible !important;
-    background-color: #ffffff;
-    max-height: "auto";
-  }
-
+  
   .thank-you-page .main-div {
     position: relative;
     z-index: 50;
@@ -8977,14 +8953,7 @@ h3.overview-para {
     font-weight: 400;
     line-height: normal;
 }
-
-
-  .thank-you-page {
-    margin-top: -220px;
-    padding-top: 230px;
-    overflow: hidden !important;
-  }
-
+ 
 
   .thank-you-page .main-div {
     background-image: url(../img/thank-you-page-bg.jpg);
@@ -9009,22 +8978,9 @@ h3.overview-para {
     line-height: normal;
   }
 
-  .contact-us {
-    margin-top: -220px;
-    padding-top: 230px;
-    overflow: hidden !important;
-  }
-
-  .contact-us .main-div {
-    background-image: url(../img/contact-us-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-clip: border-box;
-    padding-top: 400px;
-    padding-bottom: 100px;
-  }
-
+ .contact-us {
+    padding-bottom: 60px;
+}
   .contact-us .labels {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -9061,16 +9017,7 @@ h3.overview-para {
     border-radius: 50px;
   }
 
-  .contact-us .heading {
-    margin-left: -50px;
-    top: -200px;
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 6px;
-  }
+  
 
   .contact-us .address-div {
     bottom: -85px;

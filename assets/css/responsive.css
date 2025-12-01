@@ -585,10 +585,7 @@
   } 
 
 
-  .contact-us .heading {
-    font-size: 27px;
-  }
-
+ 
   .contactbgmain {
     padding-bottom: 60px;
   }
@@ -707,10 +704,7 @@
     background-position: center;
   }
 
-  .contact-us .heading {
-    margin-left: 0px;
-  }
-
+  
   .contact-us .image {
     margin-left: -70px;
   }
@@ -918,9 +912,7 @@
     padding-bottom: 150px;
   }
 
-  .contact-us .heading {
-    margin-left: 0px;
-  }
+ 
 
 
   .contactbgmain {
@@ -934,11 +926,7 @@
   .contact-us .address {
     font-size: 13px;
   }
-
-  .contact-us .heading {
-    font-size: 20px;
-  }
-
+ 
   .contact-us .submit-btn {
     max-width: 148px;
     height: 36px;
@@ -1802,13 +1790,7 @@
     padding-left: 0;
   }
 
-  .contact-us .heading {
-    font-size: 30px;
-    order: 2;
-    text-align: center;
-    width: 100%;
-    position: relative;
-  }
+   
 
   .heading:after {
     content: "";
@@ -2235,11 +2217,7 @@
     margin-left: 0px;
   }
 
-  .contact-us .heading {
-    top: -90px;
-    font-size: 30px;
-  }
-
+ 
   .contact-us .address-div {
     left: 0px;
   }
@@ -3248,11 +3226,7 @@ button.navbar-toggler {
     width: 14px;
   }
 
-  .contact-us .heading {
-    font-size: 20px;
-    letter-spacing: 3px;
-  }
-
+ 
   .sec-5 .post-slide a:active .bottom-div .text-3,
   .sec-5 .post-slide a:active .bottom-div .text-6 {
     transform: translateY(-10px);
