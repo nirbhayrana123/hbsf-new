@@ -3862,6 +3862,7 @@ h2.common-heading.align-left {
     padding-bottom: 0 !important;
     position: absolute;
     bottom: 8%;
+    z-index: 9;
   }
 
   .ashoka-university-detail-page .gap {
@@ -4191,15 +4192,7 @@ h2.common-heading.align-left {
   }
 
   /* SDG Grid Styles */
-  .sdg-grid {
-    display: grid;
-    grid-template-columns: repeat(20, 1fr);
-    gap: 30px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-items: center;
-  }
+ 
 
   .sdg-item {
     width: 100%;
@@ -4278,12 +4271,7 @@ h2.common-heading.align-left {
 
 
 
-  .partner-card {
-    height: 100px;
-    width: 100px;
-    position: relative;
-    overflow: hidden;
-  }
+ 
 
   .child-card {
     position: relative;
@@ -4902,14 +4890,14 @@ h2.common-heading.align-left {
 
   /* SDG Grid Styles */
   .sdg-grid {
-    display: grid;
+       display: grid;
     grid-template-columns: repeat(20, 1fr);
     gap: 12px;
-    padding: 12px;
-    max-width: 1088px;
+    padding-bottom: 60px;
     margin: 0 auto;
     justify-items: center;
-  }
+    max-width: 1200px;
+}
 
   .sdg-item {
     width: 100%;
@@ -6552,9 +6540,7 @@ h2.common-heading.align-left {
     filter: brightness(1.1);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   }
-
-  /* ------------- */
-
+ 
   .our-collaborations .margin-class {
     margin-top: -130px;
   }
