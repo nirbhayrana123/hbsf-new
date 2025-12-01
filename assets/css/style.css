@@ -7484,10 +7484,8 @@
   }
 
 
- .sec-2 {
-    overflow: hidden;
-    min-height: 100vh;
-    overflow-x: hidden;
+ .sec-2 { 
+    min-height: 100vh; 
     background-image: url(../img/sec-2-bg.jpg);
     background-size: cover;
     background-position: center;
