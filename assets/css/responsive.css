@@ -349,6 +349,12 @@
     padding-bottom: 5px;
     padding-top: 0px;
   }
+  .dotsmap svg.map-size {
+    width: 600px;
+}
+.text-3 h3 {
+    font-size: 40px;
+}
 
   .ashoka-university-detail-page .description .text {
     font-size: 25px;
