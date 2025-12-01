@@ -3772,13 +3772,7 @@
     width: 3px;
     background-color: #913832;
   }
-
-  .description.container-fluid.pb-0 {
-    padding-bottom: 0 !important;
-    position: absolute;
-    bottom: 8%;
-  }
-
+ 
   @keyframes dropdownFadeIn {
     0% {
       opacity: 0;
