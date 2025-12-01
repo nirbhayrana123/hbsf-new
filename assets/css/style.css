@@ -8758,16 +8758,7 @@ ease;
     overflow: hidden !important;
   }
 
-  .overview-page .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    list-style: normal;
-  }
-
+ 
   .overview-page .map-img {
     height: 700px;
   }
