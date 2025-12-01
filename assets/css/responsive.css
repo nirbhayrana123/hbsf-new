@@ -63,14 +63,11 @@
   }
 }
 
-@media (min-width: 992px) {
-
-  /* Dropdown container setup */
+@media (min-width: 992px) { 
   .nav-item.dropdown {
     position: relative;
   }
-
-  /* Initial dropdown state */
+ 
   .nav-item.dropdown .dropdown-menu {
     display: block !important;
     visibility: hidden;
@@ -86,8 +83,7 @@
     display: flex !important;
     width: 100%;
   }
-
-  /* Show dropdown on hover with smooth animation */
+ 
   .nav-item.dropdown:hover .dropdown-menu {
     visibility: visible;
     opacity: 1;
@@ -99,8 +95,7 @@
   .nav-item:hover .line-img {
     visibility: hidden;
   }
-
-  /* Individual dropdown items animation */
+ 
   .nav-item.dropdown:hover .dropdown-menu .dropdown-item {
     animation: slideInDown 0.4s ease-out backwards;
   }
