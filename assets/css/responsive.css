@@ -63,11 +63,11 @@
   }
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .nav-item.dropdown {
     position: relative;
   }
- 
+
   .nav-item.dropdown .dropdown-menu {
     display: block !important;
     visibility: hidden;
@@ -83,7 +83,7 @@
     display: flex !important;
     width: 100%;
   }
- 
+
   .nav-item.dropdown:hover .dropdown-menu {
     visibility: visible;
     opacity: 1;
@@ -95,7 +95,7 @@
   .nav-item:hover .line-img {
     visibility: hidden;
   }
- 
+
   .nav-item.dropdown:hover .dropdown-menu .dropdown-item {
     animation: slideInDown 0.4s ease-out backwards;
   }
@@ -168,6 +168,7 @@
     animation: backgroundPulse 0.4s ease-out;
   }
 }
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: unset !important;
@@ -340,6 +341,7 @@
   }
 
 }
+
 /*================================= min-width ==============================================*/
 
 @media (max-width: 1600px) {
@@ -469,10 +471,11 @@
     width: 100%;
     max-width: 88.5%;
   }
-.sec-1-content h1 {
+
+  .sec-1-content h1 {
     font-size: 55px;
-}
-  
+  }
+
 }
 
 
@@ -938,7 +941,7 @@
     margin-right: 0px;
   }
 
- 
+
 
   .hovermove {
     height: 334px;
@@ -1074,15 +1077,13 @@
 }
 
 
-
-
-
 @media (max-width: 1199px) {
   .sec-1 .description {
     margin-bottom: 1rem;
     font-size: 45px;
   }
-.about-us-nav {
+
+  .about-us-nav {
     padding-bottom: 50px;
   }
 
@@ -1094,7 +1095,7 @@
     padding-top: 9rem;
   }
 
- 
+
   .about-us-nav {
     padding-bottom: 50px;
   }
@@ -1113,6 +1114,7 @@
     width: 100%;
     max-width: 94%;
   }
+
   .sec-1 .description .content {
     margin-bottom: 3rem;
     font-size: 45px;
@@ -1498,7 +1500,7 @@
     padding-bottom: 4rem;
   }
 
-  
+
 
   .ashoka-university-detail-page .name {
     font-size: 24px;
@@ -1562,7 +1564,7 @@
     margin-left: 0px;
   }
 
- 
+
 
   section.thank-you-page {
     padding-top: 5rem;
@@ -1580,7 +1582,7 @@
   .sec-1 {
     background-size: 100% 60%;
   }
- 
+
   .thank-you-page .main-div {
     background-position: top center;
   }
@@ -2010,8 +2012,8 @@
   .contents.mt-6 {
     display: none;
   }
- 
-  .nav-item.dropdown .dropdown-menu .background li { 
+
+  .nav-item.dropdown .dropdown-menu .background li {
     margin-top: 0px !important;
   }
 
@@ -2027,7 +2029,7 @@
     background-image: url(../img/footerbgmobile.png) !important;
   }
 
- 
+
   .showactive img.logoto2 {
     opacity: 0;
 
@@ -2117,10 +2119,11 @@
     padding-bottom: 400px;
   }
 
-  .myswiper .swiper-button-next { 
+  .myswiper .swiper-button-next {
     transform: translateY(-500%);
 
-  } 
+  }
+
   .about-us-section-3 .main-image {
 
     margin: auto;
@@ -2270,7 +2273,7 @@
     width: 100%;
     max-width: 94%;
   }
- 
+
   .overview-page .common-heading {
     font-size: 33px;
     line-height: 2.5rem;
@@ -2294,7 +2297,7 @@
   .overview-page svg {
     padding-bottom: 18px;
   }
- 
+
   .map-size {
     max-width: 82%;
     height: 79%;
@@ -2305,7 +2308,7 @@
   .sec-2-text {
     line-height: 1.8rem;
   }
- 
+
   .sec-7 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -2314,7 +2317,7 @@
   .sec-7-p {
     margin-right: 2rem;
   }
- 
+
   .sec-4 .common-heading {
     margin-top: 2rem;
   }
@@ -2340,7 +2343,7 @@
   .carousel-control-next {
     margin-right: 1rem;
   }
- 
+
 }
 
 @media (max-width: 767px) {
@@ -2884,9 +2887,6 @@
 
 }
 
-.about-us-section-1 .menu {
-  padding-left: 28px;
-}
 
 .myswiper .swiper-button-prev {
   left: 180px;
@@ -3090,9 +3090,6 @@ owl-buttons .owl-prev,
   padding-right: 20px;
 }
 
-/**************** home.css*************************/
-
-
 .sec-5 .image {
   width: 100%;
 }
@@ -3101,8 +3098,6 @@ owl-buttons .owl-prev,
   padding-left: 50px;
   padding-right: 50px;
 }
-
-
 
 .conentsliv {
   padding-left: 85px;
@@ -3168,8 +3163,6 @@ owl-buttons .owl-prev,
   font-size: 40px;
 }
 
-
-
 .sec-1 nav {
   position: relative;
   z-index: 8;
@@ -3201,7 +3194,6 @@ button.navbar-toggler {
 }
 
 
-
 .about-us-section-3 .bottom-padding {
   padding-bottom: 0px;
 }
@@ -3227,7 +3219,6 @@ button.navbar-toggler {
   padding-bottom: 25px;
 }
 
-/**************************/
 .sec-2-text {
   line-height: 1.8rem;
 }
@@ -3242,9 +3233,6 @@ button.navbar-toggler {
   margin-right: 2rem;
 }
 
-
-
-/* sec-4 */
 .sec-4 .common-heading {
   margin-top: 3rem;
 }
@@ -3263,9 +3251,6 @@ button.navbar-toggler {
   color: rgb(145, 56, 50);
 }
 
-/***********/
-
-}
 
 @media (max-width: 650px) {
   .contact-us .address-div {
@@ -3351,7 +3336,6 @@ button.navbar-toggler {
     margin-left: 0px;
   }
 
-  /* On mobile, show description on tap/click instead */
   .sec-5 .carousel-item a:active .bottom-div .description-text {
     max-height: 200px;
     opacity: 1;
@@ -3507,7 +3491,7 @@ button.navbar-toggler {
     width: 18px;
     height: auto;
   }
- 
+
   .right-social img {
     height: 18px;
   }
@@ -3735,12 +3719,12 @@ button.navbar-toggler {
   .ashoka-university-detail-page .gap {
     gap: 12px;
   }
- 
+
   .sec-2 .text {
     font-size: 20px;
   }
 
- 
+
 
   .about-us-nav {
     background-position: bottom 30px center;
@@ -4060,7 +4044,7 @@ button.navbar-toggler {
     margin: 0px;
   }
 
- 
+
   .container {
     margin-top: 27px !important;
   }
@@ -4069,7 +4053,7 @@ button.navbar-toggler {
     font-size: 10px;
   }
 
-  .container :nth-child(3) { 
+  .container :nth-child(3) {
     padding-top: 20px !important;
     padding-bottom: 50px !important;
   }
@@ -4093,7 +4077,6 @@ button.navbar-toggler {
     padding-top: 6px !important;
   }
 
-  /* Our Collaborations */
   .our-collaborations .common-heading {
     font-size: 1.3rem !important;
   }
