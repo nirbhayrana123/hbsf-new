@@ -3930,11 +3930,7 @@ h2.common-heading.align-left {
   }
 
 
-  .description.container-fluid.pb-0 {
-    padding-bottom: 0 !important;
-    position: absolute;
-    bottom: 8%;
-  }
+
 
   @keyframes dropdownFadeIn {
     0% {
@@ -4024,6 +4020,7 @@ h2.common-heading.align-left {
     padding-bottom: 0 !important;
     position: absolute;
     bottom: 8%;
+    z-index: 9;
   }
 
   .ashoka-university-detail-page .gap {
