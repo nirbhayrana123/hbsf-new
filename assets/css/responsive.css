@@ -2979,9 +2979,7 @@
       padding-top: 120px;
     }
 
-    .post-slide {
-      height: 450px;
-    }
+   
 
     .the-rotary-foundation .information-3 {
       font-size: 25px;
@@ -3079,7 +3077,9 @@
     .the-rotary-foundation .information-1 {
       font-size: 28px;
     }
-
+ .post-slide {
+      height: 450px;
+    }
     .the-rotary-foundation .information-2 {
       font-size: 20px;
     }
