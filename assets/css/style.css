@@ -569,7 +569,9 @@ h3 {
   }
 
 
-
+.h3-gap {
+    margin-top: 50px;
+}
   .sec-5 .image {
     width: 340px;
     height: 450px;
@@ -1518,14 +1520,7 @@ h3 {
   .sector-in-focus-1 .image-2 {
     max-width: 600px;
   }
-
-  .our-partner-1 {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-  }
-
-  
-
+ 
   .our-partner-1 .input-tag {
     background-color: transparent;
     border-radius: 53px;
@@ -8093,16 +8088,9 @@ ease;
     max-width: 600px;
   }
 
-  .our-partner-1 {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: bottom center;
-    margin-top: -290px;
-    padding-top: 290px;
-    overflow: hidden !important;
-  }
+   .filterbox {
+    margin-top: 50px;
+}
   h3.border-b.common-heading
  {
     text-transform: uppercase;
