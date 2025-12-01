@@ -766,10 +766,7 @@
     margin-right: 0px;
   }
 
-  .contact-us .menu .text1 {
-    font-weight: 300;
-    font-size: 12px;
-  }
+ 
 
   .hovermove {
     height: 334px;
@@ -918,10 +915,7 @@
     padding-top: 9rem;
   }
 
-  .overview-page .menu {
-    padding-top: 40px;
-  }
-
+ 
   .about-us-nav {
     padding-bottom: 50px;
   }
@@ -1506,10 +1500,7 @@
     padding-bottom: 4rem;
   }
 
-  .our-collaborations .menu .text1 {
-    font-size: 12px;
-    font-weight: 300;
-  }
+  
 
   .ashoka-university-detail-page .name {
     font-size: 24px;
@@ -1573,10 +1564,7 @@
     margin-left: 0px;
   }
 
-
-  .overview-page .menu {
-    padding-top: 10px;
-  }
+ 
 
   section.thank-you-page {
     padding-top: 5rem;
@@ -1594,14 +1582,7 @@
   .sec-1 {
     background-size: 100% 60%;
   }
-
-  .our-collaborations .menu {
-    padding-left: 30px;
-  }
-
-
-
-
+ 
   .thank-you-page .main-div {
     background-position: top center;
   }
@@ -2048,12 +2029,7 @@
     background-image: url(../img/footerbgmobile.png) !important;
   }
 
-
-  .news-narratives-page .menu .text1 {
-    font-size: 12px;
-    font-weight: 300;
-  }
-
+ 
   .showactive img.logoto2 {
     opacity: 0;
 
@@ -3538,11 +3514,7 @@ button.navbar-toggler {
     width: 18px;
     height: auto;
   }
-
-  .article-one .menu .text1 {
-    font-size: 12px;
-  }
-
+ 
   .right-social img {
     height: 18px;
   }
@@ -3770,18 +3742,12 @@ button.navbar-toggler {
   .ashoka-university-detail-page .gap {
     gap: 12px;
   }
-
-  .trf-main .menu .text1 {
-    font-size: 9px;
-  }
-
+ 
   .sec-2 .text {
     font-size: 20px;
   }
 
-  .overview-page .menu {
-    padding-top: 0px;
-  }
+ 
 
   .about-us-nav {
     background-position: bottom 30px center;
@@ -4101,14 +4067,7 @@ button.navbar-toggler {
     margin: 0px;
   }
 
-  .overview-page .menu {
-    padding-left: 20px;
-  }
-
-  .overview-page .menu .text1 {
-    font-size: 9px !important;
-  }
-
+ 
   .container {
     margin-top: 27px !important;
   }
@@ -4117,8 +4076,7 @@ button.navbar-toggler {
     font-size: 10px;
   }
 
-  .container :nth-child(3) {
-    /* background-color: lime; */
+  .container :nth-child(3) { 
     padding-top: 20px !important;
     padding-bottom: 50px !important;
   }

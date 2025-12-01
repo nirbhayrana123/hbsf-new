@@ -242,13 +242,7 @@ h2.common-heading.align-left {
     padding-top: 15px;
     filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.25));
   }
-
-  .breadcrumb-item+.breadcrumb-item::before {
-    vertical-align: middle;
-    position: relative;
-    top: 2px;
-    padding-right: 6px;
-  }
+ 
 
   .breadcrumb-item:nth-last-child(1)::before {
     --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.75 0.75L5.75 6.75L0.75 12.75' stroke='%23913832' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -292,12 +286,7 @@ h2.common-heading.align-left {
     position: relative;
   }
 
-  .footer-bottom-text p {
-    color: #f1e8df;
-    font-size: 18px;
-    font-family: 'Noto Sans';
-    font-weight: 100
-  }
+ 
 
   .sec-1 .description {
     padding-top: 80px;
@@ -1129,21 +1118,7 @@ h2.common-heading.align-left {
     width: 3px;
     background-color: #913832;
   }
-
-  .about-us-section-1 .menu {
-    padding-left: 45px;
-  }
-
-  .about-us-section-1 .menu .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 13px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 300;
-  }
-
+ 
   .about-us-section-1 .main-image {
     top: 0;
     right: 0px;
@@ -1447,11 +1422,7 @@ h2.common-heading.align-left {
     color: #fff;
     opacity: 1;
   }
-
-  .about-us-section-3 .menu {
-    padding-left: 30px;
-  }
-
+ 
   .about-us-section-3 .menu .text {
     color: #913832;
     text-align: center;
@@ -1529,20 +1500,7 @@ h2.common-heading.align-left {
     font-weight: 400;
   }
 
-  .sector-in-focus-1 .menu {
-    padding-left: 45px;
-  }
-
-  .sector-in-focus-1 .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 300;
-  }
-
+ 
   .sector-in-focus-1 .image-1 {
     max-width: 400px;
   }
@@ -1565,21 +1523,7 @@ h2.common-heading.align-left {
     font-weight: 400;
     padding-bottom: 30px;
   }
-
-  .our-partner-1 .menu {
-    padding-left: 30px;
-    padding-top: 30px;
-  }
-
-  .our-partner-1 .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 300;
-  }
+ 
 
   .our-partner-1 .input-tag {
     background-color: transparent;
@@ -2362,21 +2306,7 @@ h2.common-heading.align-left {
     padding-top: 150px;
     overflow: hidden !important;
   }
-
-  .ashoka-university-detail-page .menu {
-    padding-left: 45px;
-  }
-
-  .ashoka-university-detail-page .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 300;
-  }
-
+ 
   .ashoka-university-detail-page .news-article {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -2505,21 +2435,7 @@ h2.common-heading.align-left {
     background-position: bottom center;
     overflow: hidden !important;
   }
-
-  .privacy-policy .menu {
-    padding-left: 45px;
-  }
-
-  .privacy-policy .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 300;
-  }
-
+ 
   .privacy-policy .gap {
     gap: 20px;
     padding-top: 3rem;
@@ -2582,21 +2498,7 @@ h2.common-heading.align-left {
     width: 20px;
   }
 
-  .overview-page .menu {
-    padding-left: 30px;
-    padding-top: 30px;
-  }
-
-  .overview-page .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 400;
-  }
-
+ 
   .overview-page-2 {
     margin-top: -100px;
   }
@@ -2654,21 +2556,7 @@ h2.common-heading.align-left {
   .thank-you-page {
     overflow: hidden !important;
   }
-
-  .thank-you-page .menu {
-    padding-left: 30px;
-  }
-
-  .thank-you-page .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 600;
-  }
-
+ 
   .thank-you-page .main-div {
     background-image: url(../img/thank-you-page-bg.jpg);
     background-size: cover;
@@ -2713,21 +2601,7 @@ h2.common-heading.align-left {
   .contact-us {
     overflow: hidden !important;
   }
-
-  .contact-us .menu {
-    padding-left: 30px;
-  }
-
-  .contact-us .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 600;
-  }
-
+ 
   .imgtopshape {
     text-align: right;
     padding-bottom: 20px;
@@ -3136,16 +3010,7 @@ h2.common-heading.align-left {
     max-width: 305px;
   }
 
-  .our-collaborations .menu .text1 {
-    font-weight: 300;
-  }
-
-  .our-collaborations .menu {
-    padding-left: 30px;
-  }
-
-
-
+   
   .our-collaborations .image-div:hover .colectionimg {
     transform: translateY(-10px);
     position: absolute;
@@ -3249,9 +3114,7 @@ h2.common-heading.align-left {
     padding-left: 20px;
   }
 
-  .contact-us .menu .text1 {
-    font-weight: 300;
-  }
+  
 
   .thank-you-page .main-div {
     background-image: url("../img/thanku-postcard.png");
@@ -3264,10 +3127,7 @@ h2.common-heading.align-left {
   section.thank-you-page {
     padding-bottom: 100px;
   }
-
-  .thank-you-page .menu .text1 {
-    font-weight: 300;
-  }
+ 
 
   .thank-you-page .row-gap {
     padding-top: 400px;
@@ -3313,15 +3173,7 @@ h2.common-heading.align-left {
   .footer-logo img {
     width: 100%;
   }
-
-
-
-  .footer-bottom-text p {
-    color: #f1e8df;
-    font-size: 18px;
-  }
-
-
+ 
   #news-slider .owl-wrapper {
     margin-left: -250px;
   }
@@ -3915,21 +3767,7 @@ h2.common-heading.align-left {
     width: 3px;
     background-color: #913832;
   }
-
-  .about-us-section-1 .menu {
-    padding-left: 30px;
-  }
-
-  .about-us-section-1 .menu .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-  }
-
-
+ 
   .description.container-fluid.pb-0 {
     padding-bottom: 0 !important;
     position: absolute;
@@ -4114,18 +3952,7 @@ h2.common-heading.align-left {
     background-position: top center;
     overflow: hidden !important;
   }
-
-  .news-narratives-page .menu {
-    padding-left: 30px;
-  }
-
-  .news-narratives-page .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-  }
+ 
 
   .news-narratives-page .effect:hover {
     transition: ease-in 0.5s;
@@ -4473,11 +4300,7 @@ h2.common-heading.align-left {
   .content-h4 {
     font-family: 'Bodoni Moda 9pt';
   }
-
-  .our-collaborations .menu {
-    padding-bottom: 19px;
-  }
-
+ 
   .parent-card:hover .contentuser p {
     max-height: 150px;
     font-family: 'Bodoni Moda 9pt Italic';
@@ -4515,23 +4338,7 @@ h2.common-heading.align-left {
     font-weight: 400;
     padding-bottom: 30px;
   }
-
-  .brb .menu {
-    padding-left: 45px;
-  }
-
-
-  .brb .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 300;
-  }
-
-
+ 
   .footer {
     min-height: auto !important;
     padding-top: 60px;
@@ -4952,17 +4759,7 @@ h2.common-heading.align-left {
     height: 20px;
     width: 20px;
   }
-
-
-  .overview-page .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 300;
-  }
+ 
 
   .overview-page-2 {
     margin-top: -100px;
@@ -5241,16 +5038,7 @@ h2.common-heading.align-left {
     padding-bottom: 30px;
   }
 
-
-  .trf-main .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 300;
-  }
+ 
 
   .footer-text-1 {
     font-family: "Noto Sans";
@@ -5283,20 +5071,7 @@ h2.common-heading.align-left {
     font-style: italic;
     font-weight: 400;
   }
-
-
-  .our-partner-1 .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 300;
-  }
-
-
-
+ 
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
   }
@@ -6688,36 +6463,7 @@ h2.common-heading.align-left {
     transition: min-height 3s ease;
     z-index: 1;
   }
-
-  .our-collaborations .menu .text1 {
-    color: #913832;
-    text-align: center;
-    /* font-family: "Noto Sans"; */
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    /* font-weight: 600; */
-  }
-
-  .overview-page .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 300;
-  }
-
-
-  /* -------------------------------------------- */
-  /*               ANIMATION ZONE                 */
-  /* -------------------------------------------- */
-
-  /* .tab-pane {
-  position: relative;
-  overflow: hidden;
-} */
+ 
 
   .tab-pane-inner {
     opacity: 0;
@@ -7546,36 +7292,13 @@ h2.common-heading.align-left {
     transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
     /* smooth, slow-mo feel */
   }
-
-
-  /* OUR COLLOBORATION CSS END */
-
-  /* ------------------------------ */
-  /* THANk YOU PAGE DESKTOP (Keep as is) */
-  /* ------------------------------ */
-
-  /* SHIFT SECTION DOWN (replaces negative margin) */
+ 
   .thank-you-page {
     overflow: visible !important;
     background-color: #ffffff;
     max-height: "auto";
   }
-
-  /* Breadcrumb menu */
-  .thank-you-page .menu {
-    padding-left: 30px;
-  }
-
-  .thank-you-page .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 600;
-  }
-
+ 
   .thank-you-page .main-div {
     position: relative;
     z-index: 50;
@@ -7616,21 +7339,7 @@ h2.common-heading.align-left {
     overflow: hidden !important;
   }
 
-  .article-one .menu {
-    padding-left: 45px;
-  }
-
-  .article-one .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 300;
-  }
- 
-
+  
   .article-one .heading {
     color: #913832;
     font-family: "Bodoni Mopda 9pt";
@@ -7963,11 +7672,7 @@ h2.common-heading.align-left {
     gap: 10px;
   }
 
-  .text {
-    color: #fff;
-    font-weight: 600;
-    font-size: 18px;
-  }
+ 
 
   .carousel-inner .carousel-item.active,
   .carousel-inner .carousel-item-start,
@@ -8313,19 +8018,7 @@ h2.common-heading.align-left {
     background-color: #913832;
   }
 
-  .about-us-section-1 .menu {
-    padding-left: 30px;
-  }
-
-  .about-us-section-1 .menu .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-  }
-
+  
   .hovermove:hover .coverlec {
     background-color: #913832;
     top: 0;
@@ -8521,10 +8214,7 @@ h2.common-heading.align-left {
     color: #fff;
   }
 
-  .about-us-section-3 .menu {
-    padding-left: 30px;
-  }
-
+ 
   .about-us-section-3 .menu .text {
     color: #913832;
     text-align: center;
@@ -8585,20 +8275,7 @@ h2.common-heading.align-left {
     font-weight: 400;
   }
 
-  .sector-in-focus-1 .menu {
-    padding-left: 30px;
-  }
-
-  .sector-in-focus-1 .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 600;
-  }
-
+   
   .sector-in-focus-1 .image-1 {
     max-width: 400px;
   }
@@ -8627,20 +8304,7 @@ h2.common-heading.align-left {
     font-weight: 400;
   }
 
-  .our-partner-1 .menu {
-    padding-left: 30px;
-  }
-
-  .our-partner-1 .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 600;
-  }
-
+  
   .our-partner-1 .input-tag {
     max-width: 484px;
     background-color: transparent;
@@ -9017,20 +8681,7 @@ h2.common-heading.align-left {
     overflow: hidden !important;
   }
 
-  .news-narratives-page .menu {
-    padding-left: 30px;
-  }
-
-  .news-narratives-page .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 600;
-  }
-
+   
   .news-narratives-page .effect:hover {
     transition: ease-in 0.5s;
     transform: scale(1.03);
@@ -9135,21 +8786,7 @@ h2.common-heading.align-left {
     padding-top: 290px;
     overflow: hidden !important;
   }
-
-  .ashoka-university-detail-page .menu {
-    padding-left: 30px;
-  }
-
-  .ashoka-university-detail-page .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 600;
-  }
-
+ 
   .ashoka-university-detail-page .news-article {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -9260,19 +8897,7 @@ h2.common-heading.align-left {
     overflow: hidden !important;
   }
 
-  .privacy-policy .menu {
-    padding-left: 30px;
-  }
-
-  .privacy-policy .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 600;
-  }
+  
 
   .privacy-policy .gap {
     gap: 20px;
@@ -9405,20 +9030,7 @@ h2.common-heading.align-left {
     width: 20px;
   }
 
-  .overview-page .menu {
-    padding-left: 30px;
-  }
-
-  .overview-page .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 600;
-  }
-
+ 
   .overview-page-2 {
     margin-top: -100px;
   }
@@ -9494,20 +9106,7 @@ h2.common-heading.align-left {
     overflow: hidden !important;
   }
 
-  .thank-you-page .menu {
-    padding-left: 30px;
-  }
-
-  .thank-you-page .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 600;
-  }
-
+ 
   .thank-you-page .main-div {
     background-image: url(../img/thank-you-page-bg.jpg);
     background-size: cover;
@@ -9536,21 +9135,7 @@ h2.common-heading.align-left {
     padding-top: 230px;
     overflow: hidden !important;
   }
-
-  .contact-us .menu {
-    padding-left: 30px;
-  }
-
-  .contact-us .menu .text1 {
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    line-height: normal;
-    text-decoration: none !important;
-    font-weight: 600;
-  }
-
+ 
   .contact-us .main-div {
     background-image: url(../img/contact-us-bg.jpg);
     background-size: cover;
