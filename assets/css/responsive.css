@@ -349,6 +349,12 @@
     padding-bottom: 5px;
     padding-top: 0px;
   }
+  .our-partner-1 .text {
+    line-height: 45px;
+}
+  h2 {
+    font-size: 35px;
+}
   p.outreach-description {
     font-size: 26px;
     font-weight: 500;
