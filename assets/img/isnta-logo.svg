@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="38" viewBox="0 0 39 38" fill="none">
+  <!-- Background -->
+  <rect width="39" height="38" rx="6" fill="#913832"/>
+
+  <!-- Inner rounded container (padded) -->
+  <rect x="5" y="5" width="29" height="28" rx="6" stroke="white" stroke-width="3"/>
+
+  <!-- Camera lens -->
+  <circle cx="19.5" cy="19" r="5" stroke="white" stroke-width="3"/>
+
+  <!-- Flash dot -->
+  <circle cx="26.5" cy="13" r="2" fill="white"/>
+</svg>

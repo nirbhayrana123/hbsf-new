@@ -1,0 +1,6639 @@
+
+  @media (max-width: 576px) {
+    .overview-page-2 .second-div .text {
+      font-size: 30px;
+    }
+
+    .overview-page-2 .second-div .text-3 {
+      font-size: 30px;
+    }
+  }
+
+
+  @media (max-width: 525px) {
+    .privacy-policy .heading {
+      font-size: 25px;
+    }
+
+    .privacy-policy .text {
+      font-size: 20px;
+    }
+  }
+
+
+  @media (max-width: 440px) {
+    .ashoka-university-detail-page .view-article {
+      font-size: 23px;
+    }
+  }
+
+  @media (max-width: 424px) {
+    .ashoka-university-detail-page .heading {
+      font-size: 27px;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1199px) {
+    .carousel-inner .carousel-item>div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item>div:nth-child(-n + 2) {
+      display: block;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+
+  @media (max-width: 424px) {
+    .common-heading {
+      font-size: 27px;
+    }
+  }
+ 
+
+ @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+      position: unset !important;
+    }
+  }
+
+ @media (min-width: 992px) {
+    .our-partner-1 .row {
+      flex-wrap: nowrap !important;
+    }
+  } 
+  @media (min-width: 2000px) and (max-width: 2300px) {
+    .yt-menu {
+      padding-top: 20px !important;
+      padding-left: 31px !important;
+    }
+
+    .social-icons {
+      padding-right: 3%;
+    }
+
+    .ashoka-university-detail-page .iframe-tag {
+      height: 687px;
+      max-width: 1500px;
+      margin-top: 16px;
+      border-radius: 49px;
+    }
+
+    .yt-container {
+      width: 100%;
+      max-width: 88.5%;
+    }
+  }
+
+  @media (min-width: 1800px) and (max-width: 2000px) {
+    .yt-menu {
+      padding-top: 20px !important;
+      padding-left: 31px !important;
+    }
+
+    .social-icons {
+      padding-right: 3%;
+    }
+
+    .ashoka-university-detail-page .iframe-tag {
+      height: 603px;
+      max-width: 1500px;
+      margin-top: 16px;
+      border-radius: 49px;
+    }
+
+    .yt-container {
+      width: 100%;
+      max-width: 88.5%;
+    }
+  }
+
+  @media (min-width: 1600px) and (max-width: 1800px) {
+    .yt-menu {
+      padding-top: 20px !important;
+      padding-left: 31px !important;
+    }
+
+    .ashoka-university-detail-page .iframe-tag {
+      height: 572px;
+      max-width: 1375px;
+      margin-top: 16px;
+      border-radius: 49px;
+    }
+
+    .yt-container {
+      width: 100%;
+      max-width: 88.5%;
+    }
+  }
+
+  @media (min-width: 1400px) and (max-width: 1600px) {
+    .yt-menu {
+      padding-top: 20px !important;
+      padding-left: 31px !important;
+    }
+
+    .ashoka-university-detail-page .iframe-tag {
+      height: 528px;
+      max-width: 1175px;
+      margin-top: 16px;
+      border-radius: 49px;
+    }
+
+    .yt-container {
+      width: 100%;
+      max-width: 88.5%;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .yt-menu {
+      padding-top: 20px !important;
+      padding-left: 31px !important;
+    }
+
+    .ashoka-university-detail-page .menu {
+      margin-top: 125px !important;
+
+    }
+
+    .ashoka-university-detail-page .iframe-tag {
+      height: 488px;
+      max-width: 997px;
+      border-radius: 49px;
+    }
+
+  }
+
+  @media (min-width: 1100px) and (max-width: 1200px) {
+    .yt-menu {
+      padding-top: 20px !important;
+      padding-left: 31px !important;
+    }
+
+    .ashoka-university-detail-page .iframe-tag {
+      height: 438px;
+      max-width: 800px;
+      border-radius: 49px;
+    }
+
+    .yt-container {
+      width: 100%;
+      max-width: 97%;
+    }
+  }
+
+  @media (min-width: 990px) and (max-width: 1100px) {
+    .yt-menu {
+      padding-top: 20px !important;
+      padding-left: 31px !important;
+    }
+
+    .ashoka-university-detail-page .iframe-tag {
+      max-width: 700px;
+      border-radius: 49px;
+    }
+
+    .yt-container {
+      width: 100%;
+      max-width: 94%;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 990px) {
+    .yt-menu {
+      padding-top: 20px !important;
+      padding-left: 31px !important;
+    }
+
+    .ashoka-university-detail-page .iframe-tag {
+      max-width: 843px;
+      border-radius: 49px;
+    }
+
+    .yt-container {
+      width: 100%;
+      max-width: 94%;
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 700px) {
+    .yt-menu {
+      padding-left: 31px !important;
+    }
+
+    .ashoka-university-detail-page .menu {
+      margin-top: 121px !important;
+    }
+
+    .yt-container {
+      width: 100%;
+      max-width: 94%;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 600px) {
+    .yt-menu {
+      padding-left: 31px !important;
+    }
+
+    .ashoka-university-detail-page .menu {
+      margin-top: 100px !important;
+    }
+
+    .ashoka-university-detail-page .iframe-tag {
+      max-width: 843px;
+      border-radius: 49px;
+    }
+
+    .yt-container {
+      width: 100%;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+    }
+
+  }
+
+  @media (min-width: 365px) and (max-width: 500px) {
+    .yt-menu {
+      padding-left: 31px !important;
+    }
+
+    .ashoka-university-detail-page .menu {
+      margin-top: 95px !important;
+    }
+
+    .ashoka-university-detail-page .iframe-tag {
+      max-width: 843px;
+      border-radius: 49px;
+    }
+
+    .mainerror {
+      padding-top: 0;
+    }
+
+    .yt-container {
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 900px) {
+    .ashoka-university-detail-page .menu {
+      margin-top: 110px !important;
+      padding-left: 4.7% !important;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 768px) {
+    .ashoka-university-detail-page .menu {
+      margin-top: 110px !important;
+      padding-left: 36px !important;
+    }
+  }
+
+  @media (min-width: 576) and (max-width: 600px) {
+    .ashoka-university-detail-page .menu {
+      margin-top: 110px !important;
+      padding-left: 52px !important;
+    }
+  }
+
+
+  @media (max-width: 620px) {
+    .ashoka-university-detail-page .name {
+      font-size: 15px;
+    }
+  }
+
+  @media (min-width: 1600px) and (max-width: 2300px) {
+
+
+    .article-heading {
+      margin-top: 0;
+    }
+
+    .article-heading-2 {
+      margin-bottom: -1%;
+    }
+
+    .article-one .container {
+      padding-top: 1rem;
+      max-width: 90%;
+    }
+  }
+
+  @media (min-width: 1300px) and (max-width: 1600px) {
+
+
+    .article-heading {
+      margin-top: 0;
+    }
+
+    .article-heading-2 {
+      margin-bottom: -1%;
+    }
+
+    .article-one .container {
+      padding-top: 1rem;
+      padding-right: 2%;
+      padding-left: 2%;
+    }
+  }
+
+  @media (min-width: 1100px) and (max-width: 1300px) {
+
+
+    .article-heading {
+      margin-top: 0;
+    }
+
+    .article-heading-2 {
+      margin-bottom: -2%;
+    }
+
+    .article-one .container {
+      padding-top: 1rem;
+      /* max-width: 814px; */
+      max-width: 95%;
+      padding-right: 2%;
+      padding-left: 2%;
+    }
+  }
+
+  @media (min-width: 990px) and (max-width: 1100px) {
+
+
+    .article-heading {
+      margin-top: 0;
+    }
+
+    .article-heading-2 {
+      margin-bottom: -2%;
+    }
+
+    .article-one .container {
+      padding-top: 1rem;
+      /* max-width: 814px; */
+      max-width: 95%;
+      padding-right: 2%;
+      padding-left: 2%;
+    }
+  }
+
+  @media (min-width: 900px) and (max-width: 990px) {
+
+    .article-one .menu {
+      padding-left: 47px !important;
+    }
+
+    .article-one .container {
+      padding-top: 1rem;
+      /* max-width: 814px; */
+      max-width: 57rem;
+      padding-right: 2%;
+      padding-left: 2%;
+    }
+
+    .article-heading-2 {
+      margin-bottom: -20px;
+    }
+  }
+
+  @media (min-width: 800px) and (max-width: 900px) {
+
+    .article-one .menu {
+      padding-left: 47px !important;
+    }
+
+    .article-one .container {
+      padding-top: 1rem;
+      max-width: 814px;
+    }
+
+    .article-heading-2 {
+      margin-bottom: -20px;
+    }
+  }
+
+  @media (min-width: 679px) and (max-width: 800px) {
+
+
+    .article-one .menu {
+      padding-left: 51px !important;
+    }
+
+  }
+
+  @media (min-width: 708px) and (max-width: 769px) {
+    .article-one .menu {
+      padding-left: 23px !important;
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 679px) and (max-width: 708px) {
+
+
+    .article-one .menu {
+      padding-left: 11px !important;
+      width: 100%;
+    }
+
+  }
+
+  @media (min-width: 670px) and (max-width: 679px) {
+
+    .article-one .menu {
+      padding-left: 14px !important;
+    }
+  }
+
+  @media (min-width: 670px) and (max-width: 800px) {
+    .article-heading {
+      font-size: 1.5rem !important;
+    }
+
+    .article-one .article-link {
+      font-size: 1.3rem !important;
+    }
+
+    .article-one .container {
+      padding-top: 1rem;
+      max-width: 712px;
+    }
+
+    .article-heading-2 {
+      margin-bottom: -20px;
+    }
+  }
+
+  @media (min-width: 525px) and (max-width: 670px) {
+
+
+    .article-one .article-link {
+      width: 50% !important;
+      font-size: 1.3rem !important;
+    }
+
+    .article-one .back {
+      margin-left: 0;
+      margin-top: 0;
+    }
+
+
+    .article-one .menu {
+      padding-left: 12px !important;
+    }
+
+    .article-one .container {
+      padding-top: 1rem;
+      max-width: 660px;
+    }
+
+    .article-heading-2 {
+      margin-bottom: -20px;
+    }
+  }
+
+  @media (min-width: 360px) and (max-width: 525px) {
+
+    .article-one .back {
+      margin-left: 87%;
+    }
+
+
+    .article-one .menu {
+      padding-bottom: 10px;
+      padding-left: 19px !important;
+    }
+
+    .article-one .container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .article-heading-2 {
+      margin-bottom: -20px;
+    }
+  }
+
+
+  @media (min-width: 1400px) and (max-width: 1600px) {
+    .navbar-toggler {
+      margin-left: 8rem;
+    }
+
+
+  }
+
+  @media (min-width: 1100px) and (max-width: 1400px) {
+    .navbar-toggler {
+      margin-left: 8rem;
+    }
+
+  }
+
+  @media (min-width: 990px) and (max-width: 1100px) {
+    .navbar-toggler {
+      margin-left: 8rem;
+    }
+
+  }
+
+  @media (min-width: 700px) and (max-width: 990px) {
+
+
+    img.m-logo {
+      max-width: 118px;
+    }
+
+    .navbar-toggler {
+      margin-left: 8rem;
+    }
+
+
+  }
+
+  @media (min-width: 600px) and (max-width: 700px) {
+    .navbar-toggler {
+      margin-left: 8rem;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 600px) {
+    .navbar-toggler {
+      margin-left: 8rem;
+    }
+
+
+  }
+
+  @media (min-width: 365px) and (max-width: 500px) {
+    .navbar-toggler {
+      margin-left: 8rem;
+    }
+
+
+  } 
+
+  @media (min-width: 990px) and (max-width: 1100px) {
+    .privacy-policy .breadcrumb {
+      margin-top: 2%;
+    }
+  }
+
+
+  @media (min-width: 2000px) and (max-width: 2300px) {
+
+    .privacy-policy .menu {
+      padding-top: 30px !important;
+      padding-left: 40px !important;
+      padding-bottom: 30px !important;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+
+    .privacy-policy .container {
+      max-width: 1830px;
+    }
+
+    .heading {
+      font-size: 60px !important;
+    }
+  }
+
+  @media (min-width: 1800px) and (max-width: 2000px) {
+
+    .privacy-policy .menu {
+      padding-top: 30px !important;
+      padding-left: 40px !important;
+      padding-bottom: 30px !important;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+
+    .privacy-policy .container {
+      max-width: 1690px;
+    }
+  }
+
+  @media (min-width: 1600px) and (max-width: 1800px) {
+
+    .privacy-policy .menu {
+      padding-top: 20px !important;
+      padding-left: 40px !important;
+      padding-bottom: 30px !important;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+
+    .privacy-policy .container {
+      max-width: 1425px;
+    }
+  }
+
+  @media (min-width: 1400px) and (max-width: 1600px) {
+
+    .privacy-policy .menu {
+      padding-top: 30px !important;
+      padding-left: 40px !important;
+      padding-bottom: 30px !important;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+
+    .privacy-policy .container {
+      max-width: 1320px;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+
+    .privacy-policy .menu {
+      padding-top: 20px !important;
+      padding-left: 40px !important;
+      padding-bottom: 30px !important;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+  }
+
+  @media (min-width: 1100px) and (max-width: 1200px) {
+
+    .privacy-policy .menu {
+      padding-top: 20px !important;
+      padding-left: 40px !important;
+      padding-bottom: 30px !important;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+  }
+
+  @media (min-width: 990px) and (max-width: 1100px) {
+
+    .privacy-policy .menu {
+      padding-top: 20px !important;
+      padding-left: 40px !important;
+      padding-bottom: 30px !important;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 990px) {
+
+    .privacy-policy .menu {
+      padding-top: 20px !important;
+      padding-left: 40px !important;
+      padding-bottom: 30px !important;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 768px) {
+
+    .privacy-policy .menu {
+      padding-top: 20px !important;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 700px) {
+    .privacy-policy {
+      padding: 20px
+    }
+
+    .privacy-policy .menu {
+      padding-top: 368px !important;
+      padding-left: 0px;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+
+  }
+
+  @media (min-width: 500px) and (max-width: 600px) {
+    .privacy-policy {
+      padding: 20px
+    }
+
+    .privacy-policy .menu {
+      padding-top: 368px;
+      padding-left: 0px;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+  }
+
+  @media (min-width: 365px) and (max-width: 500px) {
+    .privacy-policy {
+      padding: 20px
+    }
+
+    .privacy-policy .menu {
+      padding-top: 90px;
+      padding-bottom: 20px;
+      padding-left: 5px;
+    }
+
+    .privacy-policy .common-heading {
+      margin-top: 0rem;
+    }
+  }
+
+
+ @media (min-width: 768px) and (max-width: 990px) {
+
+
+    .overview-page .common-heading {
+      font-size: 33px;
+      line-height: 2.5rem;
+    }
+
+    .overview-page .overview-para {
+      font-size: 33px;
+    }
+
+    .cirile {
+      top: 76px;
+      right: -1px;
+    }
+
+    .img-text h5 {
+      margin-top: 1px !important;
+      font-weight: 600;
+      font-size: 22px;
+    }
+
+    .overview-page svg {
+      padding-bottom: 18px;
+    }
+
+    /* Overview Page */
+    .map-size {
+      max-width: 82%;
+      height: 79%;
+      padding: 3%;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 768px) {
+    /* Overview */
+
+
+    .overview-page .common-heading {
+      font-size: 33px;
+      line-height: 2.5rem;
+    }
+
+    .overview-page .overview-para {
+      font-size: 33px;
+    }
+
+    .cirile {
+      top: 38px;
+      right: -15px;
+    }
+
+    .img-text h5 {
+      margin-top: 4px !important;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .overview-page svg {
+      padding-bottom: 18px;
+    }
+
+    /* Overview Page */
+    .map-size {
+      max-width: 83%;
+      height: 79%;
+      padding: 2%;
+    }
+  }
+
+   @media (max-width: 1800px) {
+    .sec-1 {
+      background-position: top -60px center;
+    }
+  }
+ 
+
+  @media (max-width: 1471px) {
+    .sec-1 {
+      background-size: 100% 100%;
+    }
+  }
+ 
+  @media (min-width: 800px) and (max-width: 1024px) {
+
+    /* Your styles here */
+    .partners-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px 30px;
+    }
+
+    .main-heading {
+      font-size: 36px;
+    }
+
+    .partner-title {
+      font-size: 24px;
+      min-height: 50px;
+    }
+
+    .partner-description {
+      font-size: 18px;
+      padding-top: 0px;
+    }
+
+    .d-4 {
+      padding-top: 0.8rem;
+    }
+
+    .bottom-text {
+      font-size: 22px;
+    }
+
+    .dl-4 {
+      margin-top: 1.8rem;
+    }
+  }
+
+  /* Mobile Layout (1 column) */
+  @media (max-width: 640px) {
+    .section-wrapper {
+      padding: 40px 15px;
+    }
+
+    .partners-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    .main-heading {
+      font-size: 28px;
+    }
+
+    .partner-image {
+      width: 150px;
+      height: 130px;
+    }
+
+    .partner-title {
+      font-size: 22px;
+      min-height: auto;
+    }
+
+    .partner-description {
+      font-size: 16px;
+      min-height: auto;
+    }
+
+    .bottom-text {
+      font-size: 18px;
+    }
+  }
+
+  /* Extra small devices */
+  @media (max-width: 375px) {
+    .main-heading {
+      font-size: 24px;
+    }
+
+    .partner-image {
+      width: 130px;
+      height: 110px;
+    }
+
+    .partner-title {
+      font-size: 20px;
+    }
+
+    .partner-description {
+      font-size: 15px;
+    }
+
+    .bottom-text {
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 992px) {
+
+    /* Dropdown container setup */
+    .nav-item.dropdown {
+      position: relative;
+    }
+
+    /* Initial dropdown state */
+    .nav-item.dropdown .dropdown-menu {
+      display: block !important;
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-15px) scale(0.95);
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      margin-top: 0;
+      pointer-events: none;
+      position: absolute;
+      left: auto;
+      top: -5px;
+      justify-content: end;
+      display: flex !important;
+      width: 100%;
+    }
+
+    /* Show dropdown on hover with smooth animation */
+    .nav-item.dropdown:hover .dropdown-menu {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      pointer-events: all;
+      animation: dropdownFadeIn 0.7s ease-out;
+    }
+
+    .nav-item:hover .line-img {
+      visibility: hidden;
+    }
+
+    /* Individual dropdown items animation */
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item {
+      animation: slideInDown 0.4s ease-out backwards;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(1) {
+      animation-delay: 0.05s;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(2) {
+      animation-delay: 0.1s;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(3) {
+      animation-delay: 0.15s;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(4) {
+      animation-delay: 0.2s;
+    }
+
+    /* Smooth hover effect for dropdown items */
+    .dropdown-menu .dropdown-item {
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .dropdown-menu .dropdown-item::before {
+      content: "";
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(145, 56, 50, 0.1);
+      transition: left 0.3s ease;
+      z-index: -1;
+    }
+
+    .dropdown-menu .dropdown-item:hover::before {
+      left: 0;
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+      transform: translateX(5px);
+      background-color: rgba(227, 211, 198, 0.3);
+    }
+
+    /* Dropdown toggle arrow rotation */
+    .dropdown-toggle::after {
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      display: inline-block;
+    }
+
+    .nav-item.dropdown:hover .dropdown-toggle::after {
+      transform: rotate(180deg);
+    }
+
+    /* Nav link hover enhancement */
+    .nav-item.dropdown .dropdown-toggle {
+      transition: all 0.3s ease;
+    }
+
+    .nav-item.dropdown:hover .dropdown-toggle {
+      transform: translateY(-2px);
+    }
+
+    /* Background fade-in animation */
+    .nav-item.dropdown:hover .background {
+      animation: backgroundPulse 0.4s ease-out;
+    }
+  }
+
+
+ @media (min-width: 769px) and (max-width: 1199px) {
+    .carousel-inner .carousel-item>div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item>div:nth-child(-n + 2) {
+      display: block;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+ 
+
+  @media (min-width: 766px) and (max-width: 990px) {
+
+
+    .sec-2-text {
+      line-height: 1.8rem;
+    }
+
+    /* sec-7 */
+    .sec-7 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .sec-7-p {
+      margin-right: 2rem;
+    }
+
+
+
+    /* sec-4 */
+    .sec-4 .common-heading {
+      margin-top: 2rem;
+    }
+
+    .sec-4 .content {
+      padding: 0rem;
+    }
+
+    .sec-4 .content .about-content h6 {
+      font-size: x-large;
+      width: 80%;
+      font-family: "Bodoni Moda 9pt italic";
+      font-weight: 400;
+      /* Regular */
+      font-size: 1.68rem;
+      color: rgb(145, 56, 50);
+    }
+ 
+    .carousel-control-prev {
+      margin-left: 3.2rem;
+    }
+ 
+    .carousel-control-next {
+      margin-right: 1rem;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 766px) {
+
+
+    .sec-2-text {
+      line-height: 1.8rem;
+    }
+
+    /* sec-7 */
+    .sec-7 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .sec-7-p {
+      margin-right: 2rem;
+    }
+
+
+
+    /* sec-4 */
+    .sec-4 .common-heading {
+      margin-top: 3rem;
+    }
+
+    .sec-4 .content {
+      padding: 0rem;
+    }
+
+    .sec-4 .content .about-content h6 {
+      font-size: x-large;
+      width: 80%;
+      font-family: "Bodoni Moda 9pt italic";
+      font-weight: 400;
+      /* Regular */
+      font-size: 1.68rem;
+      color: rgb(145, 56, 50);
+    }
+
+
+
+    /* Left Side Button */
+    .carousel-control-prev {
+      margin-left: 3.2rem;
+    }
+
+    /* Right Side Button */
+    .carousel-control-next {
+      margin-right: 1rem;
+    }
+  }
+
+  @media (min-width: 380px) and (max-width: 500px) {
+
+
+    .sec-2-text {
+      line-height: 1.8rem;
+    }
+
+    /* sec-7 */
+    .sec-7 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .sec-7-p {
+      margin-right: 2rem;
+    }
+
+
+    /* sec-4 */
+    .sec-4 .common-heading {
+      margin-top: 0rem;
+    }
+
+    .sec-4 .content {
+      padding: 0rem;
+    }
+
+    .sec-4 .content .about-content h6 {
+      font-size: x-large;
+      width: 80%;
+      font-family: "Bodoni Moda 9pt italic";
+      font-weight: 400;
+      /* Regular */
+      font-style: normal;
+      color: rgb(145, 56, 50);
+    }
+
+
+    /* Left Side Button */
+    .carousel-control-prev {
+      margin-left: 3.2rem;
+    }
+
+    /* Right Side Button */
+    .carousel-control-next {
+      margin-right: 1rem;
+    }
+  }
+ 
+  @media (min-width: 1300px) and (max-width: 1600px) {
+ 
+    #main-sec-2 {
+      gap: 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #sec-2-content {
+      margin-top: 1.2rem;
+      gap: 2rem;
+    }
+ 
+    .sec-7 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .sec-7-p {
+      margin-right: 2rem;
+    }
+
+
+    .sec-4 {
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sec-4 .common-heading {
+      margin-top: 0rem;
+    }
+
+    .sec-4 .content {
+      padding: 0rem;
+    }
+
+    .sec-4 .content .about-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .sec-4 .content .about-content h6 {
+      font-weight: 500;
+      width: 100%;
+      /* margin-left: 0rem; */
+      text-align: center !important;
+      /* Added */
+      margin: 0; 
+    }
+
+    /* sec-4 */
+    .sec-4 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .sec-4 .container {
+      text-align: center;
+      /* Center all content */
+      margin: 0px;
+    }
+
+
+
+    .sec-5 .carousel-gap {
+      gap: 2rem !important;
+    }
+
+    /* Read More Button */
+    #read-more-button {
+      margin-top: 2rem;
+    }
+  }
+
+  @media (min-width: 990px) and (max-width: 1300px) {
+    /* sec-2 */
+
+    .sec-2>.container {
+      margin-top: 4rem;
+    }
+
+    #main-sec-2 {
+      gap: 2rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    #sec-2-content {
+      margin-top: 1.2rem;
+      gap: 2rem;
+    }
+
+    /* sec-7 */
+    .sec-7 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .sec-7-p {
+      margin-right: 2rem;
+    }
+
+    /* sec-4 */
+    .sec-4 .common-heading {
+      margin-top: 2rem;
+    }
+
+    .sec-4 .content {
+      padding: 0rem;
+    }
+
+    .sec-4 .content .about-content h6 {
+      font-size: x-large;
+      width: 80%;
+      font-family: "Bodoni Moda 9pt italic";
+      font-weight: 400;
+      /* Regular */
+      font-size: 1.68rem;
+      color: rgb(145, 56, 50);
+    }
+
+    /* in-top: 2rem; */
+  }
+
+  @media (min-width: 365px) and (max-width: 500px) {
+    .bal-raksha-menu {
+      margin-top: 20px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 990px) { 
+    .brb .menu {
+      padding-top: 125px;
+      padding-left: 33px;
+      padding-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 768px) { 
+    .brb .menu {
+      padding-top: 135px;
+      padding-left: 23px;
+      padding-bottom: 20px;
+    }
+  }  
+  @media (min-width: 1600px) and (max-width: 2300px) {
+
+
+    .brb .menu {
+      padding-top: 180px;
+      padding-left: 33px;
+      padding-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 1300px) and (max-width: 1600px) {
+
+    .brb .menu {
+      padding-top: 140px;
+      padding-left: 33px;
+      padding-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 1100px) and (max-width: 1300px) {
+
+
+
+    .thank-you-page .main-div {
+      height: 50rem;
+      width: 85rem;
+    }
+
+    .thank-you-page .row-gap {
+      padding-top: 166px !important; 
+    }
+
+    .thank-you-page .main-div .text {
+      margin-top: 91px;
+      padding-top: 153px;
+    }
+ 
+    .brb .menu {
+      padding-top: 156px;
+      padding-left: 33px;
+      padding-bottom: 20px;
+    }
+
+    .the-rotary-foundation .information-1 {
+      font-size: 34px;
+    }
+
+  }
+
+  @media (min-width: 990px) and (max-width: 1100px) {
+    .thank-you-page {
+      padding-top: 7rem;
+    }
+
+    .thank-you-page .main-div .text {
+      margin-top: -113px;
+      padding-top: 0px;
+    }
+ 
+    .brb .menu {
+      padding-top: 145px;
+      padding-left: 33px;
+      padding-bottom: 20px;
+    }
+
+    .the-rotary-foundation .information-1 {
+      font-size: 34px;
+    }
+ 
+    .contact-us {
+      padding-top: 157px;
+      overflow: hidden !important;
+      padding-bottom: 50px;
+    } 
+  }
+
+
+  @media (min-width: 700px) and (max-width: 990px) {
+    .thank-you-page .main-div {
+      height: 600px;
+      width: 600px;
+    }
+
+    .brb .menu .text1 {
+      font-size: 12px;
+    }
+
+    .thank-you-page .main-div .text {
+      margin-top: -73px;
+      font-size: 24px !important;
+    }
+ 
+    .contact-us {
+      padding-top: 90px;
+      overflow: hidden !important;
+      padding-bottom: 50px;
+    }
+
+  }
+
+  @media (min-width: 600px) and (max-width: 700px) {
+
+    .thank-you-page .main-div {
+      height: 500px;
+      width: 500px;
+    }
+
+    .thank-you-page .main-div .text {
+      margin-top: -141px;
+      font-size: 19px !important;
+    }
+
+    /* Bal Raksta Bharat  Breadcrumb Menu */
+    .brb .menu {
+      padding-top: 135px;
+      padding-left: 23px;
+      padding-bottom: 20px;
+    }
+
+  }
+
+  @media (min-width: 500px) and (max-width: 600px) {
+
+    .thank-you-page .main-div {
+      height: 500px;
+      width: 500px;
+    }
+
+    .thank-you-page .main-div .text {
+      margin-top: -141px;
+      font-size: 19px !important;
+    }
+ 
+    .brb .menu {
+      padding-top: 126px;
+      padding-left: 23px;
+      padding-bottom: 20px;
+    }
+
+  }
+  @media (min-width: 700px) and (max-width: 768px) {
+    #main-sec-2 {
+      padding-top: 3rem;
+    }
+  } 
+  @media (min-width: 359px) and (max-width: 500px) {
+
+    .brb {
+      padding-bottom: 0;
+    }
+
+    .thank-you-page .main-div {
+      height: 500px;
+      width: 500px;
+    }
+
+    .thank-you-page .main-div .text {
+      margin-top: -30px;
+      font-size: 19px !important;
+    }
+
+    /* Bal Raksta Bharat  Breadcrumb Menu */
+    .brb .menu {
+      padding-top: 85px;
+      padding-left: 23px;
+      padding-bottom: 20px;
+    }
+
+    .brb .menu .text1 {
+      font-size: 10px;
+    }
+  } 
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+
+    /* Main */
+    .child-card .contentuser {
+      padding-left: 20px;
+      padding-bottom: 64px;
+    }
+
+    /* White line */
+    .child-card:hover .bordersline {
+      height: 73% !important;
+    }
+
+    /* Para Content */
+    .parent-card:hover .contentuser p {
+      bottom: 0px;
+      opacity: 1;
+      height: 182px !important;
+      max-height: 217px;
+    }
+  }
+
+  @media (min-width: 1100px) and (max-width: 1200px) {
+
+    /* Main */
+    .child-card .contentuser {
+      padding-left: 20px;
+      padding-bottom: 110px;
+    }
+
+    /* White line */
+    .child-card:hover .bordersline {
+      height: 68% !important;
+    }
+
+    /* Para Content */
+    .parent-card:hover .contentuser p {
+      bottom: 0px;
+      opacity: 1;
+      height: 219px !important;
+      max-height: 217px;
+    }
+  }
+
+  @media (min-width: 990px) and (max-width: 1100px) {
+    .sector-in-focus-1 .menu {
+      padding-top: 3rem !important;
+    }
+
+    /* Common Heading */
+    .sector-in-focus-1 .common-heading {
+      font-size: 32px;
+      line-height: 3rem;
+      padding-top: 20px;
+    }
+
+    /* Content */
+    .sector-in-focus-1 .text {
+      font-weight: 200;
+      font-size: 22px;
+    }
+
+    .sector-in-focus-content {
+      padding-top: 22px !important;
+    }
+
+    .child-card .contentuser {
+      padding-left: 20px;
+      padding-bottom: 110px;
+    }
+
+    .child-card:hover .bordersline {
+      height: 60%;
+    }
+
+    /* Para Content */
+    .parent-card:hover .contentuser p {
+      bottom: 0px;
+      opacity: 1;
+      height: 219px !important;
+      max-height: 217px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 990px) {
+
+    /* Common Heading */
+    .sector-in-focus-1 .common-heading {
+      font-size: 32px;
+      line-height: 3rem;
+      padding-top: 20px;
+    }
+
+    /* Content */
+    .sector-in-focus-1 .text {
+      font-weight: 200;
+      font-size: 22px;
+    }
+
+    .sector-in-focus-content {
+      padding-top: 22px !important;
+    }
+
+    .contentuser {
+      margin-left: 12px;
+      padding-bottom: 30px;
+    }
+
+  }
+
+  @media (min-width: 700px) and (max-width: 768px) {
+
+    /* Main Section */
+    .sector-in-focus-1 {
+      margin-top: -197px;
+      margin-bottom: 0px;
+      padding-bottom: 1rem;
+    }
+
+    /* Main Container */
+    .sector-in-focus-1 .container {
+      max-width: 626px;
+    }
+
+    /* Breadcrumb */
+    .sector-in-focus-1 .menu {
+      padding-left: 25px;
+      padding-bottom: 16px;
+    }
+
+    /* Content */
+    .sector-in-focus-1 .text {
+      font-weight: 200;
+    }
+
+    /* Boxes Container */
+    .sector-in-focus-boxes-container {
+      padding: 13px;
+    }
+
+    .sector-in-focus-boxes-container>div {
+      margin-top: 10px !important;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .contentuser {
+      margin-left: 12px;
+      padding-bottom: 30px;
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 700px) {
+
+    /* Main Section */
+    .sector-in-focus-1 {
+      margin-top: -197px;
+      margin-bottom: 0px;
+      padding-bottom: 1rem;
+    }
+
+    /* Breadcrumb */
+    .sector-in-focus-1 .menu {
+      padding-left: 25px;
+      padding-bottom: 16px;
+    }
+
+    /* Content */
+    .sector-in-focus-1 .text {
+      font-weight: 200;
+    }
+
+    /* Boxes Container */
+    .sector-in-focus-boxes-container {
+      padding: 13px;
+    }
+
+    .sector-in-focus-boxes-container>div {
+      margin-top: 10px !important
+    }
+
+    .sector-small-boxes .contentuser {
+      margin-left: 11px;
+      padding-bottom: 24px;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 600px) {
+
+    /* Main Section */
+    .sector-in-focus-1 {
+      margin-top: -197px;
+      margin-bottom: 0px;
+      padding-bottom: 1rem;
+    }
+
+    /* Breadcrumb */
+    .sector-in-focus-1 .menu {
+      padding-left: 25px;
+      padding-bottom: 16px;
+    }
+
+    /* Content */
+    .sector-in-focus-1 .text {
+      font-weight: 200;
+    }
+
+    /* Boxes Container */
+    .sector-in-focus-boxes-container {
+      padding: 13px;
+    }
+
+    .sector-in-focus-boxes-container>div {
+      margin-top: 10px !important
+    }
+
+    .sector-small-boxes .contentuser {
+      margin-left: -6px !important;
+      padding-bottom: 24px;
+    }
+  }
+
+  @media (min-width: 365px) and (max-width: 500px) {
+
+    /* Main Sector */
+    .sector-in-focus-1 {
+      margin-bottom: 0px;
+      padding-bottom: 1rem;
+    }
+
+    .sector-in-focus-main {
+      padding-top: 100px !important;
+    }
+ 
+    .sector-in-focus-1 .menu {
+      padding-left: 25px;
+      padding-bottom: 16px;
+    }
+ 
+    .sector-in-focus-1 .common-heading {
+      padding-top: 20px;
+      font-size: 25px;
+      line-height: 2.5rem;
+    }
+ 
+    .sector-in-focus-1 .text {
+      font-weight: 200;
+    }
+ 
+    .sector-in-focus-boxes-container {
+      padding: 13px;
+    }
+
+    .sector-in-focus-boxes-container>div {
+      margin-top: 10px !important
+    }
+
+    .sector-small-boxes .contentuser {
+      margin-left: -6px !important;
+      padding-bottom: 24px;
+    }
+  }
+  @media (min-width: 2000px) and (max-width: 2300px) {
+    .cirile {
+      top: 38rem;
+      right: 28%;
+    }
+
+    .overview-page .menu {
+      padding-top: 20px;
+    }
+
+    .overview-page .map-img {
+      height: 803px !important;
+    }
+
+    .sdg-grid {
+      padding-bottom: 3rem !important;
+    }
+  }
+
+  @media (min-width: 1800px) and (max-width: 2000px) {
+    .cirile {
+      top: 38rem;
+      right: 25%;
+    }
+
+    .overview-page .menu {
+      padding-top: 20px;
+    }
+
+    .overview-page .map-img {
+      height: 803px !important;
+    }
+
+    .sdg-grid {
+      padding-bottom: 3rem !important;
+    }
+  }
+
+  @media (min-width: 1600px) and (max-width: 1800px) {
+    .cirile {
+      top: 36rem;
+      right: 22%;
+    }
+
+    .overview-page .menu {
+      padding-top: 20px;
+    }
+
+    .overview-page .map-img {
+      height: 803px !important;
+    }
+
+    .sdg-grid {
+      padding-bottom: 3rem !important;
+    }
+  }
+
+  @media (min-width: 1400px) and (max-width: 1600px) {
+    .cirile {
+      top: 38rem;
+      right: 19%;
+    }
+
+    .overview-page .map-img {
+      height: 803px !important;
+    }
+
+    .overview-page .menu {
+      padding-top: 20px;
+    }
+
+    .sdg-grid {
+      padding-bottom: 3rem !important;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .cirile {
+      top: 38rem;
+      right: 14%;
+    }
+
+    .overview-page .menu {
+      padding-top: 20px;
+    }
+
+    .overview-page .map-img {
+      height: 803px !important;
+    }
+
+    .sdg-grid {
+      padding-bottom: 3rem !important;
+    }
+  }
+
+  @media (min-width: 1100px) and (max-width: 1200px) {
+    .overview-page-main {
+      padding-top: 0px;
+    }
+
+    .overview-page .common-heading {
+      margin-top: 0rem;
+    }
+
+    .overview-page .menu {
+      padding-left: 27px;
+      padding-top: 20px;
+    }
+
+    .cirile {
+      top: 37rem;
+      right: 8rem;
+    }
+
+    .img-text h5 {
+      font-size: 23px;
+    }
+
+    .sdg-grid {
+      padding-bottom: 3rem !important;
+    }
+  }
+
+  @media (min-width: 990px) and (max-width: 1100px) {
+    .overview-page-main {
+      padding-top: 0px;
+    }
+
+    .overview-page .common-heading {
+      margin-top: 0rem;
+    }
+
+    .overview-page .menu {
+      padding-left: 27px;
+      padding-top: 20px;
+    }
+
+    .overview-page .map-img {
+      height: 618px;
+    }
+
+    .cirile {
+      top: 42rem;
+      right: 6rem;
+    }
+
+    .img-text h5 {
+      font-size: 23px;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 990px) {
+    .overview-page-main {
+      padding-top: 0px;
+    }
+
+    .overview-page .menu {
+      padding-left: 27px;
+      padding-top: 36px;
+    }
+
+    .overview-page .overview-para {
+      font-size: 26px;
+    }
+
+
+    .overview-page .map-img {
+      height: 618px;
+    }
+
+    .cirile {
+      top: 40rem;
+      right: 2rem;
+      ;
+    }
+
+    .overview-page .cirile-img {
+      width: 15px !important;
+      height: auto !important;
+    }
+
+    .overview-page .img-text {
+      /* background-color: lime; */
+      /* height: 60px; */
+      padding-top: 4px !important;
+      font-size: 19px;
+    }
+
+    .img-text h5 {
+      font-size: 23px;
+    }
+
+    .sdg-grid {
+      max-width: 570px !important;
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 700px) {
+    .overview-page-main {
+      padding-top: 0px;
+    }
+
+    .overview-page .menu {
+      padding-left: 27px;
+      margin-top: 26px !important;
+    }
+
+    /* Heading */
+    .overview-page .common-heading {
+      /* background-color: lime; */
+      margin-top: 0rem;
+      font-weight: 500;
+    }
+
+    /* Content */
+    .overview-page .overview-para {
+      /* background-color: aqua; */
+      font-size: 22px;
+    }
+
+    .overview-page .map-img {
+      height: 618px;
+    }
+
+    .cirile {
+      top: 37rem;
+      right: 1rem;
+    }
+
+    .img-text h5 {
+      font-size: 23px;
+    }
+
+    /* Second Heading */
+    .outreach-description {
+      font-weight: 200 !important;
+      font-size: 19px !important;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 600px) {
+    .overview-page-main {
+      padding-top: 0px;
+    }
+
+    .overview-page .menu {
+      padding-left: 27px;
+      margin-top: 24px !important;
+    }
+
+    /* Heading */
+    .overview-page .common-heading {
+      /* background-color: lime; */
+      margin-top: 0rem;
+      font-weight: 500;
+    }
+
+    /* Content */
+    .overview-page .overview-para {
+      /* background-color: aqua; */
+      font-size: 24px;
+    }
+
+
+    .overview-page .map-img {
+      height: 618px;
+    }
+
+    .cirile {
+      top: 38rem;
+      right: 1rem;
+    }
+
+    .overview-page .cirile-img {
+      width: 15px !important;
+      height: auto !important;
+    }
+
+    .overview-page .img-text {
+      margin-top: 1px !important;
+      margin-right: 5px !important;
+    }
+
+    .img-text h5 {
+      font-size: 23px;
+    }
+
+    /* Second Content */
+    .overview-page-2 .heading-1 p {
+      font-size: 31px !important;
+      font-weight: 100 !important;
+    }
+
+    /* Card Section */
+    /* First Heading */
+    .partner-card .partner-title h5 {
+      margin-bottom: 20px;
+    }
+
+    /* Second Heading */
+    .outreach-description {
+      font-weight: 200 !important;
+    }
+
+  }
+
+  @media (min-width: 360px) and (max-width: 500px) {
+    .overview-page-main {
+      padding-top: 0px;
+    }
+
+    ol.breadcrumb {
+      margin-bottom: 0;
+    }
+
+    .our-partner-1 .menu {
+      padding-left: 20px !important;
+      margin-bottom: 20px;
+      padding-top: 10px;
+    }
+
+
+    .filter-box {
+      width: auto;
+    }
+
+    .our-partner-1 .input-tag {
+      padding: 10px 30px;
+      font-size: 15px;
+    }
+
+    .ours h2 {
+      font-size: 1.9rem;
+    }
+
+    .tab-block.active-tab .menus {
+      display: none !important;
+    }
+
+    .porttext {
+      margin-top: 20px;
+    }
+
+    .our-partner-1 .name-2 {
+      font-size: 25px;
+    }
+
+    .our-partner-1 .tab-menu {
+      gap: 10px;
+      margin-top: 20px !important;
+    }
+
+
+    .our-partner-1 .text {
+      font-size: 25px;
+      margin-top: 21px;
+    }
+
+    .our-partner-1 .text-2 {
+      font-size: 18px !important;
+    }
+
+    .pt-5 {
+      margin-top: 0 !important;
+    }
+
+    /* Breadcrumb */
+    .overview-page .menu {
+      padding-left: 27px !important;
+      margin-top: 20px;
+    }
+
+    /* Heading */
+    .overview-page .common-heading {
+      /* background-color: lime; */
+      margin-top: 0rem;
+      font-weight: 500;
+    }
+
+    /* Content */
+    .overview-page .overview-para {
+      /* background-color: aqua; */
+      font-size: 22px;
+    }
+
+    /* India Map Image */
+    .overview-page .map-img {
+      height: 477px !important;
+      margin-bottom: 20px !important;
+    }
+
+    /* Green Circle Image */
+    .cirile {
+      top: 36rem;
+      right: 0rem;
+    }
+
+    .overview-page .cirile-img {
+      width: 15px !important;
+      height: auto !important;
+    }
+
+    .overview-page .img-text {
+      margin-top: 5.3px !important;
+      margin-right: 5px !important;
+    }
+
+    .img-text h5 {
+      font-size: 15px;
+    }
+
+
+    /* Second Content */
+    .overview-page-2 .heading-1 p {
+      font-size: 31px !important;
+      font-weight: 100 !important;
+    }
+
+    /* Card Section */
+    /* First Heading */
+    .partner-card .partner-title h5 {
+      margin-bottom: 20px;
+    }
+
+    /* Second Heading */
+    .outreach-description {
+      font-weight: 200 !important;
+    }
+
+  }
+
+  @media (min-width: 800px) and (max-width: 985px) {
+
+
+    .sec-1 .m-logo {
+      display: inline-block;
+      position: absolute;
+      top: 3rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 36%;
+      height: auto;
+      z-index: 10;
+    }
+
+    .sec-1 .description .content {
+      margin-bottom: 14rem;
+    }
+
+    .sec-1 .flower-1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin-bottom: 3rem;
+      z-index: 2;
+    }
+
+    .sec-1 .flower-2 {
+      margin-bottom: -7%;
+    }
+
+    .sec-1 .content {
+      margin-top: 63%;
+      position: relative;
+      z-index: 1;
+    }
+
+    .sec-1 .description {
+      font-size: 40px;
+    }
+
+    /* Ensure other elements are properly positioned */
+    .sec-1 .logo {
+      display: none;
+      /* Hide the other logo on mobile */
+    }
+
+    .sec-1 nav {
+      position: relative;
+      z-index: 8;
+      /* Lower than m-logo but higher than content */
+    }
+
+  }
+
+  /* Tablets (768px - 1023px) */
+  @media (min-width: 658px) and (max-width: 800px) {
+
+
+    .sec-1 .m-logo {
+      display: inline-block;
+      position: absolute;
+      top: 3rem;
+      left: 52%;
+      transform: translateX(-50%);
+      width: 30%;
+      height: auto;
+      z-index: 10;
+    }
+
+    .sec-1 .flower-1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin-bottom: 19rem;
+      z-index: 2;
+    }
+
+    .sec-1 .flower-2 {
+      margin-bottom: -7%;
+    }
+
+    .sec-1 .content {
+      width: 100%;
+      margin-top: 70%;
+      position: relative;
+      /* Ensure proper stacking */
+      z-index: 1;
+      /* Lower than logo */
+    }
+
+    .sec-1 .description {
+      font-size: 40px;
+    }
+
+    /* Ensure other elements are properly positioned */
+    .sec-1 .logo {
+      display: none;
+      /* Hide the other logo on mobile */
+    }
+
+    .sec-1 nav {
+      position: relative;
+      z-index: 8;
+      /* Lower than m-logo but higher than content */
+    }
+
+    .sec-1 .description .content {
+      margin-bottom: 12rem;
+    }
+
+  }
+
+  @media (min-width: 769px) and (max-width: 1199px) {
+    .carousel-inner .carousel-item>div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item>div:nth-child(-n + 2) {
+      display: block;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  } 
+
+  @media (max-width: 424px) {
+    .thankyoucontent .text {
+      font-size: 15px;
+    }
+
+    .ashoka-university-detail-page .view-article {
+      font-size: 15px;
+    }
+
+    .ashoka-university-detail-page .back {
+      font-size: 15px;
+    }
+
+
+    .ashoka-university-detail-page .heading {
+      font-size: 27px;
+    }
+
+    .sec-1 .m-logo {
+      top: 7%;
+      width: 8rem;
+    }
+  } 
+  @media (max-width: 1950px) {
+    .sec-4>div {
+      margin-top: 2%;
+    }
+
+    .description>div {
+      /* background-color: orange; */
+      margin-top: 2%;
+    }
+
+    .sec-5>div {
+      margin-top: 2%;
+    }
+  }
+  @media (max-width: 990px) {
+    .sector-in-focus-1 .sector-big-boxes {
+      display: none;
+    }
+
+    .sector-in-focus-1 .sector-small-boxes {
+      display: flex;
+      gap: 2rem;
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 990px) {
+    .card-image .img-fluid-2 {
+      max-width: 96%;
+      height: 100%;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 768px) {
+    .card-image .img-fluid-2 {
+      max-width: 96%;
+      height: 100%;
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 700px) {
+    .card-image .img-fluid-2 {
+      max-width: 96%;
+      height: 100%;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 600px) {
+    .card-image .img-fluid-2 {
+      max-width: 96%;
+      height: 100%;
+    }
+  }
+
+  @media (min-width: 365px) and (max-width: 500px) {
+    .card-image .img-fluid-2 {
+      max-width: 96%;
+      height: 100%;
+    }
+  } 
+
+ @media (min-width: 769px) and (max-width: 1199px) {
+    .carousel-inner .carousel-item>div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item>div:nth-child(-n + 2) {
+      display: block;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  } 
+ 
+ 
+  @media (min-width: 1900px) and (max-width: 2300px) {
+    .trf-main {
+      padding-top: 185px;
+    }
+
+    .trf-main .menu {
+      padding-left: 39px;
+    }
+  }
+
+  @media (min-width: 1500px) and (max-width: 1900px) {
+    .trf-main {
+      padding-top: 185px;
+    }
+
+    .trf-main .menu {
+      padding-left: 39px;
+    }
+  }
+
+  @media (min-width: 1300px) and (max-width: 1500px) {
+    .trf-main {
+      padding-top: 149px;
+    }
+
+    .trf-main .menu {
+      padding-left: 39px;
+    }
+  }
+
+  @media (min-width: 1100px) and (max-width: 1300px) {
+    .trf-main {
+      padding-top: 140px;
+    }
+
+    .trf-main .menu {
+      padding-left: 39px;
+    }
+  }
+
+  @media (min-width: 990px) and (max-width: 1100px) {
+    .trf-main {
+      padding-top: 140px;
+    }
+
+    .trf-main .menu {
+      padding-left: 30px;
+    }
+  }
+
+  @media (min-width: 767px) and (max-width: 990px) {
+    .trf-main {
+      padding-top: 125px;
+    }
+
+    .trf-main .menu {
+      padding-left: 38px;
+    }
+
+  } 
+  @media (min-width: 365px) and (max-width: 525px) {
+    .trf-main {
+      padding-top: 95px;
+    }
+
+    .trf-main .menu {
+      padding-left: 15px;
+    }
+  }
+
+  @media (max-width: 365px) {
+    .trf-main {
+      padding-top: 81px !important;
+    }
+  }
+
+  /* ***************  Our collaboration Page ****************** */
+
+
+  @media (min-width: 1920px) and (max-width: 2300px) {
+    .cirile {
+      top: 76px;
+      right: -47px;
+    }
+
+    .cicral {
+      padding-top: 2px;
+    }
+
+    .overview-page .circle-img {
+      height: 22px;
+      width: 22px;
+    }
+
+    .img-text h5 {
+      font-weight: 600;
+      font-size: 30px;
+    }
+
+    .overview-page svg {
+      padding-bottom: 18px;
+    }
+
+    /* Overview Page */
+    .map-size {
+      max-width: 74%;
+      height: 79%;
+      padding: 4%;
+    }
+  }
+
+  @media (min-width: 1600px) and (max-width: 1920px) {
+
+
+
+    .cirile {
+      top: 76px;
+      right: -39px;
+    }
+
+    .cicral {
+      padding-top: 2px;
+    }
+
+    .overview-page .circle-img {
+      height: 22px;
+      width: 22px;
+    }
+
+    .img-text h5 {
+      font-weight: 600;
+      font-size: 30px;
+    }
+
+    .overview-page svg {
+      padding-bottom: 18px;
+    }
+
+    /* Overview Page */
+    .map-size {
+      max-width: 73%;
+      height: 79%;
+      padding: 3%;
+    }
+  }
+
+  @media (min-width: 1400px) and (max-width: 1600px) {
+
+
+
+    .cirile {
+      top: 76px;
+      right: -39px;
+    }
+
+    .cicral {
+      padding-top: 2px;
+    }
+
+    .overview-page .circle-img {
+      height: 22px;
+      width: 22px;
+    }
+
+    .img-text h5 {
+      font-weight: 600;
+      font-size: 30px;
+    }
+
+    .overview-page svg {
+      padding-bottom: 18px;
+    }
+
+    /* Overview Page */
+    .map-size {
+      max-width: 71%;
+      height: 79%;
+      padding: 4%;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+
+    .cirile {
+      top: 76px;
+      right: 41px;
+    }
+
+    .cicral {
+      padding-top: 2px;
+    }
+
+    .overview-page .circle-img {
+      height: 22px;
+      width: 22px;
+    }
+
+    .img-text h5 {
+      font-weight: 600;
+      font-size: 30px;
+    }
+
+    .overview-page svg {
+      padding-bottom: 18px;
+    }
+
+    /* Overview Page */
+    .map-size {
+      max-width: 73%;
+      height: 79%;
+      padding: 3%;
+    }
+  }
+
+  @media (min-width: 1100px) and (max-width: 1200px) {
+
+    .overview-page .common-heading {
+      font-size: 33px;
+      line-height: 2.5rem;
+    }
+
+    .overview-page .overview-para {
+      font-size: 33px;
+    }
+
+    .cirile {
+      top: 76px;
+      right: -39px;
+    }
+
+    .cicral {
+      padding-top: 2px;
+    }
+
+    .overview-page .circle-img {
+      height: 22px;
+      width: 22px;
+    }
+
+    .img-text h5 {
+      font-weight: 600;
+      font-size: 30px;
+    }
+
+    .overview-page svg {
+      padding-bottom: 18px;
+    }
+
+    /* Overview Page */
+    .map-size {
+      max-width: 82%;
+      height: 79%;
+      padding: 4%;
+    }
+  }
+
+  @media (min-width: 990px) and (max-width: 1100px) {
+
+    .our-collaborations .menu {
+      padding-bottom: 19px;
+    }
+
+    /* Overview */
+    .overview-page-main {
+      padding-top: 99px;
+    }
+
+
+    .overview-page .common-heading {
+      font-size: 33px;
+      line-height: 2.5rem;
+    }
+
+    .overview-page .overview-para {
+      font-size: 33px;
+    }
+
+    .cirile {
+      top: 76px;
+      right: 30px;
+    }
+
+    .img-text h5 {
+      font-weight: 600;
+      font-size: 26px;
+    }
+
+    .overview-page svg {
+      padding-bottom: 18px;
+    }
+
+    /* Overview Page */
+    .map-size {
+      max-width: 85%;
+      height: 79%;
+      padding: 2%;
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 700px) {
+
+
+    .overview-page .common-heading {
+      font-size: 33px;
+      line-height: 2.5rem;
+    }
+
+    .overview-page .overview-para {
+      font-size: 29px;
+    }
+
+    .cirile {
+      top: 58px;
+      right: 12px;
+    }
+
+    .img-text h5 {
+      margin-top: 4px !important;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .overview-page svg {
+      padding-bottom: 18px;
+    }
+
+    .map-size {
+      max-width: 86%;
+      height: 79%;
+      padding: 2%;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 600px) {
+
+    .overview-page .common-heading {
+      font-size: 33px;
+      line-height: 2.5rem;
+    }
+
+    .overview-page .overview-para {
+      font-size: 27px;
+    }
+
+    .cirile {
+      top: 58px;
+      right: 12px;
+    }
+
+    .overview-page .circle-img {
+      height: 16px;
+      width: 16px;
+    }
+
+    .img-text h5 {
+      margin-top: 4px !important;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .overview-page svg {
+      padding-bottom: 18px;
+    }
+
+    .map-size {
+      max-width: 87%;
+      height: 79%;
+      padding: 2%;
+    }
+  }
+
+  @media (min-width: 365px) and (max-width: 500px) {
+
+    .our-collaborations .common-heading {
+      font-size: 1.8rem !important;
+    }
+
+    .overview-page .text h2 {
+      font-size: 21px;
+    }
+
+    .cirile {
+      top: 38px;
+      right: 0px;
+    }
+
+    .overview-page .circle-img {
+      height: 15px;
+      width: 15px;
+    }
+
+    .img-text h5 {
+      margin-top: 4px !important;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .overview-page svg {
+      padding-bottom: 18px;
+    }
+
+    .map-size {
+      max-width: 79%;
+      height: 79%;
+      padding: 2%;
+    }
+  }
+ @media (min-width: 1200px) {
+    .carousel-inner .carousel-item>div {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+   .slider-main .slider>div {
+      flex: 0 0 33%;
+      max-width: 33%;
+    }
+
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active {
+      display: flex;
+    }
+       .carousel-inner .carousel-item>div {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  .plpr {
+      padding-top: 40px;
+      max-width: 100%;
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active {
+      display: flex;
+    }
+      .carousel-inner .carousel-item>div {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+      .carousel-inner .carousel-item>div {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active {
+      display: flex;
+    }
+    .slider-main .slider>div {
+      flex: 0 0 33%;
+      max-width: 33%;
+    }
+
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active {
+      display: flex;
+    }
+  }
+
+/*================================= min-width ==============================================*/
+
+  @media (max-width: 2300px) {
+    .navbar-toggler {
+      margin-left: 8rem;
+    }
+       .sec-4>div {
+      margin-top: 5%;
+    }
+
+    .description>div {
+      /* background-color: white; */
+      margin-top: 4%;
+    }
+
+    .sec-5>div {
+      margin-top: 2%;
+    }
+ .ashoka-university-detail-page .menu {
+      margin-top: 9%;
+    }
+        .trf-main .common-heading {
+      margin: 0px;
+      padding: 0px;
+      font-size: 33px;
+    }
+
+    .trf-main .menu {
+      padding-top: 21px;
+    }
+
+  }
+ 
+  @media (max-width: 2900px) {
+    .sector-in-focus-1 .sector-small-boxes {
+      display: none;
+    }
+  }
+
+ @media (max-width: 1600px) {
+     .about-us-nav {
+      padding-bottom: 5px;
+      padding-top: 0px;
+    }
+
+    .ashoka-university-detail-page .description .text {
+      font-size: 25px;
+    }
+
+    .ashoka-university-detail-page .view-article {
+      font-size: 25px;
+    }
+
+    .ashoka-university-detail-page .back {
+      font-size: 24px;
+    }
+
+    main {
+      padding-top: 120px;
+    }
+
+    .post-slide {
+      height: 450px;
+    }
+
+    .the-rotary-foundation .information-3 {
+      font-size: 25px;
+    }
+
+    .the-rotary-foundation .information-2 {
+      font-size: 22px;
+    }
+
+    .the-rotary-foundation .information-1 {
+      font-size: 32px;
+    }
+        .about-us-section-2 .text {
+      font-size: 32px;
+      line-height: 1.4;
+      max-width: 885px;
+    }
+
+    .content-text h4 {
+      font-size: 32px;
+    }
+
+    .content-text p {
+      font-size: 16px;
+    }
+      .article-one {
+      padding-top: 140px;
+    }
+    .partner-image {
+      width: 210px;
+      height: 169px;
+      object-fit: contain;
+      margin-bottom: 20px;
+    }
+ .description>div {
+      margin-top: 3%;
+    }
+    .partners-grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 50px 30px;
+      margin: 0px;
+    }
+
+    .main-heading {
+      font-size: 36px;
+    }
+
+    .partner-title {
+      font-size: 24px;
+      min-height: 50px;
+    }
+
+
+
+    .d-4 {
+      padding-top: 0rem;
+    }
+
+    .bottom-text {
+      font-size: 22px;
+    }
+
+    .partner-t-4 {
+      margin-bottom: 0px;
+    }
+
+    .dl-2 {
+      height: 2px;
+    }
+
+    .sec-1 {
+      background-position: top -30px center;
+    }
+
+    .sec-1-content {
+      margin-top: 0;
+    }
+
+    .content.sec-1-content.stripbottom.red::after {
+      bottom: -24px;
+    }
+  }
+ 
+  @media (max-width: 1500px) {
+    .article-one {
+      padding-top: 130px;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    .the-rotary-foundation .information-1 {
+      font-size: 28px;
+    }
+
+    .the-rotary-foundation .information-2 {
+      font-size: 20px;
+    }
+
+    .the-rotary-foundation .information-3 {
+      font-size: 22px;
+    }
+
+    .thankyoucontent {
+      transform: translateY(-20%);
+    }
+
+    .thank-you-page .row-gap {
+      padding-top: 300px;
+    }
+
+    .imgbginner::after {
+      width: 45px;
+      height: 318px;
+    }
+
+    .imgbginner::before {
+      width: 45px;
+      height: 289px;
+      left: -43px;
+    }
+
+    .secondimgbg .torow.hovermove::before {
+      right: -37px;
+    }
+
+    .secondimgbg .torow.hovermove::before {
+      right: -37px;
+    }
+
+    .hovermove {
+      height: 390px;
+    }
+
+
+    .contact-us .labels {
+      font-size: 17px;
+    }
+
+    .contact-us .address-name {
+      font-size: 17px;
+    }
+
+    .contact-us .address {
+      font-size: 17px;
+    }
+
+    .overview-page .img-text {
+      font-size: 20px;
+    }
+
+    .content-text h4 {
+      font-size: 26px;
+    }
+
+    .contact-us .address-div img {
+      width: 20px;
+    }
+
+
+    .imgbginner::before {
+      height: 335px;
+    }
+
+    .overview-page-2 .second-div .text {
+      font-size: 40px;
+      line-height: normal;
+    }
+
+    .overview-page-2 .second-div .text-3 {
+      font-size: 40px;
+      line-height: normal;
+    }
+
+
+
+    .overview-page-2 .gap {
+      gap: 40px;
+    }
+
+    .imgbginner::after {
+      height: 334px;
+
+    }
+
+    /****************************home style******************************/
+
+
+    .contact-us .heading {
+      font-size: 27px;
+    }
+
+    .contactbgmain {
+      padding-bottom: 60px;
+    }
+
+    .thank-you-page .main-div .text {
+      font-size: 28px;
+    }
+
+    .thank-you-page .row-gap {
+      padding-top: 360px;
+      padding-bottom: 250px;
+    }
+
+    .news-narratives-page .name {
+      font-size: 24px;
+    }
+
+    .news-narratives-page .description {
+      font-size: 18px;
+    }
+
+    .news-narratives-page .read-more {
+      font-size: 20px;
+    }
+
+    .news-narratives-page .name-date {
+      font-size: 20px;
+    }
+
+    .pl-contact {
+      padding-left: 50px;
+    }
+
+    .sec-1 .logo {
+      height: 7rem;
+    }
+
+    .prdiingcontact {
+      padding-right: 20px;
+    }
+
+    .sec-1 .nav-link {
+      font-size: 20px;
+    }
+
+    .sec-1-content h1 {
+      font-size: 55px;
+    }
+
+    .sec-1 .description {
+      padding-bottom: 50px;
+    }
+
+    .sec-2 {
+      padding: 40px 0px;
+    }
+
+    .sec-2-text {
+      font-size: 25px;
+    }
+    .contact-us .image {
+      margin-left: -150px;
+    }
+ .thank-you-page .row-gap {
+      padding-top: 300px;
+    }
+        .article-one .heading {
+      font-size: 4rem;
+    }
+
+    .thank-you-page .row-gap {
+      padding-top: 18rem;
+    }
+
+    .article-one {
+      padding-top: 140px;
+    }
+      .ashoka-university-detail-page .menu {
+      margin-top: 12%;
+    }
+    .contact-us .address-div {
+      left: -85px;
+    }
+ 
+  }
+ 
+  @media (max-width: 1200px) {
+    .about-us-nav .second-logo {
+      height: 135px;
+    }
+
+    .contact-us .main-div {
+      background-position: center;
+    }
+
+    .contact-us .heading {
+      margin-left: 0px;
+    }
+
+    .contact-us .image {
+      margin-left: -70px;
+    }
+
+    .contact-us .address-div {
+      left: -40px;
+    }
+
+    .contact-us .address {
+      margin-right: 0px;
+    }
+
+    .thank-you-page .row-gap {
+      padding-bottom: 100px;
+    }
+
+    .thank-you-page .main-div .text {
+      margin-top: -100px;
+    }
+
+    .overview-page .img-text {
+      font-size: 20px;
+    }
+
+    .overview-page-2 .second-div .text {
+      font-size: 40px;
+      line-height: normal;
+    }
+
+    .overview-page-2 .second-div .text-3 {
+      font-size: 40px;
+      line-height: normal;
+    }
+
+    .overview-page-2 .gap {
+      gap: 40px;
+    }
+
+    .ashoka-university-detail-page .description .text {
+      font-size: 25px;
+    }
+
+    .news-narratives-page .heading-for-otherpage {
+      font-size: 20px;
+      letter-spacing: normal;
+    }
+
+    .the-rotary-foundation .information-1 {
+      font-size: 34px;
+    }
+
+    .our-partner-1 .heading-for-otherpage {
+      font-size: 16px;
+      letter-spacing: normal;
+    }
+
+    .sector-in-focus-1 .image-1 {
+      max-width: 330px;
+    }
+
+    .sector-in-focus-1 .image-2 {
+      max-width: 500px;
+    }
+
+    .about-us-nav .second-logo {
+      height: 135px;
+    }
+
+    .about-us-nav .nav-menu {
+      padding-bottom: 150px;
+    }
+
+    .our-collaborations .heading-for-otherpage {
+      font-size: 16px;
+      letter-spacing: normal;
+    }
+
+    .article-one .heading {
+      font-size: 2rem;
+    }
+
+    .article-one .left-links .publisher {
+      font-size: 28px;
+    }
+
+    .article-one .share-text {
+      font-size: 25px;
+    }
+
+    .para {
+      font-size: 1.2rem;
+    }
+
+    .article-link {
+      font-size: 28px;
+    }
+
+    .article-one .text {
+      font-size: 1.2rem;
+    }
+
+    .our-partner-1 .heading-for-otherpage {
+      font-size: 16px;
+      letter-spacing: normal;
+    }
+
+    .thank-you-page .row-gap {
+      padding-top: 16rem;
+      padding-bottom: 10rem;
+    }
+
+    .thank-you-page .main-div .text {
+      margin-left: 8rem;
+      font-size: 2.4rem;
+    }
+
+    .partner-image {
+      width: 210px;
+      height: 169px;
+      object-fit: contain;
+      margin-bottom: 20px;
+    }
+
+    .partners-grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 50px 30px;
+      margin: 0px;
+    }
+
+    .main-heading {
+      font-size: 36px;
+    }
+
+    .partner-title {
+      font-size: 24px;
+      min-height: 50px;
+    }
+
+    .partner-description {
+      font-size: 19px;
+      min-height: 90px;
+      margin-bottom: 0px;
+      padding-top: 3rem;
+    }
+
+    .d-4 {
+      padding-top: 0rem;
+    }
+
+    .bottom-text {
+      font-size: 22px;
+    }
+
+    .partner-t-4 {
+      padding-bottom: 1rem;
+      margin-bottom: 0px;
+    }
+
+    .divider-line {
+      margin-top: 1rem;
+    }
+
+    .overview-grid-1 {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .overview-grid-1 img {
+      width: 50% !important;
+      height: auto !important;
+    }
+
+    .description>div {
+      margin-top: 1%;
+    }
+
+    .thankyoucontent .text {
+      font-size: 20px;
+    }
+
+    .contact-us .labels {
+      font-size: 12px;
+      margin-bottom: 0;
+    }
+
+    .contactbgmain {
+      background-position: center;
+    }
+
+    .about-us-nav .second-logo {
+      height: 135px;
+    }
+
+    .thank-you-page .row-gap {
+      padding-bottom: 100px;
+    }
+
+    .ashoka-university-detail-page .description .text {
+      font-size: 25px;
+    }
+
+    .thank-you-page .main-div .text {
+      margin-top: -100px;
+    }
+
+    .about-us-nav .nav-menu {
+      padding-bottom: 150px;
+    }
+
+    .contact-us .heading {
+      margin-left: 0px;
+    }
+
+
+    .contactbgmain {
+      padding-top: 100px;
+    }
+
+    .contact-us .address-name {
+      font-size: 13px;
+    }
+
+    .contact-us .address {
+      font-size: 13px;
+    }
+
+    .contact-us .heading {
+      font-size: 20px;
+    }
+
+    .contact-us .submit-btn {
+      max-width: 148px;
+      height: 36px;
+      font-size: 14px;
+    }
+
+    .contact-us .address {
+      margin-right: 0px;
+    }
+
+    .contact-us .menu .text1 {
+      font-weight: 300;
+      font-size: 12px;
+    }
+
+    .hovermove {
+      height: 334px;
+    }
+
+    .secondimgbg .torow.hovermove::after {
+      left: -40px;
+    }
+
+    .secondimgbg .torow.hovermove::before {
+      right: -48px;
+    }
+
+    .imgbginner::before {
+      height: 243px;
+      width: 36px;
+      left: -35px;
+    }
+
+    .imgbginner::after {
+      height: 254px;
+      width: 28px;
+    }
+
+    .content-text p {
+      font-size: 14px;
+    }
+
+    .text p {
+      font-size: 30px;
+      line-height: 1.5;
+    }
+
+    .text-3 h2 {
+      font-size: 30px;
+      line-height: 1.5;
+    }
+
+    /****************************home style******************************/
+    .content.sec-1-content.stripbottom.red {
+      padding-top: 16px;
+      padding-left: 82px;
+      padding-right: 82px;
+    }
+
+    .sec-1-content h1 {
+      font-size: 33px;
+    }
+
+    .sec-1 .logo {
+      height: 6rem;
+    }
+
+    .sec-1 .nav-link {
+      font-size: 14px;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 0px;
+    }
+
+    .border-b::after {
+      height: 2px;
+      bottom: -1px;
+    }
+
+    .sec-2-text {
+      font-size: 20px;
+    }
+
+    .contents p {
+      font-size: 19px;
+      line-height: 22px;
+    }
+
+    .footer-logo {
+      width: 150px;
+    }
+
+    .news-narratives-page .heading-for-otherpage {
+      font-size: 20px;
+      letter-spacing: normal;
+    }
+
+    .the-rotary-foundation .information-1 {
+      font-size: 34px;
+    }
+
+    .our-partner-1 .heading-for-otherpage {
+      font-size: 16px;
+      letter-spacing: normal;
+    }
+
+    .sector-in-focus-1 .image-1 {
+      max-width: 330px;
+    }
+
+    .sector-in-focus-1 .image-2 {
+      max-width: 500px;
+    }
+
+    .about-us-nav .nav-menu {
+      padding-bottom: 150px;
+    }
+
+
+
+  }
+
+  @media (max-width: 1250px) {
+    .about-us-section-3 .top-images {
+      top: 10px !important;
+    }
+ 
+      .about-us-section-3 .top-images {
+        top: 10px !important;
+      }
+ 
+    }
+
+  @media (max-width: 1100px) {
+
+    .about-us-nav {
+      padding-bottom: 50px;
+    }
+
+    .about-us-nav {
+      padding-bottom: 5px;
+    }
+
+    .thank-you-page {
+      padding-top: 9rem;
+    }
+
+    .overview-page .menu {
+      padding-top: 40px;
+    }
+
+    .about-us-nav {
+      padding-bottom: 50px;
+    }
+
+  }
+
+  @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+      position: unset !important;
+    }
+
+    .nav-item.dropdown {
+      position: relative;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      pointer-events: all;
+      animation: dropdownFadeIn 0.7s ease-out;
+    }
+
+    .nav-item:hover .line-img {
+      visibility: hidden;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item {
+      animation: slideInDown 0.4s ease-out backwards;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(1) {
+      animation-delay: 0.05s;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(2) {
+      animation-delay: 0.1s;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(3) {
+      animation-delay: 0.15s;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(4) {
+      animation-delay: 0.2s;
+    }
+
+    .dropdown-menu .dropdown-item {
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .dropdown-menu .dropdown-item::before {
+      content: "";
+      display: none;
+    }
+
+    .dropdown-menu .dropdown-item:hover::before {
+      left: 0;
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+      transform: translateX(2px);
+      background-color: rgba(227, 211, 198, 0.3);
+      background-color: transparent;
+    }
+
+    .dropdown-toggle::after {
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      display: inline-block;
+    }
+
+    .nav-item.dropdown:hover .dropdown-toggle::after {
+      transform: rotate(180deg);
+    }
+
+    .nav-item.dropdown .dropdown-toggle {
+      transition: all 0.3s ease;
+    }
+
+    .nav-item.dropdown:hover .dropdown-toggle {
+      transform: translateY(-2px);
+    }
+
+    .nav-item.dropdown:hover .background {
+      animation: backgroundPulse 0.4s ease-out;
+    }
+
+    #fullpage header.active {
+      display: none;
+    }
+
+    .nav-item.dropdown .dropdown-menu {
+      display: block !important;
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-15px) scale(0.95);
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      pointer-events: none;
+      top: 0px;
+      position: absolute !important;
+      left: 0px;
+      width: 190px;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      pointer-events: all;
+      animation: dropdownFadeIn 0.7s ease-out;
+
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item {
+      animation: slideInDown 0.4s ease-out backwards;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(1) {
+      animation-delay: 0.05s;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(2) {
+      animation-delay: 0.1s;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(3) {
+      animation-delay: 0.15s;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu .dropdown-item:nth-child(4) {
+      animation-delay: 0.2s;
+    }
+
+    .dropdown-menu .dropdown-item {
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .dropdown-menu .dropdown-item::before {
+      content: "";
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(145, 56, 50, 0.1);
+      transition: left 0.3s ease;
+      z-index: -1;
+    }
+
+    .dropdown-menu .dropdown-item:hover::before {
+      left: 0;
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+      background-color: #f0e7dc;
+    }
+
+    .dropdown-toggle::after {
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      display: inline-block;
+    }
+
+    .nav-item.dropdown:hover .dropdown-toggle::after {
+      transform: rotate(180deg);
+    }
+
+    .nav-item.dropdown .dropdown-toggle {
+      transition: all 0.3s ease;
+    }
+
+    .nav-item.dropdown:hover .background {
+      animation: backgroundPulse 0.4s ease-out;
+    }
+
+  }
+ 
+  @media (max-width: 1199px) {
+    .sec-1 .description {
+      margin-bottom: 1rem;
+      font-size: 45px;
+    }
+
+    .sec-1 .description .content {
+      margin-bottom: 3rem;
+      font-size: 45px;
+    }
+
+    .sec-1 .description {
+      margin-bottom: 1rem;
+      font-size: 45px;
+    }
+
+    .sec-1 .description .content {
+      margin-bottom: 3rem;
+      font-size: 45px;
+    }
+
+    .sec-1 .description {
+      margin-bottom: 1rem;
+      font-size: 45px;
+    }
+
+    .sec-1 .description .content {
+      margin-bottom: 3rem;
+      font-size: 45px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .text p {
+      font-size: 33px;
+    }
+    .partners-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px 30px;
+    }
+
+    .main-heading {
+      font-size: 36px;
+    }
+
+    .partner-title {
+      font-size: 24px;
+      min-height: 50px;
+    }
+
+    .partner-description {
+      padding-top: 0px;
+      font-size: 18px;
+      min-height: 90px;
+    }
+
+    .d-3 {
+      padding-top: 1.5rem;
+      padding-bottom: 0.9rem;
+    }
+
+    .bottom-text {
+      font-size: 22px;
+    }
+    .about-us-section-1 .main-image {
+      top: 278px;
+      right: -35px;
+      max-height: 430px;
+    }
+
+
+    .pt-md-4 {
+      padding-top: 3.5rem !important;
+    }
+
+    .sector-in-focus-main {
+      padding-top: 100px;
+    }
+
+    .about-us-section-1 .heading {
+      font-size: 30px;
+    }
+
+    .about-us-section-1 .description {
+      font-size: 18px;
+      width: 430px;
+    }
+
+    .ashoka-university-detail-page .view-article {
+      font-size: 25px;
+    }
+
+    .ashoka-university-detail-page .back {
+      font-size: 25px;
+    }
+  }
+
+  @media (max-width: 991px) { 
+    .sdg-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .sdg-item {
+      width: 120px; 
+      grid-column: auto !important;
+    }
+    .sdg-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .bottom-img {
+      display: none;
+    }
+
+    /* Bottom Image for small screen */
+    .bottom-img-s {
+      display: block;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .sdg-item {
+      width: 120px;
+      /* Reset grid properties for flex fallback */
+      grid-column: auto !important;
+    }
+ 
+    .contact-us .main-div {
+      background-image: url(../img/contact-us-bg-2.jpg);
+      background-position: left;
+      padding-top: 100px;
+    }
+
+
+    .dropdown-menu {
+      transition: all 0.3s ease;
+    }
+
+    .thank-you-page .main-div {
+      background-position: top center;
+    }
+
+    .thank-you-page .main-div .text {
+      font-size: 30px;
+    }
+
+    .overview-page .text {
+      font-size: 30px;
+    }
+
+    .overview-page-2 {
+      margin-top: 0px;
+    }
+
+    .ashoka-university-detail-page .heading {
+      font-size: 45px;
+    }
+
+    .the-rotary-foundation .information-1 {
+      font-size: 30px;
+    }
+
+    .the-rotary-foundation .information-2 {
+      font-size: 30px;
+    }
+
+    .the-rotary-foundation .information-3 {
+      font-size: 30px;
+    }
+
+    .our-partner-1 .heading-for-otherpage {
+      margin-top: 0px;
+    }
+
+    .sector-in-focus-1 .image-2 {
+      max-width: 350px;
+    }
+
+    .our-partner-1 .input-tag {
+      padding: 10px 30px;
+      font-size: 18px;
+    }
+
+    .our-partner-1 .tab-menu {
+      margin-top: 50px;
+    }
+
+    .our-partner-1 .margin-class {
+      margin-top: 0px;
+    }
+
+    .about-us-section-3 {
+      padding-bottom: 400px;
+    }
+
+    .about-us-section-3 .main-image {
+      height: 400px;
+      top: unset;
+      left: 0px;
+      margin: auto;
+    }
+
+    .about-us-section-3 .images {
+      display: none !important;
+    }
+
+    .about-us-section-2 .text {
+      font-size: 25px;
+    }
+
+    .about-us-section-1 {
+      margin-top: -360px;
+      padding-bottom: 700px;
+    }
+
+    .about-us-section-1 .main-image {
+      height: 500px;
+      top: unset;
+      left: 0px;
+      margin: auto;
+      bottom: -550px;
+    }
+
+    .about-us-nav .logo-2 {
+      height: 100px;
+      padding-top: 0px;
+    }
+
+    .about-us-nav .nav-menu {
+      padding-bottom: 70px;
+    }
+
+    .about-us-nav .second-logo {
+      margin-top: 0px;
+      margin-left: 50px;
+    }
+
+    .sec-5 {
+      padding-top: 100px;
+    }
+
+    #myCarousel {
+      margin-top: 50px !important;
+    }
+
+    .sec-4 {
+      padding-bottom: 150px;
+    }
+
+    .sec-4 .text {
+      font-size: 25px;
+    }
+
+    .sec-3 {
+      padding-top: 100px;
+    }
+
+    #myCarousel {
+      margin-top: 50px !important;
+    }
+
+    .sec-2 {
+      overflow-y: unset;
+      padding-top: 100px;
+      padding-bottom: 35px;
+    }
+
+    .sec-2 .text {
+      font-size: 25px;
+    }
+
+    .sec-1 .description {
+      overflow-y: unset;
+      padding-top: 220px;
+      padding-bottom: 50px;
+    }
+
+    .sec-1 .logo {
+      margin-top: unset;
+      height: 119px;
+    }
+
+    .common-heading {
+      font-size: 45px;
+    }
+
+    .section-height {
+      height: auto;
+      scroll-snap-align: unset;
+    }
+
+    .our-collaborations .heading-for-otherpage {
+      margin-top: 0px;
+    }
+
+    .our-partner-1 .heading-for-otherpage {
+      margin-top: 0px;
+    }
+
+    .our-collaborations {
+      background: #F0E6DA;
+    }
+
+    .our-partner-1 .input-tag {
+      padding: 10px 30px;
+      font-size: 18px;
+    }
+
+    .our-partner-1 .tab-menu {
+      margin-top: 50px;
+    }
+
+    .our-partner-1 .margin-class {
+      margin-top: 0px;
+    }
+
+    .our-collaborations .input-tag {
+      padding: 10px 30px;
+      font-size: 18px;
+    }
+
+    .our-collaborations .tab-menu {
+      margin-top: 50px;
+    }
+
+    .our-collaborations .margin-class {
+      margin-top: 0px;
+    }
+
+    .thank-you-page .main-div {
+      background-image: url(../img/thank-you-mobile-bg.png);
+      background-size: contain;
+      background-position: top center;
+      min-height: 40rem;
+      padding-top: 18rem;
+      padding-bottom: 8rem;
+    }
+
+    .thank-you-page .main-div .text {
+      margin-left: 0;
+      font-size: 2rem;
+      padding: 0 2rem;
+    }
+
+    .thank-you-page .row-gap {
+      padding-top: 5rem;
+      padding-bottom: 4rem;
+    }
+
+    .our-collaborations .menu .text1 {
+      font-size: 12px;
+      font-weight: 300;
+    }
+
+    .ashoka-university-detail-page .name {
+      font-size: 24px;
+    }
+
+    .ashoka-university-detail-page .date {
+      font-size: 15px;
+    }
+
+    .ashoka-university-detail-page .gap .icons {
+      height: 20px;
+      width: 20px;
+    }
+
+    .sec-2 .section-height {
+      padding-top: 1px;
+    }
+
+    .sec-2 {
+      overflow-y: unset;
+      padding-top: 100px;
+      padding-bottom: 35px;
+    }
+
+    .sec-2 .text {
+      font-size: 25px;
+    }
+
+    .sec-1 .description {
+      overflow-y: unset;
+      padding-top: 220px;
+      padding-bottom: 50px;
+    }
+
+    .sec-1 {
+      background-size: 100% 100%;
+    }
+
+    .sec-1 .logo {
+      margin-top: unset;
+      height: 119px;
+    }
+
+    .the-rotary-foundation .information-1 {
+      font-size: 30px;
+    }
+
+    .sdg-grid .sdg-item:first-child {
+      margin-left: 0px;
+    }
+
+    .sdg-grid .sdg-item:nth-child(2) {
+      margin-left: 0px;
+    }
+
+    .sdg-grid .sdg-item:nth-child(3) {
+      margin-left: 0px;
+    }
+
+    .sdg-grid .sdg-item:nth-child(4) {
+      margin-left: 0px;
+    }
+
+
+    .overview-page .menu {
+      padding-top: 10px;
+    }
+
+    section.thank-you-page {
+      padding-top: 5rem;
+    }
+
+    .thankyoucontent {
+      padding-right: 130px;
+      padding-left: 0;
+    }
+
+    .imgthankyu img {
+      max-width: 100%;
+    }
+
+    .sec-1 {
+      background-size: 100% 60%;
+    }
+
+    .our-collaborations .menu {
+      padding-left: 30px;
+    }
+
+
+
+
+    .thank-you-page .main-div {
+      background-position: top center;
+    }
+
+    .ashoka-university-detail-page .heading {
+      font-size: 45px;
+    }
+
+    .thank-you-page .main-div .text {
+      font-size: 30px;
+    }
+
+    .dropdown-menu {
+      transition: all 0.3s ease;
+    }
+
+    .overview-page .text {
+      font-size: 30px;
+    }
+
+    .overview-page-2 {
+      margin-top: 0px;
+    }
+
+    .about-us-nav .logo-2 {
+      height: 100px;
+      padding-top: 0px;
+    }
+
+    .about-us-nav .nav-menu {
+      padding-bottom: 70px;
+    }
+
+    .about-us-nav .second-logo {
+      margin-top: 0px;
+      margin-left: 50px;
+    }
+
+    .the-rotary-foundation .information-2 {
+      font-size: 30px;
+    }
+
+    .the-rotary-foundation .information-3 {
+      font-size: 30px;
+    }
+
+    .about-us-section-1 {
+      padding-bottom: 0px;
+    }
+
+    .article-one .heading::after {
+      content: "";
+      display: none;
+    }
+
+
+
+    .common-heading.stripbottom {
+      color: #913832;
+    }
+
+    .about-us-section-1 .scrolling-div {
+      max-height: 370px;
+    }
+
+    .about-us-section-1 .main-image {
+      top: 260px;
+      right: 0px;
+      left: 0;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .about-us-section-3 .top-padding h2.common-heading.white {
+      color: #913832;
+    }
+
+    .about-us-section-2 {
+      background-image: url(../img/hfhfhfhfh.png);
+      padding-top: 130px !important;
+      background-size: 100% 100%;
+      padding-bottom: 90px;
+      position: relative;
+      z-index: 1 !important;
+      filter: drop-shadow(0px 1px 8px rgba(53, 41, 27, 0.5));
+    }
+
+    .about-us-section-3 .top-padding .border-b.white::after {
+      background-color: #7a2928;
+    }
+
+    .timeline-wrapper {
+      margin-top: 450px;
+    }
+
+    .about-us-gallery {
+      background-image: url(../img/lastbgabout.png);
+      background-size: cover;
+      background-color: #913832;
+      padding-top: 100px;
+    }
+
+    .about-us-section-3 {
+      background: linear-gradient(180deg, #FFFFFF 0%, #F2DFDC 25%, #C47D72 55%, #913832 100%);
+    }
+
+    .about-us-section-1 {
+      background-size: cover;
+      background-position: bottom;
+    }
+
+    .about-us-section-3 .top-padding {
+      padding-top: 50px;
+    }
+
+    .conentsliv {
+      text-align: right;
+      padding-left: 185px;
+      padding-top: 30px;
+      padding-right: 20px;
+    }
+
+    .flesing {
+      max-width: 788px;
+    }
+
+    .about-us-section-1 .description {
+      width: auto;
+    }
+
+    .myswiper .swiper-button-prev {
+      left: 360px;
+    }
+
+    .myswiper .swiper-button-next {
+      left: 360px;
+    }
+
+    .about-us-section-1 .section-title {
+      transform: rotate(90deg);
+    }
+
+    .text-content {
+      margin-left: 0;
+      text-align: center;
+      order: 2;
+      padding-left: 0px;
+      max-width: 100%;
+    }
+
+    .about-us-section-3 .heading {
+      font-size: 22px;
+    }
+
+    .about-us-section-3 .heading-2 {
+      font-size: 16px;
+    }
+
+    .about-us-section-3 .description {
+      font-size: 16px;
+    }
+
+    .customepagition.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-vertical {
+
+      right: auto;
+      left: 50%;
+      top: auto;
+      bottom: 0;
+      transform: rotate(90deg) translatex(20px);
+    }
+
+    .swipersmain.swiper-vertical .swiper-button-next {
+      left: auto;
+      bottom: 63px;
+      right: 60px;
+      transform: rotate(-90deg);
+    }
+
+    .swipersmain.swiper-vertical .swiper-button-prev {
+      left: 100px;
+      top: auto;
+      bottom: 60px;
+      transform: rotate(-90deg);
+
+    }
+
+    .about-us-section-1 {
+      background-image: url('../img/aboutmobilein.jpg');
+    }
+
+    .about-us-section-3 {
+      background-size: 185% 100%;
+      padding-bottom: 0px;
+      margin-top: -45px;
+      padding-top: 40px;
+    }
+
+    header.about-us-nav {
+      background-image: url(../img/shapemobileshapes.png);
+    }
+
+    .about-us-nav .nav-menu {
+      width: auto;
+    }
+
+    .contactbgmain {
+      background-image: url(../img/postcard-mobile.png);
+      background-position: left;
+      padding-top: 100px;
+      position: relative;
+    }
+
+    .contact-us .address-div {
+      top: 72px;
+      width: 228px;
+      left: 60px;
+    }
+
+    .imgtopshape {
+      display: none;
+    }
+
+    .pl-contact {
+      position: inherit;
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 0;
+    }
+
+    .contact-us .heading {
+      font-size: 30px;
+      order: 2;
+      text-align: center;
+      width: 100%;
+      position: relative;
+    }
+
+    .heading:after {
+      content: "";
+      width: 70px;
+      height: 2px;
+      position: absolute;
+      bottom: -21px;
+      margin: 0 auto;
+      background: #913832;
+      left: 0;
+      right: 0;
+    }
+
+    .contact-us .image {
+      height: auto;
+      width: auto;
+      max-width: 100%;
+    }
+
+    .leftimg {
+      text-align: center;
+      width: 100%;
+    }
+
+    .prdiingcontact {
+      padding-right: 65px;
+      padding-left: 65px;
+      border-left: 0;
+    }
+
+    a.nav-link {
+      font-size: 18px;
+    }
+
+    .navbar-nav .dropdown-menu {
+      position: absolute;
+      left: -90px;
+      top: 60px;
+      padding-top: 0;
+    }
+
+    .about-us-nav .nav-item .background {
+      position: absolute;
+      background-size: cover;
+      background-position: bottom;
+      left: -15px;
+      align-items: end;
+      padding-bottom: 25px;
+    }
+
+
+
+    .about-us-nav .nav-item:hover {
+      transform: scale(1) translatex(0px);
+    }
+
+    .about-us-nav .nav-item {
+      border: 0;
+      border-left: 0px;
+      justify-content: end;
+      width: 100%;
+      padding-left: 0;
+    }
+
+    .about-us-nav .nav-item:hover {
+      border-left: 0;
+      font-weight: 300;
+    }
+
+    .about-us-nav .nav-link {
+      line-height: normal;
+      border-bottom: 1px solid #fff;
+      display: block;
+      padding-left: 30px;
+    }
+
+    .navbar-nav .dropdown-menu a.dropdown-item.nav-link.p-1.list-text {
+      border-bottom: 0;
+      /* text-align: right; */
+    }
+
+    /************************************* home.css*****************/
+    #news-slider .owl-pagination {
+      max-width: 100%;
+    }
+
+    .sec-5 {
+      padding-top: 100px;
+    }
+
+    #myCarousel {
+      margin-top: 50px !important;
+    }
+
+    #news-slider .owl-wrapper {
+      margin-left: 0px;
+    }
+
+
+
+    div#demo::after,
+    div#demo::before,
+    #news-slider::after,
+    #news-slider::before {
+      width: 0;
+    }
+
+    #news-slider::after {
+
+      width: 0;
+    }
+
+    .dropdown-menu {
+      transition: all 0.3s ease;
+    }
+
+    /************************************* home.css end*****************/
+
+    .container {
+      max-width: 100rem !important;
+      padding-left: 5% !important;
+      padding-right: 5% !important;
+    }
+
+
+    .sec-1 {
+      width: 100vw;
+      height: 100vh;
+      background-image: url(../img/mobilemainheader.jpg);
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      z-index: 5;
+      position: relative;
+    }
+
+    .footer-bottom-text {
+      max-width: 100%;
+    }
+
+    section.sec-4.section-height {
+      background-size: 150% 100%;
+      padding-bottom: 215px;
+    }
+
+    .sec-4 .text {
+      font-size: 25px;
+    }
+
+    .footer-terms-of {
+      position: static;
+    }
+
+    .footer-logo {
+      width: 215px;
+    }
+
+    .footer-bottom-text p {
+      font-size: 16px;
+      margin-bottom: 9px;
+    }
+
+    .sec-7 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .dextophomeheader {
+      width: 22%;
+      margin: 0 auto;
+      align-items: center;
+      position: relative;
+      display: none !important;
+    }
+
+
+    .about-us-nav {
+      padding-bottom: 0px;
+    }
+
+    .dextophomeheader button {
+      position: static;
+      margin: 0;
+      padding: 0;
+    }
+
+    .dextophomeheader button img {
+      position: static;
+      margin: 0;
+      padding: 0;
+      width: 15px;
+      height: 31px;
+    }
+
+    .contents.mt-6 {
+      display: none;
+    }
+
+    /************************************* responsive.css end*****************/
+    /* .nav-item.dropdown:hover .dropdown-menu .background li {
+      transform: translateY(0px) !important;
+      margin-top: 0px !important;
+      padding-bottom: 4px !important;
+    } */
+
+    .nav-item.dropdown .dropdown-menu .background li {
+      /* transform: translateY(0px) !important; */
+      margin-top: 0px !important;
+    }
+
+    button.navbar-toggler {
+      padding-right: 0;
+    }
+
+    .news-narratives-page {
+      background-image: url(../img/mobilevienbgphole.png);
+    }
+
+    .footer {
+      background-image: url(../img/footerbgmobile.png) !important;
+    }
+
+
+    .news-narratives-page .menu .text1 {
+      font-size: 12px;
+      font-weight: 300;
+    }
+
+    .showactive img.logoto2 {
+      opacity: 0;
+
+    }
+
+    .showactive img.one.logoto2 {
+      opacity: 1;
+    }
+
+    button.navbar-toggler {
+      margin-top: 5px !important;
+    }
+
+    .showactive img.logoto2 {
+      top: auto;
+      bottom: 50px;
+      height: 115px;
+    }
+
+    .showactive img.logoto2 {
+      opacity: 0;
+    }
+
+    .showactive img.one.logoto2 {
+      opacity: 1;
+    }
+
+    .logoto2 {
+      top: auto;
+      bottom: 6px;
+    }
+
+    .showactive img.logoto2 {
+      top: auto;
+      bottom: 50px;
+      height: 115px;
+    }
+
+    .contact-us .address-div img {
+      width: 14px;
+    }
+
+    .conentsliv .heading::after {
+      content: "";
+      display: none;
+    }
+
+    .pryaveyt .heading::after {
+      content: "";
+      display: none;
+    }
+
+    .the-rotary-foundation .information-1 {
+      font-size: 30px;
+    }
+
+    .the-rotary-foundation .information-2 {
+      font-size: 30px;
+    }
+
+    .the-rotary-foundation .information-3 {
+      font-size: 30px;
+    }
+
+    .our-partner-1 .heading-for-otherpage {
+      margin-top: 0px;
+    }
+
+    .our-partner-1 .input-tag {
+      padding: 10px 30px;
+      font-size: 18px;
+    }
+
+    .our-partner-1 .tab-menu {
+      margin-top: 50px;
+    }
+
+    .our-partner-1 .margin-class {
+      margin-top: 0px;
+    }
+
+    .sector-in-focus-1 .image-2 {
+      max-width: 350px;
+    }
+
+    .about-us-section-3 {
+      padding-bottom: 400px;
+    }
+
+    .myswiper .swiper-button-next {
+
+      transform: translateY(-500%);
+
+    }
+
+
+    .about-us-section-3 .main-image {
+
+      margin: auto;
+      position: relative;
+      left: auto;
+      right: auto;
+      height: 300px;
+    }
+
+    .about-us-section-3 .content {
+      flex-wrap: wrap;
+    }
+
+    .about-us-section-3 .images {
+      display: none !important;
+    }
+
+    .about-us-section-3 .main-image {
+      height: auto;
+      margin: auto;
+      position: relative;
+      left: auto;
+      right: auto;
+      width: 100%;
+    }
+
+    .imgcrav {
+      width: 100%;
+      text-align: center;
+      order: 1;
+      margin: 50px 0px;
+      margin-bottom: 0;
+    }
+
+    .swipersmain {
+      height: 925px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    .border-b::after {
+      width: 75px;
+      height: 2px;
+      bottom: -6px;
+    }
+
+    .about-us-nav .logo-2 {
+      height: 100px;
+      padding-top: 0px;
+    }
+
+    .about-us-section-2 .text {
+      font-size: 25px;
+    }
+
+    .showactive img.one.logoto2 {
+      top: auto;
+      bottom: 50px;
+    }
+
+
+    .about-us-nav .nav-menu {
+      padding-bottom: 70px;
+    }
+
+    .about-us-nav .second-logo {
+      margin-top: 0px;
+      margin-left: 50px;
+    }
+
+    .sec-5 {
+      padding-top: 100px;
+    }
+
+    #myCarousel {
+      margin-top: 50px !important;
+    }
+
+    .sec-4 {
+      padding-bottom: 150px;
+    }
+
+    .sec-4 .text {
+      font-size: 25px;
+    }
+
+
+    .sec-3 {
+      padding-top: 100px;
+    }
+
+    #myCarousel {
+      margin-top: 50px !important;
+    }
+
+    .sec-2 {
+      overflow-y: unset;
+      padding-top: 100px;
+      padding-bottom: 35px;
+    }
+
+    .sec-2 .text {
+      font-size: 25px;
+    }
+
+    .sec-1 .description {
+      overflow-y: unset;
+      padding-top: 220px;
+      padding-bottom: 50px;
+    }
+
+    img.logoto2.mobile-hide {
+      display: none;
+    }
+
+    .sec-1 .logo {
+      margin-top: unset;
+      height: 119px;
+    }
+
+    .contact-us .image {
+      margin-left: 0px;
+    }
+
+    .contact-us .heading {
+      top: -90px;
+      font-size: 30px;
+    }
+
+    .contact-us .address-div {
+      left: 0px;
+    }
+  } 
+
+  @media (max-width: 767px) {
+        .sec-2 {
+      padding-top: 70px;
+    }
+        .sec-3 .image {
+      width: 300px;
+      height: 400px;
+    }
+        .carousel-inner .carousel-item>div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+      display: block;
+    }
+        .sec-5 .carousel-item a:hover .bottom-div .description-text {
+      max-height: 150px;
+      font-size: 14px;
+    }
+       .sec-5 {
+      padding-top: 70px;
+    }
+      .sec-4 {
+      padding-top: 70px;
+    }
+       .carousel-inner .carousel-item>div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item>div:nth-child(1) {
+      display: block;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+       .sec-2 {
+      padding-top: 70px;
+    }
+        .sec-2 {
+      padding-top: 0px;
+    }
+        .overview-grid-1 {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .overview-grid-1 img {
+      width: 50% !important;
+      height: auto !important;
+    }
+       .sec-5 .carousel-item a:hover .bottom-div .description-text {
+      max-height: 150px;
+      font-size: 14px;
+    }
+     .sec-5 {
+      padding-top: 70px;
+    }
+        .carousel-inner .carousel-item>div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+      display: block;
+    }
+        .sec-5 .carousel-item a:hover .bottom-div .description-text {
+      max-height: 150px;
+      font-size: 14px;
+    }
+       .sec-5 {
+      padding-top: 70px;
+    }
+      .sec-4 {
+      padding-top: 70px;
+    }
+       .carousel-inner .carousel-item>div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item>div:nth-child(1) {
+      display: block;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+       .sec-2 {
+      padding-top: 70px;
+    }
+        .sec-2 {
+      padding-top: 0px;
+    }
+        .overview-grid-1 {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .overview-grid-1 img {
+      width: 50% !important;
+      height: auto !important;
+    }
+       .sec-5 .carousel-item a:hover .bottom-div .description-text {
+      max-height: 150px;
+      font-size: 14px;
+    }
+     .sec-5 {
+      padding-top: 70px;
+    }
+        .sec-4 {
+      padding-top: 70px;
+    }
+        .carousel-inner .carousel-item>div {
+      display: none;
+    }
+ .sec-3 {
+      padding-top: 70px;
+    }
+    .carousel-inner .carousel-item>div:nth-child(1) {
+      display: block;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .image-div {
+      width: 100% !important;
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
+
+    .trf-main {
+      padding-top: 125px;
+    }
+
+    .trf-main .menu {
+      padding-left: 21px;
+      padding-top: 21px;
+    }
+
+    .error-404 .error-div .text-2 {
+      margin-top: 1rem;
+      padding-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    .error-404 .error-div .text {
+      font-size: 8rem;
+      line-height: 4.4rem;
+    }
+
+    .trf-main .common-heading {
+      margin: 0px;
+      padding: 0px;
+      font-size: 25px;
+    }
+
+    .text-3 {
+      font-size: 18px;
+    }
+
+    .error-content {
+      margin-bottom: 0rem;
+    }
+
+    .error-404 .error-div {
+      background-position: center top -14px;
+      text-align: center;
+      padding: 80px 0px;
+    }
+
+    .thank-you-page .main-div .text {
+      font-size: 25px;
+    }
+
+    .error-404 .error-div .text {
+      font-size: 200px;
+    }
+
+    .error-404 .error-div .text-2 {
+      margin-top: -25px;
+    }
+
+    .ashoka-university-detail-page .heading {
+      font-size: 39px;
+    }
+
+    .ashoka-university-detail-page .description .text {
+      font-size: 20px;
+    }
+
+    .our-partner-1 .text {
+      font-size: 33px;
+    }
+
+    .sector-in-focus-1 .text {
+      font-size: 33px;
+    }
+
+    .about-us-section-3 {
+      padding-bottom: 600px;
+    }
+
+    .about-us-section-3 .main-image {
+      height: 400px;
+      margin: auto;
+    }
+
+    .imgcrav {
+      width: 100%;
+      text-align: center;
+    }
+
+    .about-us-section-3 .content {
+      flex-wrap: wrap;
+    }
+
+    .text-content {
+      max-width: 100%;
+    }
+
+    .about-us-section-3 .bottom-padding {
+      padding-bottom: 0px;
+    }
+
+    .about-us-section-3 .bottom-padding-2 {
+      padding-bottom: 150px;
+    }
+
+    .about-us-section-2 {
+      margin-top: -100px;
+    }
+
+    .about-us-section-1 .gaps {
+      padding-bottom: 200px;
+    }
+
+    .about-us-nav .nav-menu {
+      padding-bottom: 0px;
+    }
+
+    .common-heading {
+      font-size: 39px;
+    }
+
+    .our-partner-1 .text {
+      font-size: 24px;
+    }
+
+    .tab-menu {
+      display: flex !important;
+      flex-wrap: nowrap !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .center-label {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .left-tab,
+    .right-tab {
+      flex: 1 1 50% !important;
+      max-width: 50% !important;
+      justify-content: center !important;
+    }
+
+    .left-tab.col-4,
+    .right-tab.col-4 {
+      padding: 0 !important;
+    }
+
+    .our-collaborations .tab-menu .menus {
+      font-size: 13px;
+      letter-spacing: 0.08rem;
+      margin: 0;
+      padding: 6px 0;
+    }
+
+    .our-collaborations .tab-menu .menus::after {
+      width: 0 !important;
+    }
+
+    .our-collaborations .tab-menu .menus.active::after {
+      width: 100% !important;
+    }
+
+
+
+    .our-collaborations .text {
+      font-size: 25px;
+    }
+
+    .thank-you-page .main-div {
+      min-height: 35rem;
+      padding-top: 14rem;
+    }
+
+    .thank-you-page .main-div .text {
+      font-size: 1.8rem;
+      line-height: 1.4;
+      padding: 0 1.5rem;
+    }
+
+    .tab-menu {
+      display: flex !important;
+      flex-wrap: nowrap !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .center-label {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .left-tab,
+    .right-tab {
+      flex: 1 1 50% !important;
+      max-width: 50% !important;
+      justify-content: center !important;
+    }
+
+    .left-tab.col-4,
+    .right-tab.col-4 {
+      padding: 0 !important;
+    }
+
+    .our-partner-1 .tab-menu .menus {
+      font-size: 13px;
+      letter-spacing: 0rem;
+      margin: 0;
+      padding: 6px 0;
+    }
+
+    .our-partner-1 .tab-menu .menus::after {
+      width: 0 !important;
+    }
+
+    .our-partner-1 .tab-menu .menus.active::after {
+      width: 100% !important;
+    }
+
+    img.social-img {
+      width: 20px;
+    }
+
+    .article-one .left-links .publisher {
+      font-size: 16px;
+    }
+
+    .article-one .share-text {
+      font-size: 20px;
+    }
+
+    .article-one .left-links .date {
+      font-size: 14px;
+    }
+
+    .ashoka-university-detail-page .name {
+      font-size: 20px;
+    }
+
+    .footer-bottom-text p {
+      font-size: 13px;
+      margin-bottom: 9px;
+    }
+
+    .our-partner-1 .text {
+      font-size: 33px;
+    }
+
+    .nav-item .background {
+      min-height: auto;
+    }
+
+    .sector-in-focus-1 .text {
+      font-size: 33px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+
+    .about-us-section-3 {
+      padding-bottom: 600px;
+    }
+
+    .hovermove {
+      height: 388px;
+      overflow: hidden;
+    }
+
+    .about-us-section-3 .heading {
+      margin-bottom: 0;
+    }
+
+    .carousel-inner .carousel-item>div {
+      display: none;
+    }
+
+    .ashoka-university-detail-page .view-article {
+      font-size: 20px;
+    }
+
+    .our-collaborations .image-div {
+      padding: 0px 0;
+    }
+
+    .ashoka-university-detail-page .view-article {
+      font-size: 20px;
+    }
+
+    .ashoka-university-detail-page .back {
+      font-size: 20px;
+    }
+
+    .text p {
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .text-3 h2 {
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .thank-you-page .main-div .text {
+      font-size: 25px;
+    }
+
+    .sec-5 .post-slide a:hover .bottom-div .description-text {
+      max-height: 150px;
+      font-size: 14px;
+    }
+
+    .ashoka-university-detail-page .heading {
+      font-size: 39px;
+    }
+
+    .ashoka-university-detail-page .description .text {
+      font-size: 20px;
+    }
+
+    p.outreach-description {
+      font-size: 20px;
+      padding-bottom: 30px;
+
+    }
+
+    .text-3 h2 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+
+    .marquee-track {
+      animation-duration: 50s;
+    }
+
+    .about-us-nav .nav-menu {
+      padding-bottom: 0px;
+    }
+
+    .swipersmain {
+      height: 740px;
+    }
+
+    .text-2.my-3 p {
+      margin-top: 0px;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+      display: block;
+    }
+
+    .thankyoucontent {
+      padding-right: 112px;
+      padding-left: 10px;
+    }
+
+
+    .pt-md-4 {
+      padding-top: 0.5rem !important;
+    }
+
+    .svgbg {
+      width: 325px;
+    }
+
+    .marquee-track-list a.position-relative.abc {
+      margin-left: -40px;
+    }
+
+    .sdg-grid {
+      padding-bottom: 50px;
+    }
+
+    li.breadcrumb-item {
+      margin-right: 10px;
+    }
+
+    .breadcrumb-item+.breadcrumb-item::before {
+      padding-right: 10px;
+    }
+
+    .about-us-nav {
+      padding-bottom: 0px;
+    }
+
+    .logoto2 {
+      height: 95px;
+      bottom: 13px;
+    }
+
+    .sector-in-focus-main {
+      padding-top: 70px !important;
+    }
+
+    .about-us-section-1 .menu {
+      padding-left: 28px;
+    }
+
+    .myswiper .swiper-button-prev {
+      left: 180px;
+    }
+
+    .myswiper .swiper-button-next {
+      left: 180px;
+    }
+
+
+    .dot .year-label.section-title {
+      font-size: 8px;
+    }
+
+
+    .timeline-line {
+      left: 39px;
+      top: 38%;
+    }
+
+    .dots-container {
+      left: 47px;
+      top: 35%;
+    }
+
+    .about-us-section-1 .heading {
+      font-size: 20px;
+    }
+
+    .about-us-section-1 .description {
+      font-size: 16px;
+    }
+
+    .about-us-section-1 .section-title {
+      margin-left: 33px;
+      margin-top: 25px;
+    }
+
+    .timeline-line {
+      left: 47px;
+      top: 38%;
+    }
+
+    .about-us-section-1 {
+      background-size: cover;
+      position: relative;
+      z-index: 2;
+      overflow: hidden;
+    }
+
+    .about-us-section-1 .main-image {
+      top: 125px;
+    }
+
+    .about-us-section-2 .text {
+      font-size: 20px;
+    }
+
+    .news-narratives-page .input-tag {
+      max-width: 220px !important;
+      padding: 10px 30px !important;
+    }
+
+
+    .common-headingcolo {
+      margin-top: 0px !important;
+    }
+
+    .footer-bottom-text {
+      margin-top: 20px !important;
+      max-width: 100% !important;
+    }
+
+    .footer-terms-of {
+      bottom: 0px !important;
+    }
+
+    .footer {
+      padding-top: 20px !important;
+      padding-bottom: 30px !important;
+    }
+
+    .footer-logo {
+      width: 133px !important;
+    }
+
+    .tab-label.active-label {
+      margin-bottom: 0px;
+    }
+
+    .sec-3 .image {
+      width: 300px;
+      height: 400px;
+    }
+
+    .news-narratives-page .news-article {
+      font-size: 14px;
+    }
+
+    .news-narratives-page .name {
+      font-size: 22px;
+    }
+
+    .news-narratives-page .description {
+      font-size: 14px;
+      margin-top: 0 !important;
+    }
+
+    .news-narratives-page .read-more {
+      font-size: 18px;
+    }
+
+    .news-narratives-page .name-date {
+      font-size: 14px;
+    }
+
+    .pright {
+      padding-right: 15px;
+    }
+
+    .pleft {
+      padding-left: 15px;
+    }
+
+    .section-height {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 60px 0;
+    }
+
+    .imgbginner::after,
+    .imgbginner::before,
+    .secondimgbg .torow.hovermove::after,
+    .secondimgbg .torow.hovermove::before {
+      opacity: 0;
+    }
+
+    .hovermove:hover .imgbginner::after,
+    .hovermove:hover .imgbginner::before {
+      opacity: 0;
+    }
+
+    .background-black {
+      row-gap: 0px;
+    }
+
+    /**************** home.css*************************/
+    #news-slider .owl-pagination .owl-page {
+      width: 8px;
+      height: 8px;
+      margin: 0 3px;
+    }
+
+    owl-buttons .owl-prev,
+    .owl-buttons .owl-next {
+      position: absolute;
+      top: auto;
+      transform: translateY(0);
+      width: 13px;
+      height: 23px;
+      background-size: 10px;
+      right: 40px;
+      bottom: -53px;
+      background-repeat: no-repeat;
+    }
+
+    .owl-buttons .owl-prev {
+      position: absolute;
+      top: auto;
+      transform: translateY(0);
+      width: 13px;
+      height: 23px;
+      background-size: 10px;
+      left: 40px;
+      bottom: -54px;
+      background-repeat: no-repeat;
+    }
+
+    .sec-5 .image {
+      width: 300px;
+    }
+
+    .sec-5 .left-arr-btn {
+      margin-left: 0px;
+    }
+
+    .sec-5 .right-arr-btn {
+      margin-left: 0px;
+    }
+
+    #news-slider .owl-wrapper {
+      margin-left: 0;
+    }
+
+    .sec-5 {
+      padding-top: 130px;
+    }
+
+    .content.sec-1-content.stripbottom.red {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    /**************** home.css*************************/
+    .description.container-fluid.pb-0 {
+      position: relative;
+      bottom: -15%;
+    }
+
+    .sec-5 .image {
+      width: 100%;
+    }
+
+    .content.sec-1-content.stripbottom.red {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .footer-logo {
+      width: 160px;
+    }
+
+    .conentsliv {
+      padding-left: 85px;
+    }
+
+    .sec-1-content h1 {
+      font-size: 31px;
+    }
+
+    .description>div {
+      margin-top: 0%;
+    }
+
+    .footer-terms-of {
+      gap: 7px;
+    }
+
+    .footer-terms-of a {
+      padding-bottom: 0px;
+    }
+
+    .sec-7 {
+      min-height: auto;
+    }
+
+    .contents p {
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .sec-2-text {
+      font-size: 20px;
+    }
+
+    .contents p {
+      line-height: 36px;
+    }
+
+    .contact-us {
+      padding-top: 90px;
+    }
+
+    .sec-1 .m-logo {
+      display: inline-block;
+      position: absolute;
+      top: 6rem;
+      left: 52%;
+      transform: translateX(-50%);
+      width: 7rem;
+      height: auto;
+      z-index: 10;
+    }
+
+    .sec-1 .flower-1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin-bottom: 19rem;
+      z-index: 2;
+    }
+
+    .sec-1 .description {
+      font-size: 40px;
+    }
+
+    .sec-1 .logo {
+      display: none;
+    }
+
+    .sec-1 nav {
+      position: relative;
+      z-index: 8;
+    }
+
+    .cursor {
+      display: none;
+    }
+
+    .about-us-nav {
+      background-position: bottom 0px center;
+    }
+
+    button.navbar-toggler {
+      margin-top: 15px !important;
+    }
+
+    .privacy-policy .gap {
+      gap: 20px;
+      padding-top: 1rem;
+    }
+
+    .footer {
+      min-height: 1px;
+    }
+
+    .plpr {
+      padding-top: 10px;
+    }
+
+
+
+    .about-us-section-3 .bottom-padding {
+      padding-bottom: 0px;
+    }
+
+    .about-us-section-3 .bottom-padding-2 {
+      padding-bottom: 150px;
+    }
+
+    .sdg-item {
+      width: 100px;
+      grid-column: auto !important;
+    }
+
+    .sec-3 {
+      padding-top: 70px;
+    }
+
+    .about-us-nav .nav-menu {
+      padding-bottom: 0px;
+    }
+
+    .about-us-section-1 .gaps {
+      padding-bottom: 25px;
+    }
+
+
+  }
+
+  @media (max-width: 650px) {
+    .contact-us .address-div {
+      top: 72px;
+      width: 228px;
+      left: 28px;
+    }
+
+    .news-narratives-page .bottom-div {
+      justify-content: center !important;
+    }
+
+    .ashoka-university-detail-page .heading br {
+      display: none;
+    }
+
+    .sec-5 .post-slide a:active .bottom-div .description-text {
+      max-height: 200px;
+      opacity: 1;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .news-narratives-page .arrows {
+      width: 14px;
+    }
+
+    .contact-us .heading {
+      font-size: 20px;
+      letter-spacing: 3px;
+    }
+
+    .sec-5 .post-slide a:active .bottom-div .text-3,
+    .sec-5 .post-slide a:active .bottom-div .text-6 {
+      transform: translateY(-10px);
+    }
+
+    .sec-5 .post-slide a:active .bottom-div .source-text {
+      transform: translateY(10px);
+    }
+
+    .sec-5 .image {
+      width: 300px;
+    }
+
+    .sec-3 .image {
+      width: 300px;
+    }
+
+    .sec-3 .left-arr-btn {
+      margin-left: 0px;
+    }
+
+    .sec-3 .right-arr-btn {
+      margin-left: 0px;
+    }
+
+    .sec-1 .description {
+      font-size: 40px;
+    }
+
+    .sec-7 .image {
+      width: 300px;
+    }
+
+    .sec-7 .left-arr-btn {
+      margin-left: 0px;
+    }
+
+    .sec-7 .right-arr-btn {
+      margin-left: 0px;
+    }
+
+    .sec-1 .description {
+      font-size: 40px;
+    }
+
+    .sec-5 .left-arr-btn {
+      margin-left: 0px;
+    }
+
+    .sec-5 .right-arr-btn {
+      margin-left: 0px;
+    }
+
+    /* On mobile, show description on tap/click instead */
+    .sec-5 .carousel-item a:active .bottom-div .description-text {
+      max-height: 200px;
+      opacity: 1;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .sec-5 .carousel-item a:active .bottom-div .text-3,
+    .sec-5 .carousel-item a:active .bottom-div .text-6 {
+      transform: translateY(-10px);
+    }
+
+    .sec-5 .carousel-item a:active .bottom-div .source-text {
+      transform: translateY(10px);
+    }
+
+    .sec-5 .image {
+      width: 300px;
+    }
+
+    .sec-3 .image {
+      width: 300px;
+    }
+
+    .sec-3 .left-arr-btn {
+      margin-left: 0px;
+    }
+
+    .sec-3 .right-arr-btn {
+      margin-left: 0px;
+    }
+
+    .sec-5 .left-arr-btn {
+      margin-left: 0px;
+    }
+
+    .sec-5 .right-arr-btn {
+      margin-left: 0px;
+    }
+
+    .sec-5 .carousel-item a:active .bottom-div .description-text {
+      max-height: 200px;
+      opacity: 1;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .sec-5 .carousel-item a:active .bottom-div .text-3,
+    .sec-5 .carousel-item a:active .bottom-div .text-6 {
+      transform: translateY(-10px);
+    }
+
+    .sec-5 .carousel-item a:active .bottom-div .source-text {
+      transform: translateY(10px);
+    }
+  }
+
+ @media (max-width: 575px) { 
+    .sec-1 .description {
+      padding-top: 160px;
+      font-size: 35px;
+    }
+    .sec-1 .description {
+      padding-top: 160px;
+      font-size: 35px;
+    }
+
+    .sec-1 .left-img {
+      left: -70px !important;
+    }
+
+    .sec-1 .right-img {
+      right: -70px !important;
+    }
+    .sec-1 .left-img {
+      left: -70px !important;
+    }
+
+    .sec-1 .right-img {
+      right: -70px !important;
+    }
+ 
+
+        .article-one .heading {
+      font-size: 1.5rem;
+      margin-top: 0;
+
+    }
+
+    .article-one .gap {
+      gap: 4px;
+    }
+
+    .article-heading-2 {
+      margin-bottom: 0;
+      font-size: 12px;
+    }
+
+    .article-one .left-links .date {
+      font-size: 12px;
+    }
+
+    .thank-you-page .main-div {
+      background-position: top center;
+      min-height: 32rem;
+      /* padding-top: 12rem; */
+    }
+
+    .thank-you-page .main-div .text {
+      font-size: 0.7rem;
+      padding: 0 2rem;
+    }
+
+    .right-social {
+      gap: 0.5rem !important;
+    }
+
+    .right-social a img.social-img {
+      width: 18px;
+      height: auto;
+    }
+
+    .article-one .menu .text1 {
+      font-size: 12px;
+    }
+
+    .right-social img {
+      height: 18px;
+    }
+
+    .para {
+      font-size: 1rem;
+      padding: 0;
+    }
+
+    .article-one .share-text {
+      font-size: 14px;
+    }
+
+    .article-link {
+      font-size: 16px;
+    }
+
+    .article-one .back img {
+      height: 15px;
+    }
+      .thank-you-page .row-gap {
+      padding-top: 275px;
+      padding-bottom: 100px;
+    }
+    .imgthankyu img.dextopimgthanky {
+      display: none;
+    }
+
+    .imgthankyu img {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .imgthankyu img.mobilethank {
+      display: block;
+    }
+
+    .thankyoucontent {
+      padding-right: 60px;
+      padding-left: 10px;
+    }
+
+    .thank-you-page .row-gap {
+      padding-top: 275px;
+      padding-bottom: 100px;
+    }
+
+    .overview-page-2 .second-div .text {
+      font-size: 30px;
+    }
+
+
+
+    .overview-page-2 .second-div .text-3 {
+      font-size: 30px;
+    }
+
+    .privacy-policy .heading {
+      font-size: 25px;
+    }
+
+    .privacy-policy .text {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 524px) {
+        .the-rotary-foundation .information-1 {
+      font-size: 22px;
+    }
+
+    .the-rotary-foundation .information-2 {
+      font-size: 22px;
+    }
+
+    .the-rotary-foundation .information-3 {
+      font-size: 22px;
+    }
+        .our-partner-1 .text {
+      font-size: 25px;
+    }
+        .sector-in-focus-1 .text {
+      font-size: 25px;
+    }
+        .about-us-section-2 .text {
+      font-size: 20px;
+    }
+        .about-us-nav .line-img {
+      height: 20px;
+    }
+    .sec-4 .text {
+      font-size: 20px;
+    }
+        .sec-2 .text {
+      font-size: 20px;
+    }
+        .sec-1 .description {
+      padding-top: 240px;
+    }
+
+    .navbar-nav {
+      flex-direction: column !important;
+      align-items: center;
+    }
+
+    .navbar-toggler:active .description {
+      padding-top: 0px;
+    }
+
+    .sec-1 .line-img {
+      height: 20px;
+    }
+        .ashoka-university-detail-page .heading {
+      font-size: 31px;
+    }
+     .the-rotary-foundation .information-1 {
+      font-size: 26px;
+    }
+
+    .the-rotary-foundation .information-2 {
+      font-size: 26px;
+    }
+
+    .the-rotary-foundation .information-3 {
+      font-size: 26px;
+    }
+       .our-partner-1 .text {
+      font-size: 25px;
+    }
+       .sector-in-focus-1 .text {
+      font-size: 25px;
+    }
+       .about-us-section-2 .text {
+      font-size: 20px;
+    }
+    .about-us-nav .nav-menu {
+      margin-top: 0px;
+    }
+    .prdiingcontact {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+
+   .about-us-nav .line-img {
+      height: 20px;
+    }
+
+    .about-us-nav .nav-menu {
+      margin-top: 0px;
+    }
+
+        .sec-4 .text {
+      font-size: 20px;
+    }
+       .sec-2 .text {
+      font-size: 20px;
+    }
+    .sec-1 .description {
+      padding-top: 240px;
+    }
+
+    .navbar-nav {
+      flex-direction: column !important;
+      align-items: center;
+    }
+
+    .navbar-toggler:active .description {
+      padding-top: 0px;
+    }
+
+    .sec-1 .line-img {
+      height: 20px;
+    }
+        .common-heading {
+      font-size: 31px;
+    }
+
+    .common-read-more-btn .btn-text {
+      font-size: 16px;
+    }
+        .our-collaborations .text {
+      font-size: 25px;
+    }
+
+    .article-one {
+      padding-top: 100px;
+    }
+
+    .article-one .heading {
+      font-size: 25px;
+    }
+
+    .article-one .text {
+      font-size: 16px;
+    }
+  .ashoka-university-detail-page .gap {
+      gap: 12px;
+    }
+
+    .trf-main .menu .text1 {
+      font-size: 9px;
+    }
+      .sec-2 .text {
+      font-size: 20px;
+    }
+    .overview-page .menu {
+      padding-top: 0px;
+    }
+
+    main {
+      padding-top: 94px;
+    }
+
+    .about-us-nav {
+      background-position: bottom 30px center;
+    }
+
+    section.thank-you-page {
+      padding-top: 0rem;
+      padding-bottom: 50px;
+    }
+
+    nav.menu.pt-3.mt-lg-0 {
+      padding-bottom: 10px;
+    }
+
+    .ashoka-university-detail-page .heading {
+      font-size: 31px;
+    }
+
+    .ashoka-university-detail-page .view-article {
+      font-size: 20px;
+    }
+
+
+    .the-rotary-foundation .information-1,
+    .the-rotary-foundation .information-2,
+    .the-rotary-foundation .information-3 {
+      font-size: 20px;
+    }
+
+    .sec-1 .m-logo {
+      display: inline-block;
+      position: absolute;
+      top: 5rem;
+      left: 18rem;
+      transform: translateX(-50%);
+      width: 16rem;
+      height: auto;
+      z-index: 10;
+    }
+
+    .contact-us {
+      padding-top: 10px;
+      padding-bottom: 0;
+    }
+
+    .sec-1 .flower-1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin-bottom: 19rem;
+      z-index: 2;
+    }
+
+ 
+    .sec-1 .description {
+      font-size: 40px;
+    }
+
+    .sec-1 .logo {
+      display: none;
+    }
+
+    .sec-1-line {
+      margin-right: 1rem;
+      margin-top: -2rem;
+    }
+
+    .sec-1 nav {
+      position: relative;
+      z-index: 8;
+    }
+
+    .common-read-more-btn .btn-text {
+      font-size: 16px;
+    }
+
+    .sec-4 .text {
+      font-size: 20px;
+    }
+
+    .sec-1 .m-logo {
+      display: inline-block;
+      position: absolute;
+      top: 5rem;
+      left: 16rem;
+      transform: translateX(-50%);
+      width: 16rem;
+      height: auto;
+      z-index: 10;
+    }
+
+    .sec-1 .flower-1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin-bottom: 21rem;
+      z-index: 2;
+    }
+
+    .about-us-nav .line-img {
+      height: 20px;
+    }
+
+    .about-us-nav .nav-menu {
+      margin-top: 0px;
+    }
+
+
+    .sec-1 .description {
+      font-size: 40px;
+    }
+
+    .sec-1 .logo {
+      display: none;
+    }
+
+    .sec-1 nav {
+      position: relative;
+      z-index: 8;
+    }
+
+    .sec-1 .m-logo {
+      display: inline-block;
+      position: absolute;
+      top: 6%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 12rem;
+      height: auto;
+      z-index: 10;
+    }
+
+    .sec-1 .flower-1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin-bottom: 21rem;
+      z-index: 2;
+    }
+
+    .sec-1 .flower-2 {
+      margin-top: 2rem;
+      margin-bottom: -2rem;
+    }
+
+    .sec-1-line {
+      margin-right: 1rem;
+      margin-top: -1rem;
+    }
+
+
+    .sec-1 .description {
+      font-size: 40px;
+    }
+
+    .sec-1 .logo {
+      display: none;
+    }
+
+    .sec-1 nav {
+      position: relative;
+      z-index: 8;
+    }
+
+    .logoto2 {
+      height: 80px;
+      bottom: 35px;
+    }
+
+    button.navbar-toggler {
+      margin-top: 3px !important;
+    }
+  }
+
+  @media (max-width: 400px) {
+        .ashoka-university-detail-page .gap {
+      gap: 7px;
+    }
+
+    .ashoka-university-detail-page .gap .icons {
+      height: 15px;
+      width: 15px;
+    }
+
+    .ashoka-university-detail-page .gap .share {
+      font-size: 13px;
+    }
+
+    .ashoka-university-detail-page .name {
+      font-size: 11px;
+    }
+
+    .ashoka-university-detail-page .date {
+      font-size: 11px;
+    }
+        .sector-in-focus-1 .image-2 {
+      max-width: 320px;
+    }
+ .our-partner-1 .text {
+      font-size: 22px;
+    }
+    .sector-in-focus-1 .text {
+      font-size: 22px;
+    }
+    .our-partner-1 .text {
+      font-size: 22px;
+    }
+      .sector-in-focus-1 .image-2 {
+      max-width: 320px;
+    }
+
+    .sector-in-focus-1 .text {
+      font-size: 22px;
+    }
+        .our-collaborations .text {
+      font-size: 22px;
+    }
+
+    .our-partner-1 .text {
+      font-size: 18px;
+      width: 327px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+  }
+
+  @media (max-width: 374px) {
+    .thankyoucontent {
+      padding-right: 40px;
+    }
+
+    .contact-us .heading {
+      font-size: 17px;
+    }
+
+    .prdiingcontact {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    .ashoka-university-detail-page .heading {
+      font-size: 23px;
+    }
+
+    .sec-1 .m-logo {
+      display: inline-block;
+      position: absolute;
+      top: 1rem;
+      left: 12rem;
+      transform: translateX(-50%);
+      width: 12rem;
+      height: auto;
+      z-index: 10;
+    }
+
+    .sec-1 .flower-1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin-bottom: 25rem;
+      z-index: 2;
+    }
+
+    .sec-1 .flower-2 {
+      margin-top: 2rem;
+      margin-bottom: -2rem;
+    }
+
+    .sec-1-content {
+      font-size: medium;
+      width: 100%;
+      height: fit-content;
+    }
+
+    .sec-1-line {
+      margin-right: 1rem;
+      margin-top: -1rem;
+    }
+
+
+    .sec-1 .description {
+      font-size: 40px;
+    }
+
+    .sec-1 .logo {
+      display: none;
+    }
+
+    .sec-1 nav {
+      position: relative;
+      z-index: 8;
+    }
+      .ashoka-university-detail-page .heading {
+      font-size: 23px;
+    }
+      .common-heading {
+      font-size: 23px;
+    }
+  }
+
+  @media (max-width: 365px) {
+.sec-1 .description {
+      font-size: 30px;
+    }
+    /* Overview Page */
+    .overview-page-main .common-heading {
+      font-size: 19px;
+      margin: 0px;
+    }
+
+    .overview-page .menu {
+      padding-left: 20px;
+    }
+
+    .overview-page .menu .text1 {
+      font-size: 9px !important;
+    }
+
+    .container {
+      margin-top: 27px !important;
+    }
+
+    .overview-page .text h2 {
+      font-size: 10px;
+    }
+
+    .container :nth-child(3) {
+      /* background-color: lime; */
+      padding-top: 20px !important;
+      padding-bottom: 50px !important;
+    }
+
+    .cirile {
+      top: 2px;
+      right: 1rem;
+    }
+
+    .overview-page .circle-img {
+      height: 15px;
+      width: 15px;
+    }
+
+    .overview-page .img-text {
+      margin-left: 6px;
+    }
+
+    .img-text h5 {
+      font-size: 13px !important;
+      padding-top: 6px !important;
+    }
+
+    /* Our Collaborations */
+    .our-collaborations .common-heading {
+      font-size: 1.3rem !important;
+    }
+  }
+
+
+ 

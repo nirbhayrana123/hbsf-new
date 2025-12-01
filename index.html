@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>HBSF - Home</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link href="./assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.14/fullpage.min.css" />
+  <link href="./assets/css/style.css" rel="stylesheet" />
+  <link href="./assets/css/responsive.css" rel="stylesheet" /> 
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+    }
+ 
+  </style> 
+</head>
+
+<body>
+  <div id="cursor" class="cursor">
+    <div class="ring">
+      <div><!--Border--></div>
+    </div>
+    <div class="ring">
+      <div><!--Pointer--></div>
+    </div>
+  </div>
+
+
+  <div id="fullpage">
+    <header class="about-us-nav">
+      <nav class="navbar d-flex justify-content-between w-100">
+        <div class="container-fluid flex-row justify-content-between">
+
+          <div class="mainlogo">
+            <div class="img-fluid logo-2"></div>
+            <a href="index.html">
+              <img src="./assets/img/logo-svg.svg" class="one logoto2">
+              <img src="./assets/img/logoto.png" class="logoto2 mobile-hide">
+            </a>
+          </div>
+
+          <button class="navbar-toggler border-0 d-flex align-self-start mt-4 mt-sm-3 mt-md-2" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation" id="navbarButton">
+            <div id="toggleIcon" class="menuicon">
+              <span class="linemenu lineone"></span>
+              <span class="linemenu linetow"></span>
+              <span class="linemenu linethree"></span>
+            </div>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center effect" style="height:auto;"
+            id="navbarNavAltMarkup">
+            <div class="navbar-nav nav-menu gap flex-wrap align-items-start jusify-self-end flex-column">
+              <li class="nav-item d-flex flex-row align-items-center">
+
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown d-flex flex-row align-items-center">
+
+                <a class="nav-link dropdown-toggle order-1" href="#" role="button" id="dropdownMenuLink"
+                  data-bs-toggle="dropdown" href="" aria-expanded="false">About Us</a>
+                <ul class="dropdown-menu border-0 order-0 bg-transparent" aria-labelledby="dropdownMenuLink">
+                  <div class="background pt-3">
+                    <li><a class="dropdown-item nav-link p-1 list-text" href="./about-us.html">Our Journey</a></li>
+                    <li><a class="dropdown-item nav-link p-1 list-text" href="about-us.html#giving-philosophy">Giving
+                        Philosophy</a></li>
+                    <li><a class="dropdown-item nav-link p-1 list-text" href="about-us.html#guiding-principles">Guiding
+                        Principles</a></li>
+                    <li><a class="dropdown-item nav-link p-1 list-text" href="about-us.html#founding-members">Founding
+                        Members</a></li>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown d-flex flex-row align-items-center">
+
+                <a class="nav-link dropdown-toggle order-1" role="button" id="dropdownMenuLink2"
+                  data-bs-toggle="dropdown" href="#" aria-expanded="false">Our Work</a>
+                <ul class="dropdown-menu border-0 order-0 bg-transparent" aria-labelledby="dropdownMenuLink2">
+                  <div class="background pt-3">
+                    <li><a class="dropdown-item nav-link p-1 list-text" href="./overview-page.html">An
+                        Overview</a></li>
+                    <li><a class="dropdown-item nav-link p-1 list-text" href="./sector-in-focus.html">Sector in
+                        Focus</a></li>
+                    <li><a class="dropdown-item nav-link p-1 list-text" href="./our-partners.html">Our
+                        Partners</a></li>
+                    <li><a class="dropdown-item nav-link p-1 list-text" href="./our-collaborations.html">Our
+                        Collabrations</a></li>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="nav-item d-flex flex-row align-items-center">
+
+                <a class="nav-link" href="./news&narratives.html">News & Narratives</a>
+              </li>
+              <li class="nav-item d-flex flex-row align-items-center">
+
+                <a class="nav-link" href="./contact-us.html">Connect</a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Home Page Section -->
+    <section class="sec-1 section-height position-relative">
+      <a href="index.html">
+        <img src="./assets/img/logo.png" class="m-logo" />
+      </a>
+      <canvas class="waterEffect"></canvas>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg d-flex dextophomeheader justify-content-between w-100">
+
+        <div class="container flex-row flex-lg-column justify-content-between justify-content-lg-center">
+          <a href="index.html">
+            <img src="./assets/img/logo.png" class="img-fluid logo" />
+          </a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <img src="./assets/img/nav-btn-img.png" class="border-0 btn-img" />
+          </button>
+          <div class="collapse navbar-collapse justify-content-center pt-3 pt-lg-0 mt-3" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav-menu gap flex-row align-items-center align-items-md-start">
+
+              <li class="nav-item customeborder">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item customeborder dropdown d-flex flex-column align-items-center">
+                <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink3"
+                  data-bs-toggle="dropdown" href="" aria-expanded="false">About Us</a>
+                <ul class="dropdown-menu border-0 bg-transparent" aria-labelledby="dropdownMenuLink3">
+                  <div class="background pt-3">
+                    <li>
+                      <a class="dropdown-item nav-link p-1 list-text" href="./about-us.html">Our Journey</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link p-1 list-text" href="about-us.html#giving-philosophy">Giving
+                        Philosophy</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link p-1 list-text" href="about-us.html#guiding-principles">Guiding
+                        Principles</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link p-1 list-text" href="about-us.html#founding-members">Founding
+                        Members</a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="nav-item customeborder dropdown d-flex flex-column align-items-center">
+                <a class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink4" data-bs-toggle="dropdown"
+                  href="#" aria-expanded="false">Our Work</a>
+                <ul class="dropdown-menu border-0 bg-transparent" aria-labelledby="dropdownMenuLink4">
+                  <div class="background pt-3">
+                    <li>
+                      <a class="dropdown-item nav-link p-1 list-text" href="./overview-page.html">An Overview</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link p-1 list-text" href="./sector-in-focus.html">Sector in Focus</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link p-1 list-text" href="./our-partners.html">Our Partners</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link p-1 list-text" href="./our-collaborations.html">Our
+                        Collabrations</a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+
+              <!-- News & Narratives -->
+              <li class="nav-item customeborder">
+                <a class="nav-link" href="./news&narratives.html">News & Narratives</a>
+              </li>
+
+              <!-- Connect -->
+              <li class="nav-item customeborder">
+                <a class="nav-link" href="./contact-us.html">Connect</a>
+              </li>
+            </div>
+          </div>
+      </nav>
+      <!-- Content -->
+      <div class="description container-fluid pb-0">
+        <div class="justify-content-center">
+          <div class="content sec-1-content stripbottom red">
+            <h1 class="border-b">“Some acts of care may never be seen, but they shift the world all the same”</h1>
+          </div>
+        </div>
+      </div>
+      </nav>
+    </section>
+
+    <!-- Note from the founders -->
+    <section class="sec-2 section-height animationsec" data-aos="fade-down" data-aos-duration="2000">
+      <canvas class="waterEffect"></canvas>
+      <div class="container text-center h-100">
+        <div class="row justify-content-center align-items-center h-100">
+          <div class="col-12" id="main-sec-2">
+
+            <div class="row justify-content-center">
+              <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
+
+                <h2 class="border-b common-heading">Note from the founders</h2>
+
+              </div>
+            </div>
+
+
+            <div class="row justify-content-center gap" id="sec-2-content">
+              <div class="some-descrip">
+                <p class="sec-2-text mb-3" data-aos="fade-up" data-aos-duration="2000">
+                  Some of the most meaningful moments in our lives have come
+                  from simply being there<br /> for someone—listening, learning, and
+                  sharing what we could.
+                </p>
+                <p class="sec-2-text mb-3" data-aos="fade-up" data-aos-duration="1500">
+                  That instinct is what led us to start this foundation.
+                </p>
+                <p class="sec-2-text mb-3" data-aos="fade-up" data-aos-duration="1000">
+                  Philanthropy will always be about choice: the choice to
+                  stand beside people doing <br /> important work, to rethink norms
+                  where needed, and to let responsibility and compassion <br /> guide
+                  the way.
+                </p>
+                <p class="sec-2-text mb-4" data-aos="fade-up" data-aos-duration="500">
+                  As you walk your journey—whether in giving, creating, or
+                  caring—be free with your ideas<br /> and your heart because
+                  lasting change comes from the sum of all our deeds.
+                </p>
+                <div class="Signature">
+                  <img src="./assets/img/sec-2-sign.png" class="img-fluid sign" alt="Signature" data-aos="fade-up"
+                    data-aos-duration="3000" />
+                  <div class="sign-name">Bina and Harish Shah</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sectors in focus (Slider) -->
+    <section class="sec-7 section-height">
+      <!-- Headings -->
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <h2 class="border-b common-heading">SECTORS IN FOCUS</h2>
+
+
+        </div>
+      </div>
+
+
+
+
+      <!-- Slider -->
+      <div class="container-fluid pb-3 sec-7-slider">
+        <!-- Cards -->
+        <div class="marquee-track">
+          <div class="marquee-track-list">
+            <div class="marquee-content">
+              <!-- Card 1 -->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/mr1.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Sports</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/star.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Art and Culture</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/img2.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Economic Reforms</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 4 -->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/img3.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Education</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 5-->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/image (1).png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Environment</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 6-->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/mr6.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Health</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 7-->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/mr7.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Legal Aid</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 8-->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/mr8.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Livelihood</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+
+              <!-- Card 1 -->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/mr1.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Sports</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/star.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Art and Culture</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/img2.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Economic Reforms</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 4 -->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/img3.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Education</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 5-->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/image (1).png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Environment</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 6-->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/mr6.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Health</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 7-->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/mr7.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Legal Aid</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card 8-->
+              <div class="sec-7-c">
+                <div class="col-md-3 d-flex justify-content-center">
+                  <a class="position-relative abc">
+                    <div class="svgbg">
+
+                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_5788_5324)">
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
+                            fill="url(#paint0_linear_5788_5324)" />
+                          <path
+                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
+
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="22.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
+                              result="shape" />
+                          </filter>
+                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.5" stop-color="#F0E6DA" />
+                            <stop offset="0.9" stop-color="#D2BDA6" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <img src="./assets/img/mr8.png" class="image" />
+                    </div>
+
+                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
+                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <div class="text">Livelihood</div>
+                    </div>
+                  </a>
+                </div>
+              </div> 
+
+            </div>
+
+
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="sec-4 section-height">
+      <div class="container">
+        <h2 class="border-b common-heading">About Us</h2>
+        <div class="contents">
+          <p>In the early 2000s, we began supporting efforts that opened <br />up
+            access to education, healthcare, and dignified livelihoods.
+            <br />
+            <br />
+
+            What started as personal giving grew into long-term<br />
+            relationships with grassroots organizations, and eventually into<br />
+            a foundation built to carry this work forward with care,<br />
+            patience, and commitment.
+          </p>
+          <a class="button2" href="./about-us.html">Read More</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LATEST UPDATE -->
+    <section class="sec-5 section-height">
+      <!-- Top Heading -->
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <h2 class="border-b common-heading">LATEST UPDATES</h2>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="news-slider" class="owl-carousel">
+              <!-- Card 1 -->
+              <div class="post-slide d-flex justify-content-center" style="padding-bottom: 30px;">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-1.svg" class="image base-image" />
+                  <img src="./assets/img/index-faded-image.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-2">News Article</div>
+                    <div class="text-3">
+                      Ashoka University's plans <br />to build an institution <br />of
+                      higher learning
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class="textwhite description-text">
+                      The Harish and Bina Shah Foundation (HBSF) has made a
+                      donation of Rs 250 crores to<br /> support the institution's
+                      growth <br />and development.
+                    </div>
+
+                    <div class="text-4 source-text-article">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-4 source-text">Financial Express</div>
+
+                  </div>
+                </a>
+              </div>
+              <!-- Card 2 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-2.svg" class="image base-image" alt="..." />
+                  <img src="./assets/img/index-faded-image-2.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-5">News Article</div>
+
+                    <!-- Heading -->
+                    <div class="text-6">
+                      In Mysuru, Why This Famous 1905 Mansion Has Undergone Many
+                      Renovations
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class=" description-text">
+                      This historic mansion has been carefully preserved and
+                      renovated multiple times to maintain its architectural
+                      heritage.
+                    </div>
+
+                    <div class="text-4 source-text-article" style="color: #913832 !important;">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-7 source-text" style="color: #913832 !important;">News18</div>
+                  </div>
+                </a>
+              </div>
+              <!-- Card 3 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-3.svg" class="image base-image" />
+                  <img src="./assets/img/index-faded-image.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-2">News Article</div>
+
+                    <!-- Heading -->
+                    <div class="text-3">
+                      Ashoka University's plans to build an institution of
+                      higher learning
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class="textwhite description-text">
+                      Holy Family Hospital Pays Tribute to COVID-19 Warriors.
+                    </div>
+
+                    <div class="text-4 source-text-article">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-4 source-text">Financial Express</div>
+                  </div>
+                </a>
+              </div>
+              <!-- Card 4 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-1.svg" class="image base-image" />
+                  <img src="./assets/img/index-faded-image.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-2">News Article</div>
+
+                    <!-- Heading -->
+                    <div class="text-3">
+                      Ashoka University's plans to build an institution of
+                      higher learning
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class="textwhite description-text">
+                      The Harish and Bina Shah Foundation (HBSF) has made a
+                      donation of Rs 250 crores to support the institution's
+                      growth and development.
+                    </div>
+
+                    <div class="text-4 source-text-article">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-4 source-text">Financial Express</div>
+                  </div>
+                </a>
+              </div>
+              <!-- Card 5 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-2.svg" class="image base-image" alt="..." />
+                  <img src="./assets/img/index-faded-image-2.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-5">News Article</div>
+
+                    <!-- Heading -->
+                    <div class="text-6">
+                      In Mysuru, Why This Famous 1905 Mansion Has Undergone Many
+                      Renovations
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class=" description-text">
+                      This historic mansion has been carefully preserved and
+                      renovated multiple times to maintain its architectural
+                      heritage.
+                    </div>
+
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-7 source-text-2">News18</div>
+                  </div>
+                </a>
+              </div>
+              <!-- Card 6 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-1.svg" class="image base-image" />
+                  <img src="./assets/img/index-faded-image.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-2">News Article</div>
+                    <div class="text-3">
+                      Ashoka University's plans <br />to build an institution <br />of
+                      higher learning
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class="textwhite description-text">
+                      The Harish and Bina Shah Foundation (HBSF) has made a
+                      donation of Rs 250 crores to<br /> support the institution's
+                      growth <br />and development.
+                    </div>
+
+                    <div class="text-4 source-text-article">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-4 source-text">Financial Express</div>
+
+                  </div>
+                </a>
+              </div>
+              <!-- Card 7 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-2.svg" class="image base-image" alt="..." />
+                  <img src="./assets/img/index-faded-image-2.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-5">News Article</div>
+
+                    <!-- Heading -->
+                    <div class="text-6">
+                      In Mysuru, Why This Famous 1905 Mansion Has Undergone Many
+                      Renovations
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class=" description-text">
+                      This historic mansion has been carefully preserved and
+                      renovated multiple times to maintain its architectural
+                      heritage.
+                    </div>
+
+                    <div class="text-4 source-text-article" style="color: #913832 !important;">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-7 source-text" style="color: #913832 !important;">News18</div>
+                  </div>
+                </a>
+              </div>
+              <!-- Card 8 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-3.svg" class="image base-image" />
+                  <img src="./assets/img/index-faded-image.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-2">News Article</div>
+
+                    <!-- Heading -->
+                    <div class="text-3">
+                      Ashoka University's plans to build an institution of
+                      higher learning
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class="textwhite description-text">
+                      Holy Family Hospital Pays Tribute to COVID-19 Warriors.
+                    </div>
+
+                    <div class="text-4 source-text-article">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-4 source-text">Financial Express</div>
+                  </div>
+                </a>
+              </div>
+              <!-- Card 9 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-1.svg" class="image base-image" />
+                  <img src="./assets/img/index-faded-image.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-2">News Article</div>
+                    <div class="text-3">
+                      Ashoka University's plans <br />to build an institution <br />of
+                      higher learning
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class="textwhite description-text">
+                      The Harish and Bina Shah Foundation (HBSF) has made a
+                      donation of Rs 250 crores to<br /> support the institution's
+                      growth <br />and development.
+                    </div>
+
+                    <div class="text-4 source-text-article">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-4 source-text">Financial Express</div>
+
+                  </div>
+                </a>
+              </div>
+              <!-- Card 10 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-2.svg" class="image base-image" alt="..." />
+                  <img src="./assets/img/index-faded-image-2.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-5">News Article</div>
+
+                    <!-- Heading -->
+                    <div class="text-6">
+                      In Mysuru, Why This Famous 1905 Mansion Has Undergone Many
+                      Renovations
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class=" description-text">
+                      This historic mansion has been carefully preserved and
+                      renovated multiple times to maintain its architectural
+                      heritage.
+                    </div>
+
+                    <div class="text-4 source-text-article" style="color: #913832 !important;">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-7 source-text" style="color: #913832 !important;">News18</div>
+                  </div>
+                </a>
+              </div>
+              <!-- Card 11 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-3.svg" class="image base-image" />
+                  <img src="./assets/img/index-faded-image.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-2">News Article</div>
+
+                    <!-- Heading -->
+                    <div class="text-3">
+                      Ashoka University's plans to build an institution of
+                      higher learning
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class="textwhite description-text">
+                      Holy Family Hospital Pays Tribute to COVID-19 Warriors.
+                    </div>
+
+                    <div class="text-4 source-text-article">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-4 source-text">Financial Express</div>
+                  </div>
+                </a>
+              </div>
+              <!-- Card 12 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-1.svg" class="image base-image" />
+                  <img src="./assets/img/index-faded-image.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-2">News Article</div>
+
+                    <!-- Heading -->
+                    <div class="text-3">
+                      Ashoka University's plans to build an institution of
+                      higher learning
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class="textwhite description-text">
+                      The Harish and Bina Shah Foundation (HBSF) has made a
+                      donation of Rs 250 crores to support the institution's
+                      growth and development.
+                    </div>
+
+                    <div class="text-4 source-text-article">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-4 source-text">Financial Express</div>
+                  </div>
+                </a>
+              </div>
+              <!-- Card 13 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-2.svg" class="image base-image" alt="..." />
+                  <img src="./assets/img/index-faded-image-2.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-5">News Article</div>
+
+                    <!-- Heading -->
+                    <div class="text-6">
+                      In Mysuru, Why This Famous 1905 Mansion Has Undergone Many
+                      Renovations
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class=" description-text">
+                      This historic mansion has been carefully preserved and
+                      renovated multiple times to maintain its architectural
+                      heritage.
+                    </div>
+
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-7 source-text-2">News18</div>
+                  </div>
+                </a>
+              </div>
+              <!-- Card 14 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-1.svg" class="image base-image" />
+                  <img src="./assets/img/index-faded-image.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-2">News Article</div>
+                    <div class="text-3">
+                      Ashoka University's plans <br />to build an institution <br />of
+                      higher learning
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class="textwhite description-text">
+                      The Harish and Bina Shah Foundation (HBSF) has made a
+                      donation of Rs 250 crores to<br /> support the institution's
+                      growth <br />and development.
+                    </div>
+
+                    <div class="text-4 source-text-article">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-4 source-text">Financial Express</div>
+
+                  </div>
+                </a>
+              </div>
+              <!-- Card 15 -->
+              <div class="post-slide d-flex justify-content-center">
+                <a class="position-relative article-card" href="">
+                  <img src="./assets/img/sec-5-slider-img-2.svg" class="image base-image" alt="..." />
+                  <img src="./assets/img/index-faded-image-2.svg" class="image overlay-image" />
+                  <div class="d-flex flex-column position-absolute justify-content-start bottom-div">
+                    <div class="text-5">News Article</div>
+
+                    <!-- Heading -->
+                    <div class="text-6">
+                      In Mysuru, Why This Famous 1905 Mansion Has Undergone Many
+                      Renovations
+                    </div>
+
+                    <!-- Description - Hidden by default -->
+                    <div class=" description-text">
+                      This historic mansion has been carefully preserved and
+                      renovated multiple times to maintain its architectural
+                      heritage.
+                    </div>
+
+                    <div class="text-4 source-text-article" style="color: #913832 !important;">Read Article</div>
+                    <!-- Source - Will move down on hover -->
+                    <div class="text-7 source-text" style="color: #913832 !important;">News18</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Read More Button -->
+      <div class="contents mt-6">
+        <a class="button2" href="./about-us.html">Read More</a>
+      </div>
+
+
+
+    </section>
+
+
+
+    <div class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <a class="footer-logo" href="index.html">
+            <img src="./assets/img/footer-logo.png">
+          </a>
+
+          <div class="footer-terms-of">
+            <a href="./terms-of-use.html">Terms of Use</a>
+            <a href="./privacy-policy.htm">Privacy Policy</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom-text">
+          <p>CIN: U74999MH2015NPL262041</p>
+          <p>Harish & Bina Shah Foundation is a not-for-profit company
+            incorporated under Section 8 of the Companies Act, 2013.</p>
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+
+
+
+
+
+
+</body>
+
+<!-- Load dependencies in correct order: jQuery (used by some code), Bootstrap bundle (with Popper), then custom scripts -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- Custom scripts -->
+<!-- GSAP (animations) and page-specific script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script src="./assets/js/home.js"></script>
+<script src="./assets/js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>

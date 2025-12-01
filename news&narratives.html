@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>HBSF - NEWS & NARRATIVES</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+ <link href="./assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="cursor" class="cursor">
+        <div class="ring">
+            <div><!--Border--></div>
+        </div>
+        <div class="ring">
+            <div><!--Pointer--></div>
+        </div>
+    </div>
+    <header class="about-us-nav">
+        <nav class="navbar d-flex justify-content-between w-100">
+            <div class="container-fluid flex-row justify-content-between">
+
+                <div class="mainlogo">
+                    <div class="img-fluid logo-2"></div>
+                    <a href="index.html">
+                        <img src="./assets/img/logo-svg.svg" class="one logoto2">
+                        <img src="./assets/img/logoto.png" class="logoto2 mobile-hide">
+                    </a>
+                </div>
+
+                <button class="navbar-toggler border-0 d-flex align-self-start mt-4 mt-sm-3 mt-md-2" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false" aria-label="Toggle navigation" id="navbarButton">
+                    <div id="toggleIcon" class="menuicon">
+                        <span class="linemenu lineone"></span>
+                        <span class="linemenu linetow"></span>
+                        <span class="linemenu linethree"></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center effect" style="height:auto;"
+                    id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-menu gap flex-wrap align-items-start jusify-self-end flex-column">
+                        <li class="nav-item d-flex flex-row align-items-center">
+
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown d-flex flex-row align-items-center">
+
+                            <a class="nav-link dropdown-toggle order-1" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" href="" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu border-0 order-0 bg-transparent"
+                                aria-labelledby="dropdownMenuLink">
+                                <div class="background pt-3">
+                                    <li><a class="dropdown-item nav-link p-1 list-text"
+                                            href="about-us.html#our-journey">Our
+                                            Journey</a></li>
+                                    <li><a class="dropdown-item nav-link p-1 list-text"
+                                            href="about-us.html#giving-philosophy">Giving Philosophy</a></li>
+                                    <li><a class="dropdown-item nav-link p-1 list-text"
+                                            href="about-us.html#guiding-principles">Guiding Principles</a></li>
+                                    <li><a class="dropdown-item nav-link p-1 list-text"
+                                            href="about-us.html#founding-members">Founding Members</a></li>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown d-flex flex-row align-items-center">
+
+                            <a class="nav-link dropdown-toggle order-1" role="button" id="dropdownMenuLink2"
+                                data-bs-toggle="dropdown" href="#" aria-expanded="false">Our Work</a>
+                            <ul class="dropdown-menu border-0 order-0 bg-transparent"
+                                aria-labelledby="dropdownMenuLink2">
+                                <div class="background pt-3">
+                                    <li><a class="dropdown-item nav-link p-1 list-text" href="./overview-page.html">An
+                                            Overview</a></li>
+                                    <li><a class="dropdown-item nav-link p-1 list-text"
+                                            href="./sector-in-focus.html">Sector in Focus</a></li>
+                                    <li><a class="dropdown-item nav-link p-1 list-text" href="./our-partners.html">Our
+                                            Partners</a></li>
+                                    <li><a class="dropdown-item nav-link p-1 list-text"
+                                            href="./our-collaborations.html">Our Collabrations</a></li>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item d-flex flex-row align-items-center">
+
+                            <a class="nav-link" href="./news&narratives.html">News & Narratives</a>
+                        </li>
+                        <li class="nav-item d-flex flex-row align-items-center">
+
+                            <a class="nav-link" href="./contact-us.html">Connect</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="news-narratives-page">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="menu  pt-lg-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html" class="text1">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="./news&narratives.html"
+                            class="text1">News & Narratives</a></li>
+                </ol>
+            </nav>
+            <div class="container text-center mt-5 ">
+                <div class="row justify-content-center">
+                    <h2 class="border-b common-heading">NEWS & NARRATIVES</h2> 
+                </div>
+                <!-- <input type="text" placeholder="Filter by Sector" class="input-tag"> -->
+
+                <div id="filterBox" class=" justify-content-end mt-5">
+                    <div class="filter-box">
+                        <div class="filter-head"><input type="text" placeholder="Filter by Sector" class="input-tag">
+                        </div>
+
+                        <ul class="filter-list">
+                            <li>Art & Culture</li>
+                            <li>Education</li>
+                            <li>Economic Reform</li>
+                            <li>Environment & Sustainability</li>
+                            <li>Health</li>
+                            <li>Legal Aid</li>
+                            <li>Livelihood</li>
+                            <li>Sports</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="row  pt-5">
+                    <div class="col-12 col-lg-6 d-flex flex-column align-items-start pr-3 pright effect">
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid">
+                        <div class="ifeect">
+                            <div class="news-article mt-5">News Article</div>
+                            <div class="name text-start">Ashoka University gets ₹250 cr grant from Harish & Bina Shah
+                                Foundation</div>
+                            <div class="description text-start mt-4">Ashoka University’s plans to build an institution
+                                of higher learning, as the Harish and Bina Shah Foundation (HBSF) has made a donation of
+                                Rs 250 crores, the single largest such contribution received...</div>
+                            <a class="text-decoration-none text-start mt-3"
+                                href="./ashoka-university-details-page.html">
+                                <span class="read-more">Read Article</span>
+                                <img src="./assets/img/news&narratives-arrow.png" class="img-fluid">
+                            </a>
+                            <div class="name-date text-start mt-4">Financial Express</div>
+                            <div class="name-date no-itelic text-start">December 19, 2023</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex flex-column align-items-start pleft effect pt-5 pt-lg-0">
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid">
+                        <div class="ifeect">
+                            <div class="news-article mt-5">News Article</div>
+                            <div class="name text-start">In Mysuru, Why This Famous 1905 Mansion Has Undergone Many
+                                Renovations</div>
+                            <div class="description text-start mt-4">The Jayalakshmi Vilas Mansion, located on the
+                                premises of Manasa Gangotri, the campus of the University of Mysore, is now all set to
+                                be renovated. The Deccan Heritage Foundation (DHF) has secured a landmark five-year
+                                grant of 30 crores...</div>
+                            <a class="text-decoration-none text-start mt-3">
+                                <span class="read-more">Read Article</span>
+                                <img src="./assets/img/news&narratives-arrow.png" class="img-fluid">
+                            </a>
+                            <div class="name-date text-start mt-4">News18</div>
+                            <div class="name-date no-itelic text-start">June 15, 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-12 col-lg-6 d-flex flex-column align-items-start pright effect">
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid">
+                        <div class="ifeect">
+                            <div class="news-article mt-5">News Article</div>
+                            <div class="name text-start">Holy Family Hospital Pays Tribute to COVID-19 Warriors</div>
+                            <div class="description text-start mt-4">Mumbai, 15th April, 2023: In a first of its kind
+                                initiative, Holy Family was the first private charitable trust hospital to partner with
+                                the Brihanmumbai Municipal Corporation to run entirely free of cost, a Covid Care
+                                Isolation Center at Khar, Mumbai during the outbreak...</div>
+                            <a class="text-decoration-none text-start mt-3">
+                                <span class="read-more">Read Article</span>
+                                <img src="./assets/img/news&narratives-arrow.png" class="img-fluid">
+                            </a>
+                            <div class="name-date text-start mt-4">National Herald News</div>
+                            <div class="name-date no-itelic text-start">April 17, 2023</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex flex-column align-items-start pleft effect pt-5 pt-lg-0">
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid">
+                        <div class="ifeect">
+                            <div class="news-article mt-5">News Article</div>
+                            <div class="name text-start">The HBSF-MAHE EduEmpower Scholarship</div>
+                            <div class="description text-start mt-4">Manipal (Karnataka) [India], February 25: At
+                                Manipal Academy of Higher Education (MAHE), we’re dedicated to making quality education
+                                accessible to all. The HBSF (Harish and Bina Shah Foundation) – MAHE EduEmpower
+                                Scholarship reflects this commitment...</div>
+                            <a class="text-decoration-none text-start mt-3">
+                                <span class="read-more">Read Article</span>
+                                <img src="./assets/img/news&narratives-arrow.png" class="img-fluid">
+                            </a>
+                            <div class="name-date text-start mt-4">The Print</div>
+                            <div class="name-date no-itelic text-start">February 25, 2025</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-12 col-lg-6 d-flex pright flex-column align-items-start effect">
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid">
+                        <div class="ifeect">
+                            <div class="news-article mt-5">News Article</div>
+                            <div class="name text-start">Academia tries to keep up with fast evolving AI trends</div>
+                            <div class="description text-start mt-4">Artificial Intelligence was introduced as a Class 9
+                                subject by the CBSE board in 2019—at least three years before ChatGPT was launched—a
+                                prescient decision that signaled growing awareness within academia about AI's potential.
+                                In the intervening years...</div>
+                            <a class="text-decoration-none text-start mt-3">
+                                <span class="read-more">Read Article</span>
+                                <img src="./assets/img/news&narratives-arrow.png" class="img-fluid">
+                            </a>
+                            <div class="name-date text-start mt-4">The Times Of India</div>
+                            <div class="name-date no-itelic text-start">April 27, 2025</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex flex-column pleft align-items-start effect pt-5 pt-lg-0">
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid">
+                        <div class="ifeect">
+                            <div class="news-article mt-5">News Article</div>
+                            <div class="name text-start">Rekhta Foundation Announces Shaam-e-Rekhta Celebrations in
+                                Mumbai and Hyderabad</div>
+                            <div class="description text-start mt-4">The Rekhta Foundation, in collaboration with the
+                                Harish Bina Shah Foundation, is thrilled to announce Shaam-e-Rekhta, a magical evening
+                                dedicated to celebrating the timeless legacy of Urdu poetry, music, and dance...</div>
+                            <a class="text-decoration-none text-start mt-3">
+                                <span class="read-more">Read Article</span>
+                                <img src="./assets/img/news&narratives-arrow.png" class="img-fluid">
+                            </a>
+                            <div class="name-date text-start mt-4">Business News This Week</div>
+                            <div class="name-date no-itelic text-start">August 07, 2025</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-12 col-lg-6 d-flex pright flex-column align-items-start effect">
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid">
+                        <div class="ifeect">
+                            <div class="news-article mt-5">Post</div>
+                            <div class="name text-start">New Strategic Partnership</div>
+                            <div class="description text-start mt-4">The Harish and Bina Shah Foundation (HBSF), has
+                                recently undertaken a concerted effort in grant-making, by entering into a strategic
+                                3-year partnership with Dasra, and 10 non-profit partners...</div>
+                            <a class="text-decoration-none text-start mt-3">
+                                <span class="read-more">Read Article</span>
+                                <img src="./assets/img/news&narratives-arrow.png" class="img-fluid">
+                            </a>
+                            <div class="name-date text-start mt-4">LinkedIn Post</div>
+                            <div class="name-date no-itelic text-start">July 27, 2024</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex pleft flex-column align-items-start effect pt-5 pt-lg-0">
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid">
+                        <div class="ifeect">
+                            <div class="news-article mt-5">Post</div>
+                            <div class="name text-start">New Strategic Partnership</div>
+                            <div class="description text-start mt-4">The Harish and Bina Shah Foundation (HBSF), has
+                                recently undertaken a concerted effort in grant-making, by entering into a strategic
+                                3-year partnership with Sattva, and 10 non-profit partners...</div>
+                            <a class="text-decoration-none text-start mt-3">
+                                <span class="read-more">Read Article</span>
+                                <img src="./assets/img/news&narratives-arrow.png" class="img-fluid">
+                            </a>
+                            <div class="name-date text-start mt-4">LinkedIn Post</div>
+                            <div class="name-date no-itelic text-start">August 07, 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5 pb-5">
+                    <div class="col-12 col-lg-6 pright d-flex flex-column align-items-start effect">
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid">
+                        <div class="ifeect">
+                            <div class="news-article mt-5">Article</div>
+                            <div class="name text-start">Beauty in Diversity</div>
+                            <div class="description text-start mt-4">Unlike many other philanthropic foundations that
+                                have core areas of focus, the Harish & Bina Shah Foundation maintains a diversified
+                                portfolio — it is agnostic with its grantmaking decisions, and, since its inception in
+                                2010...</div>
+                            <a class="text-decoration-none text-start mt-3">
+                                <span class="read-more">Read Article</span>
+                                <img src="./assets/img/news&narratives-arrow.png" class="img-fluid">
+                            </a>
+                            <div class="name-date text-start mt-4">Chandler Foundation</div>
+                            <div class="name-date no-itelic text-start">April 19, 2025</div>
+                        </div>
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid pt-4 d-none d-lg-block">
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex pleft flex-column align-items-start effect pt-5 pt-lg-0">
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid">
+                        <div class="ifeect">
+                            <div class="news-article mt-5">Video</div>
+                            <div class="name text-start">The Harish and Bina Shah School of AI</div>
+                            <div class="description text-start mt-4">Plaksha University announced The Harish and Bina
+                                Shah School of AI & Computer Science on it's second annual Foundation Day celebration.
+                                This launch marks a significant step in advancing AI education and leadership in
+                                India...</div>
+                            <a class="text-decoration-none text-start mt-3" href="./yt-page.html">
+                                <span class="read-more">Read Article</span>
+                                <img src="./assets/img/news&narratives-arrow.png" class="img-fluid">
+                            </a>
+                            <div class="name-date text-start mt-4">Plaksha University Youtube</div>
+                            <div class="name-date no-itelic text-start">April 13, 2025</div>
+                        </div>
+                        <img src="./assets/img/news&narratives-line.jpg" class="img-fluid pt-4">
+                    </div>
+                </div>
+
+                <div class="row pb-5 mb-3">
+
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-end  bottom-div">
+                            <li class="page-item disabled">
+                                <a class="page-link"><img src="./assets/img/news&narratives-left-arrow.png"
+                                        class="arrows"></a>
+                            </li>
+                            <li class="page-item "><a class="number-btn " href="#">1</a></li>
+                            <li class="page-item "><a class="number-btn" href="#">2</a></li>
+                            <li class="page-item"><a class="number-btn" href="#">3</a></li>
+                            <li class="page-item"><a class="number-btn" href="#">4</a></li>
+                            <li class="page-item"><a class="number-btn" href="#">10</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#"><img src="./assets/img/news&narratives-right-arrow.png"
+                                        class="arrows">
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">
+                                    <img src="./assets/img/news&narratives-double-arrow.png"
+                                        class="arrows double-arrows"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- <div class="col-12 d-flex justify-content-end bottom-div">
+                    <div>
+                        <img src="./assets/img/news&narratives-left-arrow.png" class="arrows">
+                    </div>
+                    <a class="d-flex justify-content-center align-items-center number-btn">1</a>
+                    <a class="d-flex justify-content-center align-items-center number-btn">2</a>
+                    <a class="d-flex justify-content-center align-items-center number-btn">3</a>
+                    <a class="d-flex justify-content-center align-items-center number-btn">4</a>
+                    <a class="d-flex justify-content-center align-items-center number-btn">10</a>
+                    <div>
+                        <img src="./assets/img/news&narratives-right-arrow.png" class="arrows">
+                        <img src="./assets/img/news&narratives-double-arrow.png" class="arrows ">
+                    </div>  
+                </div>         -->
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+     <div class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <a class="footer-logo" href="index.html">
+            <img src="./assets/img/footer-logo.png">
+          </a>
+
+          <div class="footer-terms-of">
+            <a href="./terms-of-use.html">Terms of Use</a>
+            <a href="./privacy-policy.htm">Privacy Policy</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom-text">
+          <p>CIN: U74999MH2015NPL262041</p>
+          <p>Harish & Bina Shah Foundation is a not-for-profit company
+            incorporated under Section 8 of the Companies Act, 2013.</p>
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+    </main>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/main.js"></script>
+<script>
+    const head = document.querySelector(".filter-head");
+    const list = document.querySelector(".filter-list");
+
+    head.addEventListener("click", () => {
+        list.classList.toggle("open");
+    });
+</script>
+
+</html>

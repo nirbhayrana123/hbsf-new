@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HBSF - About Us - History</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body class="bgaboutcolor">
+    <div id="cursor" class="cursor">
+        <div class="ring">
+            <div><!--Border--></div>
+        </div>
+        <div class="ring">
+            <div><!--Pointer--></div>
+        </div>
+    </div>
+    <header class="about-us-nav">
+        <nav class="navbar d-flex justify-content-between w-100">
+            <div class="container-fluid flex-row justify-content-between">
+
+                <div class="mainlogo">
+                    <div class="img-fluid logo-2"></div>
+                    <a href="index.html">
+                        <img src="./assets/img/logo-svg.svg" class="one logoto2">
+                        <img src="./assets/img/logoto.png" class="logoto2 mobile-hide">
+                    </a>
+                </div>
+
+                <button class="navbar-toggler border-0 d-flex align-self-start mt-4 mt-sm-3 mt-md-2" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false" aria-label="Toggle navigation" id="navbarButton">
+                    <div id="toggleIcon" class="menuicon">
+                        <span class="linemenu lineone"></span>
+                        <span class="linemenu linetow"></span>
+                        <span class="linemenu linethree"></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center effect" style="height:auto;"
+                    id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-menu gap flex-wrap align-items-start jusify-self-end flex-column">
+                        <li class="nav-item d-flex flex-row align-items-center">
+
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown d-flex flex-row align-items-center">
+                            <a class="nav-link dropdown-toggle order-1" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" href="" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu border-0 order-0 bg-transparent"
+                                aria-labelledby="dropdownMenuLink">
+                                <div class="background pt-3 dropdownul">
+                                    <li><a class="navbar-close" href="about-us.html#our-journey">Our Journey</a></li>
+                                    <li><a class="navbar-close" href="about-us.html#giving-philosophy">Giving
+                                            Philosophy</a></li>
+                                    <li><a class="navbar-close" href="about-us.html#guiding-principles">Guiding
+                                            Principles</a></li>
+                                    <li><a class="navbar-close" href="about-us.html#founding-members">Founding
+                                            Members</a></li>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown d-flex flex-row align-items-center">
+
+                            <a class="nav-link dropdown-toggle order-1" role="button" id="dropdownMenuLink2"
+                                data-bs-toggle="dropdown" href="#" aria-expanded="false">Our Work</a>
+                            <ul class="dropdown-menu border-0 order-0 bg-transparent"
+                                aria-labelledby="dropdownMenuLink2">
+                                <div class="background pt-3 dropdownul">
+                                    <li><a href="./overview-page.html">An Overview</a></li>
+                                    <li><a href="./sector-in-focus.html">Sector in Focus</a></li>
+                                    <li><a href="./our-partners.html">Our Partners</a></li>
+                                    <li><a href="./our-collaborations.html">Our Collabrations</a></li>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item d-flex flex-row align-items-center">
+
+                            <a class="nav-link" href="./news&narratives.html">News & Narratives</a>
+                        </li>
+                        <li class="nav-item d-flex flex-row align-items-center">
+
+                            <a class="nav-link" href="./contact-us.html">Connect</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="sector-in-focus-main">
+        <canvas class="waterEffect"></canvas>
+        <section id="our-journey" class="about-us-section-1">
+            <nav aria-label="breadcrumb" class="menu pt-5 mt-5 pb-md-0 pb-5 mt-md-0 pt-md-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html" class="text">Home</a></li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="" class="text">About Us</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a class="text">Our Journey</a></li>
+                </ol>
+            </nav>
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <h2 class="border-b common-heading">OUR JOURNEY</h2>
+                </div>
+            </div>
+            <div class="container gaps">
+                <div class="row position-relative">
+                    <div class="col-12 z-1">
+                        <div class="scrolling-div mt-md-5">
+
+                            <div class="timeline-wrapper">
+                                <div class="timeline-line" id="timelineLine"></div>
+
+
+                                <div class="dots-container" id="dotsContainer">
+                                    <div class="dot active">
+                                        <div class="year-label section-title">Early 2000s</div>
+                                    </div>
+                                    <div class="dot ">
+                                        <div class="year-label section-title">2005–2009</div>
+                                    </div>
+                                    <div class="dot">
+                                        <div class="year-label section-title">2010–2014</div>
+                                    </div>
+                                    <div class="dot">
+                                        <div class="year-label section-title">2015–2018</div>
+                                    </div>
+                                    <div class="dot">
+                                        <div class="year-label section-title">2019–2022</div>
+                                    </div>
+                                    <div class="dot">
+                                        <div class="year-label section-title">2022 and Onwards</div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper myswiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="flesing">
+                                                <div class="year-label section-title">Early 2000s</div>
+                                                <div class="conentsliv">
+                                                    <div class="heading">Early 2000s</div>
+                                                    <p class="description">With a simple intention to give back, the
+                                                        early years focused on staff welfare initiatives and personal
+                                                        acts of giving, engaging employees and their families in the
+                                                        journey.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flesing">
+                                                <div class="year-label section-title">2005–2009</div>
+                                                <div class="conentsliv">
+                                                    <div class="heading">2005–2009</div>
+                                                    <p class="description">Support grew from individuals to local
+                                                        organizations in education, healthcare, arts and culture, guided
+                                                        by on-ground needs and new learnings.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flesing">
+                                                <div class="year-label section-title">2010–2014</div>
+                                                <div class="conentsliv">
+                                                    <div class="heading">2010–2014</div>
+                                                    <p class="description">With guidance from philanthropic advisors,
+                                                        giving became more collaborative.
+                                                        Networks expanded and engagement within the sector grew deeper.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flesing">
+                                                <div class="year-label section-title">2015–2019</div>
+                                                <div class="conentsliv">
+                                                    <div class="heading">2015–2018</div>
+                                                    <p class="description">Engaging with communities and organizations
+                                                        deepened our understanding, strengthened due diligence, revealed
+                                                        interconnections, and expanded our work to new geographies.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flesing">
+                                                <div class="year-label section-title">2019–2022</div>
+                                                <div class="conentsliv">
+                                                    <div class="heading">2019–2022</div>
+                                                    <p class="description">Drawing on our experience and learnings, we
+                                                        quickly adapted during the pandemic supporting urgent needs from
+                                                        healthcare and food to digital access, mental health, and
+                                                        livelihoods.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flesing">
+                                                <div class="year-label section-title">2022 and Onwards</div>
+                                                <div class="conentsliv">
+                                                    <div class="heading">2022 and Onwards</div>
+                                                    <p class="description">Through deeper work with institutions and
+                                                        strong nonprofit partners across India, the foundation is
+                                                        strengthening its investments in people, practices, and systems
+                                                        to contribute to a more sustainable social sector.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="z-0">
+                <img src="./assets/img/aboutshap.png.png" class="img-fluid position-absolute main-image">
+            </div>
+        </section>
+
+
+
+        <section id="giving-philosophy" class="about-us-section-2">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <h2 class="border-b common-heading">OUR GIVING PHILOSOPHY</h2>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div>
+                        <img src="./assets/img/about-us-sec-2-img.png" class="img-fluid section-2-image mt-4">
+                    </div>
+                    <div class="text mt-4 max-w-c">
+                        We believe giving is both heartfelt and a discipline. At HBSF, we bring structure to compassion,
+                        ensuring that our support is deeply considered.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="guiding-principles" class="about-us-section-3 position-relative">
+            <!-- <img src="./assets/img/about-us-sec-top-img.png"
+            class="position-absolute top-0 top-images images d-none d-md-block">
+        <img src="./assets/img/about-us-sec-bottom-img.png" class="position-absolute bottom-0 images d-none d-md-block"> -->
+            <div class="container text-center top-padding">
+                <div class="row justify-content-center">
+                    <h2 class="border-b common-heading white">GUIDING PRINCIPLES</h2>
+                </div>
+            </div>
+            <div class="container gaps bottom-padding">
+
+                <div class="swipersmain">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <div class="text-content">
+                                    <div class="heading">Sahayak</div>
+                                    <div class="heading-2">Partnering with Purpose</div>
+                                    <p class="description pt-3">We see ourselves as partners—supporting, enabling, and
+                                        co-creating solutions with the people we work. Our approach is patient and
+                                        long-term, built on trust and shared purpose.</p>
+                                </div>
+                                <div class="imgcrav">
+                                    <img src="./assets/img/Shaayak.svg" class="main-image">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <div class="text-content">
+                                    <div class="heading">Samata</div>
+                                    <div class="heading-2">Parity with All
+                                    </div>
+                                    <p class="description pt-3">We believe change happens when everyone stands on equal
+                                        footing. We focus on creating opportunity, and on building lasting independence.
+                                    </p>
+                                </div>
+                                <div class="imgcrav">
+                                    <img src="./assets/img/Samataa.svg" class="main-image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <div class="text-content">
+                                    <div class="heading">Sarthakta</div>
+                                    <div class="heading-2">Meaningful Impact</div>
+                                    <p class="description pt-3">We commit to goal-oriented work that is practical and
+                                        purposeful, ensuring every action is rooted in relevant change. </p>
+                                </div>
+                                <div class="imgcrav">
+                                    <img src="./assets/img/Saarthaktaa.svg" class="main-image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <div class="text-content">
+                                    <div class="heading">Sanidhya</div>
+                                    <div class="heading-2">Engaged and Present</div>
+                                    <p class="description pt-3">
+                                        We are there in person, in practice, and in spirit. We take the time to listen,
+                                        to
+                                        understand, and to walk with communities as they shape their own futures.</p>
+                                </div>
+                                <div class="imgcrav">
+                                    <img src="./assets/img/slider4img.png" class="main-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+
+                    <div class=" customepagition swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+
+
+        <section id="founding-members" class="about-us-gallery pb-5">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <h2 class="border-b common-heading">Founding Members</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row flex-wrap mt-5 align-items-center justify-content-center background-black">
+                    <div class="col-12 col-md-6 p-0 col-lg-4 d-flex justify-content-center firstbgimg">
+                        <div class="imgbg hovermove">
+                            <div class="imgbginner">
+                                <div class="fullimgeslider">
+                                    <img src="./assets/img/ulfrt.png" class="img-fluid gallery-image">
+                                </div>
+                                <div class="coverlec"></div>
+
+                                <div class="contentuser">
+                                    <div class="bordersline"></div>
+                                    <div class="content-text">
+                                        <h4>Harish Shah</h4>
+                                        <p>A first-generation entrepreneur and philanthropist, Harish chairs HBSF and
+                                            leads
+                                            Signet Capital,
+                                            focusing on strategy, governance, and institution-building across education,
+                                            healthcare, and
+                                            heritage. He previously founded Signet Excipients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 p-0 col-lg-4 d-flex justify-content-center secondimgbg">
+                        <div class="torow hovermove">
+                            <div class="imgbginner">
+                                <div class="fullimgeslider">
+                                    <img src="./assets/img/bina-shah.png" class="img-fluid gallery-image">
+                                </div>
+                                <div class="coverlec"></div>
+
+                                <div class="contentuser">
+                                    <div class="bordersline"></div>
+                                    <div class="content-text">
+                                        <h4>Bina Shah</h4>
+                                        <p>Bina is Executive Director at HBSF. leading strategy and systems. With over
+                                            30 years experience in human resource and administration at Signet
+                                            Excipients, she brings a values led, people first approach to the
+                                            foundation.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 p-0 col-lg-4 d-flex justify-content-center thirdbgimg">
+                        <div class="tothree hovermove">
+                            <div class="imgbginner">
+                                <div class="fullimgeslider">
+                                    <img src="./assets/img/amira-shah.png" class="img-fluid gallery-image">
+                                </div>
+                                <div class="coverlec"></div>
+
+                                <div class="contentuser">
+                                    <div class="bordersline"></div>
+                                    <div class="content-text">
+                                        <h4>Amira Shah Chhabra</h4>
+                                        <p>Amira is CEO & Executive Director at HBSE. With a background in management
+                                            and development consulting, she leads operations and partnerships-driven by
+                                            a deep personal commitment to systemic, long term change.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6 p-0 col-lg-4 d-flex justify-content-center firstbgimg">
+                        <div class="imgbg hovermove">
+                            <div class="imgbginner">
+                                <div class="fullimgeslider">
+                                    <img src="./assets/img/robin-chhabra.png" class="img-fluid gallery-image">
+                                </div>
+                                <div class="coverlec"></div>
+
+                                <div class="contentuser">
+                                    <div class="bordersline"></div>
+                                    <div class="content-text">
+                                        <h4>Robin Chhabra</h4>
+                                        <p>Robin, Founder & CEO of Dextrus, brings deep architectural experience across
+                                            sectors. As Executive Director at HBSF, he focuses on public infrastructure
+                                            projects, especially in healthcare, with a design thinking approach.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-0 d-flex justify-content-center secondimgbg">
+                        <div class="torow hovermove">
+                            <div class="imgbginner">
+                                <div class="fullimgeslider">
+                                    <img src="./assets/img/anushka-shah.png" class="img-fluid gallery-image">
+                                </div>
+                                <div class="coverlec"></div>
+
+                                <div class="contentuser">
+                                    <div class="bordersline"></div>
+                                    <div class="content-text">
+                                        <h4>Anushka Shah</h4>
+                                        <p>Anushka is the Founder & CEO of Civic Studios. With a background in media,
+                                            data science, and social justice, she advises HBSF on partnerships advancing
+                                            behavioural change and media driven community engagement.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-0 d-flex justify-content-center thirdbgimg">
+                        <div class="tothree hovermove">
+                            <div class="imgbginner">
+                                <div class="fullimgeslider">
+                                    <img src="./assets/img/john-firth.png" class="img-fluid gallery-image">
+                                </div>
+                                <div class="coverlec"></div>
+
+                                <div class="contentuser">
+                                    <div class="bordersline"></div>
+                                    <div class="content-text">
+                                        <h4>John Firth</h4>
+                                        <p>John is Director of Global Health & Development at Rethink Priorities. He
+                                            advises HBSF on economic development and higher education, drawing on
+                                            research experience from MIT, J-PAL, Notre Dame, and Oxford.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <a class="footer-logo" href="index.html">
+                    <img src="./assets/img/footer-logo.png">
+                </a>
+
+                <div class="footer-terms-of">
+                    <a href="./terms-of-use.html">Terms of Use</a>
+                    <a href="./privacy-policy.htm">Privacy Policy</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom-text">
+                <p>CIN: U74999MH2015NPL262041</p>
+                <p>Harish & Bina Shah Foundation is a not-for-profit company
+                    incorporated under Section 8 of the Companies Act, 2013.</p>
+
+            </div>
+
+        </div>
+        </section>
+
+    </div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="./assets/js/main.js"></script>
+
+</html>
