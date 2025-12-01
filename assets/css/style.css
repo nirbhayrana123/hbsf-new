@@ -166,7 +166,7 @@
   }
 
   .section-height {
-    scroll-snap-align: start;
+    padding: 70px 0px;
   }
 
   .navenenu a.homelink {
@@ -1464,14 +1464,7 @@
     left: 80px;
   }
 
-  .about-us-gallery {
-    background-image: url(../img/error-404-bg.jpg);
-    background-size: cover;
-    background-position: top center;
-    background-clip: border-box;
-    background-repeat: no-repeat;
-    padding-top: 50px;
-  }
+ 
 
   .sector-in-focus-1 {
     background-image: url(../img/sector-in-focus-bg.jpg);
@@ -8109,10 +8102,6 @@
     justify-content: space-between;
   }
 
-  .text-content {
-    max-width: 20rem;
-  }
-
   .about-us-section-3 .content .line-dot {
     display: flex;
     align-items: center;
@@ -8216,6 +8205,8 @@
     background-position: top center;
     background-clip: border-box;
     background-repeat: no-repeat;
+    padding: 70px 0px;
+
   }
 
   .sector-in-focus-1 {
