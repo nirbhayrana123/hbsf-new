@@ -3865,7 +3865,7 @@
     background-clip: border-box;
     background-position: bottom center;
     padding-bottom: 70px;
-    min-height: 900px;
+    min-height: 800px;
   }
 
   .about-us-section-1 .scrolling-div {
@@ -8369,20 +8369,7 @@
     background-color: #913832;
     top: 0;
   }
-
-
-  .imgbginner::after {
-    content: "";
-    background: url(../img/trip2.png);
-    width: 62px;
-    height: 396px;
-    position: absolute;
-    right: -1px;
-    top: 0;
-    background-size: cover;
-    opacity: 0;
-    z-index: 9;
-  }
+ 
 
   .hovermove:hover .imgbginner::after,
   .hovermove:hover .imgbginner::before {
@@ -9024,31 +9011,7 @@
     background-color: #93443d;
     position: relative;
   }
-
-
-
-
-
-  .secondimgbg .torow.hovermove::after,
-  .secondimgbg .torow.hovermove::before {
-    content: "";
-    width: 85px;
-    height: 100%;
-    position: absolute;
-    left: -76px;
-    top: 0;
-    background: url(../img/shap2.svg);
-    background-repeat: no-repeat;
-    z-index: 999;
-    object-fit: contain;
-    background-size: cover;
-  }
-
-  .secondimgbg .torow.hovermove::before {
-    left: auto;
-    right: -16px;
-  }
-
+  
   .the-rotary-foundation {
     margin-top: 0px;
   }
