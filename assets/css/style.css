@@ -10357,10 +10357,29 @@ h2.common-heading.align-left {
         rgba(245, 245, 245, 0) 100%);
   }
 
-  .founding-members {
-    margin-top: 120px;
-    margin-bottom: 50px;
+
+
+  
+  .error-404 .error-div .text {
+    color: #fff;
+    text-align: center;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 190px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+    -webkit-text-stroke-color: #000000fa;
+    -webkit-text-stroke-width: 2px;
+    margin-bottom: -40px;
 }
-.row.gap.news-article {
-    margin-top: 45px;
+
+ .error-404 .error-div .text-3 {
+    color: #913832;
+    text-align: center;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 30px;
 }
