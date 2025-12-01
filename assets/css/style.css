@@ -91,7 +91,7 @@
     margin: 0;
   }
 
-  h2 {
+  /* h2 {
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
@@ -102,7 +102,7 @@
     font-family: "Bodoni Moda 9pt", serif;
     padding-bottom: 15px;
     margin-bottom: 30px;
-  }
+  } */
 
   .border-b {
     position: relative;
@@ -409,9 +409,7 @@
     background-clip: border-box;
   }
 
-  .sec-2 .gap {
-    gap: 15px;
-  }
+ 
 
   .sec-2 .text {
     font-family: Bodoni Moda 9pt;
@@ -4663,6 +4661,7 @@
     padding-top: 80px;
     flex-direction: column;
   }
+  
 
   img.bottom-img {
     width: 100%;
@@ -4785,9 +4784,7 @@
     align-items: center;
   }
 
-  .sec-2 .gap {
-    gap: 15px;
-  }
+  
 
   .some-descrip {
     padding-top: 40px;
@@ -7894,9 +7891,6 @@
     color: rgb(145, 56, 50);
   }
 
-  /* sec-2 end */
-
-  /* sec-3 start */
 
   .sec-3 {
     overflow: hidden;
