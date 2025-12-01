@@ -4385,15 +4385,7 @@
   }
 
   /* SDG Grid Styles */
-  .sdg-grid {
-    display: grid;
-    grid-template-columns: repeat(20, 1fr);
-    gap: 30px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-items: center;
-  }
+ 
 
   .sdg-item {
     width: 100%;
@@ -4472,12 +4464,7 @@
 
 
 
-  .partner-card {
-    height: 100px;
-    width: 100px;
-    position: relative;
-    overflow: hidden;
-  }
+ 
 
   .child-card {
     position: relative;
@@ -5126,14 +5113,14 @@
 
   /* SDG Grid Styles */
   .sdg-grid {
-    display: grid;
+       display: grid;
     grid-template-columns: repeat(20, 1fr);
     gap: 12px;
-    padding: 12px;
-    max-width: 1088px;
+    padding-bottom: 60px;
     margin: 0 auto;
     justify-items: center;
-  }
+    max-width: 1200px;
+}
 
   .sdg-item {
     width: 100%;
