@@ -10873,3 +10873,30 @@
         rgba(245, 245, 245, 0.8) 30%,
         rgba(245, 245, 245, 0) 100%);
   }
+
+
+
+  
+  .error-404 .error-div .text {
+    color: #fff;
+    text-align: center;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 190px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+    -webkit-text-stroke-color: #000000fa;
+    -webkit-text-stroke-width: 2px;
+    margin-bottom: -40px;
+}
+
+ .error-404 .error-div .text-3 {
+    color: #913832;
+    text-align: center;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 30px;
+}
