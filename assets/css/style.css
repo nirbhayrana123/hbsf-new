@@ -7385,6 +7385,7 @@ ol.breadcrumb {
     z-index: 99;
     background-size: cover;
     background-position: top -90px center;
+    padding-top: 0;
   }
 
   .sec-1 .description {
