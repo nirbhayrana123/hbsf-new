@@ -16,6 +16,7 @@
     font-weight: 700;
     font-style: normal;
   }
+
   /////////////////////////////
 
   /* Italic */
@@ -76,14 +77,14 @@
 
   body {
     padding: 0;
-    margin: 0; 
+    margin: 0;
   }
 
   html,
   body {
     margin: 0;
     scroll-behavior: smooth;
-    background-color: #f1e8dd;
+    background-color: #f2e6da;
   }
 
   a {
@@ -103,7 +104,7 @@
     font-size: 43px;
     line-height: 1.3em;
     color: rgb(145, 56, 50);
-  font-family: "Bodoni Moda 9pt", serif;
+    font-family: "Bodoni Moda 9pt", serif;
     padding-bottom: 15px;
     margin-bottom: 30px;
   }
@@ -135,8 +136,7 @@
 
   h2.common-heading.white {
     color: #ffffff;
-  }
-
+  } 
 
   .dropdownul li a {
     color: #913832;
@@ -223,8 +223,7 @@
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     margin-top: 30px;
     pointer-events: none;
-  }
-
+  } 
 
   .navbar-nav .nav-link.active,
   .navbar-nav .nav-link.show {
@@ -256,9 +255,8 @@
     padding-bottom: 28px;
     padding-top: 15px;
     filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.25));
-
   }
- 
+
   .breadcrumb-item+.breadcrumb-item::before {
     vertical-align: middle;
     position: relative;
@@ -269,7 +267,6 @@
   .breadcrumb-item:nth-last-child(1)::before {
     --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.75 0.75L5.75 6.75L0.75 12.75' stroke='%23913832' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   }
-
 
   .swiper-button-next,
   .swiper-button-prev {
@@ -298,7 +295,6 @@
     color: rgb(145, 56, 50);
   }
 
-
   .home-footer {
     scroll-snap-align: end;
   }
@@ -317,9 +313,6 @@
     font-weight: 100
   }
 
-
-
-
   .sec-1 .description {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -333,7 +326,6 @@
     display: flex;
     align-items: flex-start;
   }
-
 
   .sec-1 .nav-link {
     font-family: Noto Sans;
@@ -381,7 +373,6 @@
     border: none;
   }
 
-
   .nav-item .background {
     position: relative;
     background-image: url(../img/menubg.svg);
@@ -404,8 +395,6 @@
     padding: 15px;
     width: 100%;
   }
-
-
 
   .nav-item .background .list-text:hover {
     text-decoration: underline;
@@ -449,7 +438,6 @@
     line-height: normal;
     color: rgb(145, 56, 50);
   }
-
 
   .sec-3 {
     overflow: hidden;
@@ -552,14 +540,12 @@
     border-radius: 10px;
   }
 
-
   .carousel-inner .carousel-item.active,
   .carousel-inner .carousel-item-start,
   .carousel-inner .carousel-item-next,
   .carousel-inner .carousel-item-prev {
     display: flex;
   }
-
 
   .sec-4 .gap {
     gap: 20px;
@@ -804,13 +790,15 @@
     transition: height 0.8s ease;
     z-index: 0;
   }
+
   .myswiper .swiper-button-next {
     left: 182px;
-    bottom: 10px!important;
+    bottom: 10px !important;
     top: auto;
     transform: translateY(50%);
     background: #f2e6da;
   }
+
   .dots-container {
     position: absolute;
     left: 168px;
@@ -854,7 +842,7 @@
     opacity: 0.9;
     line-height: 1.5;
   }
- 
+
   .myswiper .swiper-button-next,
   .myswiper .swiper-button-prev {
     color: #913832;
@@ -867,7 +855,7 @@
   .myswiper .swiper-button-prev::after {
     font-size: 15px;
   }
- 
+
   .myswiper .swiper-button-prev {
     left: 182px;
     top: 10px;
@@ -1013,7 +1001,7 @@
 
   .about-us-nav .nav-menu {
     max-width: 450px;
-    justify-self: end;  
+    justify-self: end;
     margin-right: 0;
     width: 100%;
     margin-top: 0px;
@@ -1073,8 +1061,6 @@
   .about-us-nav .nav-item .background .list-text:hover {
     border-radius: 15px;
   }
-
-
 
   li.breadcrumb-item {
     margin-right: 5px;
@@ -1175,7 +1161,7 @@
   }
 
   .about-us-section-1 .main-image {
-    top: 296px;
+    top: 0;
     right: 0px;
     height: 100%;
     width: auto;
@@ -1307,7 +1293,7 @@
     height: 80%;
     position: relative;
   }
- 
+
   .contentuser {
     position: absolute;
     bottom: 0px;
@@ -1318,11 +1304,11 @@
     z-index: 3;
     max-width: 80%;
     width: 80%;
-    transition: 0.9s; 
+    transition: 0.9s;
     padding-left: 20px;
     padding-bottom: 30px;
   }
-  
+
   section#our-journey {
     position: relative;
     z-index: 2;
@@ -1343,7 +1329,8 @@
     bottom: 0px;
     opacity: 1;
     max-height: 180px;
-  } 
+  }
+
   .about-us-section-2 {
     padding-bottom: 50px;
     background-image: url(../img/about-us-sec-2-bg.jpg);
@@ -1351,7 +1338,7 @@
     background-repeat: no-repeat;
     background-clip: border-box;
     background-size: cover;
-  } 
+  }
 
   .content-text h4 {
     font-family: "Bodoni Moda 9pt";
@@ -1498,7 +1485,7 @@
 
   .about-us-section-3 .main-image {
     width: auto;
-    height: 490px;
+    height: 470px;
     opacity: 0;
     transition: 0.2s all ease;
   }
@@ -1506,10 +1493,6 @@
   .about-us-section-3 .swiper-slide.swiper-slide-active img.main-image {
     opacity: 1;
   }
-
-  /* .swiper-slide.swiper-slide-active .text-content {
-    padding-top: 80px;
-  } */
 
   .swipersmain {
     height: 570px;
@@ -1547,7 +1530,8 @@
     background-clip: border-box;
     background-repeat: no-repeat;
     padding-top: 50px;
-  } 
+  }
+
   .sector-in-focus-1 {
     background-image: url(../img/sector-in-focus-bg.jpg);
     background-repeat: no-repeat;
@@ -2518,16 +2502,18 @@
     border-radius: 20px;
     border: 4px solid #913832;
   }
-   .contentuser p {
+
+  .contentuser p {
     margin-top: 10px;
     opacity: 0;
     transition: 0.9s;
     position: relative;
-    bottom: -67px; 
+    bottom: -67px;
     max-height: 0;
     overflow: hidden;
     font-family: 'Bodoni Moda 9pt Italic';
-  } 
+  }
+
   .parent-card:hover .contentuser p {
     bottom: 0px;
     opacity: 1;
@@ -3882,8 +3868,6 @@
     border-radius: 15px;
   }
 
-
-
   .about-us-nav .effect {
     transition: ease-in-out 1s;
   }
@@ -4502,13 +4486,13 @@
     overflow: hidden;
     border-radius: 8px;
   }
- 
+
 
   .contentuser .bordersline {
-    margin-left: 10px; 
+    margin-left: 10px;
   }
- 
- 
+
+
   .content-h4 {
     font-family: 'Bodoni Moda 9pt';
   }
@@ -4572,7 +4556,7 @@
 
 
   .footer {
-    height: auto;
+    min-height: auto !important;
     padding-top: 60px;
     padding-bottom: 57px;
     background-image: url(../img/footer-bg.jpg);
@@ -4691,6 +4675,7 @@
     padding-top: 80px;
     flex-direction: column;
   }
+  
 
   img.bottom-img {
     width: 100%;
@@ -7643,14 +7628,14 @@
     max-width: 100%;
     padding: 0;
   }
- 
+
   .thank-you-page .row-gap {
     display: flex;
     justify-content: center;
-    padding-top: 21rem; 
+    padding-top: 21rem;
     padding-bottom: 15rem;
   }
- 
+
   .thank-you-page .main-div .text {
     color: #a93b3b;
     text-align: center;
@@ -7658,8 +7643,9 @@
     font-size: 2rem;
     font-style: italic;
     font-weight: 400;
-    line-height: normal; 
-  } 
+    line-height: normal;
+  }
+
   .article-one {
     background-image: url(../img/sector-in-focus-bg.jpg);
     background-repeat: no-repeat;
@@ -7714,15 +7700,15 @@
     flex-direction: column;
     gap: 20px;
   }
- 
+
   #filterBox {
     transition: transform 400ms cubic-bezier(.2, .7, .2, 1), opacity 300ms ease;
     transform: translateX(0);
     opacity: 1;
-    display: flex; 
+    display: flex;
     align-items: center;
   }
- 
+
   .filter-hidden {
     opacity: 0 !important;
     transform: translateX(30px) !important;
@@ -7731,11 +7717,12 @@
   .filter-visible {
     opacity: 1 !important;
     transform: translateX(0) !important;
-  } 
+  }
+
   .section-height {
     scroll-snap-align: start;
   }
- 
+
   .navbar-nav .nav-link.active,
   .navbar-nav .nav-link.show {
     color: white;
@@ -8310,8 +8297,8 @@
 
   .about-us-nav .effect {
     transition: ease-in-out 1s;
-  } 
- 
+  }
+
   .about-us-section-1 .scrolling-div {
     max-height: 350px;
     overflow-y: scroll;
@@ -8461,14 +8448,14 @@
     align-items: flex-start;
     flex-direction: column;
   }
- 
+
   .about-us-gallery .gallery-image {
     width: 100%;
     height: 100% !important;
     object-fit: cover;
     height: 328px;
   }
- 
+
   .hovermove:hover .contentuser {
     bottom: 20px;
   }
@@ -8476,7 +8463,8 @@
   .hovermove:hover .contentuser p {
     bottom: 0px;
     opacity: 1;
-  } 
+  }
+
   .about-us-section-2 {
     padding-bottom: 50px;
     background-image: url(../img/about-us-sec-2-bg.jpg);
@@ -8484,7 +8472,8 @@
     background-repeat: no-repeat;
     background-clip: border-box;
     background-size: cover;
-  } 
+  }
+
   .about-us-section-2 .text {
     font-family: "Bodoni Moda 9pt", serif;
     font-size: 30px;
@@ -8614,10 +8603,6 @@
     font-size: 16px;
     line-height: normal;
     text-decoration: none !important;
-  }
-
-  .about-us-section-3 .main-image {
-    height: 300px;
   }
 
   .swipersmain {
