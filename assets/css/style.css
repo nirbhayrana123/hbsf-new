@@ -3463,10 +3463,7 @@
     font-style: italic;
     transition: ease-in-out 0.5s;
   }
-
-  .content.sec-1-content.stripbottom.red {
-    padding-top: 30px;
-  }
+ 
 
   .common-heading.stripbottom {
     color: #fff;
@@ -4835,11 +4832,7 @@
     width: 140px;
     height: 3px;
   }
-
-
-  .stripbottom {
-    position: relative;
-  }
+ 
 
   .stripbottom.red::after {
     background: rgb(145, 56, 50);
