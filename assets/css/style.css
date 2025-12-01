@@ -3235,8 +3235,8 @@ h2.common-heading.align-left {
     background-clip: border-box;
     background-repeat: no-repeat;
     position: relative;
-    padding-bottom: 145px !important;
-    margin-bottom: -92px;
+    padding-bottom: 145px ;
+    padding-top: 145px;
   }
 
   .sec-4 .gap {
@@ -3267,9 +3267,8 @@ h2.common-heading.align-left {
     background-clip: border-box;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 0;
+    margin-top: 8rem;
     margin-bottom: 5rem;
-    overflow-x: hidden;
 }
 
   .sec-5 .image {
