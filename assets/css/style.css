@@ -4926,7 +4926,7 @@ ol.breadcrumb {
     padding: 0.8rem;
   }
 
-  .article-one .left-links .publisher {
+  .left-links .publisher  {
     color: #913832;
     font-style: italic;
     font-family: "Bodoni Moda 9pt Italic";
@@ -4935,7 +4935,7 @@ ol.breadcrumb {
     letter-spacing: 0;
   }
 
-  .article-one .left-links .date {
+  .left-links {
     color: #913832;
     font-style: italic;
     font-family: "Bodoni Moda 9pt Italic";
@@ -7292,7 +7292,7 @@ ol.breadcrumb {
   }
 
 
-  .article-one .heading {
+  h1.heading {
     color: #913832;
     font-family: "Bodoni Mopda 9pt";
     font-size: 5rem;
