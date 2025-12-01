@@ -16,7 +16,7 @@
     font-weight: 700;
     font-style: normal;
   }
- 
+
   /* Italic */
   @font-face {
     font-family: "Noto Sans Devanagari";
@@ -73,15 +73,34 @@
     font-style: italic;
   }
 
-  body { padding: 0;  margin: 0; }
-  html,  body {  margin: 0; scroll-behavior: smooth; background-color: #f2e6da;  }
-  a { cursor: pointer !important; }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  html,
+  body {
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: #f2e6da;
+  }
+
+  a {
+    cursor: pointer !important;
+  }
+
   p {
     padding: 0;
     margin: 0;
   }
-.main { padding-top: 150px;}
-.top-0 { padding-top: 0px;}
+
+  .main {
+    padding-top: 150px;
+  }
+
+  .top-0 {
+    padding-top: 0px;
+  }
 
 
   h2 {
@@ -96,9 +115,10 @@
     padding-bottom: 15px;
     margin-bottom: 30px;
   }
-h2.common-heading.align-left {
+
+  h2.common-heading.align-left {
     text-align: left;
-}
+  }
 
   .border-b {
     position: relative;
@@ -127,7 +147,7 @@ h2.common-heading.align-left {
 
   h2.common-heading.white {
     color: #ffffff;
-  } 
+  }
 
   .dropdownul li a {
     color: #913832;
@@ -143,7 +163,8 @@ h2.common-heading.align-left {
   .dropdownul li a:hover {
     text-decoration: underline;
     font-weight: 500;
-  } 
+  }
+
   .section-height {
     scroll-snap-align: start;
   }
@@ -209,7 +230,7 @@ h2.common-heading.align-left {
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     margin-top: 30px;
     pointer-events: none;
-  } 
+  }
 
   .navbar-nav .nav-link.active,
   .navbar-nav .nav-link.show {
@@ -242,7 +263,7 @@ h2.common-heading.align-left {
     padding-top: 15px;
     filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.25));
   }
- 
+
 
   .breadcrumb-item:nth-last-child(1)::before {
     --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.75 0.75L5.75 6.75L0.75 12.75' stroke='%23913832' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -286,7 +307,7 @@ h2.common-heading.align-left {
     position: relative;
   }
 
- 
+
 
   .sec-1 .description {
     padding-top: 80px;
@@ -389,7 +410,7 @@ h2.common-heading.align-left {
     background-clip: border-box;
   }
 
- 
+
 
   .sec-2 .text {
     font-family: Bodoni Moda 9pt;
@@ -1035,9 +1056,6 @@ h2.common-heading.align-left {
     border-radius: 15px;
   }
 
-  li.breadcrumb-item {
-    margin-right: 5px;
-  }
 
   .about-us-nav .effect {
     transition: ease-in-out 0.8s;
@@ -1118,7 +1136,7 @@ h2.common-heading.align-left {
     width: 3px;
     background-color: #913832;
   }
- 
+
   .about-us-section-1 .main-image {
     top: 0;
     right: 0px;
@@ -1352,7 +1370,8 @@ h2.common-heading.align-left {
     font-weight: 400;
     line-height: normal;
     width: 117px;
-  } 
+  }
+
   .text-content {
     max-width: 20rem;
     margin-left: 70px;
@@ -1422,7 +1441,7 @@ h2.common-heading.align-left {
     color: #fff;
     opacity: 1;
   }
- 
+
   .about-us-section-3 .menu .text {
     color: #913832;
     text-align: center;
@@ -1447,11 +1466,12 @@ h2.common-heading.align-left {
     height: 570px;
     overflow: hidden;
   }
-.imgcrav {
+
+  .imgcrav {
     margin-top: -128px;
     width: 59%;
     text-align: end;
-}
+  }
 
   .customepagition.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-vertical span.swiper-pagination-bullet {
     border: 1px solid #fff;
@@ -1500,7 +1520,7 @@ h2.common-heading.align-left {
     font-weight: 400;
   }
 
- 
+
   .sector-in-focus-1 .image-1 {
     max-width: 400px;
   }
@@ -1523,7 +1543,7 @@ h2.common-heading.align-left {
     font-weight: 400;
     padding-bottom: 30px;
   }
- 
+
 
   .our-partner-1 .input-tag {
     background-color: transparent;
@@ -2306,7 +2326,7 @@ h2.common-heading.align-left {
     padding-top: 150px;
     overflow: hidden !important;
   }
- 
+
   .ashoka-university-detail-page .news-article {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -2435,7 +2455,7 @@ h2.common-heading.align-left {
     background-position: bottom center;
     overflow: hidden !important;
   }
- 
+
   .privacy-policy .gap {
     gap: 20px;
     padding-top: 3rem;
@@ -2498,7 +2518,7 @@ h2.common-heading.align-left {
     width: 20px;
   }
 
- 
+
   .overview-page-2 {
     margin-top: -100px;
   }
@@ -2556,7 +2576,7 @@ h2.common-heading.align-left {
   .thank-you-page {
     overflow: hidden !important;
   }
- 
+
   .thank-you-page .main-div {
     background-image: url(../img/thank-you-page-bg.jpg);
     background-size: cover;
@@ -2601,7 +2621,7 @@ h2.common-heading.align-left {
   .contact-us {
     overflow: hidden !important;
   }
- 
+
   .imgtopshape {
     text-align: right;
     padding-bottom: 20px;
@@ -3010,7 +3030,7 @@ h2.common-heading.align-left {
     max-width: 305px;
   }
 
-   
+
   .our-collaborations .image-div:hover .colectionimg {
     transform: translateY(-10px);
     position: absolute;
@@ -3114,7 +3134,7 @@ h2.common-heading.align-left {
     padding-left: 20px;
   }
 
-  
+
 
   .thank-you-page .main-div {
     background-image: url("../img/thanku-postcard.png");
@@ -3127,7 +3147,7 @@ h2.common-heading.align-left {
   section.thank-you-page {
     padding-bottom: 100px;
   }
- 
+
 
   .thank-you-page .row-gap {
     padding-top: 400px;
@@ -3141,10 +3161,29 @@ h2.common-heading.align-left {
     font-weight: 400;
   }
 
-  */ .breadcrumb-item+.breadcrumb-item::before {
+  .breadcrumb-item+.breadcrumb-item::before {
     vertical-align: middle;
     position: relative;
     top: 2px;
+  }
+
+  nav.breadcrumb-nav ol.breadcrumb li a {
+    color: #913832;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    line-height: normal;
+    text-decoration: none !important;
+    font-weight: 300;
+  }
+
+  ol.breadcrumb {
+    display: flex;
+    gap: 15px;
+  }
+
+  nav.breadcrumb-nav {
+    margin-left: 55px;
   }
 
   .common-read-more-btn {
@@ -3173,7 +3212,7 @@ h2.common-heading.align-left {
   .footer-logo img {
     width: 100%;
   }
- 
+
   #news-slider .owl-wrapper {
     margin-left: -250px;
   }
@@ -3767,7 +3806,7 @@ h2.common-heading.align-left {
     width: 3px;
     background-color: #913832;
   }
- 
+
   .description.container-fluid.pb-0 {
     padding-bottom: 0 !important;
     position: absolute;
@@ -3953,7 +3992,7 @@ h2.common-heading.align-left {
     background-position: top center;
     overflow: hidden !important;
   }
- 
+
 
   .news-narratives-page .effect:hover {
     transition: ease-in 0.5s;
@@ -4192,7 +4231,7 @@ h2.common-heading.align-left {
   }
 
   /* SDG Grid Styles */
- 
+
 
   .sdg-item {
     width: 100%;
@@ -4271,7 +4310,7 @@ h2.common-heading.align-left {
 
 
 
- 
+
 
   .child-card {
     position: relative;
@@ -4288,7 +4327,7 @@ h2.common-heading.align-left {
   .content-h4 {
     font-family: 'Bodoni Moda 9pt';
   }
- 
+
   .parent-card:hover .contentuser p {
     max-height: 150px;
     font-family: 'Bodoni Moda 9pt Italic';
@@ -4326,7 +4365,7 @@ h2.common-heading.align-left {
     font-weight: 400;
     padding-bottom: 30px;
   }
- 
+
   .footer {
     min-height: auto !important;
     padding-top: 60px;
@@ -4447,7 +4486,7 @@ h2.common-heading.align-left {
     padding-top: 80px;
     flex-direction: column;
   }
-  
+
 
   img.bottom-img {
     width: 100%;
@@ -4570,7 +4609,7 @@ h2.common-heading.align-left {
     align-items: center;
   }
 
-  
+
 
   .some-descrip {
     padding-top: 40px;
@@ -4747,7 +4786,7 @@ h2.common-heading.align-left {
     height: 20px;
     width: 20px;
   }
- 
+
 
   .overview-page-2 {
     margin-top: -100px;
@@ -4890,14 +4929,14 @@ h2.common-heading.align-left {
 
   /* SDG Grid Styles */
   .sdg-grid {
-       display: grid;
+    display: grid;
     grid-template-columns: repeat(20, 1fr);
     gap: 12px;
     padding-bottom: 60px;
     margin: 0 auto;
     justify-items: center;
     max-width: 1200px;
-}
+  }
 
   .sdg-item {
     width: 100%;
@@ -4936,7 +4975,7 @@ h2.common-heading.align-left {
     font-weight: 700;
     line-height: 11rem;
   }
- 
+
   .text-3 {
     font-size: 23px;
   }
@@ -4950,7 +4989,7 @@ h2.common-heading.align-left {
   .bottom-img-s {
     display: none;
   }
- 
+
   .para {
     font-family: "Bodoni Moda 9pt";
     color: #913832;
@@ -4998,7 +5037,7 @@ h2.common-heading.align-left {
     font-weight: 700;
   }
 
-  .article-heading { 
+  .article-heading {
     font-family: "Bodoni Moda 9pt";
     color: #913832;
   }
@@ -5026,7 +5065,7 @@ h2.common-heading.align-left {
     padding-bottom: 30px;
   }
 
- 
+
 
   .footer-text-1 {
     font-family: "Noto Sans";
@@ -5059,7 +5098,7 @@ h2.common-heading.align-left {
     font-style: italic;
     font-weight: 400;
   }
- 
+
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
   }
@@ -6451,7 +6490,7 @@ h2.common-heading.align-left {
     transition: min-height 3s ease;
     z-index: 1;
   }
- 
+
 
   .tab-pane-inner {
     opacity: 0;
@@ -6540,7 +6579,7 @@ h2.common-heading.align-left {
     filter: brightness(1.1);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   }
- 
+
   .our-collaborations .margin-class {
     margin-top: -130px;
   }
@@ -7278,13 +7317,13 @@ h2.common-heading.align-left {
     transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
     /* smooth, slow-mo feel */
   }
- 
+
   .thank-you-page {
     overflow: visible !important;
     background-color: #ffffff;
     max-height: "auto";
   }
- 
+
   .thank-you-page .main-div {
     position: relative;
     z-index: 50;
@@ -7321,11 +7360,11 @@ h2.common-heading.align-left {
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
-    background-position: bottom center; 
+    background-position: bottom center;
     overflow: hidden !important;
   }
 
-  
+
   .article-one .heading {
     color: #913832;
     font-family: "Bodoni Mopda 9pt";
@@ -7393,7 +7432,7 @@ h2.common-heading.align-left {
   .breadcrumb-item:nth-last-child(1)::before {
     --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='15' viewBox='0 0 13 15' fill='none'%3E%3Cpath d='M0.5 2.05591C0.499922 1.78223 0.569479 1.51336 0.701647 1.27647C0.833816 1.03958 1.02392 0.843042 1.25276 0.706711C1.48159 0.57038 1.74107 0.49908 2.00498 0.500009C2.26888 0.500938 2.52789 0.574064 2.75583 0.712003L11.7529 6.15453C11.9799 6.29116 12.1684 6.4872 12.2995 6.72305C12.4307 6.95891 12.4998 7.22632 12.5 7.49855C12.5002 7.77079 12.4316 8.03832 12.3008 8.27441C12.1701 8.5105 11.982 8.70687 11.7551 8.84391L2.75583 14.288C2.52789 14.4259 2.26888 14.4991 2.00498 14.5C1.74107 14.5009 1.48159 14.4296 1.25276 14.2933C1.02392 14.157 0.833816 13.9604 0.701647 13.7235C0.569479 13.4866 0.499922 13.2178 0.5 12.9441V2.05591Z' fill='%23913832' stroke='%23913832' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   }
- 
+
 
   .common-read-more-btn {
     padding: 9px 28px;
@@ -7658,7 +7697,7 @@ h2.common-heading.align-left {
     gap: 10px;
   }
 
- 
+
 
   .carousel-inner .carousel-item.active,
   .carousel-inner .carousel-item-start,
@@ -8004,12 +8043,12 @@ h2.common-heading.align-left {
     background-color: #913832;
   }
 
-  
+
   .hovermove:hover .coverlec {
     background-color: #913832;
     top: 0;
   }
- 
+
 
   .hovermove:hover .imgbginner::after,
   .hovermove:hover .imgbginner::before {
@@ -8200,7 +8239,7 @@ h2.common-heading.align-left {
     color: #fff;
   }
 
- 
+
   .about-us-section-3 .menu .text {
     color: #913832;
     text-align: center;
@@ -8261,7 +8300,7 @@ h2.common-heading.align-left {
     font-weight: 400;
   }
 
-   
+
   .sector-in-focus-1 .image-1 {
     max-width: 400px;
   }
@@ -8290,7 +8329,7 @@ h2.common-heading.align-left {
     font-weight: 400;
   }
 
-  
+
   .our-partner-1 .input-tag {
     max-width: 484px;
     background-color: transparent;
@@ -8622,7 +8661,7 @@ h2.common-heading.align-left {
     background-color: #93443d;
     position: relative;
   }
-  
+
   .the-rotary-foundation {
     margin-top: 0px;
   }
@@ -8667,7 +8706,7 @@ h2.common-heading.align-left {
     overflow: hidden !important;
   }
 
-   
+
   .news-narratives-page .effect:hover {
     transition: ease-in 0.5s;
     transform: scale(1.03);
@@ -8772,7 +8811,7 @@ h2.common-heading.align-left {
     padding-top: 290px;
     overflow: hidden !important;
   }
- 
+
   .ashoka-university-detail-page .news-article {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -8883,7 +8922,7 @@ h2.common-heading.align-left {
     overflow: hidden !important;
   }
 
-  
+
 
   .privacy-policy .gap {
     gap: 20px;
@@ -9016,7 +9055,7 @@ h2.common-heading.align-left {
     width: 20px;
   }
 
- 
+
   .overview-page-2 {
     margin-top: -100px;
   }
@@ -9092,7 +9131,7 @@ h2.common-heading.align-left {
     overflow: hidden !important;
   }
 
- 
+
   .thank-you-page .main-div {
     background-image: url(../img/thank-you-page-bg.jpg);
     background-size: cover;
@@ -9121,7 +9160,7 @@ h2.common-heading.align-left {
     padding-top: 230px;
     overflow: hidden !important;
   }
- 
+
   .contact-us .main-div {
     background-image: url(../img/contact-us-bg.jpg);
     background-size: cover;
@@ -10360,7 +10399,8 @@ h2.common-heading.align-left {
   .founding-members {
     margin-top: 120px;
     margin-bottom: 50px;
-}
-.row.gap.news-article {
+  }
+
+  .row.gap.news-article {
     margin-top: 45px;
-}
+  }
