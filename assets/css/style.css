@@ -3275,7 +3275,7 @@
     background-repeat: no-repeat;
     position: relative;
     padding-bottom: 145px ;
-    padding-top: 145px;
+    padding-top: 70px;
   }
 
   .sec-4 .gap {
@@ -3306,8 +3306,8 @@
     background-clip: border-box;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 8rem;
-    margin-bottom: 5rem;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
   .sec-5 .image {
@@ -3856,8 +3856,7 @@
   .description.container-fluid.pb-0 {
     padding-bottom: 0 !important;
     position: absolute;
-    bottom: 8%;
-    z-index: 9;
+    bottom: 8%; 
   }
 
   .ashoka-university-detail-page .gap {
@@ -7435,11 +7434,7 @@
     color: rgb(240, 230, 218);
   }
 
-  .sec-1 .nav-link:hover {
-    font-weight: 600;
-    border-radius: 15px;
-  }
-
+ 
   .sec-1 .line-img {
     height: 45px;
     width: 2px;

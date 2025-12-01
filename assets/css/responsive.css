@@ -619,8 +619,8 @@
   }
 
   .sec-1 .logo {
-    height: 7rem;
-    margin-top: 115px;
+    height: 9rem;
+    margin-top: 20px;
   }
 
   .prdiingcontact {
@@ -638,7 +638,7 @@
   }
 
   .sec-2 {
-    padding: 40px 0px;
+    padding: 70px 0px;
   }
 
   .sec-2-text {
@@ -1005,8 +1005,7 @@
   }
 
   .border-b::after {
-    height: 2px;
-    bottom: -1px;
+    height: 2px; 
   }
 
   .sec-2-text {
