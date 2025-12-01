@@ -2449,11 +2449,7 @@
     flex-direction: column;
     gap: 20px;
   }
-
-
-  .overview-page {
-    overflow: hidden !important;
-  }
+ 
 
   .overview-page .text {
     color: #913832;
@@ -2492,10 +2488,7 @@
   a.nav-link {
     font-size: 24px;
   }
-
-  .overview-page {
-    overflow: hidden !important;
-  }
+ 
 
   .overview-page-2 .second-div .images {
     height: 160px;
@@ -3143,10 +3136,11 @@
     font-weight: 300;
   }
 
-  ol.breadcrumb {
+ol.breadcrumb {
     display: flex;
     gap: 15px;
-  }
+    margin-bottom: 40px;
+}
 
   nav.breadcrumb-nav {
     margin-left: 55px;
@@ -4680,8 +4674,7 @@
     margin-right: 1rem;
   }
 
-  /* } */
-
+ 
 
 
   /* Overview Page */
@@ -8939,16 +8932,8 @@
   .error-404 .bottom-img {
     width: -webkit-fill-available;
   }
-
-
-
-  /* error-404 page end */
-
-  /* overview-page start */
-
-  .overview-page {
-    margin-top: -220px;
-    padding-top: 230px;
+ 
+  .overview-page { 
     overflow: hidden !important;
   }
 
