@@ -120,8 +120,6 @@
     line-height: 1.3em;
     color: rgb(145, 56, 50);
     font-family: "Bodoni Moda 9pt", serif;
-    padding-bottom: 15px;
-    margin-bottom: 30px;
   }
 h3 {
     color: #913832;
@@ -167,7 +165,7 @@ h3 {
     background-color: #913832;
     width: 60px;
     height: 3px;
-    margin: 0 auto;
+       margin: -8px auto;
     bottom: -14px;
 }
 
@@ -1555,8 +1553,16 @@ h3 {
     text-transform: uppercase;
     text-decoration: none;
   }
-
-  
+.our-partner-1 .text-2 {
+    color: #913832;
+    text-align: center;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
 
   .our-partner-1 .image-div {
     max-height: 300px;
@@ -4918,7 +4924,10 @@ h3 {
     font-size: 20px; 
   }
  
+<<<<<<< HEAD
  
+=======
+>>>>>>> 023e51a2b657de0bd4ffe461f3385e5fcace6c52
 
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
@@ -4936,7 +4945,12 @@ h3 {
     text-decoration: none;
   }
 
+<<<<<<< HEAD
  
+=======
+  
+
+>>>>>>> 023e51a2b657de0bd4ffe461f3385e5fcace6c52
   .our-partner-1 .text-below-heading {
     color: #913832;
     text-align: center;
@@ -5143,17 +5157,18 @@ h3 {
     background: transparent;
     border: none;
     color: #913832;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     font-weight: 500;
     text-transform: uppercase;
-    transition: color 0.3s ease;
+    transition: color 0.3s 
+ease;
     position: relative;
     cursor: pointer;
     font-family: "Bodoni Moda 9pt";
-    margin: 0.5rem 0.5rem;
     opacity: 0.4;
-    font-size: 15px;
-  }
+    font-size: 24px;
+    padding: 0;
+}
 
   .our-partner-1 .tab-menu .menus.active::after {
     width: 0 !important;
@@ -8088,15 +8103,18 @@ h3 {
     padding-top: 290px;
     overflow: hidden !important;
   }
-
-  .our-partner-1 .text {
-    color: #913832;
+  h3.border-b.common-heading
+ {
+    text-transform: uppercase;
     text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
     font-weight: 400;
-  }
+    letter-spacing: 0.2rem;
+    font-size: 30px;
+    line-height: 1.3em;
+    color: rgb(145, 56, 50);
+    font-family: "Bodoni Moda 9pt", serif;
+    margin-bottom: 0;
+}
 
 
   .our-partner-1 .input-tag {
@@ -8126,14 +8144,7 @@ h3 {
     text-decoration: none;
   }
 
-  .our-partner-1 .text-2 {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-  }
+ 
 
   .our-partner-1 .image-div {
     max-height: 300px;
