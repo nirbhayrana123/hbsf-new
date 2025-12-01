@@ -404,8 +404,13 @@
     font-weight: 500;
     text-decoration: underline;
   }
-
-
+h3.overview-para {
+    font-size: 40px;
+}
+ 
+.dotsmap svg.map-size {
+    width: 1000px;
+}
 
 
 
@@ -2459,15 +2464,11 @@
   }
 
 
-  .overview-page .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    list-style: normal;
+  .overview-page {
+    overflow: hidden !important;
   }
+
+ 
 
   .overview-page .map-img {
     height: 700px;
@@ -4683,15 +4684,7 @@
     background-color: #fff !important;
   }
 
-  .overview-page .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    list-style: normal;
-  }
+  
 
   .overview-page .map-img {
     height: 700px;
@@ -4774,15 +4767,7 @@
     line-height: normal;
   }
 
-  .overview-page-2 .second-div .text-3 {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 50px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
-  }
+ 
 
 
 
@@ -8981,7 +8966,9 @@
     line-height: normal;
   }
 
-  .overview-page-2 .second-div .text-3 {
+  
+  .text-3 h3 {
+    padding-bottom: 60px;
     color: #913832;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
@@ -8989,7 +8976,7 @@
     font-style: italic;
     font-weight: 400;
     line-height: normal;
-  }
+}
 
 
   .thank-you-page {
