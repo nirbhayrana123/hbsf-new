@@ -98,10 +98,18 @@
     padding-top: 150px;
   }
 
-  .top-0 {
+  .pt0 {
     padding-top: 0px;
   }
 
+  h1 {
+    color: #913832;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.4em;
+  }
 
   h2 {
     text-transform: uppercase;
@@ -114,6 +122,15 @@
     font-family: "Bodoni Moda 9pt", serif;
     padding-bottom: 15px;
     margin-bottom: 30px;
+  }
+
+  h5.articlename {
+    color: #913832;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1em;
   }
 
   h2.common-heading.align-left {
@@ -166,7 +183,7 @@
   }
 
   .section-height {
-    scroll-snap-align: start;
+    padding: 70px 0px;
   }
 
   .navenenu a.homelink {
@@ -210,7 +227,7 @@
     margin-top: -4px;
   }
 
-  
+
 
   .homedropdown {
     visibility: hidden;
@@ -540,7 +557,7 @@ h3.overview-para {
     transition: ease-in-out 0.5s;
   }
 
- 
+
 
   .sec-5 .image {
     width: 340px;
@@ -713,7 +730,7 @@ h3.overview-para {
   }
 
   .flesing {
-    max-width: 740px;
+    max-width: 600px;
   }
 
   .conentsliv {
@@ -1469,14 +1486,7 @@ h3.overview-para {
     left: 80px;
   }
 
-  .about-us-gallery {
-    background-image: url(../img/error-404-bg.jpg);
-    background-size: cover;
-    background-position: top center;
-    background-clip: border-box;
-    background-repeat: no-repeat;
-    padding-top: 50px;
-  }
+
 
   .sector-in-focus-1 {
     background-image: url(../img/sector-in-focus-bg.jpg);
@@ -2299,8 +2309,7 @@ h3.overview-para {
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
-    background-position: bottom center;
-
+    background-position: bottom center; 
     padding-top: 150px;
     overflow: hidden !important;
   }
@@ -2312,15 +2321,7 @@ h3.overview-para {
     font-style: italic;
     font-weight: 400;
   }
-
-  .ashoka-university-detail-page .heading {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+ 
 
   .ashoka-university-detail-page .name {
     color: #913832;
@@ -2497,9 +2498,6 @@ h3.overview-para {
     font-size: 24px;
   }
 
-  .overview-page {
-    overflow: hidden !important;
-  }
 
   .overview-page-2 .second-div .images {
     height: 160px;
@@ -3150,6 +3148,7 @@ h3.overview-para {
   ol.breadcrumb {
     display: flex;
     gap: 15px;
+    margin-bottom: 40px;
   }
 
   nav.breadcrumb-nav {
@@ -3271,7 +3270,7 @@ h3.overview-para {
     background-clip: border-box;
     background-repeat: no-repeat;
     position: relative;
-    padding-bottom: 145px ;
+    padding-bottom: 145px;
     padding-top: 70px;
   }
 
@@ -3297,7 +3296,7 @@ h3.overview-para {
     max-width: 250px;
   }
 
- .sec-5 {
+  .sec-5 {
     background-image: url(../img/sec-5-bg.jpg);
     background-position: center;
     background-clip: border-box;
@@ -3305,7 +3304,7 @@ h3.overview-para {
     background-repeat: no-repeat;
     padding-top: 70px;
     padding-bottom: 70px;
-}
+  }
 
   .sec-5 .image {
     width: 100%;
@@ -3769,7 +3768,7 @@ h3.overview-para {
     width: 3px;
     background-color: #913832;
   }
- 
+
   @keyframes dropdownFadeIn {
     0% {
       opacity: 0;
@@ -3819,7 +3818,7 @@ h3.overview-para {
     z-index: 3;
   }
 
-  
+
 
   .sec-2 canvas {
     position: absolute;
@@ -3853,7 +3852,7 @@ h3.overview-para {
   .description.container-fluid.pb-0 {
     padding-bottom: 0 !important;
     position: absolute;
-    bottom: 8%; 
+    bottom: 8%;
   }
 
   .ashoka-university-detail-page .gap {
@@ -4545,7 +4544,7 @@ h3.overview-para {
   }
 
 
-  
+
 
 
 
@@ -4684,7 +4683,6 @@ h3.overview-para {
     margin-right: 1rem;
   }
 
-  /* } */
 
 
 
@@ -4921,7 +4919,7 @@ h3.overview-para {
     padding: 0.8rem;
   }
 
-  .article-one .left-links .publisher {
+  .left-links .publisher {
     color: #913832;
     font-style: italic;
     font-family: "Bodoni Moda 9pt Italic";
@@ -4930,7 +4928,7 @@ h3.overview-para {
     letter-spacing: 0;
   }
 
-  .article-one .left-links .date {
+  .left-links {
     color: #913832;
     font-style: italic;
     font-family: "Bodoni Moda 9pt Italic";
@@ -4959,19 +4957,7 @@ h3.overview-para {
     font-weight: 700;
   }
 
-  .article-heading {
-    font-family: "Bodoni Moda 9pt";
-    color: #913832;
-  }
 
-  .article-heading-2 {
-    font-family: "Bodoni Moda 9pt Italic";
-    color: #913832;
-  }
-
-
-
-  /* ***************  The Rotary Foundation Page ****************** */
   .trf-main {
     background-image: url(../img/sector-in-focus-bg.jpg);
     background-repeat: no-repeat;
@@ -4986,32 +4972,19 @@ h3.overview-para {
     font-weight: 400;
     padding-bottom: 30px;
   }
-
-
-
+ 
   .footer-text-1 {
     font-family: "Noto Sans";
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1.125rem;
-    /* background-color: lime; */
+    font-size: 1.125rem; 
   }
 
   .footer-text-2 {
     font-family: "Noto Sans";
     color: rgba(255, 255, 255, 0.5);
-    font-size: 20px;
-    /* background-color: lime; */
+    font-size: 20px; 
   }
-
-  /* ***************  Youtube Page ****************** */
-
-  .yt-main {
-    padding-top: 0px !important;
-  }
-
-
-
-
+ 
   .our-partner-1 .text {
     color: #913832;
     text-align: center;
@@ -7287,13 +7260,6 @@ h3.overview-para {
   }
 
 
-  .article-one .heading {
-    color: #913832;
-    font-family: "Bodoni Mopda 9pt";
-    font-size: 5rem;
-    line-height: 120%;
-    font-weight: 600;
-  }
 
   .article-one .text {
     color: #913832;
@@ -7380,6 +7346,7 @@ h3.overview-para {
     z-index: 99;
     background-size: cover;
     background-position: top -90px center;
+    padding-top: 0;
   }
 
   .sec-1 .description {
@@ -7415,7 +7382,7 @@ h3.overview-para {
     color: rgb(240, 230, 218);
   }
 
- 
+
   .sec-1 .line-img {
     height: 45px;
     width: 2px;
@@ -7465,8 +7432,8 @@ h3.overview-para {
   }
 
 
- .sec-2 { 
-    min-height: 100vh; 
+  .sec-2 {
+    min-height: 100vh;
     background-image: url(../img/sec-2-bg.jpg);
     background-size: cover;
     background-position: center;
@@ -7478,7 +7445,7 @@ h3.overview-para {
     display: flex;
     align-items: center;
     background-color: #f3eae1;
-}
+  }
 
   .sec-2 .gap {
     gap: 15px;
@@ -8090,10 +8057,6 @@ h3.overview-para {
     justify-content: space-between;
   }
 
-  .text-content {
-    max-width: 20rem;
-  }
-
   .about-us-section-3 .content .line-dot {
     display: flex;
     align-items: center;
@@ -8197,6 +8160,8 @@ h3.overview-para {
     background-position: top center;
     background-clip: border-box;
     background-repeat: no-repeat;
+    padding: 70px 0px;
+
   }
 
   .sector-in-focus-1 {
@@ -8719,17 +8684,7 @@ h3.overview-para {
     color: white;
     cursor: pointer;
   }
-
-  .ashoka-university-detail-page {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: bottom center;
-    margin-top: -290px;
-    padding-top: 290px;
-    overflow: hidden !important;
-  }
+ 
 
   .ashoka-university-detail-page .news-article {
     color: #913832;
@@ -8739,14 +8694,7 @@ h3.overview-para {
     font-weight: 400;
   }
 
-  .ashoka-university-detail-page .heading {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+
 
   .ashoka-university-detail-page .name {
     color: #913832;
@@ -8930,15 +8878,7 @@ h3.overview-para {
     width: -webkit-fill-available;
   }
 
-
-
-  /* error-404 page end */
-
-  /* overview-page start */
-
   .overview-page {
-    margin-top: -220px;
-    padding-top: 230px;
     overflow: hidden !important;
   }
 
@@ -10313,7 +10253,7 @@ h3.overview-para {
 
 
 
-  
+
   .error-404 .error-div .text {
     color: #fff;
     text-align: center;
@@ -10326,9 +10266,9 @@ h3.overview-para {
     -webkit-text-stroke-color: #000000fa;
     -webkit-text-stroke-width: 2px;
     margin-bottom: -40px;
-}
+  }
 
- .error-404 .error-div .text-3 {
+  .error-404 .error-div .text-3 {
     color: #913832;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
@@ -10336,4 +10276,4 @@ h3.overview-para {
     font-style: normal;
     font-weight: 600;
     margin-left: 30px;
-}
+  }

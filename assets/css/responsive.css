@@ -659,9 +659,7 @@
     padding-top: 300px;
   }
 
-  .article-one .heading {
-    font-size: 4rem;
-  }
+ 
 
   .thank-you-page .row-gap {
     padding-top: 18rem;
@@ -679,7 +677,16 @@
     left: -85px;
   }
 }
+@media (max-width: 1250px) {
+  .about-us-section-3 .top-images {
+    top: 10px !important;
+  }
 
+  .about-us-section-3 .top-images {
+    top: 10px !important;
+  }
+
+}
 @media (max-width: 1200px) {
 
   .carousel-inner .carousel-item>div {
@@ -783,11 +790,8 @@
     letter-spacing: normal;
   }
 
-  .article-one .heading {
-    font-size: 2rem;
-  }
-
-  .article-one .left-links .publisher {
+ 
+  .left-links .publisher  {
     font-size: 28px;
   }
 
@@ -1070,19 +1074,11 @@
 
 }
 
-@media (max-width: 1250px) {
-  .about-us-section-3 .top-images {
-    top: 10px !important;
-  }
-
-  .about-us-section-3 .top-images {
-    top: 10px !important;
-  }
-
-}
-
 
 @media (max-width: 1199px) {
+  .main {
+    padding-top: 190px;
+}
   .sec-1 .description {
     margin-bottom: 1rem;
     font-size: 45px;
@@ -1242,7 +1238,6 @@
     margin-top: 1.8rem;
   }
 
-  /***************************/
 }
 
 @media (max-width: 991px) {
@@ -1310,7 +1305,7 @@
     margin-top: 0px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 45px;
   }
 
@@ -1590,7 +1585,7 @@
     background-position: top center;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 45px;
   }
 
@@ -1636,13 +1631,7 @@
     padding-bottom: 0px;
   }
 
-  .article-one .heading::after {
-    content: "";
-    display: none;
-  }
-
-
-
+  
   .common-heading.stripbottom {
     color: #913832;
   }
@@ -2539,7 +2528,7 @@
     margin-top: -25px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 39px;
   }
 
@@ -2706,7 +2695,7 @@
     width: 20px;
   }
 
-  .article-one .left-links .publisher {
+  .left-links .publisher  {
     font-size: 16px;
   }
 
@@ -2714,7 +2703,7 @@
     font-size: 20px;
   }
 
-  .article-one .left-links .date {
+  .left-links {
     font-size: 14px;
   }
 
@@ -2796,7 +2785,7 @@
     font-size: 14px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 39px;
   }
 
@@ -3248,9 +3237,7 @@ button.navbar-toggler {
     justify-content: center !important;
   }
 
-  .ashoka-university-detail-page .heading br {
-    display: none;
-  }
+  
 
   .sec-5 .post-slide a:active .bottom-div .description-text {
     max-height: 200px;
@@ -3437,23 +3424,14 @@ button.navbar-toggler {
     right: -70px !important;
   }
 
-
-  .article-one .heading {
-    font-size: 1.5rem;
-    margin-top: 0;
-
-  }
+ 
 
   .article-one .gap {
     gap: 4px;
   }
+ 
 
-  .article-heading-2 {
-    margin-bottom: 0;
-    font-size: 12px;
-  }
-
-  .article-one .left-links .date {
+  .left-links {
     font-size: 12px;
   }
 
@@ -3610,7 +3588,7 @@ button.navbar-toggler {
     height: 20px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 31px;
   }
 
@@ -3696,9 +3674,7 @@ button.navbar-toggler {
     padding-top: 100px;
   }
 
-  .article-one .heading {
-    font-size: 25px;
-  }
+ 
 
   .article-one .text {
     font-size: 16px;
@@ -3727,7 +3703,7 @@ button.navbar-toggler {
     padding-bottom: 10px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 31px;
   }
 
@@ -3959,7 +3935,7 @@ button.navbar-toggler {
     padding-left: 30px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 23px;
   }
 
@@ -4012,7 +3988,7 @@ button.navbar-toggler {
     z-index: 8;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 23px;
   }
 
