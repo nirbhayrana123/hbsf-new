@@ -123,6 +123,17 @@
     padding-bottom: 15px;
     margin-bottom: 30px;
   }
+h3 {
+    color: #913832;
+    text-align: center;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+
 .pl-contact h3 {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -411,16 +422,11 @@
     font-weight: 500;
     text-decoration: underline;
   }
-h3.overview-para {
-    font-size: 40px;
-}
  
 .dotsmap svg.map-size {
     width: 1000px;
 }
-
-
-
+ 
   .sec-2 .text {
     font-family: Bodoni Moda 9pt;
     font-size: 24px;
@@ -1505,16 +1511,7 @@ h3.overview-para {
     padding-top: 290px;
     margin-bottom: 60px;
   }
-
-  .sector-in-focus-1 .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-  }
-
+ 
 
   .sector-in-focus-1 .image-1 {
     max-width: 400px;
@@ -1529,16 +1526,7 @@ h3.overview-para {
     background-repeat: no-repeat;
   }
 
-  .our-partner-1 .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    padding-bottom: 30px;
-  }
-
+  
 
   .our-partner-1 .input-tag {
     background-color: transparent;
@@ -1568,14 +1556,7 @@ h3.overview-para {
     text-decoration: none;
   }
 
-  .our-partner-1 .text-2 {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-  }
+  
 
   .our-partner-1 .image-div {
     max-height: 300px;
@@ -4937,14 +4918,7 @@ h3.overview-para {
     font-size: 20px; 
   }
  
-  .our-partner-1 .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-  }
+ 
 
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
@@ -4962,15 +4936,7 @@ h3.overview-para {
     text-decoration: none;
   }
 
-  .our-partner-1 .text-2 {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 400;
-  }
-
+ 
   .our-partner-1 .text-below-heading {
     color: #913832;
     text-align: center;
@@ -8102,15 +8068,7 @@ h3.overview-para {
     overflow-x: hidden !important;
   }
 
-  .sector-in-focus-1 .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-  }
-
+ 
 
   .sector-in-focus-1 .image-1 {
     max-width: 400px;
