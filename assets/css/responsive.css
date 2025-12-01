@@ -2882,8 +2882,9 @@
     bottom: 13px;
   }
 
+.about-us-section-1 .menu {
+  padding-left: 28px;
 }
-
 
 .myswiper .swiper-button-prev {
   left: 180px;
@@ -3248,6 +3249,8 @@ button.navbar-toggler {
   color: rgb(145, 56, 50);
 }
 
+
+}
 
 @media (max-width: 650px) {
   .contact-us .address-div {

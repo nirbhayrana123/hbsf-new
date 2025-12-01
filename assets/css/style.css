@@ -210,18 +210,7 @@
     margin-top: -4px;
   }
 
-  .sec-4 {
-    background-image: url(../img/sec-4-bg.jpg);
-    background-position: bottom center;
-    background-size: 100% 100%;
-    background-clip: border-box;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    position: relative;
-    padding-bottom: 145px;
-    padding-top: 70px;
-    margin-bottom: -92px;
-  }
+  
 
   .homedropdown {
     visibility: hidden;
@@ -399,16 +388,7 @@
     text-decoration: underline;
   }
 
-  .sec-2 {
-    overflow: hidden;
-    min-height: 100vh;
-    overflow-x: hidden;
-    background-image: url(../img/sec-2-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-clip: border-box;
-  }
+ 
 
 
 
@@ -555,14 +535,7 @@
     transition: ease-in-out 0.5s;
   }
 
-  .sec-5 {
-    overflow-x: hidden;
-    background-image: url(../img/sec-5-bg.jpg);
-    background-position: center;
-    background-clip: border-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+ 
 
   .sec-5 .image {
     width: 340px;
@@ -3300,10 +3273,8 @@
     background-size: 100% 100%;
     background-clip: border-box;
     background-repeat: no-repeat;
-    min-height: 100vh;
     position: relative;
     padding-bottom: 145px !important;
-    padding-top: 70px;
     margin-bottom: -92px;
   }
 
@@ -3329,7 +3300,7 @@
     max-width: 250px;
   }
 
-  .sec-5 {
+ .sec-5 {
     background-image: url(../img/sec-5-bg.jpg);
     background-position: center;
     background-clip: border-box;
@@ -3337,12 +3308,8 @@
     background-repeat: no-repeat;
     margin-top: 0;
     margin-bottom: 5rem;
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 10px;
-  }
+    overflow-x: hidden;
+}
 
   .sec-5 .image {
     width: 100%;
@@ -3862,11 +3829,7 @@
     z-index: 3;
   }
 
-  .sec-2 {
-    position: relative;
-    overflow: visible;
-    background-color: #f3eae1;
-  }
+  
 
   .sec-2 canvas {
     position: absolute;
@@ -4593,21 +4556,7 @@
   }
 
 
-  .sec-2 {
-    overflow: hidden;
-    min-height: 100vh;
-    overflow-x: hidden;
-    background-image: url(../img/sec-2-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-clip: border-box;
-    box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
-    z-index: 9;
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
+  
 
 
 
@@ -7410,9 +7359,6 @@
     transform: translateX(0) !important;
   }
 
-  .section-height {
-    scroll-snap-align: start;
-  }
 
   .navbar-nav .nav-link.active,
   .navbar-nav .nav-link.show {
@@ -7550,7 +7496,7 @@
   }
 
 
-  .sec-2 {
+ .sec-2 {
     overflow: hidden;
     min-height: 100vh;
     overflow-x: hidden;
@@ -7559,7 +7505,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-clip: border-box;
-  }
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f3eae1;
+}
 
   .sec-2 .gap {
     gap: 15px;
@@ -9372,13 +9324,7 @@
     transform: translateX(0);
   }
 
-  .section-height {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 60px 0;
-  }
+
 
   :root {
     --swiper-theme-color: #007aff
@@ -10396,11 +10342,29 @@
         rgba(245, 245, 245, 0) 100%);
   }
 
-  .founding-members {
-    margin-top: 120px;
-    margin-bottom: 50px;
-  }
 
-  .row.gap.news-article {
-    margin-top: 45px;
-  }
+
+  
+  .error-404 .error-div .text {
+    color: #fff;
+    text-align: center;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 190px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+    -webkit-text-stroke-color: #000000fa;
+    -webkit-text-stroke-width: 2px;
+    margin-bottom: -40px;
+}
+
+ .error-404 .error-div .text-3 {
+    color: #913832;
+    text-align: center;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 30px;
+}

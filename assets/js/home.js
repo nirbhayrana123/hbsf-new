@@ -1,60 +1,60 @@
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 // ============================================
 // FAST SMOOTH SECTION NAVIGATION (Arrow Keys)
 // ============================================
-const sections = document.querySelectorAll(".section-height");
-let currentIndex = 0;
-let isNavigating = false;
-let currentScrollTween = null;
+// const sections = document.querySelectorAll(".section-height");
+// let currentIndex = 0;
+// let isNavigating = false;
+// let currentScrollTween = null;
 
-function goToSection(index) {
-  if (index < 0 || index >= sections.length) return;
+// function goToSection(index) {
+//   if (index < 0 || index >= sections.length) return;
 
-  // Kill any existing scroll animation immediately
-  if (currentScrollTween) {
-    currentScrollTween.kill();
-  }
+//   // Kill any existing scroll animation immediately
+//   if (currentScrollTween) {
+//     currentScrollTween.kill();
+//   }
 
-  isNavigating = true;
-  currentIndex = index;
+//   isNavigating = true;
+//   currentIndex = index;
 
-  const targetSection = sections[index];
-  const targetPosition = targetSection.offsetTop;
+//   const targetSection = sections[index];
+//   const targetPosition = targetSection.offsetTop;
 
-  // Calculate distance to travel for dynamic duration
-  const currentPosition = window.pageYOffset || document.documentElement.scrollTop;
-  const distance = Math.abs(targetPosition - currentPosition);
-  const viewportHeight = window.innerHeight;
+//   // Calculate distance to travel for dynamic duration
+//   const currentPosition = window.pageYOffset || document.documentElement.scrollTop;
+//   const distance = Math.abs(targetPosition - currentPosition);
+//   const viewportHeight = window.innerHeight;
 
-  // Faster duration calculation - much quicker!
-  let duration = 0.3; // Base duration in seconds
+//   // Faster duration calculation - much quicker!
+//   let duration = 0.3; // Base duration in seconds
 
-  // Adjust duration based on distance (but keep it fast)
-  if (distance > viewportHeight * 2) {
-    duration = 0.1; // Longer jumps but still fast
-  } else if (distance > viewportHeight) {
-    duration = 0.2;
-  }
+//   // Adjust duration based on distance (but keep it fast)
+//   if (distance > viewportHeight * 2) {
+//     duration = 0.1; // Longer jumps but still fast
+//   } else if (distance > viewportHeight) {
+//     duration = 0.2;
+//   }
 
-  // Use a faster ease for more immediate response
-  currentScrollTween = gsap.to(window, {
-    duration: duration,
-    scrollTo: {
-      y: targetPosition,
-      autoKill: false,
-    },
-    ease: "power1.inOut",
-    onComplete: () => {
-      isNavigating = false;
-      currentScrollTween = null;
-    },
-    onInterrupt: () => {
-      isNavigating = false;
-      currentScrollTween = null;
-    }
-  });
-}
+//   // Use a faster ease for more immediate response
+//   currentScrollTween = gsap.to(window, {
+//     duration: duration,
+//     scrollTo: {
+//       y: targetPosition,
+//       autoKill: false,
+//     },
+//     ease: "power1.inOut",
+//     onComplete: () => {
+//       isNavigating = false;
+//       currentScrollTween = null;
+//     },
+//     onInterrupt: () => {
+//       isNavigating = false;
+//       currentScrollTween = null;
+//     }
+//   });
+// }
 
 // // Keyboard navigation - much more responsive
 // window.addEventListener("keydown", (e) => {
@@ -81,25 +81,25 @@ function goToSection(index) {
 // });
 
 // Simplified scroll tracking - less aggressive
-let scrollTimeout;
-window.addEventListener("scroll", () => {
-  if (isNavigating) return;
+// let scrollTimeout;
+// window.addEventListener("scroll", () => {
+//   if (isNavigating) return;
 
-  clearTimeout(scrollTimeout);
+//   clearTimeout(scrollTimeout);
 
-  scrollTimeout = setTimeout(() => {
-    const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+//   scrollTimeout = setTimeout(() => {
+//     const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    // Find which section is currently in view
-    sections.forEach((sec, idx) => {
-      const rect = sec.getBoundingClientRect();
-      // Check if section is mostly in view
-      if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
-        currentIndex = idx;
-      }
-    });
-  }, 150);
-}, { passive: true });
+//     // Find which section is currently in view
+//     sections.forEach((sec, idx) => {
+//       const rect = sec.getBoundingClientRect();
+//       // Check if section is mostly in view
+//       if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+//         currentIndex = idx;
+//       }
+//     });
+//   }, 150);
+// }, { passive: true });
 
 // ============================================
 // SMOOTH SCROLL BEHAVIOR FOR ALL LINKS
@@ -233,33 +233,33 @@ sec7Timeline
 // ============================================
 // SMOOTH WHEEL SCROLLING
 // ============================================
-let wheelTimeout;
-let isWheelScrolling = false;
+// let wheelTimeout;
+// let isWheelScrolling = false;
 
-window.addEventListener('wheel', (e) => {
-  // Prevent default scroll behavior
-  e.preventDefault();
+// window.addEventListener('wheel', (e) => {
+//   // Prevent default scroll behavior
+//   e.preventDefault();
 
-  // If already navigating or wheel scrolling, ignore
-  if (isNavigating || isWheelScrolling) return;
+//   // If already navigating or wheel scrolling, ignore
+//   if (isNavigating || isWheelScrolling) return;
 
-  clearTimeout(wheelTimeout);
-  isWheelScrolling = true;
+//   clearTimeout(wheelTimeout);
+//   isWheelScrolling = true;
 
-  // Determine scroll direction
-  if (e.deltaY > 0) {
-    // Scrolling down - go to next section
-    goToSection(Math.min(currentIndex + 1, sections.length - 1));
-  } else {
-    // Scrolling up - go to previous section
-    goToSection(Math.max(currentIndex - 1, 0));
-  }
+//   // Determine scroll direction
+//   if (e.deltaY > 0) {
+//     // Scrolling down - go to next section
+//     goToSection(Math.min(currentIndex + 1, sections.length - 1));
+//   } else {
+//     // Scrolling up - go to previous section
+//     goToSection(Math.max(currentIndex - 1, 0));
+//   }
 
-  // Reset wheel scrolling flag after a delay
-  wheelTimeout = setTimeout(() => {
-    isWheelScrolling = false;
-  }, 1000); // Prevent rapid wheel events
-}, { passive: false });
+//   // Reset wheel scrolling flag after a delay
+//   wheelTimeout = setTimeout(() => {
+//     isWheelScrolling = false;
+//   }, 1000); // Prevent rapid wheel events
+// }, { passive: false });
 
 
 
@@ -308,12 +308,12 @@ $(document).ready(function() {
         loop:true,
     });
 });
-window.addEventListener("scroll", function () {
-  const header = document.querySelector("header");
+// window.addEventListener("scroll", function () {
+//   const header = document.querySelector("header");
 
-  if (window.scrollY > 100) {
-    header.classList.add("active");
-  } else {
-    header.classList.remove("active");
-  }
-}); 
+//   if (window.scrollY > 100) {
+//     header.classList.add("active");
+//   } else {
+//     header.classList.remove("active");
+//   }
+// }); 
