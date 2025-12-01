@@ -653,7 +653,7 @@
     padding-top: 300px;
   }
 
-  .article-one .heading {
+  h1.heading {
     font-size: 4rem;
   }
 
@@ -777,11 +777,11 @@
     letter-spacing: normal;
   }
 
-  .article-one .heading {
+  h1.heading {
     font-size: 2rem;
   }
 
-  .article-one .left-links .publisher {
+  .left-links .publisher  {
     font-size: 28px;
   }
 
@@ -1630,7 +1630,7 @@
     padding-bottom: 0px;
   }
 
-  .article-one .heading::after {
+  h1.heading::after {
     content: "";
     display: none;
   }
@@ -2700,7 +2700,7 @@
     width: 20px;
   }
 
-  .article-one .left-links .publisher {
+  .left-links .publisher  {
     font-size: 16px;
   }
 
@@ -2708,7 +2708,7 @@
     font-size: 20px;
   }
 
-  .article-one .left-links .date {
+  .left-links {
     font-size: 14px;
   }
 
@@ -3432,7 +3432,7 @@ button.navbar-toggler {
   }
 
 
-  .article-one .heading {
+  h1.heading {
     font-size: 1.5rem;
     margin-top: 0;
 
@@ -3447,7 +3447,7 @@ button.navbar-toggler {
     font-size: 12px;
   }
 
-  .article-one .left-links .date {
+  .left-links {
     font-size: 12px;
   }
 
@@ -3690,7 +3690,7 @@ button.navbar-toggler {
     padding-top: 100px;
   }
 
-  .article-one .heading {
+  h1.heading {
     font-size: 25px;
   }
 
