@@ -356,15 +356,15 @@
     font-size: 40px;
 }
 
-  .ashoka-university-detail-page .description .text {
+  .bannerbg .description .text {
     font-size: 25px;
   }
 
-  .ashoka-university-detail-page .view-article {
+  .bannerbg .view-article {
     font-size: 25px;
   }
 
-  .ashoka-university-detail-page .back {
+  .bannerbg .back {
     font-size: 24px;
   }
 
@@ -466,7 +466,7 @@
     padding-left: 31px !important;
   }
 
-  .ashoka-university-detail-page .iframe-tag {
+  .bannerbg .iframe-tag {
     height: 528px;
     max-width: 1175px;
     margin-top: 16px;
@@ -664,7 +664,7 @@
     padding-top: 140px;
   }
 
-  .ashoka-university-detail-page .menu {
+  .bannerbg .menu {
     margin-top: 12%;
   }
 
@@ -743,7 +743,7 @@
     gap: 40px;
   }
 
-  .ashoka-university-detail-page .description .text {
+  .bannerbg .description .text {
     font-size: 25px;
   }
 
@@ -900,7 +900,7 @@
     padding-bottom: 100px;
   }
 
-  .ashoka-university-detail-page .description .text {
+  .bannerbg .description .text {
     font-size: 25px;
   }
 
@@ -1046,7 +1046,7 @@
     padding-left: 31px !important;
   }
 
-  .ashoka-university-detail-page .iframe-tag {
+  .bannerbg .iframe-tag {
     height: 438px;
     max-width: 800px;
     border-radius: 49px;
@@ -1092,7 +1092,7 @@
     padding-left: 31px !important;
   }
 
-  .ashoka-university-detail-page .iframe-tag {
+  .bannerbg .iframe-tag {
     max-width: 700px;
     border-radius: 49px;
   }
@@ -1183,11 +1183,11 @@
     width: 430px;
   }
 
-  .ashoka-university-detail-page .view-article {
+  .bannerbg .view-article {
     font-size: 25px;
   }
 
-  .ashoka-university-detail-page .back {
+  .bannerbg .back {
     font-size: 25px;
   }
 
@@ -1487,15 +1487,15 @@
 
 
 
-  .ashoka-university-detail-page .name {
+  .bannerbg .name {
     font-size: 24px;
   }
 
-  .ashoka-university-detail-page .date {
+  .bannerbg .date {
     font-size: 15px;
   }
 
-  .ashoka-university-detail-page .gap .icons {
+  .bannerbg .gap .icons {
     height: 20px;
     width: 20px;
   }
@@ -2227,7 +2227,7 @@
     padding-left: 31px !important;
   }
 
-  .ashoka-university-detail-page .iframe-tag {
+  .bannerbg .iframe-tag {
     max-width: 843px;
     border-radius: 49px;
   }
@@ -2508,7 +2508,7 @@
     font-size: 39px;
   }
 
-  .ashoka-university-detail-page .description .text {
+  .bannerbg .description .text {
     font-size: 20px;
   }
 
@@ -2683,7 +2683,7 @@
     font-size: 14px;
   }
 
-  .ashoka-university-detail-page .name {
+  .bannerbg .name {
     font-size: 20px;
   }
 
@@ -2726,7 +2726,7 @@
     display: none;
   }
 
-  .ashoka-university-detail-page .view-article {
+  .bannerbg .view-article {
     font-size: 20px;
   }
 
@@ -2734,11 +2734,11 @@
     padding: 0px 0;
   }
 
-  .ashoka-university-detail-page .view-article {
+  .bannerbg .view-article {
     font-size: 20px;
   }
 
-  .ashoka-university-detail-page .back {
+  .bannerbg .back {
     font-size: 20px;
   }
 
@@ -2765,7 +2765,7 @@
     font-size: 39px;
   }
 
-  .ashoka-university-detail-page .description .text {
+  .bannerbg .description .text {
     font-size: 20px;
   }
 
@@ -3130,10 +3130,7 @@ button.navbar-toggler {
   margin-top: 15px !important;
 }
 
-.privacy-policy .gap {
-  gap: 20px;
-  padding-top: 1rem;
-}
+ 
 
 .footer {
   min-height: 1px;
@@ -3485,14 +3482,7 @@ button.navbar-toggler {
   .overview-page-2 .second-div .text-3 {
     font-size: 30px;
   }
-
-  .privacy-policy .heading {
-    font-size: 25px;
-  }
-
-  .privacy-policy .text {
-    font-size: 20px;
-  }
+ 
 
   .overview-page-2 .second-div .text {
     font-size: 30px;
@@ -3652,7 +3642,7 @@ button.navbar-toggler {
     font-size: 16px;
   }
 
-  .ashoka-university-detail-page .gap {
+  .bannerbg .gap {
     gap: 12px;
   }
 
@@ -3679,7 +3669,7 @@ button.navbar-toggler {
     font-size: 31px;
   }
 
-  .ashoka-university-detail-page .view-article {
+  .bannerbg .view-article {
     font-size: 20px;
   }
 
@@ -3836,24 +3826,24 @@ button.navbar-toggler {
 }
 
 @media (max-width: 400px) {
-  .ashoka-university-detail-page .gap {
+  .bannerbg .gap {
     gap: 7px;
   }
 
-  .ashoka-university-detail-page .gap .icons {
+  .bannerbg .gap .icons {
     height: 15px;
     width: 15px;
   }
 
-  .ashoka-university-detail-page .gap .share {
+  .bannerbg .gap .share {
     font-size: 13px;
   }
 
-  .ashoka-university-detail-page .name {
+  .bannerbg .name {
     font-size: 11px;
   }
 
-  .ashoka-university-detail-page .date {
+  .bannerbg .date {
     font-size: 11px;
   }
 
