@@ -632,15 +632,10 @@
   .imgbginner::after {
     height: 334px;
 
-  }
-
-  /****************************home style******************************/
+  } 
 
 
-  .contact-us .heading {
-    font-size: 27px;
-  }
-
+ 
   .contactbgmain {
     padding-bottom: 60px;
   }
@@ -761,10 +756,7 @@
     background-position: center;
   }
 
-  .contact-us .heading {
-    margin-left: 0px;
-  }
-
+  
   .contact-us .image {
     margin-left: -70px;
   }
@@ -972,9 +964,7 @@
     padding-bottom: 150px;
   }
 
-  .contact-us .heading {
-    margin-left: 0px;
-  }
+ 
 
 
   .contactbgmain {
@@ -988,11 +978,7 @@
   .contact-us .address {
     font-size: 13px;
   }
-
-  .contact-us .heading {
-    font-size: 20px;
-  }
-
+ 
   .contact-us .submit-btn {
     max-width: 148px;
     height: 36px;
@@ -1230,10 +1216,10 @@
   }
 
   .about-us-section-1 .main-image {
-    top: 278px;
-    right: -35px;
-    max-height: 430px;
-  }
+      top: 278px;
+      right: -35px;
+      max-height: 430px;
+    }
 
 
   .pt-md-4 {
@@ -1300,7 +1286,9 @@
     justify-content: center;
     gap: 15px;
   }
-
+.main {
+        padding-top: 140px;
+    }
   .sdg-item {
     width: 120px;
     grid-column: auto !important;
@@ -1415,17 +1403,16 @@
   }
 
   .about-us-section-1 {
-    margin-top: -360px;
     padding-bottom: 700px;
   }
 
-  .about-us-section-1 .main-image {
-    height: 500px;
-    top: unset;
-    left: 0px;
-    margin: auto;
-    bottom: -550px;
-  }
+ .about-us-section-1 .main-image {
+      top: 90px;
+      right: 0px;
+      height: auto;
+      left: 0;
+      margin: 0 auto;
+    }
 
   .about-us-nav .logo-2 {
     height: 100px;
@@ -1693,14 +1680,9 @@
     max-height: 370px;
   }
 
-  .about-us-section-1 .main-image {
-    top: 260px;
-    right: 0px;
-    left: 0;
-    height: auto;
-    margin: 0 auto;
-  }
-
+.flesing .year-label.section-title {
+    display: none;
+}
   .about-us-section-3 .top-padding h2.common-heading.white {
     color: #913832;
   }
@@ -1857,13 +1839,7 @@
     padding-left: 0;
   }
 
-  .contact-us .heading {
-    font-size: 30px;
-    order: 2;
-    text-align: center;
-    width: 100%;
-    position: relative;
-  }
+   
 
   .heading:after {
     content: "";
@@ -2290,11 +2266,7 @@
     margin-left: 0px;
   }
 
-  .contact-us .heading {
-    top: -90px;
-    font-size: 30px;
-  }
-
+ 
   .contact-us .address-div {
     left: 0px;
   }
@@ -2390,6 +2362,10 @@
   .sec-2 {
     padding-top: 70px;
   }
+nav.breadcrumb-nav {
+    margin-left: 30px;
+}
+
 
   .sec-3 .image {
     width: 300px;
@@ -2941,340 +2917,336 @@
     top: 35%;
   }
 
-  .about-us-section-1 .heading {
-    font-size: 20px;
-  }
-
-  .about-us-section-1 .description {
-    font-size: 16px;
-  }
-
-  .about-us-section-1 .section-title {
-    margin-left: 33px;
-    margin-top: 25px;
-  }
-
-  .timeline-line {
-    left: 47px;
-    top: 38%;
-  }
-
-  .about-us-section-1 {
-    background-size: cover;
-    position: relative;
-    z-index: 2;
-    overflow: hidden;
-  }
-
-  .about-us-section-1 .main-image {
-    top: 125px;
-  }
-
-  .about-us-section-2 .text {
-    font-size: 20px;
-  }
-
-  .news-narratives-page .input-tag {
-    max-width: 220px !important;
-    padding: 10px 30px !important;
-  }
-
-
-  .common-headingcolo {
-    margin-top: 0px !important;
-  }
-
-  .footer-bottom-text {
-    margin-top: 20px !important;
-    max-width: 100% !important;
-  }
-
-  .footer-terms-of {
-    bottom: 0px !important;
-  }
-
-  .footer {
-    padding-top: 20px !important;
-    padding-bottom: 30px !important;
-  }
-
-
-
-  .tab-label.active-label {
-    margin-bottom: 0px;
-  }
-
-  .sec-3 .image {
-    width: 300px;
-    height: 400px;
-  }
-
-  .news-narratives-page .news-article {
-    font-size: 14px;
-  }
-
-  .news-narratives-page .name {
-    font-size: 22px;
-  }
-
-  .news-narratives-page .description {
-    font-size: 14px;
-    margin-top: 0 !important;
-  }
-
-  .news-narratives-page .read-more {
-    font-size: 18px;
-  }
-
-  .news-narratives-page .name-date {
-    font-size: 14px;
-  }
-
-  .pright {
-    padding-right: 15px;
-  }
-
-  .pleft {
-    padding-left: 15px;
-  }
-
-  .section-height {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 60px 0;
-  }
-
-  .imgbginner::after,
-  .imgbginner::before,
-  .secondimgbg .torow.hovermove::after,
-  .secondimgbg .torow.hovermove::before {
-    opacity: 0;
-  }
-
-  .hovermove:hover .imgbginner::after,
-  .hovermove:hover .imgbginner::before {
-    opacity: 0;
-  }
-
-  .background-black {
-    row-gap: 0px;
-  }
-
-  /**************** home.css*************************/
-  #news-slider .owl-pagination .owl-page {
-    width: 8px;
-    height: 8px;
-    margin: 0 3px;
-  }
-
-  owl-buttons .owl-prev,
-  .owl-buttons .owl-next {
-    position: absolute;
-    top: auto;
-    transform: translateY(0);
-    width: 13px;
-    height: 23px;
-    background-size: 10px;
-    right: 40px;
-    bottom: -53px;
-    background-repeat: no-repeat;
-  }
-
-  .owl-buttons .owl-prev {
-    position: absolute;
-    top: auto;
-    transform: translateY(0);
-    width: 13px;
-    height: 23px;
-    background-size: 10px;
-    left: 40px;
-    bottom: -54px;
-    background-repeat: no-repeat;
-  }
-
-  .sec-5 .image {
-    width: 300px;
-  }
-
-  .sec-5 .left-arr-btn {
-    margin-left: 0px;
-  }
-
-  .sec-5 .right-arr-btn {
-    margin-left: 0px;
-  }
-
-  #news-slider .owl-wrapper {
-    margin-left: 0;
-  }
-
-
-
-  .content.sec-1-content.stripbottom.red {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .sec-5 .image {
-    width: 100%;
-  }
-
-  .content.sec-1-content.stripbottom.red {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .conentsliv {
-    padding-left: 85px;
-  }
-
-  .sec-1-content h1 {
-    font-size: 40px;
-  }
-
-  .description>div {
-    margin-top: 0%;
-  }
-
-  .footer-terms-of {
-    gap: 7px;
-  }
-
-  .footer-terms-of a {
-    padding-bottom: 0px;
-  }
-
-  .sec-7 {
-    min-height: auto;
-  }
-
-  .contents p {
-    font-size: 24px;
-    line-height: 1.5;
-  }
-
-  .sec-2-text {
-    font-size: 20px;
-  }
-
-  .contents p {
-    line-height: 36px;
-  }
-
-  .contact-us {
-    padding-top: 90px;
-  }
-
-  .sec-1 .m-logo {
-    display: inline-block;
-    position: absolute;
-    top: 6rem;
-    left: 52%;
-    transform: translateX(-50%);
-    width: 7rem;
-    height: auto;
-    z-index: 10;
-  }
-
-  .sec-1 .flower-1 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin-bottom: 19rem;
-    z-index: 2;
-  }
-
-  .sec-1 .description {
-    font-size: 40px;
-  }
-
-  .sec-1 nav {
-    position: relative;
-    z-index: 8;
-  }
-
-  .cursor {
-    display: none;
-  }
-
-  .about-us-nav {
-    background-position: bottom 0px center;
-  }
-
-  button.navbar-toggler {
-    margin-top: 15px !important;
-  }
-
-  .privacy-policy .gap {
-    gap: 20px;
-    padding-top: 1rem;
-  }
-
-  .footer {
-    min-height: 1px;
-  }
-
-  .plpr {
-    padding-top: 10px;
-  }
-
-
-  .about-us-section-3 .bottom-padding {
-    padding-bottom: 0px;
-  }
-
-  .about-us-section-3 .bottom-padding-2 {
-    padding-bottom: 150px;
-  }
-
-  .sdg-item {
-    width: 100px;
-    grid-column: auto !important;
-  }
-
-  .sec-3 {
-    padding-top: 70px;
-  }
-
-  .about-us-nav .nav-menu {
-    padding-bottom: 0px;
-  }
-
-  .about-us-section-1 .gaps {
-    padding-bottom: 25px;
-  }
-
-  .sec-2-text {
-    line-height: 1.8rem;
-  }
-
-  /* sec-7 */
-  .sec-7 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .sec-7-p {
-    margin-right: 2rem;
-  }
-
-
-
-  .sec-4 .content {
-    padding: 0rem;
-  }
-
-  .sec-4 .content .about-content h6 {
-    font-size: x-large;
-    width: 80%;
-    font-family: "Bodoni Moda 9pt italic";
-    font-weight: 400;
-    /* Regular */
-    font-size: 1.68rem;
-    color: rgb(145, 56, 50);
-  }
+.about-us-section-1 .heading {
+  font-size: 20px;
+}
+
+.about-us-section-1 .description {
+  font-size: 16px;
+}
+
+.about-us-section-1 .section-title {
+  margin-left: 33px;
+  margin-top: 25px;
+}
+
+.timeline-line {
+  left: 47px;
+  top: 38%;
+}
+
+.about-us-section-1 {
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.about-us-section-2 .text {
+  font-size: 20px;
+}
+
+.news-narratives-page .input-tag {
+  max-width: 220px !important;
+  padding: 10px 30px !important;
+}
+
+
+.common-headingcolo {
+  margin-top: 0px !important;
+}
+
+.footer-bottom-text {
+  margin-top: 20px !important;
+  max-width: 100% !important;
+}
+
+.footer-terms-of {
+  bottom: 0px !important;
+}
+
+.footer {
+  padding-top: 20px !important;
+  padding-bottom: 30px !important;
+}
+
+
+
+.tab-label.active-label {
+  margin-bottom: 0px;
+}
+
+.sec-3 .image {
+  width: 300px;
+  height: 400px;
+}
+
+.news-narratives-page .news-article {
+  font-size: 14px;
+}
+
+.news-narratives-page .name {
+  font-size: 22px;
+}
+
+.news-narratives-page .description {
+  font-size: 14px;
+  margin-top: 0 !important;
+}
+
+.news-narratives-page .read-more {
+  font-size: 18px;
+}
+
+.news-narratives-page .name-date {
+  font-size: 14px;
+}
+
+.pright {
+  padding-right: 15px;
+}
+
+.pleft {
+  padding-left: 15px;
+}
+
+.section-height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.imgbginner::after,
+.imgbginner::before,
+.secondimgbg .torow.hovermove::after,
+.secondimgbg .torow.hovermove::before {
+  opacity: 0;
+}
+
+.hovermove:hover .imgbginner::after,
+.hovermove:hover .imgbginner::before {
+  opacity: 0;
+}
+
+.background-black {
+  row-gap: 0px;
+}
+
+/**************** home.css*************************/
+#news-slider .owl-pagination .owl-page {
+  width: 8px;
+  height: 8px;
+  margin: 0 3px;
+}
+
+owl-buttons .owl-prev,
+.owl-buttons .owl-next {
+  position: absolute;
+  top: auto;
+  transform: translateY(0);
+  width: 13px;
+  height: 23px;
+  background-size: 10px;
+  right: 40px;
+  bottom: -53px;
+  background-repeat: no-repeat;
+}
+
+.owl-buttons .owl-prev {
+  position: absolute;
+  top: auto;
+  transform: translateY(0);
+  width: 13px;
+  height: 23px;
+  background-size: 10px;
+  left: 40px;
+  bottom: -54px;
+  background-repeat: no-repeat;
+}
+
+.sec-5 .image {
+  width: 300px;
+}
+
+.sec-5 .left-arr-btn {
+  margin-left: 0px;
+}
+
+.sec-5 .right-arr-btn {
+  margin-left: 0px;
+}
+
+#news-slider .owl-wrapper {
+  margin-left: 0;
+}
+
+ 
+
+.content.sec-1-content.stripbottom.red {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sec-5 .image {
+  width: 100%;
+}
+
+.content.sec-1-content.stripbottom.red {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.conentsliv {
+  padding-left: 85px;
+}
+
+.sec-1-content h1 {
+  font-size: 40px;
+}
+
+.description>div {
+  margin-top: 0%;
+}
+
+.footer-terms-of {
+  gap: 7px;
+}
+
+.footer-terms-of a {
+  padding-bottom: 0px;
+}
+
+.sec-7 {
+  min-height: auto;
+}
+
+.contents p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.sec-2-text {
+  font-size: 20px;
+}
+
+.contents p {
+  line-height: 36px;
+}
+
+.contact-us {
+  padding-top: 90px;
+}
+
+.sec-1 .m-logo {
+  display: inline-block;
+  position: absolute;
+  top: 6rem;
+  left: 52%;
+  transform: translateX(-50%);
+  width: 7rem;
+  height: auto;
+  z-index: 10;
+}
+
+.sec-1 .flower-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 19rem;
+  z-index: 2;
+}
+
+.sec-1 .description {
+  font-size: 40px;
+}
+
+.sec-1 nav {
+  position: relative;
+  z-index: 8;
+}
+
+.cursor {
+  display: none;
+}
+
+.about-us-nav {
+  background-position: bottom 0px center;
+}
+
+button.navbar-toggler {
+  margin-top: 15px !important;
+}
+
+.privacy-policy .gap {
+  gap: 20px;
+  padding-top: 1rem;
+}
+
+.footer {
+  min-height: 1px;
+}
+
+.plpr {
+  padding-top: 10px;
+}
+
+
+.about-us-section-3 .bottom-padding {
+  padding-bottom: 0px;
+}
+
+.about-us-section-3 .bottom-padding-2 {
+  padding-bottom: 150px;
+}
+
+.sdg-item {
+  width: 100px;
+  grid-column: auto !important;
+}
+
+.sec-3 {
+  padding-top: 70px;
+}
+
+.about-us-nav .nav-menu {
+  padding-bottom: 0px;
+}
+
+.about-us-section-1 .gaps {
+  padding-bottom: 25px;
+}
+
+.sec-2-text {
+  line-height: 1.8rem;
+}
+
+/* sec-7 */
+.sec-7 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.sec-7-p {
+  margin-right: 2rem;
+}
+
+ 
+
+.sec-4 .content {
+  padding: 0rem;
+}
+
+.sec-4 .content .about-content h6 {
+  font-size: x-large;
+  width: 80%;
+  font-family: "Bodoni Moda 9pt italic";
+  font-weight: 400;
+  /* Regular */
+  font-size: 1.68rem;
+  color: rgb(145, 56, 50);
+}
 
 
 }
@@ -3303,11 +3275,7 @@
     width: 14px;
   }
 
-  .contact-us .heading {
-    font-size: 20px;
-    letter-spacing: 3px;
-  }
-
+ 
   .sec-5 .post-slide a:active .bottom-div .text-3,
   .sec-5 .post-slide a:active .bottom-div .text-6 {
     transform: translateY(-10px);
@@ -3585,6 +3553,11 @@
 }
 
 @media (max-width: 524px) {
+      .main
+ {
+        padding-top: 100px;
+    }
+
   .the-rotary-foundation .information-1 {
     font-size: 22px;
   }
@@ -3980,10 +3953,7 @@
     padding-right: 40px;
   }
 
-  .contact-us .heading {
-    font-size: 17px;
-  }
-
+ 
   .prdiingcontact {
     padding-right: 30px;
     padding-left: 30px;
