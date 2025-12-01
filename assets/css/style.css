@@ -189,18 +189,7 @@ h2.common-heading.align-left {
     margin-top: -4px;
   }
 
-  .sec-4 {
-    background-image: url(../img/sec-4-bg.jpg);
-    background-position: bottom center;
-    background-size: 100% 100%;
-    background-clip: border-box;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    position: relative;
-    padding-bottom: 145px;
-    padding-top: 70px;
-    margin-bottom: -92px;
-  }
+  
 
   .homedropdown {
     visibility: hidden;
@@ -389,16 +378,7 @@ h2.common-heading.align-left {
     text-decoration: underline;
   }
 
-  .sec-2 {
-    overflow: hidden;
-    min-height: 100vh;
-    overflow-x: hidden;
-    background-image: url(../img/sec-2-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-clip: border-box;
-  }
+ 
 
  
 
@@ -545,14 +525,7 @@ h2.common-heading.align-left {
     transition: ease-in-out 0.5s;
   }
 
-  .sec-5 {
-    overflow-x: hidden;
-    background-image: url(../img/sec-5-bg.jpg);
-    background-position: center;
-    background-clip: border-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+ 
 
   .sec-5 .image {
     width: 340px;
@@ -3409,10 +3382,8 @@ h2.common-heading.align-left {
     background-size: 100% 100%;
     background-clip: border-box;
     background-repeat: no-repeat;
-    min-height: 100vh;
     position: relative;
     padding-bottom: 145px !important;
-    padding-top: 70px;
     margin-bottom: -92px;
   }
 
@@ -3438,7 +3409,7 @@ h2.common-heading.align-left {
     max-width: 250px;
   }
 
-  .sec-5 {
+ .sec-5 {
     background-image: url(../img/sec-5-bg.jpg);
     background-position: center;
     background-clip: border-box;
@@ -3446,12 +3417,8 @@ h2.common-heading.align-left {
     background-repeat: no-repeat;
     margin-top: 0;
     margin-bottom: 5rem;
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 10px;
-  }
+    overflow-x: hidden;
+}
 
   .sec-5 .image {
     width: 100%;
@@ -3985,11 +3952,7 @@ h2.common-heading.align-left {
     z-index: 3;
   }
 
-  .sec-2 {
-    position: relative;
-    overflow: visible;
-    background-color: #f3eae1;
-  }
+  
 
   .sec-2 canvas {
     position: absolute;
@@ -4746,21 +4709,7 @@ h2.common-heading.align-left {
   }
 
 
-  .sec-2 {
-    overflow: hidden;
-    min-height: 100vh;
-    overflow-x: hidden;
-    background-image: url(../img/sec-2-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-clip: border-box;
-    box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
-    z-index: 9;
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
+  
 
   
 
@@ -7663,9 +7612,6 @@ h2.common-heading.align-left {
     transform: translateX(0) !important;
   }
 
-  .section-height {
-    scroll-snap-align: start;
-  }
 
   .navbar-nav .nav-link.active,
   .navbar-nav .nav-link.show {
@@ -7803,7 +7749,7 @@ h2.common-heading.align-left {
   }
 
 
-  .sec-2 {
+ .sec-2 {
     overflow: hidden;
     min-height: 100vh;
     overflow-x: hidden;
@@ -7812,7 +7758,13 @@ h2.common-heading.align-left {
     background-position: center;
     background-repeat: no-repeat;
     background-clip: border-box;
-  }
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f3eae1;
+}
 
   .sec-2 .gap {
     gap: 15px;
@@ -9749,13 +9701,7 @@ h2.common-heading.align-left {
     transform: translateX(0);
   }
 
-  .section-height {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 60px 0;
-  }
+
 
   :root {
     --swiper-theme-color: #007aff
