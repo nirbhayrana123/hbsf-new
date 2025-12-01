@@ -7898,8 +7898,6 @@ ol.breadcrumb {
 
   .about-us-section-1 .scrolling-div {
     max-height: 350px;
-    overflow-y: scroll;
-    scrollbar-width: none;
   }
 
   .about-us-section-1 .main-sec {
