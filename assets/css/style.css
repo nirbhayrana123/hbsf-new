@@ -9,7 +9,7 @@
     font-style: normal;
   }
 
-  /* Bold */
+  /*== Bold ====*/
   @font-face {
     font-family: "Noto Sans Devanagari";
     src: url("../fonts/NotoSansDevanagari-Bold.ttf") format("truetype");
