@@ -74,24 +74,16 @@
   }
 
   body { padding: 0;  margin: 0; }
-
-  html,
-  body {
-    margin: 0;
-    scroll-behavior: smooth;
-    background-color: #f2e6da;
-  }
-
-  a {
-    cursor: pointer !important;
-  }
-
+  html,  body {  margin: 0; scroll-behavior: smooth; background-color: #f2e6da;  }
+  a { cursor: pointer !important; }
   p {
     padding: 0;
     margin: 0;
   }
+.main { padding-top: 150px;}
 
-  /* h2 {
+
+  h2 {
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
@@ -102,7 +94,7 @@
     font-family: "Bodoni Moda 9pt", serif;
     padding-bottom: 15px;
     margin-bottom: 30px;
-  } */
+  }
 
   .border-b {
     position: relative;
@@ -147,12 +139,7 @@
   .dropdownul li a:hover {
     text-decoration: underline;
     font-weight: 500;
-  }
-
-  main {
-    padding-top: 162px;
-  }
-
+  } 
   .section-height {
     scroll-snap-align: start;
   }
@@ -5160,10 +5147,7 @@
     font-weight: 700;
     line-height: 11rem;
   }
-
-  /* Error */
-
-
+ 
   .text-3 {
     font-size: 23px;
   }
@@ -5177,17 +5161,7 @@
   .bottom-img-s {
     display: none;
   }
-
-
-  .sector-in-focus-main {
-    padding-top: 130px;
-  }
-
-
-
-
-
-  /* ***************  Article One Page ****************** */
+ 
   .para {
     font-family: "Bodoni Moda 9pt";
     color: #913832;
@@ -7634,8 +7608,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
-    background-position: bottom center;
-    padding-top: 140px;
+    background-position: bottom center; 
     overflow: hidden !important;
   }
 

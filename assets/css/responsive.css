@@ -1174,10 +1174,7 @@
       padding-top: 3.5rem !important;
     }
 
-    .sector-in-focus-main {
-      padding-top: 100px;
-    }
-
+  
     .about-us-section-1 .heading {
       font-size: 30px;
     }
@@ -2882,9 +2879,7 @@
       bottom: 13px;
     }
 
-    .sector-in-focus-main {
-      padding-top: 70px !important;
-    }
+}
 
     .about-us-section-1 .menu {
       padding-left: 28px;
@@ -3733,12 +3728,7 @@
     }
     .overview-page .menu {
       padding-top: 0px;
-    }
-
-    main {
-      padding-top: 94px;
-    }
-
+    } 
     .about-us-nav {
       background-position: bottom 30px center;
     }
