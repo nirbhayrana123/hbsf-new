@@ -9,16 +9,14 @@
     font-style: normal;
   }
 
-  /*== Bold ===========================*/
+  /*Bold */
   @font-face {
     font-family: "Noto Sans Devanagari";
     src: url("../fonts/NotoSansDevanagari-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
   }
-
-  /////////////////////////////
-
+ 
   /* Italic */
   @font-face {
     font-family: "Noto Sans Devanagari";
@@ -75,28 +73,18 @@
     font-style: italic;
   }
 
-  body {
-    padding: 0;
-    margin: 0;
-  }
-
-  html,
-  body {
-    margin: 0;
-    scroll-behavior: smooth;
-    background-color: #f2e6da;
-  }
-
-  a {
-    cursor: pointer !important;
-  }
-
+  body { padding: 0;  margin: 0; }
+  html,  body {  margin: 0; scroll-behavior: smooth; background-color: #f2e6da;  }
+  a { cursor: pointer !important; }
   p {
     padding: 0;
     margin: 0;
   }
+.main { padding-top: 150px;}
+.top-0 { padding-top: 0px;}
 
-  /* h2 {
+
+  h2 {
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
@@ -107,7 +95,10 @@
     font-family: "Bodoni Moda 9pt", serif;
     padding-bottom: 15px;
     margin-bottom: 30px;
-  } */
+  }
+h2.common-heading.align-left {
+    text-align: left;
+}
 
   .border-b {
     position: relative;
@@ -152,12 +143,7 @@
   .dropdownul li a:hover {
     text-decoration: underline;
     font-weight: 500;
-  }
-
-  main {
-    padding-top: 162px;
-  }
-
+  } 
   .section-height {
     scroll-snap-align: start;
   }
@@ -1391,13 +1377,7 @@
     font-weight: 400;
     line-height: normal;
     width: 117px;
-  }
-
-  .about-us-section-3 .content {
-    display: flex;
-    justify-content: space-between;
-  }
-
+  } 
   .text-content {
     max-width: 20rem;
     margin-left: 70px;
@@ -1496,12 +1476,11 @@
     height: 570px;
     overflow: hidden;
   }
-
-  .imgcrav {
-    margin-top: -45px;
-    width: 60%;
+.imgcrav {
+    margin-top: -128px;
+    width: 59%;
     text-align: end;
-  }
+}
 
   .customepagition.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-vertical span.swiper-pagination-bullet {
     border: 1px solid #fff;
@@ -3877,7 +3856,7 @@
     background-clip: border-box;
     background-position: bottom center;
     padding-bottom: 70px;
-    min-height: 900px;
+    min-height: 800px;
   }
 
   .about-us-section-1 .scrolling-div {
@@ -5159,10 +5138,7 @@
     font-weight: 700;
     line-height: 11rem;
   }
-
-  /* Error */
-
-
+ 
   .text-3 {
     font-size: 23px;
   }
@@ -5176,17 +5152,7 @@
   .bottom-img-s {
     display: none;
   }
-
-
-  .sector-in-focus-main {
-    padding-top: 130px;
-  }
-
-
-
-
-
-  /* ***************  Article One Page ****************** */
+ 
   .para {
     font-family: "Bodoni Moda 9pt";
     color: #913832;
@@ -5234,8 +5200,7 @@
     font-weight: 700;
   }
 
-  .article-heading {
-    margin-top: 3%;
+  .article-heading { 
     font-family: "Bodoni Moda 9pt";
     color: #913832;
   }
@@ -7634,8 +7599,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
-    background-position: bottom center;
-    padding-top: 140px;
+    background-position: bottom center; 
     overflow: hidden !important;
   }
 
@@ -7652,10 +7616,7 @@
     text-decoration: none !important;
     font-weight: 300;
   }
-
-  .article-one .gap {
-    gap: 20px;
-  }
+ 
 
   .article-one .heading {
     color: #913832;
@@ -7724,19 +7685,7 @@
   .breadcrumb-item:nth-last-child(1)::before {
     --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='15' viewBox='0 0 13 15' fill='none'%3E%3Cpath d='M0.5 2.05591C0.499922 1.78223 0.569479 1.51336 0.701647 1.27647C0.833816 1.03958 1.02392 0.843042 1.25276 0.706711C1.48159 0.57038 1.74107 0.49908 2.00498 0.500009C2.26888 0.500938 2.52789 0.574064 2.75583 0.712003L11.7529 6.15453C11.9799 6.29116 12.1684 6.4872 12.2995 6.72305C12.4307 6.95891 12.4998 7.22632 12.5 7.49855C12.5002 7.77079 12.4316 8.03832 12.3008 8.27441C12.1701 8.5105 11.982 8.70687 11.7551 8.84391L2.75583 14.288C2.52789 14.4259 2.26888 14.4991 2.00498 14.5C1.74107 14.5009 1.48159 14.4296 1.25276 14.2933C1.02392 14.157 0.833816 13.9604 0.701647 13.7235C0.569479 13.4866 0.499922 13.2178 0.5 12.9441V2.05591Z' fill='%23913832' stroke='%23913832' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   }
-
-  .common-heading {
-    font-family: "Bodoni Moda 9pt", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 42px;
-    line-height: 65px;
-    letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 0.5rem;
-    color: rgb(145, 56, 50);
-  }
+ 
 
   .common-read-more-btn {
     padding: 9px 28px;
@@ -8368,20 +8317,7 @@
     background-color: #913832;
     top: 0;
   }
-
-
-  .imgbginner::after {
-    content: "";
-    background: url(../img/trip2.png);
-    width: 62px;
-    height: 396px;
-    position: absolute;
-    right: -1px;
-    top: 0;
-    background-size: cover;
-    opacity: 0;
-    z-index: 9;
-  }
+ 
 
   .hovermove:hover .imgbginner::after,
   .hovermove:hover .imgbginner::before {
@@ -9023,31 +8959,7 @@
     background-color: #93443d;
     position: relative;
   }
-
-
-
-
-
-  .secondimgbg .torow.hovermove::after,
-  .secondimgbg .torow.hovermove::before {
-    content: "";
-    width: 85px;
-    height: 100%;
-    position: absolute;
-    left: -76px;
-    top: 0;
-    background: url(../img/shap2.svg);
-    background-repeat: no-repeat;
-    z-index: 999;
-    object-fit: contain;
-    background-size: cover;
-  }
-
-  .secondimgbg .torow.hovermove::before {
-    left: auto;
-    right: -16px;
-  }
-
+  
   .the-rotary-foundation {
     margin-top: 0px;
   }
@@ -10860,3 +10772,11 @@
         rgba(245, 245, 245, 0.8) 30%,
         rgba(245, 245, 245, 0) 100%);
   }
+
+  .founding-members {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.row.gap.news-article {
+    margin-top: 45px;
+}
