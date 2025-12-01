@@ -2584,10 +2584,7 @@
     transform: translateY(-40%);
     padding-left: 90px;
   }
-
-  .contact-us {
-    overflow: hidden !important;
-  }
+ 
 
   .imgtopshape {
     text-align: right;
@@ -3067,11 +3064,7 @@
     width: 20px !important;
   }
 
-  .contact-us {
-    padding-top: 28px;
-    overflow: hidden !important;
-    padding-bottom: 50px;
-  }
+   
 
   .contact-us .heading {
     margin-left: 0;

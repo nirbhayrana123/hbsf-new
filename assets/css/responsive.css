@@ -576,9 +576,7 @@
   .imgbginner::after {
     height: 334px;
 
-  }
-
-  /****************************home style******************************/
+  } 
 
 
   .contact-us .heading {
@@ -3920,10 +3918,7 @@ button.navbar-toggler {
     padding-right: 40px;
   }
 
-  .contact-us .heading {
-    font-size: 17px;
-  }
-
+ 
   .prdiingcontact {
     padding-right: 30px;
     padding-left: 30px;
