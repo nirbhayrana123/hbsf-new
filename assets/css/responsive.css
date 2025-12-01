@@ -349,6 +349,12 @@
     padding-bottom: 5px;
     padding-top: 0px;
   }
+  .dotsmap svg.map-size {
+    width: 600px;
+}
+.text-3 h3 {
+    font-size: 40px;
+}
 
   .ashoka-university-detail-page .description .text {
     font-size: 25px;
@@ -576,15 +582,10 @@
   .imgbginner::after {
     height: 334px;
 
-  }
-
-  /****************************home style******************************/
+  } 
 
 
-  .contact-us .heading {
-    font-size: 27px;
-  }
-
+ 
   .contactbgmain {
     padding-bottom: 60px;
   }
@@ -653,9 +654,7 @@
     padding-top: 300px;
   }
 
-  h1.heading {
-    font-size: 4rem;
-  }
+ 
 
   .thank-you-page .row-gap {
     padding-top: 18rem;
@@ -705,10 +704,7 @@
     background-position: center;
   }
 
-  .contact-us .heading {
-    margin-left: 0px;
-  }
-
+  
   .contact-us .image {
     margin-left: -70px;
   }
@@ -786,10 +782,7 @@
     letter-spacing: normal;
   }
 
-  h1.heading {
-    font-size: 2rem;
-  }
-
+ 
   .left-links .publisher  {
     font-size: 28px;
   }
@@ -919,9 +912,7 @@
     padding-bottom: 150px;
   }
 
-  .contact-us .heading {
-    margin-left: 0px;
-  }
+ 
 
 
   .contactbgmain {
@@ -935,11 +926,7 @@
   .contact-us .address {
     font-size: 13px;
   }
-
-  .contact-us .heading {
-    font-size: 20px;
-  }
-
+ 
   .contact-us .submit-btn {
     max-width: 148px;
     height: 36px;
@@ -1306,7 +1293,7 @@
     margin-top: 0px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 45px;
   }
 
@@ -1388,7 +1375,9 @@
     margin-left: 50px;
   }
 
-  
+  .sec-5 {
+    padding-top: 70px;
+  }
 
   #myCarousel {
     margin-top: 50px !important;
@@ -1583,7 +1572,7 @@
     background-position: top center;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 45px;
   }
 
@@ -1629,13 +1618,7 @@
     padding-bottom: 0px;
   }
 
-  h1.heading::after {
-    content: "";
-    display: none;
-  }
-
-
-
+  
   .common-heading.stripbottom {
     color: #913832;
   }
@@ -1803,13 +1786,7 @@
     padding-left: 0;
   }
 
-  .contact-us .heading {
-    font-size: 30px;
-    order: 2;
-    text-align: center;
-    width: 100%;
-    position: relative;
-  }
+   
 
   .heading:after {
     content: "";
@@ -2236,11 +2213,7 @@
     margin-left: 0px;
   }
 
-  .contact-us .heading {
-    top: -90px;
-    font-size: 30px;
-  }
-
+ 
   .contact-us .address-div {
     left: 0px;
   }
@@ -2531,7 +2504,7 @@ nav.breadcrumb-nav {
     margin-top: -25px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 39px;
   }
 
@@ -2788,7 +2761,7 @@ nav.breadcrumb-nav {
     font-size: 14px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 39px;
   }
 
@@ -3236,9 +3209,7 @@ button.navbar-toggler {
     justify-content: center !important;
   }
 
-  .ashoka-university-detail-page .heading br {
-    display: none;
-  }
+  
 
   .sec-5 .post-slide a:active .bottom-div .description-text {
     max-height: 200px;
@@ -3251,11 +3222,7 @@ button.navbar-toggler {
     width: 14px;
   }
 
-  .contact-us .heading {
-    font-size: 20px;
-    letter-spacing: 3px;
-  }
-
+ 
   .sec-5 .post-slide a:active .bottom-div .text-3,
   .sec-5 .post-slide a:active .bottom-div .text-6 {
     transform: translateY(-10px);
@@ -3425,21 +3392,12 @@ button.navbar-toggler {
     right: -70px !important;
   }
 
-
-  h1.heading {
-    font-size: 1.5rem;
-    margin-top: 0;
-
-  }
+ 
 
   .article-one .gap {
     gap: 4px;
   }
-
-  .article-heading-2 {
-    margin-bottom: 0;
-    font-size: 12px;
-  }
+ 
 
   .left-links {
     font-size: 12px;
@@ -3603,7 +3561,7 @@ button.navbar-toggler {
     height: 20px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 31px;
   }
 
@@ -3689,9 +3647,7 @@ button.navbar-toggler {
     padding-top: 100px;
   }
 
-  h1.heading {
-    font-size: 25px;
-  }
+ 
 
   .article-one .text {
     font-size: 16px;
@@ -3720,7 +3676,7 @@ button.navbar-toggler {
     padding-bottom: 10px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 31px;
   }
 
@@ -3943,16 +3899,13 @@ button.navbar-toggler {
     padding-right: 40px;
   }
 
-  .contact-us .heading {
-    font-size: 17px;
-  }
-
+ 
   .prdiingcontact {
     padding-right: 30px;
     padding-left: 30px;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 23px;
   }
 
@@ -4005,7 +3958,7 @@ button.navbar-toggler {
     z-index: 8;
   }
 
-  .ashoka-university-detail-page .heading {
+  h1 {
     font-size: 23px;
   }
 

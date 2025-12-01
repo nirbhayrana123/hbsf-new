@@ -8364,7 +8364,7 @@ fieldset:disabled .btn {
     position: sticky !important
 }
 
-.top-0 {
+.pt0 {
     top: 0 !important
 }
 
@@ -8436,7 +8436,7 @@ fieldset:disabled .btn {
     border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important
 }
 
-.border-top-0 {
+.border-pt0 {
     border-top: 0 !important
 }
 
@@ -9916,7 +9916,7 @@ fieldset:disabled .btn {
     border-top-right-radius: var(--bs-border-radius) !important
 }
 
-.rounded-top-0 {
+.rounded-pt0 {
     border-top-left-radius: 0 !important;
     border-top-right-radius: 0 !important
 }
