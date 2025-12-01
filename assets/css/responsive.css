@@ -3005,9 +3005,7 @@
     .content-text p {
       font-size: 16px;
     }
-      .article-one {
-      padding-top: 140px;
-    }
+      
     .partner-image {
       width: 210px;
       height: 169px;
@@ -3061,18 +3059,12 @@
     .content.sec-1-content.stripbottom.red::after {
       bottom: -24px;
     }
-  }
- 
-  @media (max-width: 1600px) {
-    .article-one {
-      padding-top: 130px;
-    }
-
-    .dextophomeheader #navbarNavAltMarkup{
+      .dextophomeheader #navbarNavAltMarkup{
       height: 400px !important;
     }
   }
-
+ 
+ 
   @media (max-width: 1400px) {
     .the-rotary-foundation .information-1 {
       font-size: 28px;

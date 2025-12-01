@@ -75,8 +75,7 @@
 
   body {
     padding: 0;
-    margin: 0;
-      font-family: "Bodoni Moda 9pt", serif;
+    margin: 0; 
   }
 
   html,
@@ -804,7 +803,13 @@
     transition: height 0.8s ease;
     z-index: 0;
   }
-
+  .myswiper .swiper-button-next {
+    left: 182px;
+    bottom: 10px!important;
+    top: auto;
+    transform: translateY(50%);
+    background: #f2e6da;
+  }
   .dots-container {
     position: absolute;
     left: 168px;
@@ -848,8 +853,7 @@
     opacity: 0.9;
     line-height: 1.5;
   }
-
-  /* NAVIGATION */
+ 
   .myswiper .swiper-button-next,
   .myswiper .swiper-button-prev {
     color: #913832;
@@ -862,15 +866,7 @@
   .myswiper .swiper-button-prev::after {
     font-size: 15px;
   }
-
-  .myswiper .swiper-button-next {
-    left: 182px;
-    bottom: 10px;
-    top: auto;
-    transform: translateY(50%);
-    background: #f2e6da;
-  }
-
+ 
   .myswiper .swiper-button-prev {
     left: 182px;
     top: 10px;
@@ -1310,13 +1306,7 @@
     height: 80%;
     position: relative;
   }
-
-  .about-us-gallery .gallery-image {
-    width: 100%;
-    height: 100% !important;
-    object-fit: cover;
-  }
-
+ 
   .contentuser {
     position: absolute;
     bottom: 0px;
@@ -1556,13 +1546,7 @@
     background-clip: border-box;
     background-repeat: no-repeat;
     padding-top: 50px;
-  }
-
-  .about-us-gallery .gallery-image {
-    height: 328px;
-  }
-
-
+  } 
   .sector-in-focus-1 {
     background-image: url(../img/sector-in-focus-bg.jpg);
     background-repeat: no-repeat;
@@ -7658,17 +7642,14 @@
     max-width: 100%;
     padding: 0;
   }
-
-  /* Spacing for text columns */
+ 
   .thank-you-page .row-gap {
     display: flex;
     justify-content: center;
-    padding-top: 21rem;
-    /* keep spacing for desktop */
+    padding-top: 21rem; 
     padding-bottom: 15rem;
   }
-
-  /* Thank-you text */
+ 
   .thank-you-page .main-div .text {
     color: #a93b3b;
     text-align: center;
@@ -7676,20 +7657,15 @@
     font-size: 2rem;
     font-style: italic;
     font-weight: 400;
-    line-height: normal;
-    /* margin-left: 13rem; */
-  }
-
-
-
-
+    line-height: normal; 
+  } 
   .article-one {
     background-image: url(../img/sector-in-focus-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
     background-position: bottom center;
-    padding-top: 190px;
+    padding-top: 140px;
     overflow: hidden !important;
   }
 
@@ -7737,18 +7713,15 @@
     flex-direction: column;
     gap: 20px;
   }
-
-  /* Filter Box animation: slide left/right when shown */
+ 
   #filterBox {
     transition: transform 400ms cubic-bezier(.2, .7, .2, 1), opacity 300ms ease;
     transform: translateX(0);
     opacity: 1;
-    display: flex;
-    /* default display when JS sets it */
+    display: flex; 
     align-items: center;
   }
-
-  /* Optional utility classes if you want to control via classes */
+ 
   .filter-hidden {
     opacity: 0 !important;
     transform: translateX(30px) !important;
@@ -7757,15 +7730,11 @@
   .filter-visible {
     opacity: 1 !important;
     transform: translateX(0) !important;
-  }
-
-
-
+  } 
   .section-height {
     scroll-snap-align: start;
   }
-
-
+ 
   .navbar-nav .nav-link.active,
   .navbar-nav .nav-link.show {
     color: white;
@@ -8340,23 +8309,8 @@
 
   .about-us-nav .effect {
     transition: ease-in-out 1s;
-  }
-
-  .about-us-section-1 {
-    background-image: url(../img/about-us-sec-1-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: bottom center;
-    margin-top: -290px;
-    padding-top: 290px;
-    padding-bottom: 70px;
-  }
-
-  .about-us-section-1 .gaps {
-    padding-bottom: 150px;
-  }
-
+  } 
+ 
   .about-us-section-1 .scrolling-div {
     max-height: 350px;
     overflow-y: scroll;
@@ -8506,23 +8460,14 @@
     align-items: flex-start;
     flex-direction: column;
   }
-
-  .imgbg {
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-
+ 
   .about-us-gallery .gallery-image {
     width: 100%;
     height: 100% !important;
     object-fit: cover;
+    height: 328px;
   }
-
-
+ 
   .hovermove:hover .contentuser {
     bottom: 20px;
   }
