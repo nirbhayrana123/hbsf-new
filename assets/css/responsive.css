@@ -1,14 +1,22 @@
 /* ***************  Our collaboration Page ****************** */
 @media (min-width: 1600px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1540px;
-    }
-} 
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1540px;
+  }
+}
+
 @media (min-width: 1400px) {
   .container.democontainer.founding-members {
     max-width: 1320px;
+  }
 }
-} 
+
 @media (min-width: 1200px) {
   .carousel-inner .carousel-item>div {
     flex: 0 0 25%;
@@ -394,13 +402,13 @@
 
   .footer-logo {
     width: 250px;
-}
- 
-.news-narratives-page { 
-    background-size: 100% 100%; 
-}
- 
-.policy-contents h5 {
+  }
+
+  .news-narratives-page {
+    background-size: 100% 100%;
+  }
+
+  .policy-contents h5 {
     line-height: 1em;
   }
 
@@ -432,9 +440,7 @@
     font-size: 25px;
   }
 
-  .bannerbg .back {
-    font-size: 24px;
-  }
+
 
   main {
     padding-top: 120px;
@@ -622,7 +628,7 @@
 }
 
 
- 
+
 @media (max-width: 1500px) {
   .about-us-section-1 .heading {
     font-size: 35px;
@@ -640,7 +646,7 @@
 }
 
 @media (max-width: 1400px) {
-.about-us-section-1 .scrolling-div {
+  .about-us-section-1 .scrolling-div {
     max-height: 400px;
 }
 .myswiper .swiper-button-next { 
@@ -651,10 +657,12 @@
 }
 .about-us-section-1 .main-image { 
     max-height: 600px;
-}
-.about-us-section-1 { 
+  }
+
+  .about-us-section-1 {
     min-height: 750px;
-}
+  }
+
   .the-rotary-foundation .information-1 {
     font-size: 28px;
   }
@@ -1005,11 +1013,13 @@
   }
 
 }
+
 @media (max-width: 2900px) {
   .sector-in-focus-1 .sector-small-boxes {
     display: none;
   }
 }
+
 @media (max-width: 1200px) {
 
   .carousel-inner .carousel-item>div {
@@ -1097,16 +1107,6 @@
     font-size: 16px;
     letter-spacing: normal;
   }
-
-
-  .left-links .publisher {
-    font-size: 28px;
-  }
-
-  .article-one .share-text {
-    font-size: 25px;
-  }
-
 
 
   .article-one .text {
@@ -1283,13 +1283,11 @@
     padding-right: 82px;
   }
 
-  .sec-1-content h1 {
-    font-size: 33px;
-  }
+    .sec-1-content h1 {
+        font-size: 39px;
+    }
 
-  .sec-1 .logo {
-    height: 6rem;
-  }
+ 
 
   .sec-1 .nav-link {
     font-size: 14px;
@@ -1349,8 +1347,26 @@
     width: 100%;
     max-width: 97%;
   }
+      .description.container-fluid.pb-0 {
+        bottom: 10%;
+    }
+    .post-slide {
+        height: 380px;
+    }
+    .sec-7-slider {
+    width: 100%; 
+}
+ .sec-5 { 
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.owl-buttons .owl-prev, .owl-buttons .owl-next { 
+    top: 75%; 
+}
+
 
 }
+
 @media (max-width: 1199px) {
   .main {
     padding-top: 190px;
@@ -1415,6 +1431,9 @@
     max-width: 77vh;
     max-height: 580px;
   }
+      .post-slide {
+        height: 350px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1471,10 +1490,6 @@
   }
 
   .bannerbg .view-article {
-    font-size: 25px;
-  }
-
-  .bannerbg .back {
     font-size: 25px;
   }
 
@@ -1578,12 +1593,6 @@
   .overview-page-2 {
     margin-top: 0px;
   }
-
-  h1 {
-    font-size: 45px;
-  }
-
-
 
   .our-partner-1 .heading-for-otherpage {
     margin-top: 0px;
@@ -1692,10 +1701,24 @@
     font-size: 25px;
   }
 
+  img.social-img {
+    width: 25px;
+  }
+
   .sec-1 .description {
     overflow-y: unset;
     padding-top: 220px;
     padding-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  span.v-divider {
+    width: 3px;
+    height: 28px;
+    margin-left: 5px;
   }
 
   .sec-1 .logo {
@@ -1843,10 +1866,6 @@
 
   .thank-you-page .main-div {
     background-position: top center;
-  }
-
-  h1 {
-    font-size: 45px;
   }
 
   .thank-you-page .main-div .text {
@@ -2560,15 +2579,25 @@
 }
 
 @media (max-width: 767px) {
-  .grid-basic.threecol,.our-collabrations-box .grid-basic.towcol {
+
+  .grid-basic.threecol,
+  .our-collabrations-box .grid-basic.towcol,
+  .grid-basic.towcol {
     grid-template-columns: 1fr;
   }
-.collabrations-box {
-        min-height: 180px;
-    }
-.our-collabrations-box .grid-basic.towcol {
-    width: 100%; 
-}
+
+  .collabrations-box {
+    min-height: 180px;
+  }
+
+  .our-collabrations-box .grid-basic.towcol {
+    width: 100%;
+  }
+
+  .our-collabrations-box {
+    width: 70%;
+    margin: 0 auto;
+  }
 
   .sec-2 {
     padding-top: 70px;
@@ -2636,7 +2665,10 @@
     font-size: 14px;
   }
 
-
+  .grid-basic {
+    margin-bottom: 18px;
+    gap: 20px;
+  }
 
   .carousel-inner .carousel-item>div {
     display: none;
@@ -2644,6 +2676,10 @@
 
   .carousel-inner .carousel-item>div:first-child {
     display: block;
+  }
+
+  .article-link {
+    font-size: 2.1em;
   }
 
   .sec-5 .carousel-item a:hover .bottom-div .description-text {
@@ -2759,12 +2795,6 @@
     margin-left: 0;
     font-size: 3em;
   }
-
-  h1 {
-    font-size: 39px;
-  }
-
-
 
   .our-partner-1 .text {
     font-size: 33px;
@@ -2919,14 +2949,6 @@
     width: 20px;
   }
 
-  .left-links .publisher {
-    font-size: 16px;
-  }
-
-  .article-one .share-text {
-    font-size: 20px;
-  }
-
 
   .footer-bottom-text p {
     font-size: 13px;
@@ -2967,9 +2989,6 @@
     font-size: 20px;
   }
 
-  .bannerbg .back {
-    font-size: 20px;
-  }
 
   .text p {
     font-size: 24px;
@@ -2988,11 +3007,6 @@
     max-height: 150px;
     font-size: 14px;
   }
-
-  h1 {
-    font-size: 39px;
-  }
-
 
   p.outreach-description {
     font-size: 20px;
@@ -3246,8 +3260,6 @@
     margin-left: 0;
   }
 
-
-
   .content.sec-1-content.stripbottom.red {
     padding-left: 20px;
     padding-right: 20px;
@@ -3343,8 +3355,6 @@
     margin-top: 15px !important;
   }
 
-
-
   .footer {
     min-height: 1px;
   }
@@ -3401,8 +3411,6 @@
     margin-right: 2rem;
   }
 
-
-
   .sec-4 .content {
     padding: 0rem;
   }
@@ -3412,7 +3420,6 @@
     width: 80%;
     font-family: "Bodoni Moda 9pt italic";
     font-weight: 400;
-    /* Regular */
     font-size: 1.68rem;
     color: rgb(145, 56, 50);
   }
@@ -3420,6 +3427,25 @@
   .error-404 .error-div {
     background-size: inherit;
   }
+
+  ol.breadcrumb {
+    gap: 4px;
+    margin-bottom: 20px;
+  }
+
+  ol.breadcrumb li.breadcrumb-item {
+    padding-left: 8px !important;
+  }
+
+  .breadcrumb-item+.breadcrumb-item::before {
+    margin-right: -5px;
+  }
+
+  .grid-basic p {
+    margin-bottom: 0px;
+
+  }
+
 
 
 }
@@ -3650,11 +3676,6 @@
   }
 
 
-  .article-one .share-text {
-    font-size: 14px;
-  }
-
-
   .article-one .back img {
     height: 15px;
   }
@@ -3701,9 +3722,10 @@
   .main {
     padding-top: 100px;
   }
-.bannerbg {
-        padding-top: 100px;
-    }
+
+  .bannerbg {
+    padding-top: 100px;
+  }
 
   .sec-4 .common-heading {
     margin-top: 0rem;
@@ -3712,8 +3734,6 @@
   .our-partner-1 .text {
     font-size: 25px;
   }
-
-
 
   .about-us-section-2 .text {
     font-size: 20px;
@@ -3748,15 +3768,9 @@
     height: 20px;
   }
 
-  h1 {
-    font-size: 31px;
-  }
-
   .our-partner-1 .text {
     font-size: 25px;
   }
-
-
 
   .about-us-section-2 .text {
     font-size: 20px;
@@ -3804,8 +3818,6 @@
     height: 20px;
   }
 
-
-
   .common-read-more-btn .btn-text {
     font-size: 16px;
   }
@@ -3813,11 +3825,6 @@
   .our-collaborations .text {
     font-size: 25px;
   }
-
-  .article-one {
-    padding-top: 100px;
-  }
-
 
 
   .article-one .text {
@@ -3832,8 +3839,6 @@
     font-size: 20px;
   }
 
-
-
   .about-us-nav {
     background-position: bottom 30px center;
   }
@@ -3845,10 +3850,6 @@
 
   nav.menu.pt-3.mt-lg-0 {
     padding-bottom: 10px;
-  }
-
-  h1 {
-    font-size: 31px;
   }
 
   .bannerbg .view-article {
@@ -4043,21 +4044,25 @@
     margin: 0 auto;
     margin-top: 30px;
   }
+
+  span.v-divider {
+    width: 2px;
+    height: 18px;
+  }
 }
 
 @media (max-width: 374px) {
+  body {
+    font-size: 7px;
+  }
+
   .thankyoucontent {
     padding-right: 40px;
   }
 
-
   .prdiingcontact {
     padding-right: 30px;
     padding-left: 30px;
-  }
-
-  h1 {
-    font-size: 23px;
   }
 
   .sec-1 .m-logo {
@@ -4108,11 +4113,6 @@
     position: relative;
     z-index: 8;
   }
-
-  h1 {
-    font-size: 23px;
-  }
-
 
 }
 
