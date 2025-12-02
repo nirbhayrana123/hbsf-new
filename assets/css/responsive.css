@@ -364,7 +364,9 @@
   body {
     font-size: 12.5px;
   }
-
+.img-fluid-2 { 
+    height: 620px;
+}
   .sec-1-content {
     max-width: 773px;
   }
@@ -625,9 +627,6 @@
   }
 }
 
-.img-fluid-2 {
-  height: 620px;
-}
 
 
 @media (max-width: 1500px) {
@@ -649,13 +648,14 @@
 @media (max-width: 1400px) {
   .about-us-section-1 .scrolling-div {
     max-height: 400px;
-  }
-
-  .timeline-wrapper {
-    height: 375px;
-  }
-
-  .about-us-section-1 .main-image {
+}
+.myswiper .swiper-button-next { 
+    bottom: 30px !important; 
+}
+.timeline-wrapper { 
+    height: 375px; 
+}
+.about-us-section-1 .main-image { 
     max-height: 600px;
   }
 
@@ -998,8 +998,7 @@
 @media (max-width: 1250px) {
   body {
     font-size: 10px;
-  }
-
+  } 
   .colectionimg {
     height: auto;
     width: 120px;
@@ -1108,12 +1107,6 @@
     font-size: 16px;
     letter-spacing: normal;
   }
-
-
-  .article-one .share-text {
-    font-size: 25px;
-  }
-
 
 
   .article-one .text {
@@ -1290,11 +1283,11 @@
     padding-right: 82px;
   }
 
-    .sec-1-content h1 {
-        font-size: 39px;
-    }
+  .sec-1-content h1 {
+    font-size: 39px;
+  }
 
- 
+
 
   .sec-1 .nav-link {
     font-size: 14px;
@@ -1354,30 +1347,34 @@
     width: 100%;
     max-width: 97%;
   }
-      .description.container-fluid.pb-0 {
-        bottom: 10%;
-    }
-    .post-slide {
-        height: 380px;
-    }
-    .sec-7-slider {
-    width: 100%; 
-}
- .sec-5 { 
+
+  .description.container-fluid.pb-0 {
+    bottom: 10%;
+  }
+
+  .post-slide {
+    height: 380px;
+  }
+
+  .sec-7-slider {
+    width: 100%;
+  }
+
+  .sec-5 {
     padding-left: 60px;
     padding-right: 60px;
 }
 .owl-buttons .owl-prev, .owl-buttons .owl-next { 
     top: 75%; 
 }
-
+.flesing  {
+        max-width: 600px;
+    }
 
 }
 
 @media (max-width: 1199px) {
-  .main {
-    padding-top: 190px;
-  }
+ 
 
   .sec-1 .description {
     margin-bottom: 1rem;
@@ -1438,9 +1435,10 @@
     max-width: 77vh;
     max-height: 580px;
   }
-      .post-slide {
-        height: 350px;
-    }
+
+  .post-slide {
+    height: 350px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -2623,9 +2621,23 @@
   }
 
   nav.breadcrumb-nav {
-    margin-left: 30px;
+    margin-left: 0;
+    max-width: 100rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  ol.breadcrumb {
+    gap: 8px;
+    margin-bottom: 20px;
   }
 
+  ol.breadcrumb li.breadcrumb-item {
+    padding-left: 0px !important;
+  }
+
+  .breadcrumb-item+.breadcrumb-item::before {
+    margin-right: -5px;
+  }
 
   .sec-3 .image {
     width: 300px;
@@ -2643,9 +2655,7 @@
   .sec-5 .carousel-item a:hover .bottom-div .description-text {
     max-height: 150px;
     font-size: 14px;
-  }
-
-
+  } 
   .sec-4 {
     padding-top: 70px;
   }
@@ -2684,10 +2694,10 @@
     font-size: 14px;
   }
 
-     .grid-basic {
-        margin-bottom: 18px;
-        gap: 20px;
-    }
+  .grid-basic {
+    margin-bottom: 18px;
+    gap: 20px;
+  }
 
   .carousel-inner .carousel-item>div {
     display: none;
@@ -2966,11 +2976,6 @@
 
   img.social-img {
     width: 20px;
-  }
-
-
-  .article-one .share-text {
-    font-size: 20px;
   }
 
 
@@ -3283,7 +3288,7 @@
   #news-slider .owl-wrapper {
     margin-left: 0;
   }
- 
+
   .content.sec-1-content.stripbottom.red {
     padding-left: 20px;
     padding-right: 20px;
@@ -3377,7 +3382,8 @@
 
   button.navbar-toggler {
     margin-top: 15px !important;
-  } 
+  }
+
   .footer {
     min-height: 1px;
   }
@@ -3450,19 +3456,7 @@
   .error-404 .error-div {
     background-size: inherit;
   }
-
-  ol.breadcrumb {
-    gap: 4px;
-    margin-bottom: 20px;
-  }
-
-  ol.breadcrumb li.breadcrumb-item {
-    padding-left: 8px !important;
-  }
-
-  .breadcrumb-item+.breadcrumb-item::before {
-    margin-right: -5px;
-  }
+ 
 
   .grid-basic p {
     margin-bottom: 0px;
@@ -3699,11 +3693,6 @@
   }
 
 
-  .article-one .share-text {
-    font-size: 14px;
-  }
-
-
   .article-one .back img {
     height: 15px;
   }
@@ -3854,9 +3843,6 @@
     font-size: 25px;
   }
 
-  .article-one {
-    padding-top: 100px;
-  }
 
   .article-one .text {
     font-size: 16px;
@@ -4030,6 +4016,10 @@
   button.navbar-toggler {
     margin-top: 3px !important;
   }
+
+  h1 {
+    font-size: 3.5em;
+  }
 }
 
 @media (max-width: 400px) {
@@ -4049,6 +4039,8 @@
   .sector-in-focus-1 .image-2 {
     max-width: 320px;
   }
+
+
 
   .our-partner-1 .text {
     font-size: 22px;
@@ -4074,6 +4066,11 @@
     width: 327px;
     margin: 0 auto;
     margin-top: 30px;
+  }
+
+  span.v-divider {
+    width: 2px;
+    height: 18px;
   }
 }
 
