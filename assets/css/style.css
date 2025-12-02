@@ -1778,11 +1778,11 @@
     border-radius: 30px;
     padding: 10px 20px;
     color: #A93B3B;
-    font-size: 18px;
+    font-size: 1.4em;
     cursor: pointer;
     text-align: left;
     padding-left: 40px;
-  }
+}
 
   .title-line {
     position: relative;
@@ -1805,7 +1805,7 @@
     color: #913832;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
-    font-size: 16px;
+       font-size: 1.2em;
     font-style: italic;
     font-weight: 500;
     will-change: transform, opacity;
