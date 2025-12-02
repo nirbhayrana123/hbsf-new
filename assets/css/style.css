@@ -2245,7 +2245,7 @@
 .bannerbg .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 32px;
+    font-size: 2.6em;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
@@ -2594,10 +2594,11 @@
     transform: rotate(-45deg) translate(6px, -5px);
   }
 
-  .showactive .navbar-toggler .menuicon span.linemenu.lineone {
-    transform: rotate(45deg) translate(6px, 5px);
-  }
+ 
 
+  .showactive .navbar-toggler .menuicon span.linemenu.lineone {
+    transform: rotate(45deg) translate(11px, 8px);
+}
   .showactive .navbar-toggler .menuicon span.linemenu.linetow {
     visibility: hidden;
     opacity: 0;
@@ -2877,17 +2878,17 @@
     gap: 60px;
   }
 
-  .collabrations-box {
+.collabrations-box {
     position: relative;
     overflow: hidden;
     border-bottom: 3px solid #7224256e;
-    min-height: 290px;
+    padding-bottom: 15px;
     cursor: pointer;
     transition: 1s;
 }
 
 .our-collabrations-box .grid-basic.towcol {
-    width: 64%;
+    width: 75%;
     margin: 0 auto;
 }
 .our-collabrations-box .grid-basic p {
@@ -3949,10 +3950,11 @@
   }
 
   /*****************Home css end******************************/
-  .svgbg {
-    width: 400px;
-    transition: 0.5s all ease;
-  }
+.svgbg {
+    width: 560px;
+    transition: 0.5s all 
+ease;
+}
 
   .svgbg svg {
     width: 100%;
@@ -3966,7 +3968,7 @@
     margin: 0 auto;
     top: 50%;
     transform: translateY(-50%);
-    max-width: 90%;
+    max-width: 85%;
     height: auto;
   }
 
@@ -3985,7 +3987,7 @@
   .sec-1 .nav-item.dropdown .dropdown-menu {
     left: 0;
     width: 175px;
-    top: 30px;
+    top: 40px;
   }
 
   .sdg-grid .sdg-item:first-child {
@@ -4302,9 +4304,9 @@
     height: 4px;
   }
 
-  .marquee-track-list a.position-relative.abc {
-    margin-left: -59px;
-  }
+ .marquee-track-list a.position-relative.abc {
+    margin-left: -90px;
+}
 
   .mainerror {
     height: 100vh;
@@ -4659,15 +4661,7 @@
     overflow: hidden !important;
   }
 
-  .error-404 .error-div {
-    background-image: url(../img/error-404.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: center top -20px;
-    text-align: center;
-    padding: 80px 0px;
-  }
+ 
 
   .errorpage {
     height: 100%;
@@ -7181,7 +7175,7 @@ height: 14em;
     position: relative;
     align-items: center;
     background-color: #f3eae1;
-    height: 100vh;
+    
   }
 
 
@@ -7198,7 +7192,7 @@ height: 14em;
   }
 
   .sec-2 .sign {
-    height: 110px;
+    height: 180px;
   }
 
   .sec-2 .sign-name {
@@ -8428,15 +8422,7 @@ height: 14em;
     padding-left: 40px;
   }
 
- .error-404 .error-div {
-    background-image: url(../img/error-404.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: center;
-    height: 450px;
-    width: auto;
-}
+
 
   .error-404 .error-div .text {
     color: #fff;
@@ -8446,7 +8432,7 @@ height: 14em;
     font-style: normal;
     font-weight: 700;
     line-height: 0.7em;
-    letter-spacing: -15.3px;
+    letter-spacing: -4px;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
   }
@@ -8464,6 +8450,18 @@ height: 14em;
     font-weight: 600;
     margin-left: 50px;
 }
+  .error-404 .error-div {
+    background-image: url(../img/error-404.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position: center top -20px;
+    text-align: center;
+    padding: 80px 0px;
+     height: 450px;
+    width: auto;
+    text-align: center;
+  }
 
   
 
@@ -9671,7 +9669,7 @@ height: 14em;
   }
 
   .sec-7 .image {
-    width: 340px;
+    width: 480px;
     height: 450px;
     filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.1));
   }
