@@ -1234,7 +1234,7 @@
 
   .contentuser {
     position: absolute;
-    bottom: 0px;
+    bottom: 30px;
     left: 10px;
     right: 10px;
     margin: 0 auto;
@@ -2089,14 +2089,7 @@
     display: none;
   }
 
-  .news-narratives-page {
-    background-image: url(../img/news&narratives-page-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: top center;
-    overflow: hidden !important;
-  }
+ 
 
 
 
@@ -2148,21 +2141,7 @@
     font-weight: 500;
   }
 
-  .news-narratives-page .input-tag {
-    max-width: 350px !important;
-    background-color: transparent !important;
-    border-radius: 35px !important;
-    border: 1px solid rgba(145, 56, 50, 1) !important;
-    padding: 10px 30px !important;
-    font-family: "Bodoni Moda 9pt" !important;
-    font-size: 18px !important;
-    font-weight: 600 !important;
-    width: 100%;
-  }
-
-  .news-narratives-page .input-tag::placeholder {
-    color: rgba(145, 56, 50, 1);
-  }
+ 
 
   .news-narratives-page .bottom-div {
     gap: 10px;
@@ -2931,10 +2910,7 @@
     text-align: center;
     overflow: hidden;
   }
-
-  .news-narratives-page {
-    background-size: 100% 100%;
-  }
+ 
 
   .news-narratives-page .effect:hover .ifeect {
     transform: translateY(15px);
@@ -3810,15 +3786,7 @@
     margin-bottom: 30px;
   }
 
-  .news-narratives-page {
-    background-image: url(../img/news&narratives-page-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: top center;
-    overflow: hidden !important;
-  }
-
+  
 
   .news-narratives-page .effect:hover {
     transition: ease-in 0.5s;
@@ -3867,21 +3835,7 @@
     font-style: italic;
     font-weight: 500;
   }
-
-  .news-narratives-page .input-tag {
-    max-width: 484px !important;
-    background-color: transparent !important;
-    border-radius: 35px !important;
-    border: 1px solid rgba(145, 56, 50, 1) !important;
-    padding: 17px 30px !important;
-    font-family: "Bodoni Moda 9pt" !important;
-    font-size: 21px !important;
-    font-weight: 400 !important;
-  }
-
-  .news-narratives-page .input-tag::placeholder {
-    color: rgba(145, 56, 50, 1);
-  }
+ 
 
   .news-narratives-page .bottom-div {
     gap: 10px;
@@ -8244,16 +8198,14 @@ height: 14em;
   }
 
 
-
   .news-narratives-page {
-    background-image: url(../img/news&narratives-page-bg.jpg);
+     /* background-image: url(../img/news&narratives-page-bg.jpg); */
+background-image: url(../img/vertycalams.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
-    background-position: top center;
-    margin-top: -290px;
-    padding-top: 290px;
-    overflow: hidden !important;
+    background-position: top center;    
+    position: relative;
   }
 
 
@@ -8306,14 +8258,14 @@ height: 14em;
   }
 
   .news-narratives-page .input-tag {
-    max-width: 484px !important;
-    background-color: transparent !important;
-    border-radius: 35px !important;
-    border: 1px solid rgba(145, 56, 50, 1) !important;
-    padding: 17px 30px !important;
-    font-family: "Bodoni Moda 9pt" !important;
-    font-size: 21px !important;
-    font-weight: 600 !important;
+    max-width: 484px ;
+    background-color: transparent ;
+    border-radius: 35px;
+    border: 1px solid rgba(145, 56, 50, 1) ;
+    padding: 17px 30px ;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 21px;
+    font-weight: 400 ;
   }
 
   .news-narratives-page .input-tag::placeholder {
