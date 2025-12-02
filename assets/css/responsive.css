@@ -951,6 +951,11 @@ button.navbar-toggler {
   }
 
 }
+@media (max-width: 2900px) {
+  .sector-in-focus-1 .sector-small-boxes {
+    display: none;
+  }
+}
 @media (max-width: 1200px) {
 
   .carousel-inner .carousel-item>div {
@@ -1547,6 +1552,16 @@ button.navbar-toggler {
 
   .our-partner-1 .heading-for-otherpage {
     margin-top: 0px;
+  }
+
+  .sector-in-focus-1 .sector-big-boxes {
+    display: none;
+  }
+
+  .sector-in-focus-1 .sector-small-boxes {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
   }
 
   .sector-in-focus-1 .image-2 {
