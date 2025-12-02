@@ -2330,13 +2330,9 @@ h5.articlename {
     line-height: normal;
     font-weight: 400;
 }
+ 
 
-  .bannerbg .gap .icons {
-    height: 30px;
-    width: 30px;
-  }
-
-  .bannerbg .gap .share {
+  span.share-text {
     color: #913832;
     text-align: right;
     font-family: "Bodoni Moda 9pt";
@@ -2345,8 +2341,7 @@ h5.articlename {
     font-weight: 700;
     line-height: normal;
     cursor: pointer;
-    padding-left: 13px;
-    border-left: 2px solid #913832;
+    padding-left: 13px; 
   }
 
   .bannerbg .description {
@@ -3782,14 +3777,7 @@ h5.articlename {
     padding-bottom: 0 !important;
     position: absolute;
     bottom: 8%;
-  }
-
-  
-
-  .bannerbg .gap .icons {
-    height: 30px;
-    width: 30px;
-  }
+  } 
 
   .bannerbg .description {
     gap: 20px;
@@ -4863,15 +4851,7 @@ h5.articlename {
   main.our-collaborations-main {
     background-color: #F0E6DA;
   }
-
-  .article-one .share-text {
-    color: #913832;
-    font-style: italic;
-    font-family: "Bodoni Moda 9pt Italic";
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0;
-  }
+ 
 
   .article-link {
     color: #913832;
@@ -8545,7 +8525,7 @@ ease;
     cursor: pointer;
   }
  
- y
+ 
   .bannerbg .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -8553,32 +8533,8 @@ ease;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
-  }
-
-  .bannerbg .date {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
-  }
- 
-  .bannerbg .gap .icons {
-    height: 30px;
-    width: 30px;
-  }
-
-  .bannerbg .gap .share {
-    color: #913832;
-    text-align: right;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-    cursor: pointer;
-  }
+  } 
+  
 
   .bannerbg .description {
     gap: 20px;
