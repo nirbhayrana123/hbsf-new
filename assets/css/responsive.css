@@ -521,15 +521,7 @@
         line-height: 45px;
     }
 
-  h3.overview-para {
-    font-size: 31px;
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-style: italic;
-    font-weight: 400;
-    list-style: normal;
-  }
+ 
 
   nav.breadcrumb-nav ol.breadcrumb li a {
     font-size: 12px;
@@ -1646,9 +1638,7 @@
     transition: all 0.3s ease;
   }
 
-  .overview-page .text {
-    font-size: 30px;
-  }
+  
 
   .overview-page-2 {
     margin-top: 0px;
@@ -2572,10 +2562,7 @@ nav.breadcrumb-nav {
     font-size: 33px;
   }
 
-  .sector-in-focus-1 .text {
-    font-size: 33px;
-  }
-
+ 
   .about-us-section-3 {
     padding-bottom: 600px;
   }
@@ -2756,9 +2743,7 @@ nav.breadcrumb-nav {
     min-height: auto;
   }
 
-  .sector-in-focus-1 .text {
-    font-size: 33px;
-  }
+ 
 
   h2 {
     font-size: 24px;
@@ -3571,9 +3556,7 @@ button.navbar-toggler {
     font-size: 25px;
   }
 
-  .sector-in-focus-1 .text {
-    font-size: 25px;
-  }
+ 
 
   .about-us-section-2 .text {
     font-size: 20px;
@@ -3628,9 +3611,7 @@ button.navbar-toggler {
     font-size: 25px;
   }
 
-  .sector-in-focus-1 .text {
-    font-size: 25px;
-  }
+ 
 
   .about-us-section-2 .text {
     font-size: 20px;
@@ -3913,10 +3894,7 @@ button.navbar-toggler {
     font-size: 22px;
   }
 
-  .sector-in-focus-1 .text {
-    font-size: 22px;
-  }
-
+ 
   .our-partner-1 .text {
     font-size: 22px;
   }
@@ -3925,9 +3903,7 @@ button.navbar-toggler {
     max-width: 320px;
   }
 
-  .sector-in-focus-1 .text {
-    font-size: 22px;
-  }
+ 
 
   .our-collaborations .text {
     font-size: 22px;

@@ -121,6 +121,17 @@
     color: rgb(145, 56, 50);
     font-family: "Bodoni Moda 9pt", serif;
   }
+h3 {
+    color: #913832;
+    text-align: center;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+
 .pl-contact h3 {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -409,16 +420,11 @@
     font-weight: 500;
     text-decoration: underline;
   }
-h3.overview-para {
-    font-size: 40px;
-}
  
 .dotsmap svg.map-size {
     width: 1000px;
 }
-
-
-
+ 
   .sec-2 .text {
     font-family: Bodoni Moda 9pt;
     font-size: 24px;
@@ -563,7 +569,9 @@ h3.overview-para {
   }
 
 
-
+.h3-gap {
+    margin-top: 50px;
+}
   .sec-5 .image {
     width: 340px;
     height: 450px;
@@ -1503,16 +1511,7 @@ h3.overview-para {
     padding-top: 290px;
     margin-bottom: 60px;
   }
-
-  .sector-in-focus-1 .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-  }
-
+ 
 
   .sector-in-focus-1 .image-1 {
     max-width: 400px;
@@ -1521,23 +1520,7 @@ h3.overview-para {
   .sector-in-focus-1 .image-2 {
     max-width: 600px;
   }
-
-  .our-partner-1 {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-  }
-
-  .our-partner-1 .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    padding-bottom: 30px;
-  }
-
-
+ 
   .our-partner-1 .input-tag {
     background-color: transparent;
     border-radius: 53px;
@@ -4936,6 +4919,10 @@ h3.overview-para {
     font-size: 20px; 
   }
  
+<<<<<<< HEAD
+ 
+=======
+>>>>>>> 023e51a2b657de0bd4ffe461f3385e5fcace6c52
 
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
@@ -4953,8 +4940,12 @@ h3.overview-para {
     text-decoration: none;
   }
 
+<<<<<<< HEAD
+ 
+=======
   
 
+>>>>>>> 023e51a2b657de0bd4ffe461f3385e5fcace6c52
   .our-partner-1 .text-below-heading {
     color: #913832;
     text-align: center;
@@ -5266,8 +5257,7 @@ ease;
   .tab-pane.active .tab-pane-inner.slide-out-to-right {
     z-index: 2;
   }
-
-  /* ACTIVE LABEL (desktop only) */
+ 
   .active-label {
     display: block;
   }
@@ -8087,15 +8077,7 @@ ease;
     overflow-x: hidden !important;
   }
 
-  .sector-in-focus-1 .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-  }
-
+ 
 
   .sector-in-focus-1 .image-1 {
     max-width: 400px;
@@ -8105,16 +8087,9 @@ ease;
     max-width: 600px;
   }
 
-  .our-partner-1 {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: bottom center;
-    margin-top: -290px;
-    padding-top: 290px;
-    overflow: hidden !important;
-  }
+   .filterbox {
+    margin-top: 50px;
+}
   h3.border-b.common-heading
  {
     text-transform: uppercase;
@@ -8770,16 +8745,7 @@ ease;
     overflow: hidden !important;
   }
 
-  .overview-page .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    list-style: normal;
-  }
-
+ 
   .overview-page .map-img {
     height: 700px;
   }
@@ -10109,10 +10075,7 @@ ease;
         rgba(245, 245, 245, 0.8) 30%,
         rgba(245, 245, 245, 0) 100%);
   }
-
-
-
-
+   
   .error-404 .error-div .text {
     color: #fff;
     text-align: center;
