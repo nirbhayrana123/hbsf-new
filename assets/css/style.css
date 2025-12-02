@@ -2294,15 +2294,7 @@ h5.articlename {
     overflow: hidden !important;
   }
 
-  .bannerbg .news-article {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-  }
- 
-
+   
   .bannerbg .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -8553,17 +8545,7 @@ ease;
     cursor: pointer;
   }
  
-
-  .bannerbg .news-article {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-  }
-
-
-
+ 
   .bannerbg .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
