@@ -2204,7 +2204,7 @@
     font-family: "Bodoni Moda 9pt";
     font-size: 2.6em;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
     transition: 1s;
   }
@@ -2308,6 +2308,7 @@
     transition: 0.9s;
     position: relative;
     bottom: -67px;
+    font-size: 18px;
     max-height: 0;
     overflow: hidden;
     font-family: 'Bodoni Moda 9pt Italic';
@@ -2316,7 +2317,6 @@
   .parent-card:hover .contentuser p {
     bottom: 0px;
     opacity: 1;
-    height: 190px;
   }
 
 
@@ -7816,7 +7816,7 @@
     padding: 10px 30px;
     font-family: "Bodoni Moda 9pt";
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 400;
     cursor: pointer;
     outline: none;
   }

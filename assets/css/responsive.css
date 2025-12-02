@@ -639,6 +639,10 @@
   .about-us-section-1 .scrolling-div {
     max-height: 400px;
   }
+.contentuser p {
+    font-size: 15px;
+}
+
 
   .myswiper .swiper-button-next {
     bottom: 30px !important;
