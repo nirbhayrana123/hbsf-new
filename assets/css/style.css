@@ -4132,14 +4132,24 @@
 
 
 
-
+.bordersline {
+    width: 0.1px;
+    height: 79%;
+    left: -12px;
+    background-color: #fff;
+    position: absolute;
+    opacity: 0;
+    transition: 0.6s;
+}
   .child-card {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
   }
 
-
+.abou2section img.img-fluid.section-2-image {
+    width: 635px;
+}
   .contentuser .bordersline {
     margin-left: 10px;
   }
@@ -4156,17 +4166,14 @@
 
   .slide-mr .bordersline {
     margin-left: 37px;
-    /* background-color: blue; */
   }
 
   .slide-mr .content-h4 {
     margin-left: 18px;
-    /* background-color: lime; */
   }
 
   .slide-mr p {
     margin-left: 18px;
-    /* background-color: lime; */
   }
 
 
