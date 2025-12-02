@@ -732,10 +732,9 @@ a.nav-link {
     padding-right: 20px;
   }
 
-  .sec-1 .nav-link {
-    font-size: 20px;
-  }
-
+    .sec-1 .nav-link {
+        font-size: 17px;
+    }
 
 
   .sec-1 .description {
@@ -818,7 +817,9 @@ button.navbar-toggler {
 .logoto2 {
     height: 86px; 
 }
-
+#fullpage .nav-item .background .list-text { 
+    font-size: 11px !important; 
+}
 }
 
 
