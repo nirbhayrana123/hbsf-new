@@ -3736,7 +3736,7 @@
   .description.container-fluid.pb-0 {
     padding-bottom: 0 !important;
     position: absolute;
-    bottom: 16%;
+    bottom: 10%;
 }
 
 
@@ -3769,6 +3769,12 @@
     border-radius: 20px;
     border: 4px solid #913832;
   }
+  .description .border-b::after { 
+    width: 116px;
+    height: 4px;
+    margin: 0 auto;
+    bottom: -30px;
+}
 
   .sec-1 .nav-item.dropdown {
     z-index: 9;
@@ -4341,7 +4347,7 @@
   }
 
  .sec-1-content {
-    max-width: 1030px;
+    max-width: 1060px;
     margin-top: 10%;
     text-align: center;
 }
@@ -4349,7 +4355,7 @@
  .sec-1-content h1 {
     font-family: "Bodoni Moda 9pt";
     font-style: italic;
-    font-size: 5em;
+    font-size: 5.47em;
     line-height: 1.1;
     font-weight: 500;
 }
@@ -7102,15 +7108,15 @@
   }
 
   .sec-1 {
-    height: 100vh !important;
-    position: relative;
+position: relative;
     background-image: url(../img/bannderbg.jpg);
     background-repeat: no-repeat;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
     z-index: 99;
-    background-size: cover;
-    background-position: top -66px center;
+    background-size: 100% 100%; 
     padding-top: 0;
+    max-height: 940px;
+    height: 100%;
   }
 
 

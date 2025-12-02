@@ -362,7 +362,7 @@ body {
     padding-bottom: 170px;
 }
 .description.container-fluid.pb-0 {
-    bottom: 12%;
+    bottom: 17%;
 }
 .bannerbg { 
     padding-top: 150px; 
@@ -526,9 +526,9 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     max-width: 88.5%;
   }
 
-  .sec-1-content h1 {
-    font-size: 55px;
-  }
+    .sec-1-content h1 {
+        font-size: 60px;
+    }
   .about-us-nav .nav-menu {
     max-width: 280px; 
 }
@@ -555,6 +555,15 @@ a.nav-link {
 .post-slide { 
     height: 528px;
 }
+.sec-1 .logo {
+    height: 15em; 
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+.sec-1 { 
+    max-height: 740px; 
+}
+
  
 }
 @media (max-width: 1400px) {
