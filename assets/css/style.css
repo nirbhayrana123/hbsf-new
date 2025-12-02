@@ -127,7 +127,7 @@
     color: #913832;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
-    font-size: 2.89em;
+        font-size: 2.8em;
     font-style: italic;
     font-weight: 400;
     line-height: 1.3em;
@@ -2244,6 +2244,16 @@ p.outreach-description {
     margin-top: 51px;
     margin-bottom: 0;
   }
+  .linesboreders::after {
+    content: "";
+    width: 170px;
+    height: 2px;
+    background-color: #ca5548;
+    right: 0;
+    left: 0;
+    bottom: 108px;
+    position: relative;
+}
 
   .policy-contents p {
     color: #913832;
