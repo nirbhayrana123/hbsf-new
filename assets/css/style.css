@@ -5257,8 +5257,7 @@ ease;
   .tab-pane.active .tab-pane-inner.slide-out-to-right {
     z-index: 2;
   }
-
-  /* ACTIVE LABEL (desktop only) */
+ 
   .active-label {
     display: block;
   }
@@ -10076,10 +10075,7 @@ ease;
         rgba(245, 245, 245, 0.8) 30%,
         rgba(245, 245, 245, 0) 100%);
   }
-
-
-
-
+   
   .error-404 .error-div .text {
     color: #fff;
     text-align: center;
