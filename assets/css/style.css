@@ -1522,9 +1522,7 @@ h5.articlename {
     max-width: 600px;
   }
  
-h2.common-heading {
-    font-size: 2.8em;
-}
+
 
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
@@ -2326,7 +2324,7 @@ h2.common-heading {
 .policy-contents h5 {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 2rem;
+    font-size: 2em;
     line-height: normal;
     font-weight: 700;
     margin-top: 51px;
@@ -2336,7 +2334,7 @@ h2.common-heading {
 .policy-contents p {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 1.6rem;
+    font-size: 1.6em;
     line-height: normal;
     font-weight: 400;
 }
