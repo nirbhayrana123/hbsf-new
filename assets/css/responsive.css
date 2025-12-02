@@ -2595,15 +2595,10 @@ nav.breadcrumb-nav {
   
  
 
-  .error-404 .error-div .text-2 {
-    margin-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 2rem;
-  }
 
   .error-404 .error-div .text {
-    font-size: 8rem;
-    line-height: 4.4rem;
+   font-size: 9rem;
+        letter-spacing: 0;
   }
 
   .trf-main .common-heading {
@@ -2630,13 +2625,16 @@ nav.breadcrumb-nav {
     font-size: 25px;
   }
 
-  .error-404 .error-div .text {
-    font-size: 200px;
-  }
+ .error-404 .error-div .text-3 {
+    margin-left: 0px;
+}
 
-  .error-404 .error-div .text-2 {
-    margin-top: -25px;
-  }
+
+      .error-404 .error-div .text-2 {
+        margin-top: 0px;
+        margin-left: 0;
+        font-size: 3em;
+    }
 
   h1 {
     font-size: 39px;
@@ -3317,6 +3315,9 @@ button.navbar-toggler {
   /* Regular */
   font-size: 1.68rem;
   color: rgb(145, 56, 50);
+}
+.error-404 .error-div {
+    background-size: inherit;
 }
 
 
