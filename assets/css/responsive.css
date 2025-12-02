@@ -362,7 +362,7 @@ body {
     padding-bottom: 170px;
 }
 .description.container-fluid.pb-0 {
-    bottom: 17%;
+    bottom: 14%;
 }
 .bannerbg { 
     padding-top: 150px; 
@@ -489,9 +489,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     height: 2px;
   }
 
-  .sec-1 {
-    background-position: top -30px center;
-  }
+ 
 
   .sec-1-content {
     margin-top: 0;
@@ -560,15 +558,20 @@ a.nav-link {
 .sec-1 { 
     max-height: 740px; 
 }
-
+.description .border-b::after {
+    width: 90px;
+    height: 3px;
+    margin: 0 auto;
+    bottom: -20px;
+}
  
 }
 @media (max-width: 1400px) {
   .the-rotary-foundation .information-1 {
     font-size: 28px;
   }
-  .sec-1-content h1 {
-        font-size: 43px;
+       .sec-1-content h1 {
+        font-size: 50px;
     }
     .button2 {
     padding: 8px 40px;
@@ -578,9 +581,7 @@ a.nav-link {
 .contents p {
     margin-bottom: 65px;
 }
-  .sec-1-content {
-        max-width: 595px;
-    }
+  
     .nav-item .background .list-text {
     font-size: 12px !important;
 }
@@ -757,7 +758,7 @@ a.nav-link {
   }
 
   .sec-1 .logo {
-    height: 9rem;
+    height: 10rem;
     margin-top: 20px;
   }
 
@@ -853,6 +854,16 @@ button.navbar-toggler {
 #fullpage .nav-item .background .list-text { 
     font-size: 11px !important; 
 }
+    .sec-1 {
+        max-height: 610px;
+    }
+    .sec-1-content {
+        max-width: 686px;
+    }
+        .description.container-fluid.pb-0 {
+        bottom: 14%;
+    }
+      
 }
 
 
