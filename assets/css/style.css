@@ -395,7 +395,7 @@ h3 {
   .nav-item .background {
     position: relative;
     background-image: url(../img/menubg.svg);
-    background-size: cover;
+    background-size: cover!important;
     background-position: top;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -404,16 +404,11 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
-    min-height: 170px;
+    justify-content: flex-start;   
+    padding-bottom: 40px;
   }
 
-  .about-us-nav .nav-item .background {
-    left: -170px;
-    background-size: 100% 100%;
-    padding: 15px;
-    width: 100%;
-  }
+ 
 
   .nav-item .background .list-text:hover {
     text-decoration: underline;

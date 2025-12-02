@@ -498,7 +498,30 @@
   .sec-1-content h1 {
     font-size: 55px;
   }
-
+  .about-us-nav .nav-menu {
+    max-width: 280px; 
+}
+a.nav-link {
+    font-size: 20px;
+}
+    .nav-item.dropdown .dropdown-menu { 
+        width: 165px;
+    }
+    header.about-us-nav .nav-item .background {
+      left: -165px;
+      top: -24px;
+      width: 100%;
+  }
+.main {
+    padding-top: 145px;
+}
+.navbar-toggler .menuicon span.linemenu.linetow {
+    margin: 7px 0px;
+}
+.navbar-toggler .menuicon span.linemenu { 
+    width: 23px; 
+}
+ 
 }
 @media (max-width: 1400px) {
   .the-rotary-foundation .information-1 {
@@ -732,7 +755,53 @@
   h3 {
     font-size: 2.2em;
 }
+  .dropdownul li a { 
+    font-size: 12px; 
 }
+    a.nav-link {
+        font-size: 17px;
+    }
+    .about-us-nav .nav-item:hover { 
+    transform: scale(1.05) translatex(-7px);
+}
+    header.about-us-nav .nav-item .background {
+        left: -137px;
+        top: -24px; 
+    }
+        .nav-item.dropdown .dropdown-menu {
+        width: 137px !important;
+        min-width: 1px;
+    }
+    .nav-item.dropdown:hover .dropdown-menu .background li { 
+    padding-bottom: 0px;
+}
+ 
+      .about-us-nav .nav-menu {
+        max-width: 217px;
+    }
+    .about-us-nav { 
+    background-position: bottom 23px center; 
+}
+#navbarNavAltMarkup {
+    margin-top: -440px;
+    display: block !important;
+    height: 440px !important;
+}
+.showactive #navbarNavAltMarkup {
+    margin-top: 0 !important;
+}
+button.navbar-toggler { 
+    margin-top: 14px !important;
+}
+.main {
+    padding-top: 120px;
+}
+.logoto2 {
+    height: 86px; 
+}
+
+}
+
 
 @media (max-width: 1250px) {
   .about-us-section-3 .top-images {
