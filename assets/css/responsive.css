@@ -564,6 +564,9 @@ a.nav-link {
     margin: 0 auto;
     bottom: -20px;
 }
+ .showactive .navbar-toggler .menuicon span.linemenu.lineone {
+    transform: rotate(45deg) translate(6px, 5px);
+  }
  
 }
 @media (max-width: 1400px) {

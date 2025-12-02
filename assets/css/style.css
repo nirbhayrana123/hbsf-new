@@ -2617,10 +2617,11 @@
     transform: rotate(-45deg) translate(6px, -5px);
   }
 
-  .showactive .navbar-toggler .menuicon span.linemenu.lineone {
-    transform: rotate(45deg) translate(6px, 5px);
-  }
+ 
 
+  .showactive .navbar-toggler .menuicon span.linemenu.lineone {
+    transform: rotate(45deg) translate(11px, 8px);
+}
   .showactive .navbar-toggler .menuicon span.linemenu.linetow {
     visibility: hidden;
     opacity: 0;
@@ -4024,7 +4025,7 @@
   .sec-1 .nav-item.dropdown .dropdown-menu {
     left: 0;
     width: 175px;
-    top: 30px;
+    top: 40px;
   }
 
   .sdg-grid .sdg-item:first-child {
@@ -7230,7 +7231,7 @@ height: 14em;
   }
 
   .sec-2 .sign {
-    height: 110px;
+    height: 180px;
   }
 
   .sec-2 .sign-name {
