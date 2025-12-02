@@ -151,7 +151,7 @@
 
                 <ul class="nav nav-tabs tab-menu row align-items-center text-center" id="myTab">
                     <li class="col-3 nav-item tab-block left-tab d-flex justify-content-start" data-tab="current">
-                        <button class="nav-link menus active" data-bs-target="#content1">Current Partnership</button>
+                        <button class="nav-link menus active" data-bs-target="#content1">Current oooo</button>
                     </li>
 
 
@@ -937,6 +937,37 @@
     head.addEventListener("click", () => {
         list.classList.toggle("open");
     });
+
+
+    
+
 </script> -->
+
+<script>
+   const tabBlocks = document.querySelectorAll(".tab-block");
+const heading = document.querySelector(".center-label h3");
+
+tabBlocks.forEach((block) => {
+  block.addEventListener("click", function () {
+    
+    // sabse pehle sabse active hatao
+    tabBlocks.forEach((b) =>
+      b.querySelector("button").classList.remove("active")
+    );
+
+    // jis par click hua usko active add
+    this.querySelector("button").classList.add("active");
+
+    // Center heading text change
+    if (this.dataset.tab === "current") {
+      heading.textContent = "CURRENT PARTNERSHIP";
+    } else {
+      heading.textContent = "PAST PARTNERSHIP";
+    }
+  });
+});
+
+    </script>
+
 
 </html>
