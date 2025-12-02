@@ -127,7 +127,7 @@
     color: #913832;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
-        font-size: 2.8em;
+    font-size: 2.8em;
     font-style: italic;
     font-weight: 400;
     line-height: 1.3em;
@@ -287,7 +287,7 @@
     padding-top: 15px;
     filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.25));
   }
- 
+
 
   .breadcrumb-item:nth-last-child(1)::before {
     --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.75 0.75L5.75 6.75L0.75 12.75' stroke='%23913832' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -374,7 +374,7 @@
   .nav-item .background {
     position: relative;
     background-image: url(../img/nav-bg.png);
-    background-size:100% 100%;
+    background-size: 100% 100%;
     background-position: top;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -386,12 +386,13 @@
     justify-content: flex-start;
     padding-bottom: 20px;
   }
-#fullpage .sec-1 .nav-item .background {
+
+  #fullpage .sec-1 .nav-item .background {
     background-image: url(../img/dropbg.png);
     background-size: 100% 100% !important;
-    background-position:top;
+    background-position: top;
     padding-bottom: 20px;
-}
+  }
 
 
   .nav-item .background .list-text:hover {
@@ -886,7 +887,7 @@
   }
 
   .dot .year-label.section-title {
-   opacity: 0;
+    opacity: 0;
     left: -130px;
     position: absolute;
     top: -6px;
@@ -1084,8 +1085,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-  } 
- 
+  }
+
   .about-us-section-1 .content .line-dot .dot {
     --size: 0.5rem;
     width: var(--size);
@@ -1112,9 +1113,10 @@
     max-height: 730px;
   }
 
-.flesing .year-label.section-title {
+  .flesing .year-label.section-title {
     display: none;
-}
+  }
+
   .coverlec {
     position: absolute;
     left: 0;
@@ -1576,7 +1578,7 @@
     background-color: transparent;
   }
 
- 
+
 
 
   .our-partner-1 .image-div .image-1 {
@@ -1737,7 +1739,7 @@
   .our-partner-1 .image-div:hover .image-38 {
     content: url(../img/our-partner-color-logo-38.png);
   }
- 
+
 
   .filter-list {
     position: absolute;
@@ -1770,7 +1772,7 @@
     cursor: pointer;
     text-align: left;
     padding-left: 40px;
-}
+  }
 
   .title-line {
     position: relative;
@@ -1793,7 +1795,7 @@
     color: #913832;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
-       font-size: 1.2em;
+    font-size: 1.2em;
     font-style: italic;
     font-weight: 500;
     will-change: transform, opacity;
@@ -1833,13 +1835,13 @@
     margin-bottom: 20px;
   }
 
-.partner-title h5 {
+  .partner-title h5 {
     font-size: 2em;
     font-weight: 600;
     color: #913832;
     margin-bottom: 48px;
     font-family: "Bodoni Moda 9pt";
-}
+  }
 
   .partner-title {
     display: flex;
@@ -1894,7 +1896,7 @@
     line-height: 50px;
   }
 
-.partner-description p {
+  .partner-description p {
     font-family: "Bodoni Moda 9pt";
     font-size: 1.2em;
     font-style: italic;
@@ -1902,9 +1904,9 @@
     color: #913832;
     line-height: 1.4;
     margin-bottom: 0px;
-}
+  }
 
-p.outreach-description {
+  p.outreach-description {
     font-family: "Bodoni Moda 9pt";
     font-size: 1.8em;
     font-style: italic;
@@ -1914,7 +1916,7 @@ p.outreach-description {
     padding-bottom: 60px;
     text-align: center;
     margin: 0px auto;
-}
+  }
 
   .dotsmap {
     position: relative;
@@ -2057,7 +2059,7 @@ p.outreach-description {
   }
 
 
- 
+
 
   .the-rotary-foundation .the-rotary-foundation-img {
     width: -webkit-fill-available;
@@ -2071,7 +2073,7 @@ p.outreach-description {
     display: none;
   }
 
- 
+
 
 
 
@@ -2088,7 +2090,7 @@ p.outreach-description {
     font-weight: 400;
   }
 
-  
+
 
   .news-narratives-page .description {
     color: #913832;
@@ -2116,7 +2118,7 @@ p.outreach-description {
     font-weight: 500;
   }
 
- 
+
 
   .news-narratives-page .bottom-div {
     gap: 10px;
@@ -2196,7 +2198,8 @@ p.outreach-description {
     padding-top: 190px;
     overflow: hidden !important;
   }
-.bannerbg .name {
+
+  .bannerbg .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
     font-size: 2.6em;
@@ -2204,8 +2207,9 @@ p.outreach-description {
     font-weight: 700;
     line-height: normal;
     transition: 1s;
-}
-.our-partner-1 .image-div::after {
+  }
+
+  .our-partner-1 .image-div::after {
     content: "";
     position: absolute;
     left: 0;
@@ -2216,7 +2220,8 @@ p.outreach-description {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-}
+  }
+
   .bannerbg .date {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -2224,7 +2229,7 @@ p.outreach-description {
     font-style: italic;
     font-weight: 400;
     line-height: normal;
-}
+  }
 
   .policy-contents h5 {
     color: #913832;
@@ -2235,6 +2240,7 @@ p.outreach-description {
     margin-top: 51px;
     margin-bottom: 0;
   }
+
   .linesboreders::after {
     content: "";
     width: 170px;
@@ -2244,7 +2250,7 @@ p.outreach-description {
     left: 0;
     bottom: 108px;
     position: relative;
-}
+  }
 
   .policy-contents p {
     color: #913832;
@@ -2254,12 +2260,13 @@ p.outreach-description {
     font-weight: 400;
   }
 
-span.v-divider {
+  span.v-divider {
     background: #913832;
     width: 4px;
     height: 36px;
     margin-left: 6px;
-}
+  }
+
   span.share-text {
     color: #913832;
     text-align: right;
@@ -2278,21 +2285,22 @@ span.v-divider {
     font-family: "Bodoni Moda 9pt";
     font-size: 34px;
     font-weight: 700;
-  } 
+  }
 
-.bannervideo .iframe-tag {
+  .bannervideo .iframe-tag {
     padding: 0px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
     border: 4px solid #913832;
-}
-.bannervideo {
+  }
+
+  .bannervideo {
     padding-top: 40px;
     height: 692px;
     max-width: 80%;
     margin: 0 auto;
-}
+  }
 
   .contentuser p {
     margin-top: 10px;
@@ -2413,7 +2421,7 @@ span.v-divider {
     padding-bottom: 200px;
   }
 
-.thankyoucontent h4 {
+  .thankyoucontent h4 {
     color: #a93b3b;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
@@ -2421,7 +2429,7 @@ span.v-divider {
     font-style: italic;
     font-weight: 400;
     line-height: normal;
-}
+  }
 
   .imgthankyu {
     position: relative;
@@ -2561,11 +2569,12 @@ span.v-divider {
     transform: rotate(-45deg) translate(6px, -5px);
   }
 
- 
+
 
   .showactive .navbar-toggler .menuicon span.linemenu.lineone {
     transform: rotate(45deg) translate(11px, 8px);
-}
+  }
+
   .showactive .navbar-toggler .menuicon span.linemenu.linetow {
     visibility: hidden;
     opacity: 0;
@@ -2845,42 +2854,46 @@ span.v-divider {
     gap: 60px;
   }
 
-.collabrations-box {
+  .collabrations-box {
     position: relative;
     border-bottom: 3px solid #7224256e;
     padding-bottom: 15px;
     cursor: pointer;
     transition: 1s;
-    min-height: 275px; ;
-}
+    min-height: 275px;
+    ;
+  }
 
-.our-collabrations-box .grid-basic.towcol {
+  .our-collabrations-box .grid-basic.towcol {
     width: 75%;
     margin: 0 auto;
-}
+  }
 
-.our-collabrations-box .grid-basic p {
+  .our-collabrations-box .grid-basic p {
     font-size: 1.2em;
     position: absolute;
     bottom: -52%;
-   transition: all 0.8s ease;
+    transition: all 0.8s ease;
     height: 0;
     overflow: hidden;
     opacity: 0%;
-}
+  }
 
-.collabrations-box:hover p {
+  .collabrations-box:hover p {
     bottom: 0%;
     height: auto;
     opacity: 100%;
-}
-.collabrations-box:hover .name, .collabrations-box:hover .colectionimg {
+  }
+
+  .collabrations-box:hover .name,
+  .collabrations-box:hover .colectionimg {
     opacity: 0;
     margin-top: -50px;
-}
-.our-collabrations-box {
+  }
+
+  .our-collabrations-box {
     padding: 60px 0;
-}
+  }
 
   .colectionimg {
     height: 150px;
@@ -2903,7 +2916,7 @@ span.v-divider {
     text-align: center;
     overflow: hidden;
   }
- 
+
 
   .news-narratives-page .effect:hover .ifeect {
     transform: translateY(15px);
@@ -2947,14 +2960,16 @@ span.v-divider {
   .imgtopshape img {
     width: 150px;
   }
-.contact-us .address-div {
+
+  .contact-us .address-div {
     padding: 1rem 0px 1rem 0px;
     display: flex;
     gap: 15px;
     position: absolute;
     bottom: -190px;
     top: auto;
-}
+  }
+
   .pl-contact {
     padding-left: 70px;
     position: relative;
@@ -3080,7 +3095,7 @@ span.v-divider {
     font-size: medium;
     font-weight: 300;
   }
- 
+
   .nav-item .background .list-text:hover {
     text-decoration: underline;
     padding: 20px;
@@ -3562,7 +3577,7 @@ span.v-divider {
     background-clip: border-box;
     background-position: bottom center;
     padding-bottom: 70px;
-    min-height:1000px;
+    min-height: 1000px;
   }
 
 
@@ -3584,7 +3599,7 @@ span.v-divider {
     align-items: center;
     flex-direction: column;
   }
- 
+
 
   .about-us-section-1 .content .line-dot .dot {
     --size: 0.5rem;
@@ -3687,21 +3702,21 @@ span.v-divider {
     padding-bottom: 0 !important;
     position: absolute;
     bottom: 10%;
-}
+  }
 
 
   .bannerbg .gap .icons {
     height: 30px;
     width: 30px;
   }
- 
- 
-  .description .border-b::after { 
+
+
+  .description .border-b::after {
     width: 116px;
     height: 4px;
     margin: 0 auto;
     bottom: -30px;
-}
+  }
 
   .sec-1 .nav-item.dropdown {
     z-index: 9;
@@ -3716,7 +3731,7 @@ span.v-divider {
     font-weight: 300;
   }
 
- 
+
 
   .the-rotary-foundation .the-rotary-foundation-img {
     width: -webkit-fill-available;
@@ -3764,7 +3779,7 @@ span.v-divider {
     margin-bottom: 30px;
   }
 
-  
+
 
   .news-narratives-page .effect:hover {
     transition: ease-in 0.5s;
@@ -3779,7 +3794,7 @@ span.v-divider {
     font-weight: 400;
   }
 
- 
+
 
   .news-narratives-page .description {
     color: #913832;
@@ -3806,7 +3821,7 @@ span.v-divider {
     font-style: italic;
     font-weight: 500;
   }
- 
+
 
   .news-narratives-page .bottom-div {
     gap: 10px;
@@ -3875,11 +3890,10 @@ span.v-divider {
   }
 
   /*****************Home css end******************************/
-.svgbg {
+  .svgbg {
     width: 560px;
-    transition: 0.5s all 
-ease;
-}
+    transition: 0.5s all ease;
+  }
 
   .svgbg svg {
     width: 100%;
@@ -4059,7 +4073,7 @@ ease;
 
 
 
-.bordersline {
+  .bordersline {
     width: 0.1px;
     height: 79%;
     left: -12px;
@@ -4067,16 +4081,18 @@ ease;
     position: absolute;
     opacity: 0;
     transition: 0.6s;
-}
+  }
+
   .child-card {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
   }
 
-.abou2section img.img-fluid.section-2-image {
+  .abou2section img.img-fluid.section-2-image {
     width: 635px;
-}
+  }
+
   .contentuser .bordersline {
     margin-left: 10px;
   }
@@ -4102,7 +4118,7 @@ ease;
   .slide-mr p {
     margin-left: 18px;
   }
-  
+
 
   .footer {
     min-height: auto !important;
@@ -4212,9 +4228,9 @@ ease;
     height: 4px;
   }
 
- .marquee-track-list a.position-relative.abc {
+  .marquee-track-list a.position-relative.abc {
     margin-left: -90px;
-}
+  }
 
   .mainerror {
     height: 100vh;
@@ -4241,7 +4257,7 @@ ease;
     display: none;
   }
 
- .sec-1-content {
+  .sec-1-content {
     max-width: 1060px;
     margin-top: 10%;
     text-align: center;
@@ -4569,7 +4585,7 @@ ease;
     overflow: hidden !important;
   }
 
- 
+
 
   .errorpage {
     height: 100%;
@@ -4620,11 +4636,11 @@ ease;
     height: auto;
     object-fit: contain;
   }
- 
+
   .bottom-img-s {
     display: none;
   }
- 
+
   .left-links .publisher {
     color: #913832;
     font-style: italic;
@@ -4638,19 +4654,21 @@ ease;
     color: #913832;
     font-style: italic;
     font-family: "Bodoni Moda 9pt Italic";
-    font-weight: 400; 
+    font-weight: 400;
     letter-spacing: 0;
   }
 
   main.our-collaborations-main {
     background-color: #F0E6DA;
   }
-.article-link {
+
+  .article-link {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
     font-size: 3.2em;
     font-weight: 700;
-}
+  }
+
   .trf-main .text {
     color: #913832;
     text-align: center;
@@ -4712,8 +4730,8 @@ ease;
     display: flex;
     flex-direction: column;
     align-items: center;
-      max-height: 300px;
-     text-align: center;
+    max-height: 300px;
+    text-align: center;
     overflow: visible;
   }
 
@@ -4792,13 +4810,6 @@ ease;
     opacity: 1;
   }
 
- .our-partner-1 .name-2 {
-    top: 0;
-    font-size: 2.8em;
-    font-weight: 500;
-    opacity: 1;
-}
-
   .our-partner-1 .name-2 {
     position: absolute;
     top: -2.5rem;
@@ -4810,9 +4821,9 @@ ease;
     text-align: center;
     transition: transform 0.5s ease, opacity 0.5s ease;
     line-height: 1.4;
+    font-size: 1.7em;
   }
 
-  /* Hover state animations */
   .our-partner-1 .image-div:hover .name-2 {
     opacity: 1;
     margin-top: 10px;
@@ -4880,7 +4891,7 @@ ease;
     /* smooth stagger */
   }
 
- 
+
 
   /* -------------------------------------------- */
   /*                TAB MENU                      */
@@ -5036,7 +5047,7 @@ ease;
 
 
   /* Our Partner Image 1 */
- 
+
 
   .our-partner-1 .image-div .image-1 {
     width: 100%;
@@ -5053,7 +5064,7 @@ ease;
     transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
   }
 
-   
+
 
   .our-partner-1 .image-div .image-2 {
     width: 100%;
@@ -5072,7 +5083,7 @@ ease;
     /* smooth, slow-mo feel */
   }
 
-   
+
 
   .our-partner-1 .image-div .image-3 {
     width: 100%;
@@ -6935,8 +6946,8 @@ ease;
   } */
 
   .breadcrumb {
-  --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.75 0.75L5.75 6.75L0.75 12.75' stroke='%23913832' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-}
+    --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.75 0.75L5.75 6.75L0.75 12.75' stroke='%23913832' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
 
   .breadcrumb-item+.breadcrumb-item::before {
     vertical-align: middle;
@@ -6948,9 +6959,9 @@ ease;
   /* .breadcrumb-item:nth-last-child(1)::before {
     --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='15' viewBox='0 0 13 15' fill='none'%3E%3Cpath d='M0.5 2.05591C0.499922 1.78223 0.569479 1.51336 0.701647 1.27647C0.833816 1.03958 1.02392 0.843042 1.25276 0.706711C1.48159 0.57038 1.74107 0.49908 2.00498 0.500009C2.26888 0.500938 2.52789 0.574064 2.75583 0.712003L11.7529 6.15453C11.9799 6.29116 12.1684 6.4872 12.2995 6.72305C12.4307 6.95891 12.4998 7.22632 12.5 7.49855C12.5002 7.77079 12.4316 8.03832 12.3008 8.27441C12.1701 8.5105 11.982 8.70687 11.7551 8.84391L2.75583 14.288C2.52789 14.4259 2.26888 14.4991 2.00498 14.5C1.74107 14.5009 1.48159 14.4296 1.25276 14.2933C1.02392 14.157 0.833816 13.9604 0.701647 13.7235C0.569479 13.4866 0.499922 13.2178 0.5 12.9441V2.05591Z' fill='%23913832' stroke='%23913832' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   } */
-   .breadcrumb-item:nth-last-child(1)::before {
-  --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.75 0.75L5.75 6.75L0.75 12.75' stroke='%23913832' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-}
+  .breadcrumb-item:nth-last-child(1)::before {
+    --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.75 0.75L5.75 6.75L0.75 12.75' stroke='%23913832' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
 
 
   .common-read-more-btn {
@@ -6972,12 +6983,12 @@ ease;
   }
 
   .sec-1 {
-position: relative;
+    position: relative;
     background-image: url(../img/bannderbg.jpg);
     background-repeat: no-repeat;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
     z-index: 99;
-    background-size: 100% 100%; 
+    background-size: 100% 100%;
     padding-top: 0;
     max-height: 940px;
     height: 100%;
@@ -6986,7 +6997,7 @@ position: relative;
 
 
   .sec-1 .logo {
-height: 14em;
+    height: 14em;
     width: auto;
     margin-top: 30px;
     margin-bottom: 1.7rem;
@@ -7018,9 +7029,10 @@ height: 14em;
     justify-content: center;
     display: flex;
     align-items: flex-start;
-     
+
   }
- .sec-1 .bottom-img {
+
+  .sec-1 .bottom-img {
     width: 140px;
     height: 3px;
   }
@@ -7060,7 +7072,7 @@ height: 14em;
     position: relative;
     align-items: center;
     background-color: #f3eae1;
-    
+
   }
 
 
@@ -7479,9 +7491,11 @@ height: 14em;
     align-items: flex-start;
     gap: 30px;
   }
-.container.founding-members {
+
+  .container.founding-members {
     padding-top: 70px;
-}
+  }
+
   .about-us-section-1 .section-title {
     position: sticky;
     top: 20px;
@@ -7711,7 +7725,7 @@ height: 14em;
     transform: scale(1.2);
     transition: all 0.3s ease;
   }
-  
+
   .about-us-section-3 .menu .text {
     color: #913832;
     text-align: center;
@@ -7780,7 +7794,7 @@ height: 14em;
     margin-top: 50px;
   }
 
- h3.border-b.common-heading {
+  h3.border-b.common-heading {
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
@@ -7791,7 +7805,7 @@ height: 14em;
     font-family: "Bodoni Moda 9pt", serif;
     margin-bottom: 0;
     font-style: normal;
-}
+  }
 
 
   .our-partner-1 .input-tag {
@@ -7835,7 +7849,7 @@ height: 14em;
     font-weight: 500;
   }
 
-  
+
 
   .our-partner-1 .image {
     height: 150px;
@@ -7896,14 +7910,14 @@ height: 14em;
     background-color: transparent;
   }
 
-  
+
 
 
   /* .our-partner-1 .image-div:hover .image-1 {
   content: url(../img/our-partner-color-logo-1.png);
 } */
 
-  
+
   .our-partner-1 .image-div .image-1 {
     width: 100%;
     max-width: 200px;
@@ -8108,7 +8122,7 @@ height: 14em;
     background-color: #93443d;
     position: relative;
   }
- 
+
 
   .the-rotary-foundation .the-rotary-foundation-img {
     width: -webkit-fill-available;
@@ -8116,12 +8130,12 @@ height: 14em;
 
 
   .news-narratives-page {
-     /* background-image: url(../img/news&narratives-page-bg.jpg); */
-background-image: url(../img/vertycalams.png);
+    /* background-image: url(../img/news&narratives-page-bg.jpg); */
+    background-image: url(../img/vertycalams.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
-    background-position: top center;    
+    background-position: top center;
     position: relative;
   }
 
@@ -8173,8 +8187,8 @@ background-image: url(../img/vertycalams.png);
     font-style: italic;
     font-weight: 500;
   }
- 
-.news-narratives-page .input-tag {
+
+  .news-narratives-page .input-tag {
     width: 300px;
     background-color: transparent;
     border-radius: 35px;
@@ -8184,7 +8198,7 @@ background-image: url(../img/vertycalams.png);
     font-size: 1.2em;
     font-weight: 400;
     outline: none;
-}
+  }
 
   .news-narratives-page .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
@@ -8220,18 +8234,19 @@ background-image: url(../img/vertycalams.png);
     color: white;
     cursor: pointer;
   }
-.right-social {
+
+  .right-social {
     gap: 10px;
-}
- 
+  }
+
   .bannerbg .view-article {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
     font-size: 34px;
     font-weight: 700;
   }
- 
- 
+
+
 
   .error-404 {
     background-image: url(../img/error-404-bg.jpg);
@@ -8279,7 +8294,7 @@ background-image: url(../img/vertycalams.png);
     color: #fff;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
-   font-size: 16em;
+    font-size: 16em;
     font-style: normal;
     font-weight: 700;
     line-height: 0.7em;
@@ -8300,7 +8315,8 @@ background-image: url(../img/vertycalams.png);
     -webkit-text-stroke-width: 1px;
     font-weight: 600;
     margin-left: 50px;
-}
+  }
+
   .error-404 .error-div {
     background-image: url(../img/error-404.png);
     background-repeat: no-repeat;
@@ -8309,12 +8325,12 @@ background-image: url(../img/vertycalams.png);
     background-position: center top -20px;
     text-align: center;
     padding: 80px 0px;
-     height: 450px;
+    height: 450px;
     width: auto;
     text-align: center;
   }
 
-  
+
 
   .error-404 .bottom-img {
     width: -webkit-fill-available;
@@ -8408,7 +8424,7 @@ background-image: url(../img/vertycalams.png);
 
 
   .text-3 h3 {
-    padding-bottom: 60px; 
+    padding-bottom: 60px;
   }
 
 
@@ -8454,7 +8470,7 @@ background-image: url(../img/vertycalams.png);
     border-radius: 0px;
   }
 
- 
+
 
   .contact-us .submit-btn {
     margin-right: 20px;
@@ -8472,7 +8488,7 @@ background-image: url(../img/vertycalams.png);
     border-radius: 50px;
   }
 
-  
+
   /* Keyframe animations */
   @keyframes dropdownFadeIn {
     0% {
@@ -9619,10 +9635,10 @@ background-image: url(../img/vertycalams.png);
         rgba(245, 245, 245, 0.8) 30%,
         rgba(245, 245, 245, 0) 100%);
   }
-   
-  
 
-.error-404 .error-div .text-3 {
+
+
+  .error-404 .error-div .text-3 {
     color: #913832;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
@@ -9630,4 +9646,4 @@ background-image: url(../img/vertycalams.png);
     font-style: normal;
     font-weight: 600;
     margin-left: 30px;
-}
+  }
