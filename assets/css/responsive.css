@@ -1525,9 +1525,12 @@
     font-size: 22px;
   }
 
-  .dl-4 {
-    margin-top: 1.8rem;
-  }
+      .dl-4 {
+        margin-top: 0rem;
+    }
+    .partner-description p {
+    font-size: 1em;
+}
 
 }
 
@@ -1538,6 +1541,9 @@
     justify-content: center;
     gap: 15px;
   }
+  .text p {
+        width: auto;
+    }
 
   .main {
     padding-top: 140px;
@@ -2610,6 +2616,19 @@ display: none;
     .about-us-section-1 {
         padding-bottom: 0px;
     }
+    .text-center {
+    margin-top: 25px !important;
+}
+.h3-gap {
+    margin-top: 40px;
+}
+.cirile {
+        top: 25px;
+        right: 20px;
+    }
+        .img-text h5 {
+        font-size: 18px;
+    }
 
   .grid-basic,.grid-basic.threecol,
   .our-collabrations-box .grid-basic.towcol,
@@ -3033,10 +3052,23 @@ display: none;
   }
 
 
-  .text p {
-    font-size: 24px;
-    line-height: 1.5;
-  }
+      .text p {
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+        .partner-title h5 {
+        margin-bottom: 15px;
+    }
+    .partner-description {
+        font-size: 16px;
+        min-height: auto;
+        padding-bottom: 0;
+    }
+        .partners-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
 
   .text-3 h2 {
     line-height: 1.5;
@@ -3052,10 +3084,19 @@ display: none;
   }
 
   p.outreach-description {
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 30px;
 
   }
+  .sdg-item img {
+    width: 85%;
+}
+    .sdg-grid {
+        gap: 18px;
+    }
+    .divider-line {
+    width: 40%;
+}
 
   .text-3 h2 {
     margin-bottom: 20px;
@@ -3476,6 +3517,13 @@ display: none;
     margin-bottom: 0px;
 
   }
+  .partner-description p {
+    margin-bottom: 13px;
+}
+.text-3 h3 {
+    padding-bottom: 20px;
+    font-size: 16px;
+}
 
 
 
@@ -3621,7 +3669,7 @@ display: none;
 
   .partners-grid {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 15px;
   }
 
   .main-heading {

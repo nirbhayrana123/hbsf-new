@@ -4800,12 +4800,12 @@ ease;
     opacity: 1;
   }
 
-  .our-partner-1 .name-2 {
+ .our-partner-1 .name-2 {
     top: 0;
-    font-size: 31px;
+    font-size: 2.8em;
     font-weight: 500;
     opacity: 1;
-  }
+}
 
   .our-partner-1 .name-2 {
     position: absolute;
