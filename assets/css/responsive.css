@@ -356,7 +356,9 @@
   body {
     font-size: 12.5px;
   }
-
+.img-fluid-2 { 
+    height: 620px;
+}
   .sec-1-content {
     max-width: 773px;
   }
@@ -618,9 +620,7 @@
     padding-top: 40px;
   }
 }
-.img-fluid-2 { 
-    height: 620px;
-}
+
 
  
 @media (max-width: 1500px) {
@@ -642,6 +642,9 @@
 @media (max-width: 1400px) {
 .about-us-section-1 .scrolling-div {
     max-height: 400px;
+}
+.myswiper .swiper-button-next { 
+    bottom: 30px !important; 
 }
 .timeline-wrapper { 
     height: 375px; 
@@ -987,8 +990,7 @@
 @media (max-width: 1250px) {
   body {
     font-size: 10px;
-  }
-
+  } 
   .colectionimg {
     height: auto;
     width: 120px;
