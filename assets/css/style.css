@@ -332,19 +332,7 @@ h5.articlename {
 
 
 
-  .sec-1 .description {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    font-weight: 400;
-    font-family: Bodoni Moda 9pt;
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    display: flex;
-    align-items: flex-start;
-  }
+ 
 
   .sec-1 .nav-link {
     font-family: Noto Sans;
@@ -370,17 +358,7 @@ h5.articlename {
     gap: 10px;
   }
 
-  .sec-1 .description {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    padding-top: 130px;
-    padding-bottom: 50px;
-    font-weight: 400;
-    font-family: Bodoni Moda 9pt;
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-  }
+ 
 
   .sec-1 .bottom-img {
     width: 140px;
@@ -395,7 +373,7 @@ h5.articlename {
   .nav-item .background {
     position: relative;
     background-image: url(../img/menubg.svg);
-    background-size: cover;
+    background-size: cover!important;
     background-position: top;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -404,16 +382,11 @@ h5.articlename {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
-    min-height: 170px;
+    justify-content: flex-start;   
+    padding-bottom: 40px;
   }
 
-  .about-us-nav .nav-item .background {
-    left: -170px;
-    background-size: 100% 100%;
-    padding: 15px;
-    width: 100%;
-  }
+ 
 
   .nav-item .background .list-text:hover {
     text-decoration: underline;
@@ -2880,17 +2853,7 @@ h5.articlename {
     left: 0;
   }
 
-  .sec-1 .description {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    padding-top: 130px;
-    padding-bottom: 185px;
-    font-weight: 400;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-  }
+ 
 
   .navbar-collapse {
     padding-bottom: 25px;
@@ -3776,8 +3739,15 @@ h5.articlename {
   .description.container-fluid.pb-0 {
     padding-bottom: 0 !important;
     position: absolute;
-    bottom: 8%;
-  } 
+    bottom: 20%;
+}
+
+  
+
+  .bannerbg .gap .icons {
+    height: 30px;
+    width: 30px;
+  }
 
   .bannerbg .description {
     gap: 20px;
@@ -4383,19 +4353,7 @@ h5.articlename {
     padding-bottom: 190px;
   }
 
-  .sec-1 .description {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    font-weight: 400;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    display: flex;
-    justify-content: center;
-  }
+ 
 
 
   .sec-1 .nav-link {
@@ -4426,17 +4384,6 @@ h5.articlename {
     width: 2px;
   }
 
-  .sec-1 .description {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    padding-top: 130px;
-    padding-bottom: 150px;
-    font-weight: 400;
-    font-family: Bodoni Moda 9pt;
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-  }
 
   .sec-1 .bottom-img {
     width: 140px;
@@ -4883,10 +4830,6 @@ h5.articlename {
     font-size: 20px; 
   }
  
-<<<<<<< HEAD
- 
-=======
->>>>>>> 023e51a2b657de0bd4ffe461f3385e5fcace6c52
 
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
@@ -4904,12 +4847,8 @@ h5.articlename {
     text-decoration: none;
   }
 
-<<<<<<< HEAD
- 
-=======
   
 
->>>>>>> 023e51a2b657de0bd4ffe461f3385e5fcace6c52
   .our-partner-1 .text-below-heading {
     color: #913832;
     text-align: center;
@@ -7208,19 +7147,7 @@ ease;
     padding-top: 0;
   }
 
-  .sec-1 .description {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    font-weight: 400;
-    font-family: Bodoni Moda 9pt;
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    display: flex;
-    align-items: flex-start;
-  }
+  
 
   .sec-1 .logo {
     height: 12rem;
@@ -7252,16 +7179,17 @@ ease;
   }
 
   .sec-1 .description {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
     padding-top: 130px;
     padding-bottom: 50px;
     font-weight: 400;
-    font-family: Bodoni Moda 9pt;
     font-size: 48px;
     font-style: italic;
     color: rgb(145, 56, 50);
-  }
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    font-family: "Bodoni Moda 9pt";
+}
 
   .sec-1 .bottom-img {
     width: 140px;
