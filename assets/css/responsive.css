@@ -1,4 +1,9 @@
 /* ***************  Our collaboration Page ****************** */
+@media (min-width: 1600px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1540px;
+    }
+}
 
 @media (min-width: 1200px) {
   .carousel-inner .carousel-item>div {
@@ -62,7 +67,6 @@
     display: flex;
   }
 }
-
 @media (min-width: 992px) {
   .nav-item.dropdown {
     position: relative;
@@ -168,7 +172,6 @@
     animation: backgroundPulse 0.4s ease-out;
   }
 }
-
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: unset !important;
@@ -341,20 +344,40 @@
   }
 
 }
-
 /*================================= min-width ==============================================*/
-
 @media (max-width: 1600px) {
+body { 
+    font-size: 12.5px;
+}
+.bannerbg { 
+    padding-top: 150px; 
+}
+
+.main { 
+    padding-top: 150px; 
+}
+
   .about-us-nav {
     padding-bottom: 5px;
     padding-top: 0px;
   }
+  .bannerbg {
+    padding-top: 161px;
+}
+ 
+.policy-contents h5 {
+    line-height: 1em;
+}
+nav.breadcrumb-nav ol.breadcrumb li a {
+    font-size: 16px;
+}
+  .our-partner-1 .tab-menu .menus {
+    font-size: 20px;
+}
   .our-partner-1 .text {
     line-height: 45px;
 }
-  h2 {
-    font-size: 35px;
-}
+ 
   p.outreach-description {
     font-size: 26px;
     font-weight: 500;
@@ -494,14 +517,47 @@
   .sec-1-content h1 {
     font-size: 55px;
   }
-
+  .about-us-nav .nav-menu {
+    max-width: 280px; 
 }
-
-
+a.nav-link {
+    font-size: 20px;
+}
+    .nav-item.dropdown .dropdown-menu { 
+        width: 165px;
+    }
+    header.about-us-nav .nav-item .background {
+      left: -165px;
+      top: -24px;
+      width: 100%;
+  }
+.main {
+    padding-top: 145px;
+}
+.navbar-toggler .menuicon span.linemenu.linetow {
+    margin: 7px 0px;
+}
+.navbar-toggler .menuicon span.linemenu { 
+    width: 23px; 
+}
+ 
+}
 @media (max-width: 1400px) {
   .the-rotary-foundation .information-1 {
     font-size: 28px;
   }
+  .h3-gap h3 {
+    font-size: 31px;
+}
+.our-partner-1 .input-tag {
+    font-size: 15px;
+}
+.our-partner-1 .text-2 {
+    font-size: 23px;
+}
+.our-partner-1 .image-div .name {
+    font-size: 20px;
+}
   .partner-title h5
  {
     font-size: 22px;
@@ -513,9 +569,9 @@
     p.outreach-description {
         font-size: 21px;
     }
-        .text-3 h3 {
-        font-size: 36px;
-        line-height: 45px;
+   .text-3 h3 {
+        font-size: 35px;
+        line-height: 1.4em;
     }
 
  
@@ -706,11 +762,7 @@
   .thank-you-page .row-gap {
     padding-top: 18rem;
   }
-
-  .article-one {
-    padding-top: 140px;
-  }
-
+ 
   .bannerbg .menu {
     margin-top: 12%;
   }
@@ -718,7 +770,56 @@
   .contact-us .address-div {
     left: -85px;
   }
+  h3 {
+    font-size: 2.2em;
 }
+  .dropdownul li a { 
+    font-size: 12px; 
+}
+    a.nav-link {
+        font-size: 17px;
+    }
+    .about-us-nav .nav-item:hover { 
+    transform: scale(1.05) translatex(-7px);
+}
+    header.about-us-nav .nav-item .background {
+        left: -137px;
+        top: -24px; 
+    }
+        .nav-item.dropdown .dropdown-menu {
+        width: 137px !important;
+        min-width: 1px;
+    }
+    .nav-item.dropdown:hover .dropdown-menu .background li { 
+    padding-bottom: 0px;
+}
+ 
+      .about-us-nav .nav-menu {
+        max-width: 217px;
+    }
+    .about-us-nav { 
+    background-position: bottom 23px center; 
+}
+#navbarNavAltMarkup {
+    margin-top: -440px;
+    display: block !important;
+    height: 440px !important;
+}
+.showactive #navbarNavAltMarkup {
+    margin-top: 0 !important;
+}
+button.navbar-toggler { 
+    margin-top: 14px !important;
+}
+.main {
+    padding-top: 120px;
+}
+.logoto2 {
+    height: 86px; 
+}
+
+}
+
 
 @media (max-width: 1250px) {
   .about-us-section-3 .top-images {
@@ -1182,7 +1283,6 @@
     max-height: 580px;
 }
 }
-
 @media (max-width: 1024px) {
   .text p {
     font-size: 33px;
@@ -1280,7 +1380,6 @@
   }
 
 }
-
 @media (max-width: 991px) {
   .sdg-grid {
     display: flex;
@@ -2351,7 +2450,6 @@
   }
 
 }
-
 @media (max-width: 767px) {
   .sec-2 {
     padding-top: 70px;
@@ -3228,7 +3326,6 @@ button.navbar-toggler {
 
 
 }
-
 @media (max-width: 650px) {
   .contact-us .address-div {
     top: 72px;
@@ -3395,7 +3492,6 @@ button.navbar-toggler {
     font-size: 18px;
   }
 }
-
 @media (max-width: 575px) {
   .sec-1 .description {
     padding-top: 160px;
@@ -3522,7 +3618,6 @@ button.navbar-toggler {
     font-size: 30px;
   }
 }
-
 @media (max-width: 524px) {
       .main
  {
@@ -3856,7 +3951,6 @@ button.navbar-toggler {
     margin-top: 3px !important;
   }
 }
-
 @media (max-width: 400px) {
   .bannerbg .gap {
     gap: 7px;
@@ -3867,9 +3961,7 @@ button.navbar-toggler {
     width: 15px;
   }
 
-  .bannerbg .gap .share {
-    font-size: 13px;
-  }
+ 
 
   .bannerbg .name {
     font-size: 11px;
@@ -3909,7 +4001,6 @@ button.navbar-toggler {
     margin-top: 30px;
   }
 }
-
 @media (max-width: 374px) {
   .thankyoucontent {
     padding-right: 40px;
@@ -3982,7 +4073,6 @@ button.navbar-toggler {
     font-size: 23px;
   }
 }
-
 @media (max-width: 365px) {
   .sec-1 .description {
     font-size: 30px;

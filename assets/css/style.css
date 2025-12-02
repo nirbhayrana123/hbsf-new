@@ -76,6 +76,7 @@
   body {
     padding: 0;
     margin: 0;
+    font-size: 18px;
   }
 
   html,
@@ -95,42 +96,42 @@
   }
 
   .main {
-    padding-top: 150px;
+    padding-top: 190px;
   }
 
-  .pt0 {
-    padding-top: 0px;
-  }
+.pt0 {
+    padding-top: 0px !important;
+}
 
-  h1 {
+h1 {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 58px;
+    font-size: 4.8em;
     font-style: normal;
     font-weight: bold;
-    line-height: 1.4em;
-  }
+    line-height: 1.3em;
+}
 
-  h2 {
+h2 {
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
-    letter-spacing: 0.2rem;
-    font-size: 43px;
+    letter-spacing: 0.1em;
+    font-size: 2.67em;
     line-height: 1.3em;
     color: rgb(145, 56, 50);
     font-family: "Bodoni Moda 9pt", serif;
-  }
+}
+
 h3 {
     color: #913832;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
+    font-size: 2.89em;
     font-style: italic;
     font-weight: 400;
     line-height: 1.3em;
 }
-
 
 .pl-contact h3 {
     color: #913832;
@@ -140,14 +141,14 @@ h3 {
     font-weight: 400;
     letter-spacing: 4px;
 } 
-  h5.articlename {
+h5.articlename {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 24px;
+    font-size: 1.444em;
     font-style: italic;
     font-weight: 400;
     line-height: 1em;
-  }
+}
 
   h2.common-heading.align-left {
     text-align: left;
@@ -199,8 +200,8 @@ h3 {
   }
 
   .section-height {
-    padding: 70px 0px;
-  }
+    padding: 100px 0px;
+}
 
   .navenenu a.homelink {
     font-family: "Noto Sans";
@@ -331,19 +332,7 @@ h3 {
 
 
 
-  .sec-1 .description {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    font-weight: 400;
-    font-family: Bodoni Moda 9pt;
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    display: flex;
-    align-items: flex-start;
-  }
+ 
 
   .sec-1 .nav-link {
     font-family: Noto Sans;
@@ -369,17 +358,7 @@ h3 {
     gap: 10px;
   }
 
-  .sec-1 .description {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    padding-top: 130px;
-    padding-bottom: 50px;
-    font-weight: 400;
-    font-family: Bodoni Moda 9pt;
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-  }
+ 
 
   .sec-1 .bottom-img {
     width: 140px;
@@ -394,7 +373,7 @@ h3 {
   .nav-item .background {
     position: relative;
     background-image: url(../img/menubg.svg);
-    background-size: cover;
+    background-size: cover!important;
     background-position: top;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -403,16 +382,11 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
-    min-height: 170px;
+    justify-content: flex-start;   
+    padding-bottom: 40px;
   }
 
-  .about-us-nav .nav-item .background {
-    left: -170px;
-    background-size: 100% 100%;
-    padding: 15px;
-    width: 100%;
-  }
+ 
 
   .nav-item .background .list-text:hover {
     text-decoration: underline;
@@ -569,7 +543,9 @@ h3 {
   }
 
 
-
+.h3-gap {
+    margin-top: 50px;
+}
   .sec-5 .image {
     width: 340px;
     height: 450px;
@@ -1518,25 +1494,8 @@ h3 {
   .sector-in-focus-1 .image-2 {
     max-width: 600px;
   }
+ 
 
-  .our-partner-1 {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-  }
-
-  
-
-  .our-partner-1 .input-tag {
-    background-color: transparent;
-    border-radius: 53px;
-    border: 1px solid rgba(145, 56, 50, 1);
-    padding: 13px 30px;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 21px;
-    font-weight: 600;
-    cursor: pointer;
-    outline: none;
-  }
 
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
@@ -2304,19 +2263,11 @@ h3 {
     background-size: cover;
     background-clip: border-box;
     background-position: bottom center; 
-    padding-top: 150px;
+    padding-top: 190px;
     overflow: hidden !important;
   }
 
-  .bannerbg .news-article {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-  }
- 
-
+   
   .bannerbg .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -2338,26 +2289,23 @@ h3 {
 .policy-contents h5 {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 1.5rem;
+    font-size: 2em;
     line-height: normal;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 51px;
+    margin-bottom: 0;
 }
 
-.policy-contents p{
+.policy-contents p {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 1.3rem;
+    font-size: 1.6em;
     line-height: normal;
     font-weight: 400;
 }
+ 
 
-  .bannerbg .gap .icons {
-    height: 30px;
-    width: 30px;
-  }
-
-  .bannerbg .gap .share {
+  span.share-text {
     color: #913832;
     text-align: right;
     font-family: "Bodoni Moda 9pt";
@@ -2366,8 +2314,7 @@ h3 {
     font-weight: 700;
     line-height: normal;
     cursor: pointer;
-    padding-left: 13px;
-    border-left: 2px solid #913832;
+    padding-left: 13px; 
   }
 
   .bannerbg .description {
@@ -2906,17 +2853,7 @@ h3 {
     left: 0;
   }
 
-  .sec-1 .description {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    padding-top: 130px;
-    padding-bottom: 185px;
-    font-weight: 400;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-  }
+ 
 
   .navbar-collapse {
     padding-bottom: 25px;
@@ -3089,7 +3026,7 @@ h3 {
     color: #913832;
     text-align: center;
     font-family: "Noto Sans";
-    font-size: 16px;
+    font-size: 18px;
     line-height: normal;
     text-decoration: none !important;
     font-weight: 300;
@@ -3213,16 +3150,16 @@ h3 {
     max-width: 250px;
   }
 
-  .sec-4 {
+ .sec-4 {
     background-image: url(../img/sec-4-bg.jpg);
     background-position: bottom center;
     background-size: 100% 100%;
     background-clip: border-box;
     background-repeat: no-repeat;
     position: relative;
-    padding-bottom: 145px;
-    padding-top: 70px;
-  }
+    padding-bottom: 230px;
+    padding-top: 100px;
+}
 
   .sec-4 .gap {
     gap: 20px;
@@ -3802,8 +3739,8 @@ h3 {
   .description.container-fluid.pb-0 {
     padding-bottom: 0 !important;
     position: absolute;
-    bottom: 8%;
-  }
+    bottom: 16%;
+}
 
   
 
@@ -4398,37 +4335,25 @@ h3 {
     display: none;
   }
 
-  .sec-1-content {
-    max-width: 855px;
-    font-size: 64px;
+ .sec-1-content {
+    max-width: 929px;
     margin-top: 10%;
     text-align: center;
-  }
+}
 
-  .sec-1-content h1 {
+ .sec-1-content h1 {
     font-family: "Bodoni Moda 9pt";
     font-style: italic;
-    font-size: 64px;
+    font-size: 72px;
     line-height: 1.1;
-  }
+    font-weight: 500;
+}
 
   .navbar-collapse {
     padding-bottom: 190px;
   }
 
-  .sec-1 .description {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    font-weight: 400;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    display: flex;
-    justify-content: center;
-  }
+ 
 
 
   .sec-1 .nav-link {
@@ -4459,17 +4384,6 @@ h3 {
     width: 2px;
   }
 
-  .sec-1 .description {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    padding-top: 130px;
-    padding-bottom: 150px;
-    font-weight: 400;
-    font-family: Bodoni Moda 9pt;
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-  }
 
   .sec-1 .bottom-img {
     width: 140px;
@@ -4492,9 +4406,9 @@ h3 {
 
 
 
-  .some-descrip {
-    padding-top: 40px;
-  }
+ .some-descrip {
+    padding-top: 60px;
+}
 
   .sec-2 .text {
     font-family: Bodoni Moda 9pt;
@@ -4548,31 +4462,31 @@ h3 {
   .contents p {
     font-family: "Bodoni Moda 9pt";
     font-weight: 400;
-    font-style: normal;
-    font-size: 35px;
-    line-height: 46px;
+    font-size: 55px;
+    line-height: 60px;
     text-align: center;
     color: rgb(145, 56, 50);
-    margin-bottom: 60px;
-  }
+    margin-bottom: 95px;
+    font-style: italic;
+}
 
-  .contents {
-    margin-top: 60px;
+ .contents {
+    margin-top: 90px;
     text-align: center;
-  }
+}
 
-  .button2 {
-    padding: 10px 40px;
+ .button2 {
+    padding: 15px 66px;
     background-color: transparent;
     border: 1px solid #913832;
-    border-radius: 30px;
+    border-radius: 50px;
     text-decoration: none !important;
-    font-size: 18px;
+    font-size: 25px;
     font-family: Noto Sans;
     color: rgb(145, 56, 50);
     transition: 0.9s;
     box-shadow: inset 0px 0px 0px 0px rgb(145, 56, 50);
-  }
+}
 
   .button2:hover {
     color: #fff;
@@ -4863,14 +4777,14 @@ h3 {
     padding: 0.8rem;
   }
 
-  .left-links .publisher {
+.left-links .publisher {
     color: #913832;
     font-style: italic;
     font-family: "Bodoni Moda 9pt Italic";
     font-weight: 700;
-    font-size: 32px;
+    font-size: 1.78em;
     letter-spacing: 0;
-  }
+}
 
   .left-links {
     color: #913832;
@@ -4884,15 +4798,7 @@ h3 {
   main.our-collaborations-main {
     background-color: #F0E6DA;
   }
-
-  .article-one .share-text {
-    color: #913832;
-    font-style: italic;
-    font-family: "Bodoni Moda 9pt Italic";
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0;
-  }
+ 
 
   .article-link {
     color: #913832;
@@ -4924,10 +4830,6 @@ h3 {
     font-size: 20px; 
   }
  
-<<<<<<< HEAD
- 
-=======
->>>>>>> 023e51a2b657de0bd4ffe461f3385e5fcace6c52
 
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
@@ -4945,12 +4847,8 @@ h3 {
     text-decoration: none;
   }
 
-<<<<<<< HEAD
- 
-=======
   
 
->>>>>>> 023e51a2b657de0bd4ffe461f3385e5fcace6c52
   .our-partner-1 .text-below-heading {
     color: #913832;
     text-align: center;
@@ -5262,8 +5160,7 @@ ease;
   .tab-pane.active .tab-pane-inner.slide-out-to-right {
     z-index: 2;
   }
-
-  /* ACTIVE LABEL (desktop only) */
+ 
   .active-label {
     display: block;
   }
@@ -7159,17 +7056,7 @@ ease;
     font-weight: 400;
     line-height: normal;
   }
-
-  .article-one {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: bottom center;
-    overflow: hidden !important;
-  }
-
-
+ 
 
   .article-one .text {
     color: #913832;
@@ -7222,7 +7109,8 @@ ease;
     vertical-align: middle;
     position: relative;
     top: 2px;
-  }
+    margin-right: 10px;
+}
 
   .breadcrumb-item:nth-last-child(1)::before {
     --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='15' viewBox='0 0 13 15' fill='none'%3E%3Cpath d='M0.5 2.05591C0.499922 1.78223 0.569479 1.51336 0.701647 1.27647C0.833816 1.03958 1.02392 0.843042 1.25276 0.706711C1.48159 0.57038 1.74107 0.49908 2.00498 0.500009C2.26888 0.500938 2.52789 0.574064 2.75583 0.712003L11.7529 6.15453C11.9799 6.29116 12.1684 6.4872 12.2995 6.72305C12.4307 6.95891 12.4998 7.22632 12.5 7.49855C12.5002 7.77079 12.4316 8.03832 12.3008 8.27441C12.1701 8.5105 11.982 8.70687 11.7551 8.84391L2.75583 14.288C2.52789 14.4259 2.26888 14.4991 2.00498 14.5C1.74107 14.5009 1.48159 14.4296 1.25276 14.2933C1.02392 14.157 0.833816 13.9604 0.701647 13.7235C0.569479 13.4866 0.499922 13.2178 0.5 12.9441V2.05591Z' fill='%23913832' stroke='%23913832' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -7255,26 +7143,14 @@ ease;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
     z-index: 99;
     background-size: cover;
-    background-position: top -90px center;
+    background-position: top -66px center;
     padding-top: 0;
   }
 
-  .sec-1 .description {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    font-weight: 400;
-    font-family: Bodoni Moda 9pt;
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    display: flex;
-    align-items: flex-start;
-  }
+  
 
   .sec-1 .logo {
-    height: 12rem;
+    height: 15em;
     width: auto;
     margin-top: 10px;
     margin-bottom: 1.7rem;
@@ -7283,7 +7159,7 @@ ease;
 
   .sec-1 .nav-link {
     font-family: Noto Sans;
-    font-size: 1.5rem;
+    font-size: 1.9em;
     color: rgb(240, 230, 218);
     transition: ease-in 0.4s;
   }
@@ -7303,16 +7179,10 @@ ease;
   }
 
   .sec-1 .description {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    padding-top: 130px;
-    padding-bottom: 50px;
-    font-weight: 400;
-    font-family: Bodoni Moda 9pt;
-    font-size: 48px;
-    font-style: italic;
-    color: rgb(145, 56, 50);
-  }
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+}
 
   .sec-1 .bottom-img {
     width: 140px;
@@ -7343,7 +7213,7 @@ ease;
 
 
   .sec-2 {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-image: url(../img/sec-2-bg.jpg);
     background-size: cover;
     background-position: center;
@@ -7352,7 +7222,6 @@ ease;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
     z-index: 9;
     position: relative;
-    display: flex;
     align-items: center;
     background-color: #f3eae1;
   }
@@ -8088,16 +7957,9 @@ ease;
     max-width: 600px;
   }
 
-  .our-partner-1 {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: bottom center;
-    margin-top: -290px;
-    padding-top: 290px;
-    overflow: hidden !important;
-  }
+   .filterbox {
+    margin-top: 50px;
+}
   h3.border-b.common-heading
  {
     text-transform: uppercase;
@@ -8117,11 +7979,13 @@ ease;
     background-color: transparent;
     border-radius: 35px;
     border: 1px solid rgba(145, 56, 50, 1);
-    padding: 17px 30px;
+    padding: 10px 30px;
     font-family: "Bodoni Moda 9pt";
-    font-size: 21px;
+    font-size: 15px;
     font-weight: 600;
-  }
+    cursor: pointer;
+    outline: none;
+}
 
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
@@ -8576,17 +8440,7 @@ ease;
     cursor: pointer;
   }
  
-
-  .bannerbg .news-article {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-  }
-
-
-
+ 
   .bannerbg .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -8594,32 +8448,8 @@ ease;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
-  }
-
-  .bannerbg .date {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
-  }
- 
-  .bannerbg .gap .icons {
-    height: 30px;
-    width: 30px;
-  }
-
-  .bannerbg .gap .share {
-    color: #913832;
-    text-align: right;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-    cursor: pointer;
-  }
+  } 
+  
 
   .bannerbg .description {
     gap: 20px;
@@ -8674,7 +8504,7 @@ ease;
     overflow: hidden !important;
   }
 .policy-contents {
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 
 
@@ -9927,9 +9757,9 @@ ease;
   }
 
 
-  .sec-7 {
+ .sec-7 {
     overflow: hidden;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9942,10 +9772,10 @@ ease;
     padding-left: 10rem;
     padding-right: 10rem;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 80px;
     height: auto;
-  }
+}
 
   .sec-7 .image {
     width: 340px;
@@ -10083,10 +9913,7 @@ ease;
         rgba(245, 245, 245, 0.8) 30%,
         rgba(245, 245, 245, 0) 100%);
   }
-
-
-
-
+   
   .error-404 .error-div .text {
     color: #fff;
     text-align: center;
