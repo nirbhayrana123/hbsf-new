@@ -1824,10 +1824,6 @@
     padding-bottom: 50px;
   }
 
-  .sec-1 {
-    background-size: 100% 100%;
-  }
-
   .sec-1 .logo {
     margin-top: unset;
     height: 119px;
@@ -1864,11 +1860,7 @@
   .imgthankyu img {
     max-width: 100%;
   }
-
-  .sec-1 {
-    background-size: 100% 60%;
-  }
-
+ 
   .thank-you-page .main-div {
     background-position: top center;
   }
@@ -2195,8 +2187,11 @@
     padding-right: 5% !important;
   }
 
-
-  .sec-1 {
+    .sec-1 {
+        max-height: 610px;
+        height: 600px;
+    }
+  /* .sec-1 {
     width: 100vw;
     height: 100vh;
     background-image: url(../img/mobilemainheader.jpg);
@@ -2205,7 +2200,7 @@
     background-size: 100% 100%;
     z-index: 5;
     position: relative;
-  }
+  } */
 
   .footer-bottom-text {
     max-width: 100%;
@@ -2241,9 +2236,11 @@
     margin: 0 auto;
     align-items: center;
     position: relative;
-    display: none !important;
+    display: block !important;
   }
-
+    .dextophomeheader #navbarNavAltMarkup { 
+        display: none !important;
+    }
 
   .about-us-nav {
     padding-bottom: 0px;
@@ -2262,7 +2259,9 @@
     width: 15px;
     height: 31px;
   }
-
+.sec-1>nav>.container>a {
+    margin: 0 auto;
+}
   .contents.mt-6 {
     display: none;
   }
@@ -2313,7 +2312,7 @@
 
   .logoto2 {
     top: auto;
-    bottom: 6px;
+    bottom:30px;
   }
 
   .showactive img.logoto2 {
@@ -2580,7 +2579,20 @@
   .collabrations-box {
     min-height: 210px;
   }
-
+ 
+    .sec-1 .logo {
+        margin-top: 25px;
+        height: 190px;
+    }
+    .sec-1>nav>.container>button.navbar-toggler.border-0 {
+    display: none;
+}
+#fullpage header.about-us-nav.active {
+    display: block;
+}
+    .about-us-nav {
+        background-position: bottom 15px center;
+    }
 }
 
 @media (max-width: 767px) {
