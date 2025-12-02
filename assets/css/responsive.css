@@ -365,6 +365,17 @@ body {
     padding-top: 161px;
 }
  
+
+.footer-logo {
+    width: 250px;
+}
+
+
+
+
+
+
+
 .policy-contents h5 {
     line-height: 1em;
 }
@@ -407,21 +418,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
   main {
     padding-top: 120px;
   }
-
-
-
-  .the-rotary-foundation .information-3 {
-    font-size: 25px;
-  }
-
-  .the-rotary-foundation .information-2 {
-    font-size: 22px;
-  }
-
-  .the-rotary-foundation .information-1 {
-    font-size: 32px;
-  }
-
+ 
   .about-us-section-2 .text {
     font-size: 32px;
     line-height: 1.4;
@@ -543,9 +540,7 @@ a.nav-link {
  
 }
 @media (max-width: 1400px) {
-  .the-rotary-foundation .information-1 {
-    font-size: 28px;
-  }
+ 
   .h3-gap h3 {
     font-size: 31px;
 }
@@ -597,15 +592,8 @@ a.nav-link {
   .post-slide {
     height: 450px;
   }
-
-  .the-rotary-foundation .information-2 {
-    font-size: 20px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 22px;
-  }
-
+ 
+ 
   .thankyoucontent {
     transform: translateY(-20%);
   }
@@ -903,9 +891,7 @@ button.navbar-toggler {
     letter-spacing: normal;
   }
 
-  .the-rotary-foundation .information-1 {
-    font-size: 34px;
-  }
+ 
 
   .our-partner-1 .heading-for-otherpage {
     font-size: 16px;
@@ -942,9 +928,7 @@ button.navbar-toggler {
     font-size: 25px;
   }
 
-  .para {
-    font-size: 1.2rem;
-  }
+ 
 
   .article-link {
     font-size: 28px;
@@ -1170,11 +1154,7 @@ button.navbar-toggler {
     font-size: 20px;
     letter-spacing: normal;
   }
-
-  .the-rotary-foundation .information-1 {
-    font-size: 34px;
-  }
-
+ 
   .our-partner-1 .heading-for-otherpage {
     font-size: 16px;
     letter-spacing: normal;
@@ -1446,18 +1426,8 @@ button.navbar-toggler {
   h1 {
     font-size: 45px;
   }
-
-  .the-rotary-foundation .information-1 {
-    font-size: 30px;
-  }
-
-  .the-rotary-foundation .information-2 {
-    font-size: 30px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 30px;
-  }
+ 
+  
 
   .our-partner-1 .heading-for-otherpage {
     margin-top: 0px;
@@ -1678,10 +1648,7 @@ button.navbar-toggler {
     margin-top: unset;
     height: 119px;
   }
-
-  .the-rotary-foundation .information-1 {
-    font-size: 30px;
-  }
+ 
 
   .sdg-grid .sdg-item:first-child {
     margin-left: 0px;
@@ -1754,13 +1721,8 @@ button.navbar-toggler {
     margin-left: 50px;
   }
 
-  .the-rotary-foundation .information-2 {
-    font-size: 30px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 30px;
-  }
+ 
+ 
 
   .about-us-section-1 {
     padding-bottom: 0px;
@@ -2196,18 +2158,9 @@ button.navbar-toggler {
     display: none;
   }
 
-  .the-rotary-foundation .information-1 {
-    font-size: 30px;
-  }
+ 
 
-  .the-rotary-foundation .information-2 {
-    font-size: 30px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 30px;
-  }
-
+ 
   .our-partner-1 .heading-for-otherpage {
     margin-top: 0px;
   }
@@ -3557,11 +3510,7 @@ button.navbar-toggler {
   .right-social img {
     height: 18px;
   }
-
-  .para {
-    font-size: 1rem;
-    padding: 0;
-  }
+ 
 
   .article-one .share-text {
     font-size: 14px;
@@ -3628,21 +3577,12 @@ button.navbar-toggler {
         padding-top: 100px;
     }
 
-  .the-rotary-foundation .information-1 {
-    font-size: 22px;
-  }
-
+ 
   .sec-4 .common-heading {
     margin-top: 0rem;
   }
-
-  .the-rotary-foundation .information-2 {
-    font-size: 22px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 22px;
-  }
+ 
+ 
 
   .our-partner-1 .text {
     font-size: 25px;
@@ -3685,19 +3625,7 @@ button.navbar-toggler {
 
   h1 {
     font-size: 31px;
-  }
-
-  .the-rotary-foundation .information-1 {
-    font-size: 26px;
-  }
-
-  .the-rotary-foundation .information-2 {
-    font-size: 26px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 26px;
-  }
+  } 
 
   .our-partner-1 .text {
     font-size: 25px;
@@ -3804,12 +3732,7 @@ button.navbar-toggler {
     font-size: 20px;
   }
 
-
-  .the-rotary-foundation .information-1,
-  .the-rotary-foundation .information-2,
-  .the-rotary-foundation .information-3 {
-    font-size: 20px;
-  }
+ 
 
   .sec-1 .m-logo {
     display: inline-block;
