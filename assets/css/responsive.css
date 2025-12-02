@@ -558,9 +558,6 @@ a.nav-link {
  
 }
 @media (max-width: 1400px) {
-<<<<<<< HEAD
- 
-=======
   .the-rotary-foundation .information-1 {
     font-size: 28px;
   }
@@ -581,7 +578,6 @@ a.nav-link {
     .nav-item .background .list-text {
     font-size: 12px !important;
 }
->>>>>>> 5ff3059620ca4d771e328106cd0f587f8b881afe
   .h3-gap h3 {
     font-size: 31px;
 }
