@@ -3558,8 +3558,23 @@
         left: 62px;
         top: 63px;
     }
-
-
+.filterbox {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+h3.border-b.common-heading {
+    font-size: 16px;
+}
+    .our-partner-1 .tab-menu .menus {
+        font-size: 10px;
+    }
+    .our-partner-1 .input-tag {
+        font-size: 12px;
+    }
+        .our-partner-1 .text-2 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
 
 }
 
