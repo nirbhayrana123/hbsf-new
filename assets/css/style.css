@@ -1504,9 +1504,6 @@
     font-weight: 400;
   }
 
-  .our-partner-1 .image-div {
-    max-height: 300px;
-  }
 
   .our-partner-1 .image-div .name {
     color: #913832;
@@ -1517,11 +1514,6 @@
     font-weight: 500;
   }
 
-  .our-partner-1 .image-div .line-img {
-    max-width: 200px;
-    height: 2px;
-    margin-top: 10px;
-  }
 
   .our-partner-1 .image {
     height: 150px;
@@ -1586,10 +1578,6 @@
 
  
 
-  .our-partner-1 .image-div {
-    text-align: center;
-    overflow: hidden;
-  }
 
   .our-partner-1 .image-div .image-1 {
     width: 100%;
@@ -1785,7 +1773,7 @@
     border-radius: 30px;
     padding: 10px 20px;
     color: #A93B3B;
-    font-size: 1.4em;
+    font-size: 1.2em;
     cursor: pointer;
     text-align: left;
     padding-left: 40px;
@@ -2076,9 +2064,7 @@ p.outreach-description {
   }
 
 
-  .the-rotary-foundation {
-    margin-top: 0px;
-  }
+ 
 
   .the-rotary-foundation .the-rotary-foundation-img {
     width: -webkit-fill-available;
@@ -2226,8 +2212,19 @@ p.outreach-description {
     line-height: normal;
     transition: 1s;
 }
-
- .bannerbg .date {
+.our-partner-1 .image-div::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 198px;
+    height: 2px;
+    background-color: #913832;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .bannerbg .date {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
     font-size: 1.2em;
@@ -3717,9 +3714,7 @@ span.v-divider {
     font-weight: 300;
   }
 
-  .the-rotary-foundation {
-    margin-top: 0px;
-  }
+ 
 
   .the-rotary-foundation .the-rotary-foundation-img {
     width: -webkit-fill-available;
@@ -4105,24 +4100,7 @@ ease;
   .slide-mr p {
     margin-left: 18px;
   }
-
-
-
-  .brb {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-    padding-bottom: 40px;
-  }
-
-  .brb .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    padding-bottom: 30px;
-  }
+  
 
   .footer {
     min-height: auto !important;
@@ -4732,6 +4710,9 @@ ease;
     display: flex;
     flex-direction: column;
     align-items: center;
+      max-height: 300px;
+     text-align: center;
+    overflow: visible;
   }
 
   /* Image styling */
@@ -4897,12 +4878,7 @@ ease;
     /* smooth stagger */
   }
 
-  /* Optional: Line below */
-  .our-partner-1 .line-img {
-    max-width: 200px;
-    height: 2px;
-    margin-top: 25px;
-  }
+ 
 
   /* -------------------------------------------- */
   /*                TAB MENU                      */
@@ -5058,11 +5034,7 @@ ease;
 
 
   /* Our Partner Image 1 */
-  .our-partner-1 .image-div {
-    text-align: center;
-    overflow: visible;
-    /* width: 30% !important; */
-  }
+ 
 
   .our-partner-1 .image-div .image-1 {
     width: 100%;
@@ -5079,10 +5051,7 @@ ease;
     transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
   }
 
-  .our-partner-1 .image-div {
-    text-align: center;
-    overflow: visible;
-  }
+   
 
   .our-partner-1 .image-div .image-2 {
     width: 100%;
@@ -5101,11 +5070,7 @@ ease;
     /* smooth, slow-mo feel */
   }
 
-  /* Our Partner Image 3 */
-  .our-partner-1 .image-div {
-    text-align: center;
-    overflow: visible;
-  }
+   
 
   .our-partner-1 .image-div .image-3 {
     width: 100%;
@@ -6963,9 +6928,13 @@ ease;
     color: white;
   }
 
-  .breadcrumb {
+  /* .breadcrumb {
     --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='15' viewBox='0 0 14 15' fill='none'%3E%3Cpath d='M0.5 2.05591C0.499915 1.78223 0.575269 1.51336 0.718451 1.27647C0.861634 1.03958 1.06758 0.843042 1.31548 0.706711C1.56339 0.57038 1.84449 0.49908 2.13039 0.500009C2.41629 0.500938 2.69688 0.574064 2.94381 0.712003L12.6906 6.15453C12.9366 6.29116 13.1408 6.4872 13.2828 6.72305C13.4249 6.95891 13.4998 7.22631 13.5 7.49855C13.5002 7.77079 13.4258 8.03832 13.2842 8.27441C13.1426 8.5105 12.9388 8.70687 12.6931 8.84391L2.94381 14.288C2.69688 14.4259 2.41629 14.4991 2.13039 14.5C1.84449 14.5009 1.56339 14.4296 1.31548 14.2933C1.06758 14.157 0.861634 13.9604 0.718451 13.7235C0.575269 13.4866 0.499915 13.2178 0.5 12.9441V2.05591Z' stroke='%23913832' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  }
+  } */
+
+  .breadcrumb {
+  --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.75 0.75L5.75 6.75L0.75 12.75' stroke='%23913832' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
 
   .breadcrumb-item+.breadcrumb-item::before {
     vertical-align: middle;
@@ -6974,9 +6943,12 @@ ease;
     margin-right: 10px;
   }
 
-  .breadcrumb-item:nth-last-child(1)::before {
+  /* .breadcrumb-item:nth-last-child(1)::before {
     --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='15' viewBox='0 0 13 15' fill='none'%3E%3Cpath d='M0.5 2.05591C0.499922 1.78223 0.569479 1.51336 0.701647 1.27647C0.833816 1.03958 1.02392 0.843042 1.25276 0.706711C1.48159 0.57038 1.74107 0.49908 2.00498 0.500009C2.26888 0.500938 2.52789 0.574064 2.75583 0.712003L11.7529 6.15453C11.9799 6.29116 12.1684 6.4872 12.2995 6.72305C12.4307 6.95891 12.4998 7.22632 12.5 7.49855C12.5002 7.77079 12.4316 8.03832 12.3008 8.27441C12.1701 8.5105 11.982 8.70687 11.7551 8.84391L2.75583 14.288C2.52789 14.4259 2.26888 14.4991 2.00498 14.5C1.74107 14.5009 1.48159 14.4296 1.25276 14.2933C1.02392 14.157 0.833816 13.9604 0.701647 13.7235C0.569479 13.4866 0.499922 13.2178 0.5 12.9441V2.05591Z' fill='%23913832' stroke='%23913832' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  }
+  } */
+   .breadcrumb-item:nth-last-child(1)::before {
+  --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.75 0.75L5.75 6.75L0.75 12.75' stroke='%23913832' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
 
 
   .common-read-more-btn {
@@ -7827,7 +7799,7 @@ height: 14em;
     border: 1px solid rgba(145, 56, 50, 1);
     padding: 10px 30px;
     font-family: "Bodoni Moda 9pt";
-    font-size: 15px;
+    font-size: 1.2em;
     font-weight: 600;
     cursor: pointer;
     outline: none;
@@ -7851,9 +7823,6 @@ height: 14em;
 
 
 
-  .our-partner-1 .image-div {
-    max-height: 300px;
-  }
 
   .our-partner-1 .image-div .name {
     color: #913832;
@@ -7864,11 +7833,7 @@ height: 14em;
     font-weight: 500;
   }
 
-  .our-partner-1 .image-div .line-img {
-    max-width: 200px;
-    height: 2px;
-    margin-top: 10px;
-  }
+  
 
   .our-partner-1 .image {
     height: 150px;
@@ -7936,11 +7901,7 @@ height: 14em;
   content: url(../img/our-partner-color-logo-1.png);
 } */
 
-  .our-partner-1 .image-div {
-    text-align: center;
-    overflow: hidden;
-  }
-
+  
   .our-partner-1 .image-div .image-1 {
     width: 100%;
     max-width: 200px;
@@ -8145,10 +8106,7 @@ height: 14em;
     background-color: #93443d;
     position: relative;
   }
-
-  .the-rotary-foundation {
-    margin-top: 0px;
-  }
+ 
 
   .the-rotary-foundation .the-rotary-foundation-img {
     width: -webkit-fill-available;
