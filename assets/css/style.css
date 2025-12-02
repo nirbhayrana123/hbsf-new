@@ -708,7 +708,7 @@
   .timeline-wrapper {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 475px;
     display: flex;
     align-items: center;
   }
@@ -766,7 +766,7 @@
 
   .myswiper .swiper-button-next {
     left: 182px;
-    bottom: 10px !important;
+    bottom: 78px !important;
     top: auto;
     transform: translateY(50%);
     background: #f2e6da;
@@ -1046,7 +1046,7 @@
   }
 
   .about-us-section-1 .gaps {
-    padding-bottom: 150px;
+    padding-bottom: 20px;
   }
 
   .about-us-section-1 .scrolling-div {
@@ -1104,10 +1104,12 @@
     height: 100%;
     width: auto;
     max-width: 90vh;
-    max-height: 660px;
+    max-height: 730px;
   }
 
-
+.flesing .year-label.section-title {
+    display: none;
+}
   .coverlec {
     position: absolute;
     left: 0;
@@ -2309,7 +2311,7 @@ p.outreach-description {
   .parent-card:hover .contentuser p {
     bottom: 0px;
     opacity: 1;
-    height: 150px;
+    height: 190px;
   }
 
 
@@ -3564,7 +3566,7 @@ p.outreach-description {
     background-clip: border-box;
     background-position: bottom center;
     padding-bottom: 70px;
-    min-height: 860px;
+    min-height:1000px;
   }
 
 
@@ -4032,7 +4034,7 @@ ease;
 
   .img-fluid-2 {
     max-width: 100%;
-    height: 641px;
+    height: 720px;
   }
 
   .background-black.offwhites-2 .col-12 {
@@ -4103,7 +4105,7 @@ ease;
   }
 
   .parent-card:hover .contentuser p {
-    max-height: 150px;
+    max-height: 190px;
     font-family: 'Bodoni Moda 9pt Italic';
   }
 
