@@ -2451,7 +2451,7 @@ p.outreach-description {
 
   .imgthankyu {
     position: relative;
-    padding-bottom: 70px;
+    padding-bottom: 90px;
   }
 
   .imgthankyu img {
@@ -4701,9 +4701,7 @@ ease;
   .bottom-img-s {
     display: none;
   }
-
-
-
+ 
   .left-links .publisher {
     color: #913832;
     font-style: italic;
@@ -4717,24 +4715,19 @@ ease;
     color: #913832;
     font-style: italic;
     font-family: "Bodoni Moda 9pt Italic";
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 400; 
     letter-spacing: 0;
   }
 
   main.our-collaborations-main {
     background-color: #F0E6DA;
   }
-
-
-  .article-link {
+.article-link {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 34px;
+    font-size: 3.2em;
     font-weight: 700;
-  }
-
-
+}
   .trf-main .text {
     color: #913832;
     text-align: center;

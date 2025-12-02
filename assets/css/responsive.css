@@ -1052,10 +1052,6 @@ button.navbar-toggler {
 
  
 
-  .article-link {
-    font-size: 28px;
-  }
-
   .article-one .text {
     font-size: 1.2rem;
   }
@@ -2879,10 +2875,7 @@ nav.breadcrumb-nav {
   .article-one .share-text {
     font-size: 20px;
   }
-
-  .left-links {
-    font-size: 14px;
-  }
+ 
 
   .bannerbg .name {
     font-size: 20px;
@@ -3591,10 +3584,7 @@ button.navbar-toggler {
     gap: 4px;
   }
 
-
-  .left-links {
-    font-size: 12px;
-  }
+ 
 
   .thank-you-page .main-div {
     background-position: top center;
@@ -3624,10 +3614,7 @@ button.navbar-toggler {
   .article-one .share-text {
     font-size: 14px;
   }
-
-  .article-link {
-    font-size: 16px;
-  }
+ 
 
   .article-one .back img {
     height: 15px;
