@@ -373,8 +373,8 @@
 
   .nav-item .background {
     position: relative;
-    background-image: url(../img/menubg.svg);
-    background-size: cover !important;
+    background-image: url(../img/nav-bg.png);
+    background-size:100% 100%;
     background-position: top;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -384,7 +384,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 #fullpage .sec-1 .nav-item .background {
     background-image: url(../img/dropbg.png);
