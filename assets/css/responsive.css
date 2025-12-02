@@ -3305,8 +3305,9 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     padding: 60px 0;
+    padding-top: 0;
   }
 
   .imgbginner::after,
