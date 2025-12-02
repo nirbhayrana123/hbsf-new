@@ -2627,7 +2627,7 @@
   }
 
   .showactive .navbar-toggler .menuicon span.linemenu.lineone {
-    transform: rotate(45deg) translate(10px, 10px);
+    transform: rotate(45deg) translate(6px, 5px);
   }
 
   .showactive .navbar-toggler .menuicon span.linemenu.linetow {
