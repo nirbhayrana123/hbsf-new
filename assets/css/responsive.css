@@ -1,17 +1,21 @@
 /* ***************  Our collaboration Page ****************** */
 @media (min-width: 1600px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1540px;
-    }
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1540px;
+  }
 }
 
 @media (min-width: 1400px) {
-.container.democontainer.founding-members {
+  .container.democontainer.founding-members {
     max-width: 1320px;
+  }
 }
-}
-
-
 
 @media (min-width: 1200px) {
   .carousel-inner .carousel-item>div {
@@ -75,6 +79,7 @@
     display: flex;
   }
 }
+
 @media (min-width: 992px) {
   .nav-item.dropdown {
     position: relative;
@@ -180,6 +185,7 @@
     animation: backgroundPulse 0.4s ease-out;
   }
 }
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: unset !important;
@@ -352,93 +358,97 @@
   }
 
 }
+
 /*================================= min-width ==============================================*/
 @media (max-width: 1600px) {
-body { 
+  body {
     font-size: 12.5px;
+  }
+.img-fluid-2 { 
+    height: 620px;
 }
-.sec-1-content {
+  .sec-1-content {
     max-width: 773px;
-}
-.sec-5 {
-    padding-top: 0px;
-}
-.button2 {
-    padding: 10px 50px;
-}
-.sec-4 {
-    padding-bottom: 170px;
-}
-.description.container-fluid.pb-0 {
-    bottom: 14%;
-}
-.bannerbg { 
-    padding-top: 150px; 
-}
+  }
 
-.main { 
-    padding-top: 150px; 
-}
+  .sec-5 {
+    padding-top: 0px;
+  }
+
+  .button2 {
+    padding: 10px 50px;
+  }
+
+  .sec-4 {
+    padding-bottom: 170px;
+  }
+
+  .description.container-fluid.pb-0 {
+    bottom: 14%;
+  }
+
+  .bannerbg {
+    padding-top: 150px;
+  }
+
+  .main {
+    padding-top: 150px;
+  }
 
   .about-us-nav {
     padding-bottom: 5px;
     padding-top: 0px;
   }
-  .bannerbg {
-    padding-top: 161px;
-}
- 
 
-.footer-logo {
+  .footer-logo {
     width: 250px;
-}
+  }
 
+  .news-narratives-page {
+    background-size: 100% 100%;
+  }
 
-
-
-
-
-
-.policy-contents h5 {
+  .policy-contents h5 {
     line-height: 1em;
-}
-nav.breadcrumb-nav ol.breadcrumb li a {
+  }
+
+  nav.breadcrumb-nav ol.breadcrumb li a {
     font-size: 16px;
-}
+  }
+
   .our-partner-1 .tab-menu .menus {
     font-size: 20px;
-}
+  }
+
   .our-partner-1 .text {
     line-height: 45px;
-}
- 
+  }
+
   p.outreach-description {
     font-size: 26px;
     font-weight: 500;
-}
+  }
 
   .dotsmap svg.map-size {
     width: 600px;
   }
 
- 
 
- 
+
+
   .bannerbg .view-article {
     font-size: 25px;
   }
 
-  .bannerbg .back {
-    font-size: 24px;
-  }
+
 
   main {
     padding-top: 120px;
   }
 
-.abou2section img.img-fluid.section-2-image {
+  .abou2section img.img-fluid.section-2-image {
     width: 560px;
-}
+  }
 
   .the-rotary-foundation .information-3 {
     font-size: 25px;
@@ -452,10 +462,10 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     font-size: 30px;
   }
 
- 
+
   .about-us-section-2 .text {
     font-size: 30px;
-    line-height: 1.4; 
+    line-height: 1.4;
   }
 
   .content-text h4 {
@@ -487,7 +497,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     font-size: 36px;
   }
 
-  .partner-title { 
+  .partner-title {
     min-height: 50px;
   }
 
@@ -509,7 +519,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     height: 2px;
   }
 
- 
+
 
   .sec-1-content {
     margin-top: 0;
@@ -541,148 +551,187 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     max-width: 88.5%;
   }
 
-    .sec-1-content h1 {
-        font-size: 60px;
-    }
-  .about-us-nav .nav-menu {
-    max-width: 280px; 
-}
-a.nav-link {
-    font-size: 20px;
-}
-    .nav-item.dropdown .dropdown-menu { 
-        width: 165px;
-    }
-    header.about-us-nav .nav-item .background {
-      left: -165px;
-      top: -24px;
-      width: 100%;
+  .sec-1-content h1 {
+    font-size: 60px;
   }
-  .filter-list li { 
-    font-size: 1.2em; 
-}
-.main {
-    padding-top: 145px;
-}
-.navbar-toggler .menuicon span.linemenu.linetow {
+
+  .about-us-nav .nav-menu {
+    max-width: 280px;
+  }
+
+  a.nav-link {
+    font-size: 20px;
+  }
+
+  .nav-item.dropdown .dropdown-menu {
+    width: 165px;
+  }
+
+  header.about-us-nav .nav-item .background {
+    left: -165px;
+    top: -24px;
+    width: 100%;
+  }
+
+  .navbar-toggler .menuicon span.linemenu.linetow {
     margin: 7px 0px;
-}
-.navbar-toggler .menuicon span.linemenu { 
-    width: 23px; 
-}
-.post-slide { 
+  }
+
+  .navbar-toggler .menuicon span.linemenu {
+    width: 23px;
+  }
+
+  .post-slide {
     height: 528px;
-}
-.sec-1 .logo {
-    height: 15em; 
+  }
+
+  .sec-1 .logo {
+    height: 15em;
     margin-top: 20px;
     margin-bottom: 14px;
-}
-.sec-1 { 
-    max-height: 740px; 
-}
-.description .border-b::after {
+  }
+
+  .sec-1 {
+    max-height: 740px;
+  }
+
+  .description .border-b::after {
     width: 90px;
     height: 3px;
     margin: 0 auto;
     bottom: -20px;
-}
- .showactive .navbar-toggler .menuicon span.linemenu.lineone {
+  }
+
+  .showactive .navbar-toggler .menuicon span.linemenu.lineone {
     transform: rotate(45deg) translate(6px, 5px);
   }
+
   .marquee-track-list a.position-relative.abc {
     margin-left: -60px;
-}
- .svgbg {
-    width: 400px; 
-}
-.sec-2 { 
+  }
+
+  .svgbg {
+    width: 400px;
+  }
+
+  .sec-2 {
     padding-top: 80px;
-}
-.sec-2 .sign {
+  }
+
+  .sec-2 .sign {
     height: 130px;
-}
-.some-descrip {
+  }
+
+  .some-descrip {
     padding-top: 40px;
+  }
 }
-}
+
+
+
 @media (max-width: 1500px) {
-.about-us-section-1 .heading { 
-    font-size: 35px; 
-}
-.about-us-section-1 .description { 
-    font-size: 25px; 
-}
-.about-us-section-3 .main-image { 
-    height: 425px; 
-}
+  .about-us-section-1 .heading {
+    font-size: 35px;
+  }
+
+  .about-us-section-1 .description {
+    font-size: 25px;
+  }
+
+  .about-us-section-3 .main-image {
+    height: 425px;
+  }
 
 
 }
+
 @media (max-width: 1400px) {
+  .about-us-section-1 .scrolling-div {
+    max-height: 400px;
+}
+.myswiper .swiper-button-next { 
+    bottom: 30px !important; 
+}
+.timeline-wrapper { 
+    height: 375px; 
+}
+.about-us-section-1 .main-image { 
+    max-height: 600px;
+  }
+
+  .about-us-section-1 {
+    min-height: 750px;
+  }
 
   .the-rotary-foundation .information-1 {
     font-size: 28px;
   }
+
   .about-us-section-3 .top-padding {
     padding-top: 150px;
-}
-.swipersmain.swiper-vertical .swiper-button-next{
-  bottom: 340px;
-}
-.swipersmain.swiper-vertical .swiper-button-prev { 
-    top: 340px; 
-}
+  }
 
-       .sec-1-content h1 {
-        font-size: 50px;
-    }
-    .button2 {
+  .swipersmain.swiper-vertical .swiper-button-next {
+    bottom: 340px;
+  }
+
+  .swipersmain.swiper-vertical .swiper-button-prev {
+    top: 340px;
+  }
+
+  .sec-1-content h1 {
+    font-size: 50px;
+  }
+
+  .button2 {
     padding: 8px 40px;
     font-size: 1.2em;
-   
-}
-.contents p {
+
+  }
+
+  .contents p {
     margin-bottom: 65px;
-}
-  
-    .nav-item .background .list-text {
+  }
+
+  .nav-item .background .list-text {
     font-size: 12px !important;
-}
-  .h3-gap h3 {
-    font-size: 31px;
-}
-.flesing {
+  }
+
+  .flesing {
     max-width: 700px;
-}
-    .about-us-section-1 .description {
-        font-size: 20px;
-    }
-    .about-us-section-1 .heading {
-        font-size: 30px;
-    }
-.our-partner-1 .input-tag {
-    font-size: 15px;
-}
-.contents p {
-    line-height: 44px;
-}
-.our-partner-1 .text-2 {
-    font-size: 23px;
-}
-.our-partner-1 .image-div .name {
+  }
+
+  .about-us-section-1 .description {
     font-size: 20px;
-}
-  .partner-title h5
- { 
+  }
+
+  .about-us-section-1 .heading {
+    font-size: 30px;
+  }
+
+  .our-partner-1 .input-tag {
+    font-size: 15px;
+  }
+
+  .contents p {
+    line-height: 44px;
+  }
+
+  .our-partner-1 .text-2 {
+    font-size: 23px;
+  }
+
+  .our-partner-1 .image-div .name {
+    font-size: 20px;
+  }
+
+  .partner-title h5 {
     margin-bottom: 41px;
-}
- 
-    p.outreach-description {
-        font-size: 21px;
-    }
-  
- 
+  }
+
+  p.outreach-description {
+    font-size: 21px;
+  }
 
   nav.breadcrumb-nav ol.breadcrumb li a {
     font-size: 12px;
@@ -698,15 +747,12 @@ a.nav-link {
     font-size: 20px;
   }
 
-  h2 {
-    font-size: 30px;
-  }
 
   .post-slide {
     height: 450px;
   }
- 
- 
+
+
   .thankyoucontent {
     transform: translateY(-20%);
   }
@@ -773,10 +819,9 @@ a.nav-link {
     line-height: normal;
   }
 
-  .overview-page-2 .second-div .text-3 { 
+  .overview-page-2 .second-div .text-3 {
     line-height: normal;
   }
-
 
 
   .overview-page-2 .gap {
@@ -785,10 +830,8 @@ a.nav-link {
 
   .imgbginner::after {
     height: 334px;
-  } 
+  }
 
-
- 
   .contactbgmain {
     padding-bottom: 60px;
   }
@@ -801,8 +844,6 @@ a.nav-link {
     padding-top: 360px;
     padding-bottom: 250px;
   }
-
-  
 
   .news-narratives-page .description {
     font-size: 18px;
@@ -829,9 +870,9 @@ a.nav-link {
     padding-right: 20px;
   }
 
-    .sec-1 .nav-link {
-        font-size: 17px;
-    }
+  .sec-1 .nav-link {
+    font-size: 17px;
+  }
 
 
   .sec-1 .description {
@@ -854,102 +895,129 @@ a.nav-link {
     padding-top: 300px;
   }
 
-
-
   .thank-you-page .row-gap {
     padding-top: 18rem;
   }
- 
+
   .bannerbg .menu {
     margin-top: 12%;
   }
 
- 
   h3 {
     font-size: 2.2em;
-}
-  .dropdownul li a { 
-    font-size: 12px; 
-}
-    a.nav-link {
-        font-size: 17px;
-    }
-    .about-us-nav .nav-item:hover { 
+  }
+
+  .dropdownul li a {
+    font-size: 12px;
+  }
+
+  a.nav-link {
+    font-size: 17px;
+  }
+
+  .about-us-nav .nav-item:hover {
     transform: scale(1.05) translatex(-7px);
-}
-    header.about-us-nav .nav-item .background {
-        left: -137px;
-        top: -24px; 
-    }
-        .nav-item.dropdown .dropdown-menu {
-        width: 137px !important;
-        min-width: 1px;
-    }
-    .nav-item.dropdown:hover .dropdown-menu .background li { 
+  }
+
+  header.about-us-nav .nav-item .background {
+    left: -137px;
+    top: -24px;
+  }
+
+  .nav-item.dropdown .dropdown-menu {
+    width: 137px !important;
+    min-width: 1px;
+  }
+
+  .nav-item.dropdown:hover .dropdown-menu .background li {
     padding-bottom: 0px;
-}
- 
-      .about-us-nav .nav-menu {
-        max-width: 217px;
-    }
-    .about-us-nav { 
-    background-position: bottom 23px center; 
-}
-#navbarNavAltMarkup {
+  }
+
+  .about-us-nav .nav-menu {
+    max-width: 217px;
+  }
+
+  .about-us-nav {
+    background-position: bottom 23px center;
+  }
+
+  #navbarNavAltMarkup {
     margin-top: -440px;
     display: block !important;
     height: 440px !important;
-}
-.showactive #navbarNavAltMarkup {
+  }
+
+  .showactive #navbarNavAltMarkup {
     margin-top: 0 !important;
-}
-button.navbar-toggler { 
+  }
+
+  button.navbar-toggler {
     margin-top: 14px !important;
-}
-.main {
-    padding-top: 120px;
-}
-.logoto2 {
-    height: 86px; 
-}
-#fullpage .nav-item .background .list-text { 
-    font-size: 11px !important; 
-}
-    .sec-1 {
-        max-height: 610px;
-    }
-    .sec-1-content {
-        max-width: 686px;
-    }
-        .description.container-fluid.pb-0 {
-        bottom: 14%;
-    }
-    .svgbg {
-    width: 330px; 
-}
-   .marquee-track-list a.position-relative.abc {
+  }
+
+
+  .logoto2 {
+    height: 86px;
+  }
+
+  #fullpage .nav-item .background .list-text {
+    font-size: 11px !important;
+  }
+
+  .sec-1 {
+    max-height: 610px;
+  }
+
+  .sec-1-content {
+    max-width: 686px;
+  }
+
+  .description.container-fluid.pb-0 {
+    bottom: 14%;
+  }
+
+  .svgbg {
+    width: 330px;
+  }
+
+  .marquee-track-list a.position-relative.abc {
     margin-left: -50px;
-}   
+  }
+
+  .bannerbg {
+    padding-top: 130px;
+  }
+
+  .main {
+    padding-top: 130px;
+  }
+
 }
 
 
 @media (max-width: 1250px) {
-      body {
-        font-size: 10px;
-    }
-.colectionimg {
+  body {
+    font-size: 10px;
+  } 
+  .colectionimg {
     height: auto;
-    width: 120px; 
+    width: 120px;
+  }
+
+  .about-us-section-3 .top-images {
+    top: 10px !important;
+  }
+
+  .about-us-section-3 .top-images {
+    top: 10px !important;
+  }
+
 }
 
-  .about-us-section-3 .top-images {
-    top: 10px !important;
+@media (max-width: 2900px) {
+  .sector-in-focus-1 .sector-small-boxes {
+    display: none;
   }
-
-  .about-us-section-3 .top-images {
-    top: 10px !important;
-  }
-
 }
 
 @media (max-width: 1200px) {
@@ -964,8 +1032,6 @@ button.navbar-toggler {
     max-width: 50%;
   }
 
-
-
   .about-us-nav .second-logo {
     height: 135px;
   }
@@ -974,12 +1040,12 @@ button.navbar-toggler {
     background-position: center;
   }
 
-  
+
   .contact-us .image {
     margin-left: -70px;
   }
 
- 
+
 
   .contact-us .address {
     margin-right: 0px;
@@ -1002,7 +1068,7 @@ button.navbar-toggler {
     line-height: normal;
   }
 
-  .overview-page-2 .second-div .text-3 { 
+  .overview-page-2 .second-div .text-3 {
     line-height: normal;
   }
 
@@ -1010,13 +1076,11 @@ button.navbar-toggler {
     gap: 40px;
   }
 
-  
+
   .news-narratives-page .heading-for-otherpage {
     font-size: 20px;
     letter-spacing: normal;
   }
-
- 
 
   .our-partner-1 .heading-for-otherpage {
     font-size: 16px;
@@ -1044,20 +1108,6 @@ button.navbar-toggler {
     letter-spacing: normal;
   }
 
-
-  .left-links .publisher {
-    font-size: 28px;
-  }
-
-  .article-one .share-text {
-    font-size: 25px;
-  }
-
- 
-
-  .article-link {
-    font-size: 28px;
-  }
 
   .article-one .text {
     font-size: 1.2rem;
@@ -1095,7 +1145,7 @@ button.navbar-toggler {
     font-size: 36px;
   }
 
-  .partner-title { 
+  .partner-title {
     min-height: 50px;
   }
 
@@ -1159,7 +1209,7 @@ button.navbar-toggler {
     padding-bottom: 100px;
   }
 
- 
+
 
   .thank-you-page .main-div .text {
     margin-top: -100px;
@@ -1168,9 +1218,6 @@ button.navbar-toggler {
   .about-us-nav .nav-menu {
     padding-bottom: 150px;
   }
-
- 
-
 
   .contactbgmain {
     padding-top: 100px;
@@ -1183,7 +1230,7 @@ button.navbar-toggler {
   .contact-us .address {
     font-size: 13px;
   }
- 
+
   .contact-us .submit-btn {
     max-width: 148px;
     height: 36px;
@@ -1193,8 +1240,6 @@ button.navbar-toggler {
   .contact-us .address {
     margin-right: 0px;
   }
-
-
 
   .hovermove {
     height: 334px;
@@ -1228,30 +1273,27 @@ button.navbar-toggler {
     line-height: 1.5;
   }
 
-  .text-3 h2 { 
+  .text-3 h2 {
     line-height: 1.5;
   }
- 
+
   .content.sec-1-content.stripbottom.red {
     padding-top: 16px;
     padding-left: 82px;
     padding-right: 82px;
   }
 
-  .sec-1-content h1 {
-    font-size: 33px;
-  }
+    .sec-1-content h1 {
+        font-size: 39px;
+    }
 
-  .sec-1 .logo {
-    height: 6rem;
-  }
+ 
 
   .sec-1 .nav-link {
     font-size: 14px;
   }
 
   h2 {
-    font-size: 30px;
     margin-bottom: 0px;
   }
 
@@ -1268,13 +1310,11 @@ button.navbar-toggler {
     line-height: 22px;
   }
 
-
-
   .news-narratives-page .heading-for-otherpage {
     font-size: 20px;
     letter-spacing: normal;
   }
- 
+
   .our-partner-1 .heading-for-otherpage {
     font-size: 16px;
     letter-spacing: normal;
@@ -1307,23 +1347,32 @@ button.navbar-toggler {
     width: 100%;
     max-width: 97%;
   }
+      .description.container-fluid.pb-0 {
+        bottom: 10%;
+    }
+    .post-slide {
+        height: 380px;
+    }
+    .sec-7-slider {
+    width: 100%; 
+}
+ .sec-5 { 
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.owl-buttons .owl-prev, .owl-buttons .owl-next { 
+    top: 75%; 
+}
 
 
 }
 
-
 @media (max-width: 1199px) {
-  .main {
-    padding-top: 190px;
-  }
+ 
 
   .sec-1 .description {
     margin-bottom: 1rem;
     font-size: 45px;
-  }
-
-  .about-us-nav {
-    padding-bottom: 50px;
   }
 
   .about-us-nav {
@@ -1334,10 +1383,6 @@ button.navbar-toggler {
     padding-top: 9rem;
   }
 
-
-  .about-us-nav {
-    padding-bottom: 50px;
-  }
 
   .yt-menu {
     padding-top: 20px !important;
@@ -1378,12 +1423,17 @@ button.navbar-toggler {
     margin-bottom: 3rem;
     font-size: 45px;
   }
+
   .about-us-section-1 .main-image {
-   
+
     max-width: 77vh;
     max-height: 580px;
+  }
+      .post-slide {
+        height: 350px;
+    }
 }
-}
+
 @media (max-width: 1024px) {
   .text p {
     font-size: 33px;
@@ -1398,7 +1448,7 @@ button.navbar-toggler {
     font-size: 36px;
   }
 
-  .partner-title { 
+  .partner-title {
     min-height: 50px;
   }
 
@@ -1418,11 +1468,10 @@ button.navbar-toggler {
   }
 
   .about-us-section-1 .main-image {
-      top: 0;
-      right: -35px;
-      max-height: 470px;
-    }
-
+    top: 0;
+    right: -35px;
+    max-height: 470px;
+  }
 
   .pt-md-4 {
     padding-top: 3.5rem !important;
@@ -1442,12 +1491,6 @@ button.navbar-toggler {
     font-size: 25px;
   }
 
-  .bannerbg .back {
-    font-size: 25px;
-  }
-
-  /*************************/
-  /* Your styles here */
   .partners-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 50px 30px;
@@ -1457,7 +1500,7 @@ button.navbar-toggler {
     font-size: 36px;
   }
 
-  .partner-title { 
+  .partner-title {
     min-height: 50px;
   }
 
@@ -1479,6 +1522,7 @@ button.navbar-toggler {
   }
 
 }
+
 @media (max-width: 991px) {
   .sdg-grid {
     display: flex;
@@ -1486,9 +1530,11 @@ button.navbar-toggler {
     justify-content: center;
     gap: 15px;
   }
-.main {
-        padding-top: 140px;
-    }
+
+  .main {
+    padding-top: 140px;
+  }
+
   .sdg-item {
     width: 120px;
     grid-column: auto !important;
@@ -1546,14 +1592,18 @@ button.navbar-toggler {
     margin-top: 0px;
   }
 
-  h1 {
-    font-size: 45px;
-  }
- 
-  
-
   .our-partner-1 .heading-for-otherpage {
     margin-top: 0px;
+  }
+
+  .sector-in-focus-1 .sector-big-boxes {
+    display: none;
+  }
+
+  .sector-in-focus-1 .sector-small-boxes {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
   }
 
   .sector-in-focus-1 .image-2 {
@@ -1573,7 +1623,7 @@ button.navbar-toggler {
     margin-top: 0px;
   }
 
- 
+
 
   .about-us-section-3 .main-image {
     height: 400px;
@@ -1594,13 +1644,13 @@ button.navbar-toggler {
     padding-bottom: 700px;
   }
 
- .about-us-section-1 .main-image {
-      top: 90px;
-      right: 0px;
-      height: auto;
-      left: 0;
-      margin: 0 auto;
-    }
+  .about-us-section-1 .main-image {
+    top: 90px;
+    right: 0px;
+    height: auto;
+    left: 0;
+    margin: 0 auto;
+  }
 
   .about-us-nav .logo-2 {
     height: 100px;
@@ -1649,19 +1699,29 @@ button.navbar-toggler {
     font-size: 25px;
   }
 
+  img.social-img {
+    width: 25px;
+  }
+
   .sec-1 .description {
     overflow-y: unset;
     padding-top: 220px;
     padding-bottom: 50px;
   }
 
+  h1 {
+    font-size: 4em;
+  }
+
+  span.v-divider {
+    width: 3px;
+    height: 28px;
+    margin-left: 5px;
+  }
+
   .sec-1 .logo {
     margin-top: unset;
     height: 119px;
-  }
-
-  .common-heading {
-    font-size: 45px;
   }
 
   .section-height {
@@ -1729,10 +1789,6 @@ button.navbar-toggler {
 
 
 
-  .bannerbg .name {
-    font-size: 24px;
-  }
-
   .bannerbg .date {
     font-size: 15px;
   }
@@ -1769,7 +1825,7 @@ button.navbar-toggler {
     margin-top: unset;
     height: 119px;
   }
- 
+
 
   .sdg-grid .sdg-item:first-child {
     margin-left: 0px;
@@ -1810,10 +1866,6 @@ button.navbar-toggler {
     background-position: top center;
   }
 
-  h1 {
-    font-size: 45px;
-  }
-
   .thank-you-page .main-div .text {
     font-size: 30px;
   }
@@ -1822,7 +1874,7 @@ button.navbar-toggler {
     transition: all 0.3s ease;
   }
 
-  
+
 
   .overview-page-2 {
     margin-top: 0px;
@@ -1842,9 +1894,6 @@ button.navbar-toggler {
     margin-left: 50px;
   }
 
- 
- 
-
   .about-us-section-1 {
     padding-bottom: 0px;
   }
@@ -1858,9 +1907,10 @@ button.navbar-toggler {
     max-height: 370px;
   }
 
-.flesing .year-label.section-title {
+  .flesing .year-label.section-title {
     display: none;
-}
+  }
+
   .about-us-section-3 .top-padding h2.common-heading.white {
     color: #913832;
   }
@@ -2017,7 +2067,7 @@ button.navbar-toggler {
     padding-left: 0;
   }
 
-   
+
 
   .heading:after {
     content: "";
@@ -2279,9 +2329,9 @@ button.navbar-toggler {
     display: none;
   }
 
- 
 
- 
+
+
   .our-partner-1 .heading-for-otherpage {
     margin-top: 0px;
   }
@@ -2346,9 +2396,6 @@ button.navbar-toggler {
     height: 925px;
   }
 
-  h2 {
-    font-size: 30px;
-  }
 
   .border-b::after {
     width: 75px;
@@ -2431,7 +2478,7 @@ button.navbar-toggler {
     margin-left: 0px;
   }
 
- 
+
   .contact-us .address-div {
     left: 0px;
   }
@@ -2452,7 +2499,6 @@ button.navbar-toggler {
   }
 
   .overview-page .common-heading {
-    font-size: 33px;
     line-height: 2.5rem;
   }
 
@@ -2508,7 +2554,6 @@ button.navbar-toggler {
     width: 80%;
     font-family: "Bodoni Moda 9pt italic";
     font-weight: 400;
-    /* Regular */
     font-size: 1.68rem;
     color: rgb(145, 56, 50);
   }
@@ -2521,14 +2566,44 @@ button.navbar-toggler {
     margin-right: 1rem;
   }
 
+  .bannerbg .name {
+    font-size: 2.1em;
+  }
+
+  .collabrations-box {
+    min-height: 210px;
+  }
+
 }
+
 @media (max-width: 767px) {
+
+  .grid-basic.threecol,
+  .our-collabrations-box .grid-basic.towcol,
+  .grid-basic.towcol {
+    grid-template-columns: 1fr;
+  }
+
+  .collabrations-box {
+    min-height: 180px;
+  }
+
+  .our-collabrations-box .grid-basic.towcol {
+    width: 100%;
+  }
+
+  .our-collabrations-box {
+    width: 70%;
+    margin: 0 auto;
+  }
+
   .sec-2 {
     padding-top: 70px;
   }
-nav.breadcrumb-nav {
+
+  nav.breadcrumb-nav {
     margin-left: 30px;
-}
+  }
 
 
   .sec-3 .image {
@@ -2588,7 +2663,10 @@ nav.breadcrumb-nav {
     font-size: 14px;
   }
 
-
+  .grid-basic {
+    margin-bottom: 18px;
+    gap: 20px;
+  }
 
   .carousel-inner .carousel-item>div {
     display: none;
@@ -2598,14 +2676,18 @@ nav.breadcrumb-nav {
     display: block;
   }
 
+  .article-link {
+    font-size: 2.1em;
+  }
+
   .sec-5 .carousel-item a:hover .bottom-div .description-text {
     max-height: 150px;
     font-size: 14px;
   }
 
-.about-us-section-3 .bottom-padding{
-  padding-bottom: 55px;
-}
+  .about-us-section-3 .bottom-padding {
+    padding-bottom: 55px;
+  }
 
   .sec-4 {
     padding-top: 70px;
@@ -2671,22 +2753,21 @@ nav.breadcrumb-nav {
     max-width: 100% !important;
   }
 
-  
- 
+
+
 
 
   .error-404 .error-div .text {
-   font-size: 9rem;
-        letter-spacing: 0;
+    font-size: 9rem;
+    letter-spacing: 0;
   }
 
   .trf-main .common-heading {
     margin: 0px;
     padding: 0px;
-    font-size: 25px;
   }
 
- 
+
 
   .error-content {
     margin-bottom: 0rem;
@@ -2702,22 +2783,16 @@ nav.breadcrumb-nav {
     font-size: 25px;
   }
 
- .error-404 .error-div .text-3 {
+  .error-404 .error-div .text-3 {
     margin-left: 0px;
-}
-
-
-      .error-404 .error-div .text-2 {
-        margin-top: 0px;
-        margin-left: 0;
-        font-size: 3em;
-    }
-
-  h1 {
-    font-size: 39px;
   }
 
- 
+
+  .error-404 .error-div .text-2 {
+    margin-top: 0px;
+    margin-left: 0;
+    font-size: 3em;
+  }
 
   .our-partner-1 .text {
     font-size: 33px;
@@ -2766,9 +2841,6 @@ nav.breadcrumb-nav {
     padding-bottom: 0px;
   }
 
-  .common-heading {
-    font-size: 39px;
-  }
 
   .our-partner-1 .text {
     font-size: 24px;
@@ -2875,21 +2947,6 @@ nav.breadcrumb-nav {
     width: 20px;
   }
 
-  .left-links .publisher {
-    font-size: 16px;
-  }
-
-  .article-one .share-text {
-    font-size: 20px;
-  }
-
-  .left-links {
-    font-size: 14px;
-  }
-
-  .bannerbg .name {
-    font-size: 20px;
-  }
 
   .footer-bottom-text p {
     font-size: 13px;
@@ -2902,12 +2959,6 @@ nav.breadcrumb-nav {
 
   .nav-item .background {
     min-height: auto;
-  }
-
- 
-
-  h2 {
-    font-size: 24px;
   }
 
 
@@ -2936,16 +2987,13 @@ nav.breadcrumb-nav {
     font-size: 20px;
   }
 
-  .bannerbg .back {
-    font-size: 20px;
-  }
 
   .text p {
     font-size: 24px;
     line-height: 1.5;
   }
 
-  .text-3 h2 { 
+  .text-3 h2 {
     line-height: 1.5;
   }
 
@@ -2958,18 +3006,13 @@ nav.breadcrumb-nav {
     font-size: 14px;
   }
 
-  h1 {
-    font-size: 39px;
-  }
-
- 
   p.outreach-description {
     font-size: 20px;
     padding-bottom: 30px;
 
   }
 
-  .text-3 h2 { 
+  .text-3 h2 {
     margin-bottom: 20px;
   }
 
@@ -3057,345 +3100,354 @@ nav.breadcrumb-nav {
     top: 35%;
   }
 
-.about-us-section-1 .heading {
-  font-size: 20px;
-}
+  .about-us-section-1 .heading {
+    font-size: 20px;
+  }
 
-.about-us-section-1 .description {
-  font-size: 16px;
-}
+  .about-us-section-1 .description {
+    font-size: 16px;
+  }
 
-.about-us-section-1 .section-title {
-  margin-left: 33px;
-  margin-top: 25px;
-}
+  .about-us-section-1 .section-title {
+    margin-left: 33px;
+    margin-top: 25px;
+  }
 
-.timeline-line {
-  left: 47px;
-  top: 38%;
-}
+  .timeline-line {
+    left: 47px;
+    top: 38%;
+  }
 
-.about-us-section-1 {
-  background-size: cover;
-  position: relative;
-  z-index: 2;
-  overflow: hidden;
-}
+  .about-us-section-1 {
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+  }
 
-.about-us-section-2 .text {
-  font-size: 20px;
-}
+  .about-us-section-2 .text {
+    font-size: 20px;
+  }
 
-.news-narratives-page .input-tag {
-  max-width: 220px !important;
-  padding: 10px 30px !important;
-}
-
-
-.common-headingcolo {
-  margin-top: 0px !important;
-}
-
-.footer-bottom-text {
-  margin-top: 20px !important;
-  max-width: 100% !important;
-}
-
-.footer-terms-of {
-  bottom: 0px !important;
-}
-
-.footer {
-  padding-top: 20px !important;
-  padding-bottom: 30px !important;
-}
+  .news-narratives-page .input-tag {
+    max-width: 220px !important;
+    padding: 10px 30px !important;
+  }
 
 
+  .common-headingcolo {
+    margin-top: 0px !important;
+  }
 
-.tab-label.active-label {
-  margin-bottom: 0px;
-}
+  .footer-bottom-text {
+    margin-top: 20px !important;
+    max-width: 100% !important;
+  }
 
-.sec-3 .image {
-  width: 300px;
-  height: 400px;
-}
+  .footer-terms-of {
+    bottom: 0px !important;
+  }
 
-.news-narratives-page .news-article {
-  font-size: 14px;
-}
+  .footer {
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+  }
 
- 
+  .tab-label.active-label {
+    margin-bottom: 0px;
+  }
 
-.news-narratives-page .description {
-  font-size: 14px;
-  margin-top: 0 !important;
-}
+  .sec-3 .image {
+    width: 300px;
+    height: 400px;
+  }
 
-.news-narratives-page .read-more {
-  font-size: 18px;
-}
+  .news-narratives-page .news-article {
+    font-size: 14px;
+  }
 
-.news-narratives-page .name-date {
-  font-size: 14px;
-}
+  .news-narratives-page .description {
+    font-size: 14px;
+    margin-top: 0 !important;
+  }
 
-.pright {
-  padding-right: 15px;
-}
+  .news-narratives-page .read-more {
+    font-size: 18px;
+  }
 
-.pleft {
-  padding-left: 15px;
-}
+  .news-narratives-page .name-date {
+    font-size: 14px;
+  }
 
-.section-height {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 60px 0;
-}
+  .pright {
+    padding-right: 15px;
+  }
 
-.imgbginner::after,
-.imgbginner::before,
-.secondimgbg .torow.hovermove::after,
-.secondimgbg .torow.hovermove::before {
-  opacity: 0;
-}
+  .pleft {
+    padding-left: 15px;
+  }
 
-.hovermove:hover .imgbginner::after,
-.hovermove:hover .imgbginner::before {
-  opacity: 0;
-}
+  .section-height {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 0;
+  }
 
-.background-black {
-  row-gap: 0px;
-}
+  .imgbginner::after,
+  .imgbginner::before,
+  .secondimgbg .torow.hovermove::after,
+  .secondimgbg .torow.hovermove::before {
+    opacity: 0;
+  }
 
-/**************** home.css*************************/
-#news-slider .owl-pagination .owl-page {
-  width: 8px;
-  height: 8px;
-  margin: 0 3px;
-}
+  .hovermove:hover .imgbginner::after,
+  .hovermove:hover .imgbginner::before {
+    opacity: 0;
+  }
 
-owl-buttons .owl-prev,
-.owl-buttons .owl-next {
-  position: absolute;
-  top: auto;
-  transform: translateY(0);
-  width: 13px;
-  height: 23px;
-  background-size: 10px;
-  right: 40px;
-  bottom: -53px;
-  background-repeat: no-repeat;
-}
+  .background-black {
+    row-gap: 0px;
+  }
 
-.owl-buttons .owl-prev {
-  position: absolute;
-  top: auto;
-  transform: translateY(0);
-  width: 13px;
-  height: 23px;
-  background-size: 10px;
-  left: 40px;
-  bottom: -54px;
-  background-repeat: no-repeat;
-}
+  #news-slider .owl-pagination .owl-page {
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+  }
 
-.sec-5 .image {
-  width: 300px;
-}
+  owl-buttons .owl-prev,
+  .owl-buttons .owl-next {
+    position: absolute;
+    top: auto;
+    transform: translateY(0);
+    width: 13px;
+    height: 23px;
+    background-size: 10px;
+    right: 40px;
+    bottom: -53px;
+    background-repeat: no-repeat;
+  }
 
-.sec-5 .left-arr-btn {
-  margin-left: 0px;
-}
+  .owl-buttons .owl-prev {
+    position: absolute;
+    top: auto;
+    transform: translateY(0);
+    width: 13px;
+    height: 23px;
+    background-size: 10px;
+    left: 40px;
+    bottom: -54px;
+    background-repeat: no-repeat;
+  }
 
-.sec-5 .right-arr-btn {
-  margin-left: 0px;
-}
+  .sec-5 .image {
+    width: 300px;
+  }
 
-#news-slider .owl-wrapper {
-  margin-left: 0;
-}
+  .sec-5 .left-arr-btn {
+    margin-left: 0px;
+  }
 
- 
+  .sec-5 .right-arr-btn {
+    margin-left: 0px;
+  }
 
-.content.sec-1-content.stripbottom.red {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+  #news-slider .owl-wrapper {
+    margin-left: 0;
+  }
 
-.sec-5 .image {
-  width: 100%;
-}
+  .content.sec-1-content.stripbottom.red {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-.content.sec-1-content.stripbottom.red {
-  padding-left: 50px;
-  padding-right: 50px;
-}
+  .sec-5 .image {
+    width: 100%;
+  }
 
-.conentsliv {
-  padding-left: 85px;
-}
+  .content.sec-1-content.stripbottom.red {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
-.sec-1-content h1 {
-  font-size: 40px;
-}
+  .conentsliv {
+    padding-left: 85px;
+  }
 
-.description>div {
-  margin-top: 0%;
-}
+  .sec-1-content h1 {
+    font-size: 40px;
+  }
 
-.footer-terms-of {
-  gap: 7px;
-}
+  .description>div {
+    margin-top: 0%;
+  }
 
-.footer-terms-of a {
-  padding-bottom: 0px;
-}
+  .footer-terms-of {
+    gap: 7px;
+  }
 
-.sec-7 {
-  min-height: auto;
-}
+  .footer-terms-of a {
+    padding-bottom: 0px;
+  }
 
-.contents p {
-  font-size: 24px;
-  line-height: 1.5;
-}
+  .sec-7 {
+    min-height: auto;
+  }
 
-.sec-2-text {
-  font-size: 20px;
-}
+  .contents p {
+    font-size: 24px;
+    line-height: 1.5;
+  }
 
-.contents p {
-  line-height: 36px;
-}
+  .sec-2-text {
+    font-size: 20px;
+  }
 
-.contact-us {
-  padding-top: 90px;
-}
+  .contents p {
+    line-height: 36px;
+  }
 
-.sec-1 .m-logo {
-  display: inline-block;
-  position: absolute;
-  top: 6rem;
-  left: 52%;
-  transform: translateX(-50%);
-  width: 7rem;
-  height: auto;
-  z-index: 10;
-}
+  .contact-us {
+    padding-top: 90px;
+  }
 
-.sec-1 .flower-1 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-bottom: 19rem;
-  z-index: 2;
-}
+  .sec-1 .m-logo {
+    display: inline-block;
+    position: absolute;
+    top: 6rem;
+    left: 52%;
+    transform: translateX(-50%);
+    width: 7rem;
+    height: auto;
+    z-index: 10;
+  }
 
-.sec-1 .description {
-  font-size: 40px;
-}
+  .sec-1 .flower-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 19rem;
+    z-index: 2;
+  }
 
-.sec-1 nav {
-  position: relative;
-  z-index: 8;
-}
+  .sec-1 .description {
+    font-size: 40px;
+  }
 
-.cursor {
-  display: none;
-}
+  .sec-1 nav {
+    position: relative;
+    z-index: 8;
+  }
 
-.about-us-nav {
-  background-position: bottom 0px center;
-}
+  .cursor {
+    display: none;
+  }
 
-button.navbar-toggler {
-  margin-top: 15px !important;
-}
+  .about-us-nav {
+    background-position: bottom 0px center;
+  }
 
- 
+  button.navbar-toggler {
+    margin-top: 15px !important;
+  }
 
-.footer {
-  min-height: 1px;
-}
+  .footer {
+    min-height: 1px;
+  }
 
-.plpr {
-  padding-top: 10px;
-}
-.policy-contents {
+  .plpr {
+    padding-top: 10px;
+  }
+
+  .policy-contents {
     padding-bottom: 60px;
-}
+  }
 
 
+  .about-us-section-3 .bottom-padding-2 {
+    padding-bottom: 150px;
+  }
 
-
-.about-us-section-3 .bottom-padding-2 {
-  padding-bottom: 150px;
-}
-.footer-terms-of a {
+  .footer-terms-of a {
     font-size: 1em;
     border-right: 1px solid #efe5db;
-}
-.footer-logo {
-        width: 140px;
-    }
+  }
 
-.sdg-item {
-  width: 100px;
-  grid-column: auto !important;
-}
+  .footer-logo {
+    width: 140px;
+  }
 
-.sec-3 {
-  padding-top: 70px;
-}
+  .sdg-item {
+    width: 100px;
+    grid-column: auto !important;
+  }
 
-.about-us-nav .nav-menu {
-  padding-bottom: 0px;
-}
+  .sec-3 {
+    padding-top: 70px;
+  }
 
-.about-us-section-1 .gaps {
-  padding-bottom: 25px;
-}
+  .about-us-nav .nav-menu {
+    padding-bottom: 0px;
+  }
 
-.sec-2-text {
-  line-height: 1.8rem;
-}
+  .about-us-section-1 .gaps {
+    padding-bottom: 25px;
+  }
 
-/* sec-7 */
-.sec-7 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
+  .sec-2-text {
+    line-height: 1.8rem;
+  }
 
-.sec-7-p {
-  margin-right: 2rem;
-}
+  .sec-7 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
- 
+  .sec-7-p {
+    margin-right: 2rem;
+  }
 
-.sec-4 .content {
-  padding: 0rem;
-}
+  .sec-4 .content {
+    padding: 0rem;
+  }
 
-.sec-4 .content .about-content h6 {
-  font-size: x-large;
-  width: 80%;
-  font-family: "Bodoni Moda 9pt italic";
-  font-weight: 400;
-  /* Regular */
-  font-size: 1.68rem;
-  color: rgb(145, 56, 50);
-}
-.error-404 .error-div {
+  .sec-4 .content .about-content h6 {
+    font-size: x-large;
+    width: 80%;
+    font-family: "Bodoni Moda 9pt italic";
+    font-weight: 400;
+    font-size: 1.68rem;
+    color: rgb(145, 56, 50);
+  }
+
+  .error-404 .error-div {
     background-size: inherit;
-}
+  }
+
+  ol.breadcrumb {
+    gap: 4px;
+    margin-bottom: 20px;
+  }
+
+  ol.breadcrumb li.breadcrumb-item {
+    padding-left: 8px !important;
+  }
+
+  .breadcrumb-item+.breadcrumb-item::before {
+    margin-right: -5px;
+  }
+
+  .grid-basic p {
+    margin-bottom: 0px;
+
+  }
 
 
+
 }
+
 @media (max-width: 650px) {
   .contact-us .address-div {
     top: 72px;
@@ -3420,7 +3472,7 @@ button.navbar-toggler {
     width: 14px;
   }
 
- 
+
   .sec-5 .post-slide a:active .bottom-div .text-3,
   .sec-5 .post-slide a:active .bottom-div .text-6 {
     transform: translateY(-10px);
@@ -3548,7 +3600,7 @@ button.navbar-toggler {
     height: 130px;
   }
 
-  .partner-title { 
+  .partner-title {
     min-height: auto;
   }
 
@@ -3561,6 +3613,7 @@ button.navbar-toggler {
     font-size: 18px;
   }
 }
+
 @media (max-width: 575px) {
   .sec-1 .description {
     padding-top: 160px;
@@ -3595,9 +3648,6 @@ button.navbar-toggler {
   }
 
 
-  .left-links {
-    font-size: 12px;
-  }
 
   .thank-you-page .main-div {
     background-position: top center;
@@ -3622,15 +3672,7 @@ button.navbar-toggler {
   .right-social img {
     height: 18px;
   }
- 
 
-  .article-one .share-text {
-    font-size: 14px;
-  }
-
-  .article-link {
-    font-size: 16px;
-  }
 
   .article-one .back img {
     height: 15px;
@@ -3667,30 +3709,29 @@ button.navbar-toggler {
   .overview-page-2 .second-div .text {
     font-size: 30px;
   }
- 
+
   .overview-page-2 .second-div .text {
     font-size: 30px;
   }
- 
-}
-@media (max-width: 524px) {
-      .main
- {
-        padding-top: 100px;
-    }
 
- 
+}
+
+@media (max-width: 524px) {
+  .main {
+    padding-top: 100px;
+  }
+
+  .bannerbg {
+    padding-top: 100px;
+  }
+
   .sec-4 .common-heading {
     margin-top: 0rem;
   }
- 
- 
 
   .our-partner-1 .text {
     font-size: 25px;
   }
-
- 
 
   .about-us-section-2 .text {
     font-size: 20px;
@@ -3725,15 +3766,9 @@ button.navbar-toggler {
     height: 20px;
   }
 
-  h1 {
-    font-size: 31px;
-  } 
-
   .our-partner-1 .text {
     font-size: 25px;
   }
-
- 
 
   .about-us-section-2 .text {
     font-size: 20px;
@@ -3781,10 +3816,6 @@ button.navbar-toggler {
     height: 20px;
   }
 
-  .common-heading {
-    font-size: 30px;
-  }
-
   .common-read-more-btn .btn-text {
     font-size: 16px;
   }
@@ -3792,11 +3823,6 @@ button.navbar-toggler {
   .our-collaborations .text {
     font-size: 25px;
   }
-
-  .article-one {
-    padding-top: 100px;
-  }
-
 
 
   .article-one .text {
@@ -3811,8 +3837,6 @@ button.navbar-toggler {
     font-size: 20px;
   }
 
-
-
   .about-us-nav {
     background-position: bottom 30px center;
   }
@@ -3826,15 +3850,9 @@ button.navbar-toggler {
     padding-bottom: 10px;
   }
 
-  h1 {
-    font-size: 31px;
-  }
-
   .bannerbg .view-article {
     font-size: 20px;
   }
-
- 
 
   .sec-1 .m-logo {
     display: inline-block;
@@ -3980,6 +3998,7 @@ button.navbar-toggler {
     margin-top: 3px !important;
   }
 }
+
 @media (max-width: 400px) {
   .bannerbg .gap {
     gap: 7px;
@@ -3988,12 +4007,6 @@ button.navbar-toggler {
   .bannerbg .gap .icons {
     height: 15px;
     width: 15px;
-  }
-
- 
-
-  .bannerbg .name {
-    font-size: 11px;
   }
 
   .bannerbg .date {
@@ -4008,7 +4021,7 @@ button.navbar-toggler {
     font-size: 22px;
   }
 
- 
+
   .our-partner-1 .text {
     font-size: 22px;
   }
@@ -4017,7 +4030,7 @@ button.navbar-toggler {
     max-width: 320px;
   }
 
- 
+
 
   .our-collaborations .text {
     font-size: 22px;
@@ -4029,20 +4042,25 @@ button.navbar-toggler {
     margin: 0 auto;
     margin-top: 30px;
   }
+
+  span.v-divider {
+    width: 2px;
+    height: 18px;
+  }
 }
+
 @media (max-width: 374px) {
+  body {
+    font-size: 7px;
+  }
+
   .thankyoucontent {
     padding-right: 40px;
   }
 
- 
   .prdiingcontact {
     padding-right: 30px;
     padding-left: 30px;
-  }
-
-  h1 {
-    font-size: 23px;
   }
 
   .sec-1 .m-logo {
@@ -4094,22 +4112,14 @@ button.navbar-toggler {
     z-index: 8;
   }
 
-  h1 {
-    font-size: 23px;
-  }
-
-  .common-heading {
-    font-size: 23px;
-  }
 }
+
 @media (max-width: 365px) {
   .sec-1 .description {
     font-size: 30px;
   }
 
-  /* Overview Page */
   .overview-page-main .common-heading {
-    font-size: 19px;
     margin: 0px;
   }
 

@@ -287,7 +287,7 @@
     padding-top: 15px;
     filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.25));
   }
-
+ 
 
   .breadcrumb-item:nth-last-child(1)::before {
     --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='14' viewBox='0 0 7 14' fill='none'%3E%3Cpath d='M0.75 0.75L5.75 6.75L0.75 12.75' stroke='%23913832' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -386,7 +386,12 @@
     justify-content: flex-start;
     padding-bottom: 40px;
   }
-
+#fullpage .sec-1 .nav-item .background {
+    background-image: url(../img/dropbg.png);
+    background-size: 100% 100% !important;
+    background-position:top;
+    padding-bottom: 20px;
+}
 
 
   .nav-item .background .list-text:hover {
@@ -708,7 +713,7 @@
   .timeline-wrapper {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 475px;
     display: flex;
     align-items: center;
   }
@@ -766,7 +771,7 @@
 
   .myswiper .swiper-button-next {
     left: 182px;
-    bottom: 10px !important;
+    bottom: 78px !important;
     top: auto;
     transform: translateY(50%);
     background: #f2e6da;
@@ -1046,7 +1051,7 @@
   }
 
   .about-us-section-1 .gaps {
-    padding-bottom: 150px;
+    padding-bottom: 20px;
   }
 
   .about-us-section-1 .scrolling-div {
@@ -1104,10 +1109,12 @@
     height: 100%;
     width: auto;
     max-width: 90vh;
-    max-height: 660px;
+    max-height: 730px;
   }
 
-
+.flesing .year-label.section-title {
+    display: none;
+}
   .coverlec {
     position: absolute;
     left: 0;
@@ -1228,13 +1235,13 @@
 
   .fullimgeslider {
     width: 100%;
-    height: 80%;
+    height: calc(100% - 75px);
     position: relative;
   }
 
   .contentuser {
     position: absolute;
-    bottom: 0px;
+    bottom: 30px;
     left: 10px;
     right: 10px;
     margin: 0 auto;
@@ -2073,14 +2080,7 @@ p.outreach-description {
     display: none;
   }
 
-  .news-narratives-page {
-    background-image: url(../img/news&narratives-page-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: top center;
-    overflow: hidden !important;
-  }
+ 
 
 
 
@@ -2125,21 +2125,7 @@ p.outreach-description {
     font-weight: 500;
   }
 
-  .news-narratives-page .input-tag {
-    max-width: 350px !important;
-    background-color: transparent !important;
-    border-radius: 35px !important;
-    border: 1px solid rgba(145, 56, 50, 1) !important;
-    padding: 10px 30px !important;
-    font-family: "Bodoni Moda 9pt" !important;
-    font-size: 18px !important;
-    font-weight: 600 !important;
-    width: 100%;
-  }
-
-  .news-narratives-page .input-tag::placeholder {
-    color: rgba(145, 56, 50, 1);
-  }
+ 
 
   .news-narratives-page .bottom-div {
     gap: 10px;
@@ -2243,11 +2229,11 @@ p.outreach-description {
   .bannerbg .date {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
+    font-size: 1.2em;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
-  }
+}
 
   .policy-contents h5 {
     color: #913832;
@@ -2267,12 +2253,17 @@ p.outreach-description {
     font-weight: 400;
   }
 
-
+span.v-divider {
+    background: #913832;
+    width: 4px;
+    height: 36px;
+    margin-left: 6px;
+}
   span.share-text {
     color: #913832;
     text-align: right;
     font-family: "Bodoni Moda 9pt";
-    font-size: 18px;
+    font-size: 1em;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
@@ -2286,27 +2277,8 @@ p.outreach-description {
     font-family: "Bodoni Moda 9pt";
     font-size: 34px;
     font-weight: 700;
-  }
-
-  .bannerbg .back {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 26px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-    cursor: pointer;
-    border-left: 2px solid #913832;
-    text-decoration: none;
-  }
-
-  .bannerbg .back .text {
-    color: #913832;
-    padding-left: 10px;
-    text-decoration: none;
-    text-decoration-color: #f0e6da;
-  }
-
+  } 
+ 
   .bannerbg .iframe-tag {
     padding: 0px;
     max-width: 650px;
@@ -2329,7 +2301,7 @@ p.outreach-description {
   .parent-card:hover .contentuser p {
     bottom: 0px;
     opacity: 1;
-    height: 150px;
+    height: 190px;
   }
 
 
@@ -2446,7 +2418,7 @@ p.outreach-description {
 
   .imgthankyu {
     position: relative;
-    padding-bottom: 70px;
+    padding-bottom: 90px;
   }
 
   .imgthankyu img {
@@ -2924,10 +2896,7 @@ p.outreach-description {
     text-align: center;
     overflow: hidden;
   }
-
-  .news-narratives-page {
-    background-size: 100% 100%;
-  }
+ 
 
   .news-narratives-page .effect:hover .ifeect {
     transform: translateY(15px);
@@ -3587,7 +3556,7 @@ p.outreach-description {
     background-clip: border-box;
     background-position: bottom center;
     padding-bottom: 70px;
-    min-height: 860px;
+    min-height:1000px;
   }
 
 
@@ -3719,13 +3688,7 @@ p.outreach-description {
     height: 30px;
     width: 30px;
   }
-
-
-  .bannerbg .back .text {
-    color: #913832;
-    padding-left: 10px;
-  }
-
+ 
   .bannerbg .iframe-tag {
     padding: 0px;
     max-width: 650px;
@@ -3803,15 +3766,7 @@ p.outreach-description {
     margin-bottom: 30px;
   }
 
-  .news-narratives-page {
-    background-image: url(../img/news&narratives-page-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: top center;
-    overflow: hidden !important;
-  }
-
+  
 
   .news-narratives-page .effect:hover {
     transition: ease-in 0.5s;
@@ -3846,22 +3801,14 @@ p.outreach-description {
     cursor: pointer;
   }
 
+  .news-narratives-page .name-date {
+    color: #913832;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+  }
  
-
-  .news-narratives-page .input-tag {
-    max-width: 484px !important;
-    background-color: transparent !important;
-    border-radius: 35px !important;
-    border: 1px solid rgba(145, 56, 50, 1) !important;
-    padding: 17px 30px !important;
-    font-family: "Bodoni Moda 9pt" !important;
-    font-size: 21px !important;
-    font-weight: 400 !important;
-  }
-
-  .news-narratives-page .input-tag::placeholder {
-    color: rgba(145, 56, 50, 1);
-  }
 
   .news-narratives-page .bottom-div {
     gap: 10px;
@@ -3967,7 +3914,7 @@ ease;
   .sec-1 .nav-item.dropdown .dropdown-menu {
     left: 0;
     width: 175px;
-    top: 40px;
+    top: 35px;
   }
 
   .sdg-grid .sdg-item:first-child {
@@ -4071,7 +4018,7 @@ ease;
 
   .img-fluid-2 {
     max-width: 100%;
-    height: 641px;
+    height: 720px;
   }
 
   .background-black.offwhites-2 .col-12 {
@@ -4142,7 +4089,7 @@ ease;
   }
 
   .parent-card:hover .contentuser p {
-    max-height: 150px;
+    max-height: 190px;
     font-family: 'Bodoni Moda 9pt Italic';
   }
 
@@ -4696,9 +4643,7 @@ ease;
   .bottom-img-s {
     display: none;
   }
-
-
-
+ 
   .left-links .publisher {
     color: #913832;
     font-style: italic;
@@ -4712,24 +4657,19 @@ ease;
     color: #913832;
     font-style: italic;
     font-family: "Bodoni Moda 9pt Italic";
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 400; 
     letter-spacing: 0;
   }
 
   main.our-collaborations-main {
     background-color: #F0E6DA;
   }
-
-
-  .article-link {
+.article-link {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 34px;
+    font-size: 3.2em;
     font-weight: 700;
-  }
-
-
+}
   .trf-main .text {
     color: #913832;
     text-align: center;
@@ -8190,16 +8130,14 @@ height: 14em;
   }
 
 
-
   .news-narratives-page {
-    background-image: url(../img/news&narratives-page-bg.jpg);
+     /* background-image: url(../img/news&narratives-page-bg.jpg); */
+background-image: url(../img/vertycalams.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
-    background-position: top center;
-    margin-top: -290px;
-    padding-top: 290px;
-    overflow: hidden !important;
+    background-position: top center;    
+    position: relative;
   }
 
 
@@ -8252,14 +8190,14 @@ height: 14em;
   }
 
   .news-narratives-page .input-tag {
-    max-width: 484px !important;
-    background-color: transparent !important;
-    border-radius: 35px !important;
-    border: 1px solid rgba(145, 56, 50, 1) !important;
-    padding: 17px 30px !important;
-    font-family: "Bodoni Moda 9pt" !important;
-    font-size: 21px !important;
-    font-weight: 600 !important;
+    max-width: 484px ;
+    background-color: transparent ;
+    border-radius: 35px;
+    border: 1px solid rgba(145, 56, 50, 1) ;
+    padding: 17px 30px ;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 21px;
+    font-weight: 400 ;
   }
 
   .news-narratives-page .input-tag::placeholder {
@@ -8296,7 +8234,9 @@ height: 14em;
     color: white;
     cursor: pointer;
   }
-
+.right-social {
+    gap: 10px;
+}
  
   .bannerbg .view-article {
     color: #913832;
@@ -8304,22 +8244,7 @@ height: 14em;
     font-size: 34px;
     font-weight: 700;
   }
-
-  .bannerbg .back {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 26px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-    cursor: pointer;
-  }
-
-  .bannerbg .back .text {
-    color: #913832;
-    padding-left: 10px;
-  }
-
+ 
   .bannerbg .iframe-tag {
     padding: 0px;
     max-width: 650px;
