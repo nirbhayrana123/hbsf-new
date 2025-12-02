@@ -596,6 +596,10 @@ a.nav-link {
 .some-descrip {
     padding-top: 40px;
 }
+.img-fluid-2 { 
+    height: 620px;
+}
+
 }
 @media (max-width: 1500px) {
 .about-us-section-1 .heading { 
