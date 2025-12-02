@@ -3,16 +3,12 @@
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1540px;
     }
-}
-
+} 
 @media (min-width: 1400px) {
 .container.democontainer.founding-members {
     max-width: 1320px;
 }
-}
-
-
-
+} 
 @media (min-width: 1200px) {
   .carousel-inner .carousel-item>div {
     flex: 0 0 25%;
@@ -392,13 +388,11 @@ body {
 .footer-logo {
     width: 250px;
 }
-
-
-
-
-
-
-
+ 
+.news-narratives-page { 
+    background-size: 100% 100%; 
+}
+ 
 .policy-contents h5 {
     line-height: 1em;
 }
@@ -617,7 +611,18 @@ a.nav-link {
 
 }
 @media (max-width: 1400px) {
-
+.about-us-section-1 .scrolling-div {
+    max-height: 400px;
+}
+.timeline-wrapper { 
+    height: 375px; 
+}
+.about-us-section-1 .main-image { 
+    max-height: 600px;
+}
+.about-us-section-1 { 
+    min-height: 750px;
+}
   .the-rotary-foundation .information-1 {
     font-size: 28px;
   }
@@ -951,7 +956,6 @@ button.navbar-toggler {
   }
 
 }
-
 @media (max-width: 1200px) {
 
   .carousel-inner .carousel-item>div {
@@ -1306,8 +1310,6 @@ button.navbar-toggler {
 
 
 }
-
-
 @media (max-width: 1199px) {
   .main {
     padding-top: 190px;
@@ -4094,7 +4096,6 @@ button.navbar-toggler {
     font-size: 30px;
   }
 
-  /* Overview Page */
   .overview-page-main .common-heading {
     font-size: 19px;
     margin: 0px;
