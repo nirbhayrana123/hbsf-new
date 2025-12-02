@@ -2597,7 +2597,7 @@
 
 @media (max-width: 767px) {
 
-  .grid-basic.threecol,
+  .grid-basic,.grid-basic.threecol,
   .our-collabrations-box .grid-basic.towcol,
   .grid-basic.towcol {
     grid-template-columns: 1fr;

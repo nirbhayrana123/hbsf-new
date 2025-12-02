@@ -2064,9 +2064,7 @@ p.outreach-description {
   }
 
 
-  .the-rotary-foundation {
-    margin-top: 0px;
-  }
+ 
 
   .the-rotary-foundation .the-rotary-foundation-img {
     width: -webkit-fill-available;
@@ -3716,9 +3714,7 @@ span.v-divider {
     font-weight: 300;
   }
 
-  .the-rotary-foundation {
-    margin-top: 0px;
-  }
+ 
 
   .the-rotary-foundation .the-rotary-foundation-img {
     width: -webkit-fill-available;
@@ -4104,24 +4100,7 @@ ease;
   .slide-mr p {
     margin-left: 18px;
   }
-
-
-
-  .brb {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-    padding-bottom: 40px;
-  }
-
-  .brb .text {
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    padding-bottom: 30px;
-  }
+  
 
   .footer {
     min-height: auto !important;
@@ -8127,10 +8106,7 @@ height: 14em;
     background-color: #93443d;
     position: relative;
   }
-
-  .the-rotary-foundation {
-    margin-top: 0px;
-  }
+ 
 
   .the-rotary-foundation .the-rotary-foundation-img {
     width: -webkit-fill-available;
