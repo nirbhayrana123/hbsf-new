@@ -1,4 +1,9 @@
 /* ***************  Our collaboration Page ****************** */
+@media (min-width: 1600px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1540px;
+    }
+}
 
 @media (min-width: 1200px) {
   .carousel-inner .carousel-item>div {
@@ -710,11 +715,7 @@
   .thank-you-page .row-gap {
     padding-top: 18rem;
   }
-
-  .article-one {
-    padding-top: 140px;
-  }
-
+ 
   .bannerbg .menu {
     margin-top: 12%;
   }
