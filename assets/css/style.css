@@ -1394,7 +1394,7 @@
     transition: all 0.3s ease;
   }
 
-  .swipersmain.swiper-vertical .swiper-button-next {
+  .swipersmain .swiper-button-next {
     left: 60px;
     bottom: 360px;
     width: 10px;
@@ -1402,7 +1402,7 @@
     z-index: 99;
   }
 
-  .swipersmain.swiper-vertical .swiper-button-prev {
+  .swipersmain .swiper-button-prev {
     left: 60px;
     top: 360px;
     width: 10px;

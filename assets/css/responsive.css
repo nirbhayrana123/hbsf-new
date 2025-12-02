@@ -672,11 +672,11 @@
     padding-top: 150px;
   }
 
-  .swipersmain.swiper-vertical .swiper-button-next {
+  .swipersmain .swiper-button-next {
     bottom: 340px;
   }
 
-  .swipersmain.swiper-vertical .swiper-button-prev {
+  .swipersmain .swiper-button-prev {
     top: 340px;
   }
 
@@ -2005,28 +2005,42 @@
     transform: rotate(90deg) translatex(20px);
   }
 
-  .swipersmain.swiper-vertical .swiper-button-next {
+  .swipersmain .swiper-button-next {
     left: auto;
-    bottom: 63px;
-    right: 60px;
-    transform: rotate(-90deg);
-  }
-
-  .swipersmain.swiper-vertical .swiper-button-prev {
-    left: 100px;
     top: auto;
-    bottom: 60px;
-    transform: rotate(-90deg);
+    bottom: 55px;
+    right: 60px; 
+  }
+.about-us-section-3 .bottom-padding 
+ {
+    padding-bottom: 0;
+}
+  .swipersmain .swiper-button-prev {
+    left: 65px;
+    top: auto;
+    bottom: 55px; 
 
   }
-
+.customepagition.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal span.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    margin: 0px 10px;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.customepagition.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+.customepagition.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 70px;
+}
   .about-us-section-1 {
     background-image: url('../img/aboutmobilein.jpg');
   }
 
   .about-us-section-3 {
     background-size: 185% 100%;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     margin-top: -45px;
     padding-top: 40px;
   }
@@ -2375,14 +2389,7 @@
     display: none !important;
   }
 
-  .about-us-section-3 .main-image {
-    height: auto;
-    margin: auto;
-    position: relative;
-    left: auto;
-    right: auto;
-    width: 100%;
-  }
+ 
 
   .imgcrav {
     width: 100%;
@@ -2391,10 +2398,9 @@
     margin: 50px 0px;
     margin-bottom: 0;
   }
-
-  .swipersmain {
-   height: 1065px;
-  }
+ .swipersmain {
+    height: 520px; 
+}
     .hovermove {
         height: 480px;
     }
@@ -2604,6 +2610,10 @@ display: none;
     .about-us-nav {
         background-position: bottom 15px center;
     }
+    .dot .year-label.section-title { 
+    left: -90px; 
+}
+
 }
 
 @media (max-width: 767px) {
@@ -3008,10 +3018,13 @@ display: none;
 
 
   .hovermove {
-    height: 388px;
+    height: 485px;
     overflow: hidden;
+    width: 100%;
   }
-
+.imgbginner {
+    width: 100%;
+}
   .about-us-section-3 .heading {
     margin-bottom: 0;
   }
@@ -3070,7 +3083,7 @@ display: none;
   }
 
   .swipersmain {
-    height: 740px;
+    height: 620px;
   }
 
   .text-2.my-3 p {
@@ -3153,7 +3166,7 @@ display: none;
     font-size: 16px;
   }
 
-  .about-us-section-1 .section-title {
+  .dot .year-label.section-title {
     margin-left: 33px;
     margin-top: 25px;
     left: -112px;
@@ -3653,7 +3666,9 @@ display: none;
     padding-top: 160px;
     font-size: 35px;
   }
-
+.container.founding-members {
+    padding-top: 0;
+}
   .sec-1 .description {
     padding-top: 160px;
     font-size: 35px;
@@ -3682,7 +3697,14 @@ display: none;
   }
 
 
-
+.about-us-section-3 .main-image {
+        height: auto;
+        margin: auto;
+        width: 100%;
+    }
+        .swipersmain {
+        height: 728px;
+    }
   .thank-you-page .main-div {
     background-position: top center;
     min-height: 32rem;
@@ -3747,6 +3769,9 @@ display: none;
   .overview-page-2 .second-div .text {
     font-size: 30px;
   }
+.about-us-gallery {
+    padding-bottom: 50px;
+}
 
 }
 
@@ -3754,7 +3779,12 @@ display: none;
   .main {
     padding-top: 100px;
   }
-
+   .hovermove {
+        height: 375px; 
+    }
+.myswiper .swiper-button-next {
+        transform: translateY(-200%);
+    }
   .bannerbg {
     padding-top: 100px;
   }
@@ -4041,7 +4071,12 @@ display: none;
   .bannerbg .gap {
     gap: 7px;
   }
-
+    .swipersmain {
+        height: 600px;
+    }
+       .hovermove {
+        height: 335px;
+    }
   .bannerbg .gap .icons {
     height: 15px;
     width: 15px;
