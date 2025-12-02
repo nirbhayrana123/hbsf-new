@@ -116,7 +116,7 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1em;
     font-size: 43px;
     line-height: 1.3em;
     color: rgb(145, 56, 50);
@@ -1522,17 +1522,7 @@ h5.articlename {
     max-width: 600px;
   }
  
-  .our-partner-1 .input-tag {
-    background-color: transparent;
-    border-radius: 53px;
-    border: 1px solid rgba(145, 56, 50, 1);
-    padding: 13px 30px;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 21px;
-    font-weight: 600;
-    cursor: pointer;
-    outline: none;
-  }
+
 
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
@@ -8100,11 +8090,13 @@ ease;
     background-color: transparent;
     border-radius: 35px;
     border: 1px solid rgba(145, 56, 50, 1);
-    padding: 17px 30px;
+    padding: 10px 30px;
     font-family: "Bodoni Moda 9pt";
-    font-size: 21px;
+    font-size: 15px;
     font-weight: 600;
-  }
+    cursor: pointer;
+    outline: none;
+}
 
   .our-partner-1 .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
