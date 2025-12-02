@@ -926,7 +926,10 @@ button.navbar-toggler {
 }
    .marquee-track-list a.position-relative.abc {
     margin-left: -50px;
-}   
+}  
+.secondimgbg .torow.hovermove::after {
+    left: -50px; 
+} 
 }
 
 
