@@ -99,9 +99,9 @@
     padding-top: 190px;
   }
 
-  .pt0 {
-    padding-top: 0px;
-  }
+.pt0 {
+    padding-top: 0px !important;
+}
 
  h1 {
     color: #913832;
@@ -112,26 +112,26 @@
     line-height: 1.3em;
 }
 
-  h2 {
+h2 {
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
     letter-spacing: 0.1em;
-    font-size: 43px;
+    font-size: 2.67em;
     line-height: 1.3em;
     color: rgb(145, 56, 50);
     font-family: "Bodoni Moda 9pt", serif;
-  }
+}
+
 h3 {
     color: #913832;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
+    font-size: 2.89em;
     font-style: italic;
     font-weight: 400;
     line-height: 1.3em;
 }
-
 
 .pl-contact h3 {
     color: #913832;
@@ -4852,14 +4852,14 @@ h2.common-heading {
     padding: 0.8rem;
   }
 
-  .left-links .publisher {
+.left-links .publisher {
     color: #913832;
     font-style: italic;
     font-family: "Bodoni Moda 9pt Italic";
     font-weight: 700;
-    font-size: 32px;
+    font-size: 1.78em;
     letter-spacing: 0;
-  }
+}
 
   .left-links {
     color: #913832;

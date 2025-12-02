@@ -346,6 +346,17 @@
 }
 /*================================= min-width ==============================================*/
 @media (max-width: 1600px) {
+body { 
+    font-size: 12.5px;
+}
+.bannerbg { 
+    padding-top: 150px; 
+}
+
+.main { 
+    padding-top: 150px; 
+}
+
   .about-us-nav {
     padding-bottom: 5px;
     padding-top: 0px;
@@ -368,9 +379,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
   .our-partner-1 .text {
     line-height: 45px;
 }
-  h2 {
-    font-size: 35px;
-}
+ 
   p.outreach-description {
     font-size: 26px;
     font-weight: 500;
