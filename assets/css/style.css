@@ -4466,27 +4466,27 @@ h5.articlename {
     line-height: 60px;
     text-align: center;
     color: rgb(145, 56, 50);
-    margin-bottom: 60px;
+    margin-bottom: 95px;
     font-style: italic;
 }
 
-  .contents {
-    margin-top: 60px;
+ .contents {
+    margin-top: 90px;
     text-align: center;
-  }
+}
 
-  .button2 {
-    padding: 10px 40px;
+ .button2 {
+    padding: 15px 66px;
     background-color: transparent;
     border: 1px solid #913832;
-    border-radius: 30px;
+    border-radius: 50px;
     text-decoration: none !important;
-    font-size: 18px;
+    font-size: 25px;
     font-family: Noto Sans;
     color: rgb(145, 56, 50);
     transition: 0.9s;
     box-shadow: inset 0px 0px 0px 0px rgb(145, 56, 50);
-  }
+}
 
   .button2:hover {
     color: #fff;
