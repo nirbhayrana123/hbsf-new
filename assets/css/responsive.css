@@ -413,10 +413,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     width: 600px;
   }
 
-  .text-3 h3 {
-    font-size: 40px;
-    line-height: 53px;
-  }
+ 
 
  
   .bannerbg .view-article {
@@ -482,8 +479,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     font-size: 36px;
   }
 
-  .partner-title {
-    font-size: 24px;
+  .partner-title { 
     min-height: 50px;
   }
 
@@ -651,21 +647,14 @@ a.nav-link {
     font-size: 20px;
 }
   .partner-title h5
- {
-    font-size: 22px;
+ { 
     margin-bottom: 41px;
 }
-.partner-description p {
-    font-size: 16px;
-}
+ 
     p.outreach-description {
         font-size: 21px;
     }
-   .text-3 h3 {
-        font-size: 35px;
-        line-height: 1.4em;
-    }
-
+  
  
 
   nav.breadcrumb-nav ol.breadcrumb li a {
@@ -757,8 +746,7 @@ a.nav-link {
     line-height: normal;
   }
 
-  .overview-page-2 .second-div .text-3 {
-    font-size: 40px;
+  .overview-page-2 .second-div .text-3 { 
     line-height: normal;
   }
 
@@ -787,9 +775,7 @@ a.nav-link {
     padding-bottom: 250px;
   }
 
-  .news-narratives-page .name {
-    font-size: 24px;
-  }
+  
 
   .news-narratives-page .description {
     font-size: 18px;
@@ -851,9 +837,7 @@ a.nav-link {
     margin-top: 12%;
   }
 
-  .contact-us .address-div {
-    left: -85px;
-  }
+ 
   h3 {
     font-size: 2.2em;
 }
@@ -963,9 +947,7 @@ button.navbar-toggler {
     margin-left: -70px;
   }
 
-  .contact-us .address-div {
-    left: -40px;
-  }
+ 
 
   .contact-us .address {
     margin-right: 0px;
@@ -988,8 +970,7 @@ button.navbar-toggler {
     line-height: normal;
   }
 
-  .overview-page-2 .second-div .text-3 {
-    font-size: 40px;
+  .overview-page-2 .second-div .text-3 { 
     line-height: normal;
   }
 
@@ -1082,8 +1063,7 @@ button.navbar-toggler {
     font-size: 36px;
   }
 
-  .partner-title {
-    font-size: 24px;
+  .partner-title { 
     min-height: 50px;
   }
 
@@ -1216,12 +1196,10 @@ button.navbar-toggler {
     line-height: 1.5;
   }
 
-  .text-3 h2 {
-    font-size: 30px;
+  .text-3 h2 { 
     line-height: 1.5;
   }
-
-  /****************************home style******************************/
+ 
   .content.sec-1-content.stripbottom.red {
     padding-top: 16px;
     padding-left: 82px;
@@ -1388,8 +1366,7 @@ button.navbar-toggler {
     font-size: 36px;
   }
 
-  .partner-title {
-    font-size: 24px;
+  .partner-title { 
     min-height: 50px;
   }
 
@@ -1448,8 +1425,7 @@ button.navbar-toggler {
     font-size: 36px;
   }
 
-  .partner-title {
-    font-size: 24px;
+  .partner-title { 
     min-height: 50px;
   }
 
@@ -2676,9 +2652,7 @@ nav.breadcrumb-nav {
     font-size: 25px;
   }
 
-  .text-3 {
-    font-size: 18px;
-  }
+ 
 
   .error-content {
     margin-bottom: 0rem;
@@ -2939,8 +2913,7 @@ nav.breadcrumb-nav {
     line-height: 1.5;
   }
 
-  .text-3 h2 {
-    font-size: 24px;
+  .text-3 h2 { 
     line-height: 1.5;
   }
 
@@ -2964,8 +2937,7 @@ nav.breadcrumb-nav {
 
   }
 
-  .text-3 h2 {
-    font-size: 22px;
+  .text-3 h2 { 
     margin-bottom: 20px;
   }
 
@@ -3121,9 +3093,7 @@ nav.breadcrumb-nav {
   font-size: 14px;
 }
 
-.news-narratives-page .name {
-  font-size: 22px;
-}
+ 
 
 .news-narratives-page .description {
   font-size: 14px;
@@ -3538,8 +3508,7 @@ button.navbar-toggler {
     height: 130px;
   }
 
-  .partner-title {
-    font-size: 22px;
+  .partner-title { 
     min-height: auto;
   }
 
@@ -3658,21 +3627,11 @@ button.navbar-toggler {
   .overview-page-2 .second-div .text {
     font-size: 30px;
   }
-
-
-
-  .overview-page-2 .second-div .text-3 {
-    font-size: 30px;
-  }
  
-
   .overview-page-2 .second-div .text {
     font-size: 30px;
   }
-
-  .overview-page-2 .second-div .text-3 {
-    font-size: 30px;
-  }
+ 
 }
 @media (max-width: 524px) {
       .main

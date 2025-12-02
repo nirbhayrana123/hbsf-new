@@ -1849,13 +1849,13 @@
     margin-bottom: 20px;
   }
 
-  .partner-title h5 {
-    font-size: 27px;
+.partner-title h5 {
+    font-size: 2em;
     font-weight: 600;
     color: #913832;
     margin-bottom: 48px;
     font-family: "Bodoni Moda 9pt";
-  }
+}
 
   .partner-title {
     display: flex;
@@ -1910,19 +1910,19 @@
     line-height: 50px;
   }
 
-  .partner-description p {
+.partner-description p {
     font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
+    font-size: 1.2em;
     font-style: italic;
     font-weight: 400;
     color: #913832;
     line-height: 1.4;
     margin-bottom: 0px;
-  }
+}
 
-  p.outreach-description {
+p.outreach-description {
     font-family: "Bodoni Moda 9pt";
-    font-size: 25px;
+    font-size: 1.8em;
     font-style: italic;
     font-weight: 600;
     color: #913832;
@@ -1930,7 +1930,7 @@
     padding-bottom: 60px;
     text-align: center;
     margin: 0px auto;
-  }
+}
 
   .dotsmap {
     position: relative;
@@ -2113,14 +2113,7 @@
     font-weight: 400;
   }
 
-  .news-narratives-page .name {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+  
 
   .news-narratives-page .description {
     color: #913832;
@@ -2446,15 +2439,15 @@
     padding-bottom: 200px;
   }
 
-  .thankyoucontent h4 {
+.thankyoucontent h4 {
     color: #a93b3b;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
-    font-size: 35px;
+    font-size: 2.3em;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
-  }
+}
 
   .imgthankyu {
     position: relative;
@@ -2880,28 +2873,33 @@
 
 .collabrations-box {
     position: relative;
-    overflow: hidden;
     border-bottom: 3px solid #7224256e;
     padding-bottom: 15px;
     cursor: pointer;
     transition: 1s;
+    min-height: 275px; ;
 }
 
 .our-collabrations-box .grid-basic.towcol {
     width: 75%;
     margin: 0 auto;
 }
+
 .our-collabrations-box .grid-basic p {
     font-size: 1.2em;
     position: absolute;
-    bottom: -100%;
-    transition: 1s;
+    bottom: -52%;
+   transition: all 0.8s ease;
+    height: 0;
+    overflow: hidden;
+    opacity: 0%;
 }
 
- .collabrations-box:hover p {
+.collabrations-box:hover p {
     bottom: 0%;
+    height: auto;
+    opacity: 100%;
 }
- 
 .collabrations-box:hover .name, .collabrations-box:hover .colectionimg {
     opacity: 0;
     margin-top: -50px;
@@ -3833,14 +3831,7 @@
     font-weight: 400;
   }
 
-  .news-narratives-page .name {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
+ 
 
   .news-narratives-page .description {
     color: #913832;
@@ -3860,13 +3851,7 @@
     cursor: pointer;
   }
 
-  .news-narratives-page .name-date {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 500;
-  }
+ 
 
   .news-narratives-page .input-tag {
     max-width: 484px !important;
@@ -4704,17 +4689,7 @@
     height: auto;
     object-fit: contain;
   }
-
-
-  /* 404 */
  
-
-  .text-3 {
-    font-size: 23px;
-  }
-
-  
-
   .bottom-img-s {
     display: none;
   }
@@ -8265,7 +8240,7 @@ height: 14em;
   .news-narratives-page .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 32px;
+    font-size: 1.78em;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -8549,14 +8524,7 @@ height: 14em;
 
 
   .text-3 h3 {
-    padding-bottom: 60px;
-    color: #913832;
-    text-align: center;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 50px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
+    padding-bottom: 60px; 
   }
 
 
