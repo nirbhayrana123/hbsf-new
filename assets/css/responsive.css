@@ -362,7 +362,7 @@ body {
     padding-bottom: 170px;
 }
 .description.container-fluid.pb-0 {
-    bottom: 12%;
+    bottom: 17%;
 }
 .bannerbg { 
     padding-top: 150px; 
@@ -523,9 +523,9 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     max-width: 88.5%;
   }
 
-  .sec-1-content h1 {
-    font-size: 55px;
-  }
+    .sec-1-content h1 {
+        font-size: 60px;
+    }
   .about-us-nav .nav-menu {
     max-width: 280px; 
 }
@@ -549,12 +549,21 @@ a.nav-link {
 .navbar-toggler .menuicon span.linemenu { 
     width: 23px; 
 }
+.post-slide { 
+    height: 528px;
+}
+.sec-1 .logo {
+    height: 15em; 
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+.sec-1 { 
+    max-height: 740px; 
+}
+
  
 }
 @media (max-width: 1400px) {
-<<<<<<< HEAD
- 
-=======
   .the-rotary-foundation .information-1 {
     font-size: 28px;
   }
@@ -575,7 +584,6 @@ a.nav-link {
     .nav-item .background .list-text {
     font-size: 12px !important;
 }
->>>>>>> 5ff3059620ca4d771e328106cd0f587f8b881afe
   .h3-gap h3 {
     font-size: 31px;
 }
