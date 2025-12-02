@@ -745,10 +745,7 @@
     height: 450px;
   }
 
-
-  .thankyoucontent {
-    transform: translateY(-20%);
-  }
+ 
 
   .thank-you-page .row-gap {
     padding-top: 300px;
@@ -1377,10 +1374,9 @@
   .about-us-nav {
     padding-bottom: 5px;
   }
-
-  .thank-you-page {
-    padding-top: 9rem;
-  }
+ .thankyoucontent {
+        transform: translateY(-50%);
+    }
 
 
   .yt-menu {
@@ -1841,11 +1837,7 @@
     margin-left: 0px;
   }
 
-
-
-  section.thank-you-page {
-    padding-top: 5rem;
-  }
+ 
 
   .thankyoucontent {
     padding-right: 130px;
@@ -3710,8 +3702,7 @@
     }
   .thank-you-page .main-div {
     background-position: top center;
-    min-height: 32rem;
-    /* padding-top: 12rem; */
+    min-height: 32rem; 
   }
 
   .thank-you-page .main-div .text {
@@ -3775,7 +3766,9 @@
 .about-us-gallery {
     padding-bottom: 50px;
 }
-
+.imgthankyu { 
+    padding-bottom: 20px;
+}
 }
 
 @media (max-width: 524px) {
@@ -4068,6 +4061,9 @@
   h1 {
     font-size: 3.5em;
   }
+    .thankyoucontent h4 { 
+    font-size: 1.5em; 
+}
 }
 
 @media (max-width: 400px) {
@@ -4125,6 +4121,10 @@
     width: 2px;
     height: 18px;
   }
+
+    section.thank-you-page { 
+        padding-bottom: 0;
+    }
 }
 
 @media (max-width: 374px) {
