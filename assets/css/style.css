@@ -2903,15 +2903,18 @@
   .collabrations-box {
     position: relative;
     overflow: hidden;
-    border-bottom: 3px solid #722425;
+    border-bottom: 3px solid #7224256e;
     min-height: 290px;
     cursor: pointer;
-     transition: 1s;
-  }
+    transition: 1s;
+}
 
-
+.our-collabrations-box .grid-basic.towcol {
+    width: 64%;
+    margin: 0 auto;
+}
 .our-collabrations-box .grid-basic p {
-    font-size: 1em;
+    font-size: 1.2em;
     position: absolute;
     bottom: -100%;
     transition: 1s;
@@ -2926,7 +2929,7 @@
     margin-top: -50px;
 }
 .our-collabrations-box {
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
   .colectionimg {
