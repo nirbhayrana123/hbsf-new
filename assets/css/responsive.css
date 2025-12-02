@@ -664,11 +664,11 @@
     padding-top: 150px;
   }
 
-  .swipersmain.swiper-vertical .swiper-button-next {
+  .swipersmain .swiper-button-next {
     bottom: 340px;
   }
 
-  .swipersmain.swiper-vertical .swiper-button-prev {
+  .swipersmain .swiper-button-prev {
     top: 340px;
   }
 
@@ -745,10 +745,7 @@
     height: 450px;
   }
 
-
-  .thankyoucontent {
-    transform: translateY(-20%);
-  }
+ 
 
   .thank-you-page .row-gap {
     padding-top: 300px;
@@ -1377,10 +1374,9 @@
   .about-us-nav {
     padding-bottom: 5px;
   }
-
-  .thank-you-page {
-    padding-top: 9rem;
-  }
+ .thankyoucontent {
+        transform: translateY(-50%);
+    }
 
 
   .yt-menu {
@@ -1514,9 +1510,12 @@
     font-size: 22px;
   }
 
-  .dl-4 {
-    margin-top: 1.8rem;
-  }
+      .dl-4 {
+        margin-top: 0rem;
+    }
+    .partner-description p {
+    font-size: 1em;
+}
 
 }
 
@@ -1532,6 +1531,9 @@
     justify-content: center;
     gap: 15px;
   }
+  .text p {
+        width: auto;
+    }
 
   .main {
     padding-top: 140px;
@@ -1841,11 +1843,7 @@
     margin-left: 0px;
   }
 
-
-
-  section.thank-you-page {
-    padding-top: 5rem;
-  }
+ 
 
   .thankyoucontent {
     padding-right: 130px;
@@ -1999,28 +1997,42 @@
     transform: rotate(90deg) translatex(20px);
   }
 
-  .swipersmain.swiper-vertical .swiper-button-next {
+  .swipersmain .swiper-button-next {
     left: auto;
-    bottom: 63px;
-    right: 60px;
-    transform: rotate(-90deg);
-  }
-
-  .swipersmain.swiper-vertical .swiper-button-prev {
-    left: 100px;
     top: auto;
-    bottom: 60px;
-    transform: rotate(-90deg);
+    bottom: 55px;
+    right: 60px; 
+  }
+.about-us-section-3 .bottom-padding 
+ {
+    padding-bottom: 0;
+}
+  .swipersmain .swiper-button-prev {
+    left: 65px;
+    top: auto;
+    bottom: 55px; 
 
   }
-
+.customepagition.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal span.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    margin: 0px 10px;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.customepagition.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+.customepagition.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 70px;
+}
   .about-us-section-1 {
     background-image: url('../img/aboutmobilein.jpg');
   }
 
   .about-us-section-3 {
     background-size: 185% 100%;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     margin-top: -45px;
     padding-top: 40px;
   }
@@ -2373,14 +2385,7 @@
     display: none !important;
   }
 
-  .about-us-section-3 .main-image {
-    height: auto;
-    margin: auto;
-    position: relative;
-    left: auto;
-    right: auto;
-    width: 100%;
-  }
+ 
 
   .imgcrav {
     width: 100%;
@@ -2389,35 +2394,12 @@
     margin: 50px 0px;
     margin-bottom: 0;
   }
-
-  .swipersmain {
-    height: 1065px;
-  }
-
-  .hovermove {
-    height: 480px;
-  }
-
-  .secondimgbg .torow.hovermove::before {
-    display: none;
-  }
-
-  .secondimgbg .torow.hovermove::after,
-  .secondimgbg .torow.hovermove::before {
-    display: none;
-  }
-
-  .secondimgbg .torow.hovermove::after {
-    display: none;
-  }
-
-  .imgbginner::after {
-    display: none;
-  }
-
-  .imgbginner::before {
-    display: none;
-  }
+ .swipersmain {
+    height: 520px; 
+}
+    .hovermove {
+        height: 480px;
+    }
 
   .border-b::after {
     width: 75px;
@@ -2603,17 +2585,33 @@
 
   #fullpage header.about-us-nav.active {
     display: block;
-  }
+}
+    .about-us-nav {
+        background-position: bottom 15px center;
+    }
+    .dot .year-label.section-title { 
+    left: -90px; 
+}
 
-  .about-us-nav {
-    background-position: bottom 15px center;
-  }
 }
 
 @media (max-width: 767px) {
-  .about-us-section-1 {
-    padding-bottom: 0px;
-  }
+    .about-us-section-1 {
+        padding-bottom: 0px;
+    }
+    .text-center {
+    margin-top: 25px !important;
+}
+.h3-gap {
+    margin-top: 40px;
+}
+.cirile {
+        top: 25px;
+        right: 20px;
+    }
+        .img-text h5 {
+        font-size: 18px;
+    }
 
   .grid-basic,
   .grid-basic.threecol,
@@ -3024,10 +3022,13 @@
 
 
   .hovermove {
-    height: 388px;
+    height: 485px;
     overflow: hidden;
+    width: 100%;
   }
-
+.imgbginner {
+    width: 100%;
+}
   .about-us-section-3 .heading {
     margin-bottom: 0;
   }
@@ -3049,10 +3050,23 @@
   }
 
 
-  .text p {
-    font-size: 24px;
-    line-height: 1.5;
-  }
+      .text p {
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+        .partner-title h5 {
+        margin-bottom: 15px;
+    }
+    .partner-description {
+        font-size: 16px;
+        min-height: auto;
+        padding-bottom: 0;
+    }
+        .partners-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
 
   .text-3 h2 {
     line-height: 1.5;
@@ -3068,10 +3082,19 @@
   }
 
   p.outreach-description {
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 30px;
 
   }
+  .sdg-item img {
+    width: 85%;
+}
+    .sdg-grid {
+        gap: 18px;
+    }
+    .divider-line {
+    width: 40%;
+}
 
   .text-3 h2 {
     margin-bottom: 20px;
@@ -3086,7 +3109,7 @@
   }
 
   .swipersmain {
-    height: 740px;
+    height: 620px;
   }
 
   .text-2.my-3 p {
@@ -3169,7 +3192,7 @@
     font-size: 16px;
   }
 
-  .about-us-section-1 .section-title {
+  .dot .year-label.section-title {
     margin-left: 33px;
     margin-top: 25px;
     left: -112px;
@@ -3503,6 +3526,13 @@
     margin-bottom: 0px;
 
   }
+  .partner-description p {
+    margin-bottom: 13px;
+}
+.text-3 h3 {
+    padding-bottom: 20px;
+    font-size: 16px;
+}
 
 
 
@@ -3648,7 +3678,7 @@
 
   .partners-grid {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 15px;
   }
 
   .main-heading {
@@ -3679,7 +3709,9 @@
     padding-top: 160px;
     font-size: 35px;
   }
-
+.container.founding-members {
+    padding-top: 0;
+}
   .sec-1 .description {
     padding-top: 160px;
     font-size: 35px;
@@ -3708,11 +3740,17 @@
   }
 
 
-
+.about-us-section-3 .main-image {
+        height: auto;
+        margin: auto;
+        width: 100%;
+    }
+        .swipersmain {
+        height: 728px;
+    }
   .thank-you-page .main-div {
     background-position: top center;
-    min-height: 32rem;
-    /* padding-top: 12rem; */
+    min-height: 32rem; 
   }
 
   .thank-you-page .main-div .text {
@@ -3773,14 +3811,24 @@
   .overview-page-2 .second-div .text {
     font-size: 30px;
   }
-
+.about-us-gallery {
+    padding-bottom: 50px;
+}
+.imgthankyu { 
+    padding-bottom: 20px;
+}
 }
 
 @media (max-width: 524px) {
   .main {
     padding-top: 100px;
   }
-
+   .hovermove {
+        height: 375px; 
+    }
+.myswiper .swiper-button-next {
+        transform: translateY(-200%);
+    }
   .bannerbg {
     padding-top: 100px;
   }
@@ -4061,13 +4109,21 @@
   h1 {
     font-size: 3.5em;
   }
+    .thankyoucontent h4 { 
+    font-size: 1.5em; 
+}
 }
 
 @media (max-width: 400px) {
   .bannerbg .gap {
     gap: 7px;
   }
-
+    .swipersmain {
+        height: 600px;
+    }
+       .hovermove {
+        height: 335px;
+    }
   .bannerbg .gap .icons {
     height: 15px;
     width: 15px;
@@ -4113,6 +4169,10 @@
     width: 2px;
     height: 18px;
   }
+
+    section.thank-you-page { 
+        padding-bottom: 0;
+    }
 }
 
 @media (max-width: 374px) {
