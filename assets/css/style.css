@@ -2222,14 +2222,14 @@ p.outreach-description {
     transition: 1s;
 }
 
-  .bannerbg .date {
+ .bannerbg .date {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
+    font-size: 1.2em;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
-  }
+}
 
   .policy-contents h5 {
     color: #913832;
@@ -2249,12 +2249,17 @@ p.outreach-description {
     font-weight: 400;
   }
 
-
+span.v-divider {
+    background: #913832;
+    width: 4px;
+    height: 36px;
+    margin-left: 6px;
+}
   span.share-text {
     color: #913832;
     text-align: right;
     font-family: "Bodoni Moda 9pt";
-    font-size: 18px;
+    font-size: 1em;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
@@ -2268,27 +2273,8 @@ p.outreach-description {
     font-family: "Bodoni Moda 9pt";
     font-size: 34px;
     font-weight: 700;
-  }
-
-  .bannerbg .back {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 26px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-    cursor: pointer;
-    border-left: 2px solid #913832;
-    text-decoration: none;
-  }
-
-  .bannerbg .back .text {
-    color: #913832;
-    padding-left: 10px;
-    text-decoration: none;
-    text-decoration-color: #f0e6da;
-  }
-
+  } 
+ 
   .bannerbg .iframe-tag {
     padding: 0px;
     max-width: 650px;
@@ -3698,13 +3684,7 @@ p.outreach-description {
     height: 30px;
     width: 30px;
   }
-
-
-  .bannerbg .back .text {
-    color: #913832;
-    padding-left: 10px;
-  }
-
+ 
   .bannerbg .iframe-tag {
     padding: 0px;
     max-width: 650px;
@@ -8274,7 +8254,9 @@ background-image: url(../img/vertycalams.png);
     color: white;
     cursor: pointer;
   }
-
+.right-social {
+    gap: 10px;
+}
  
   .bannerbg .view-article {
     color: #913832;
@@ -8282,22 +8264,7 @@ background-image: url(../img/vertycalams.png);
     font-size: 34px;
     font-weight: 700;
   }
-
-  .bannerbg .back {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 26px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-    cursor: pointer;
-  }
-
-  .bannerbg .back .text {
-    color: #913832;
-    padding-left: 10px;
-  }
-
+ 
   .bannerbg .iframe-tag {
     padding: 0px;
     max-width: 650px;
