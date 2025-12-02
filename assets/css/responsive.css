@@ -555,6 +555,9 @@ a.nav-link {
 .navbar-toggler .menuicon span.linemenu { 
     width: 23px; 
 }
+.post-slide { 
+    height: 528px;
+}
  
 }
 @media (max-width: 1400px) {

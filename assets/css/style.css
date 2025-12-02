@@ -3727,7 +3727,7 @@ h5.articlename {
     display: flex;
     justify-content: space-between;
     gap: 0;
-    height: 530px;
+    height: 626px;
   }
 
 
@@ -4336,7 +4336,7 @@ h5.articlename {
   }
 
  .sec-1-content {
-    max-width: 1040px;
+    max-width: 1030px;
     margin-top: 10%;
     text-align: center;
 }
@@ -7150,9 +7150,9 @@ ease;
   
 
   .sec-1 .logo {
-    height: 15em;
+height: 14em;
     width: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 1.7rem;
   }
 
