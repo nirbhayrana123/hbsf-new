@@ -352,8 +352,17 @@ body {
 .sec-1-content {
     max-width: 773px;
 }
+.sec-5 {
+    padding-top: 0px;
+}
+.button2 {
+    padding: 10px 50px;
+}
+.sec-4 {
+    padding-bottom: 170px;
+}
 .description.container-fluid.pb-0 {
-    bottom: 12%;
+    bottom: 14%;
 }
 .bannerbg { 
     padding-top: 150px; 
@@ -371,6 +380,17 @@ body {
     padding-top: 161px;
 }
  
+
+.footer-logo {
+    width: 250px;
+}
+
+
+
+
+
+
+
 .policy-contents h5 {
     line-height: 1em;
 }
@@ -398,10 +418,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     line-height: 53px;
   }
 
-  .bannerbg .description .text {
-    font-size: 25px;
-  }
-
+ 
   .bannerbg .view-article {
     font-size: 25px;
   }
@@ -430,6 +447,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     font-size: 30px;
   }
 
+ 
   .about-us-section-2 .text {
     font-size: 30px;
     line-height: 1.4; 
@@ -487,9 +505,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     height: 2px;
   }
 
-  .sec-1 {
-    background-position: top -30px center;
-  }
+ 
 
   .sec-1-content {
     margin-top: 0;
@@ -521,9 +537,9 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     max-width: 88.5%;
   }
 
-  .sec-1-content h1 {
-    font-size: 55px;
-  }
+    .sec-1-content h1 {
+        font-size: 60px;
+    }
   .about-us-nav .nav-menu {
     max-width: 280px; 
 }
@@ -546,6 +562,23 @@ a.nav-link {
 }
 .navbar-toggler .menuicon span.linemenu { 
     width: 23px; 
+}
+.post-slide { 
+    height: 528px;
+}
+.sec-1 .logo {
+    height: 15em; 
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+.sec-1 { 
+    max-height: 740px; 
+}
+.description .border-b::after {
+    width: 90px;
+    height: 3px;
+    margin: 0 auto;
+    bottom: -20px;
 }
  
 }
@@ -574,6 +607,21 @@ a.nav-link {
     top: 340px; 
 }
 
+       .sec-1-content h1 {
+        font-size: 50px;
+    }
+    .button2 {
+    padding: 8px 40px;
+    font-size: 1.2em;
+   
+}
+.contents p {
+    margin-bottom: 65px;
+}
+  
+    .nav-item .background .list-text {
+    font-size: 12px !important;
+}
   .h3-gap h3 {
     font-size: 31px;
 }
@@ -588,6 +636,9 @@ a.nav-link {
     }
 .our-partner-1 .input-tag {
     font-size: 15px;
+}
+.contents p {
+    line-height: 44px;
 }
 .our-partner-1 .text-2 {
     font-size: 23px;
@@ -634,15 +685,8 @@ a.nav-link {
   .post-slide {
     height: 450px;
   }
-
-  .the-rotary-foundation .information-2 {
-    font-size: 20px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 22px;
-  }
-
+ 
+ 
   .thankyoucontent {
     transform: translateY(-20%);
   }
@@ -760,7 +804,7 @@ a.nav-link {
   }
 
   .sec-1 .logo {
-    height: 9rem;
+    height: 10rem;
     margin-top: 20px;
   }
 
@@ -768,10 +812,9 @@ a.nav-link {
     padding-right: 20px;
   }
 
-  .sec-1 .nav-link {
-    font-size: 20px;
-  }
-
+    .sec-1 .nav-link {
+        font-size: 17px;
+    }
 
 
   .sec-1 .description {
@@ -854,7 +897,19 @@ button.navbar-toggler {
 .logoto2 {
     height: 86px; 
 }
-
+#fullpage .nav-item .background .list-text { 
+    font-size: 11px !important; 
+}
+    .sec-1 {
+        max-height: 610px;
+    }
+    .sec-1-content {
+        max-width: 686px;
+    }
+        .description.container-fluid.pb-0 {
+        bottom: 14%;
+    }
+      
 }
 
 
@@ -930,18 +985,13 @@ button.navbar-toggler {
     gap: 40px;
   }
 
-  .bannerbg .description .text {
-    font-size: 25px;
-  }
-
+  
   .news-narratives-page .heading-for-otherpage {
     font-size: 20px;
     letter-spacing: normal;
   }
 
-  .the-rotary-foundation .information-1 {
-    font-size: 34px;
-  }
+ 
 
   .our-partner-1 .heading-for-otherpage {
     font-size: 16px;
@@ -978,9 +1028,7 @@ button.navbar-toggler {
     font-size: 25px;
   }
 
-  .para {
-    font-size: 1.2rem;
-  }
+ 
 
   .article-link {
     font-size: 28px;
@@ -1087,9 +1135,7 @@ button.navbar-toggler {
     padding-bottom: 100px;
   }
 
-  .bannerbg .description .text {
-    font-size: 25px;
-  }
+ 
 
   .thank-you-page .main-div .text {
     margin-top: -100px;
@@ -1206,11 +1252,7 @@ button.navbar-toggler {
     font-size: 20px;
     letter-spacing: normal;
   }
-
-  .the-rotary-foundation .information-1 {
-    font-size: 34px;
-  }
-
+ 
   .our-partner-1 .heading-for-otherpage {
     font-size: 16px;
     letter-spacing: normal;
@@ -1487,18 +1529,8 @@ button.navbar-toggler {
   h1 {
     font-size: 45px;
   }
-
-  .the-rotary-foundation .information-1 {
-    font-size: 30px;
-  }
-
-  .the-rotary-foundation .information-2 {
-    font-size: 30px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 30px;
-  }
+ 
+  
 
   .our-partner-1 .heading-for-otherpage {
     margin-top: 0px;
@@ -1717,10 +1749,7 @@ button.navbar-toggler {
     margin-top: unset;
     height: 119px;
   }
-
-  .the-rotary-foundation .information-1 {
-    font-size: 30px;
-  }
+ 
 
   .sdg-grid .sdg-item:first-child {
     margin-left: 0px;
@@ -1793,13 +1822,8 @@ button.navbar-toggler {
     margin-left: 50px;
   }
 
-  .the-rotary-foundation .information-2 {
-    font-size: 30px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 30px;
-  }
+ 
+ 
 
   .about-us-section-1 {
     padding-bottom: 0px;
@@ -2235,18 +2259,9 @@ button.navbar-toggler {
     display: none;
   }
 
-  .the-rotary-foundation .information-1 {
-    font-size: 30px;
-  }
+ 
 
-  .the-rotary-foundation .information-2 {
-    font-size: 30px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 30px;
-  }
-
+ 
   .our-partner-1 .heading-for-otherpage {
     margin-top: 0px;
   }
@@ -2684,9 +2699,7 @@ nav.breadcrumb-nav {
     font-size: 39px;
   }
 
-  .bannerbg .description .text {
-    font-size: 20px;
-  }
+ 
 
   .our-partner-1 .text {
     font-size: 33px;
@@ -2934,10 +2947,7 @@ nav.breadcrumb-nav {
     font-size: 39px;
   }
 
-  .bannerbg .description .text {
-    font-size: 20px;
-  }
-
+ 
   p.outreach-description {
     font-size: 20px;
     padding-bottom: 30px;
@@ -3590,11 +3600,7 @@ button.navbar-toggler {
   .right-social img {
     height: 18px;
   }
-
-  .para {
-    font-size: 1rem;
-    padding: 0;
-  }
+ 
 
   .article-one .share-text {
     font-size: 14px;
@@ -3661,21 +3667,12 @@ button.navbar-toggler {
         padding-top: 100px;
     }
 
-  .the-rotary-foundation .information-1 {
-    font-size: 22px;
-  }
-
+ 
   .sec-4 .common-heading {
     margin-top: 0rem;
   }
-
-  .the-rotary-foundation .information-2 {
-    font-size: 22px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 22px;
-  }
+ 
+ 
 
   .our-partner-1 .text {
     font-size: 25px;
@@ -3718,19 +3715,7 @@ button.navbar-toggler {
 
   h1 {
     font-size: 31px;
-  }
-
-  .the-rotary-foundation .information-1 {
-    font-size: 26px;
-  }
-
-  .the-rotary-foundation .information-2 {
-    font-size: 26px;
-  }
-
-  .the-rotary-foundation .information-3 {
-    font-size: 26px;
-  }
+  } 
 
   .our-partner-1 .text {
     font-size: 25px;
@@ -3837,12 +3822,7 @@ button.navbar-toggler {
     font-size: 20px;
   }
 
-
-  .the-rotary-foundation .information-1,
-  .the-rotary-foundation .information-2,
-  .the-rotary-foundation .information-3 {
-    font-size: 20px;
-  }
+ 
 
   .sec-1 .m-logo {
     display: inline-block;
