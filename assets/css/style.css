@@ -711,11 +711,10 @@
     height: 400px;
     display: flex;
     align-items: center;
-    overflow: hidden;
   }
 
   .flesing {
-    max-width: 600px;
+    max-width: 850px;
   }
 
   .conentsliv {
@@ -882,12 +881,12 @@
   }
 
   .dot .year-label.section-title {
-    opacity: 0;
-    left: -80px;
+   opacity: 0;
+    left: -130px;
     position: absolute;
     top: -6px;
-    width: 75px;
-    font-size: 11px;
+    width: 130px;
+    font-size: 13px;
   }
 
   .nav-tabs {
@@ -1080,26 +1079,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-
-  .about-us-section-1 .heading {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-  .about-us-section-1 .description {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%;
-  }
-
+  } 
+ 
   .about-us-section-1 .content .line-dot .dot {
     --size: 0.5rem;
     width: var(--size);
@@ -1322,7 +1303,7 @@
   }
 
   .about-us-section-3 .top-padding {
-    padding-top: 150px;
+    padding-top: 200px;
   }
 
   .about-us-section-3 .bottom-padding {
@@ -1407,16 +1388,16 @@
   }
 
   .swipersmain.swiper-vertical .swiper-button-next {
-    left: 105px;
-    bottom: 329px;
+    left: 60px;
+    bottom: 360px;
     width: 10px;
     color: #fff;
     z-index: 99;
   }
 
   .swipersmain.swiper-vertical .swiper-button-prev {
-    left: 105px;
-    top: 340px;
+    left: 60px;
+    top: 360px;
     width: 10px;
     color: #fff;
     opacity: 1;
@@ -1433,7 +1414,7 @@
 
   .about-us-section-3 .main-image {
     width: auto;
-    height: 470px;
+    height: 580px;
     opacity: 0;
     transition: 0.2s all ease;
   }
@@ -1442,10 +1423,6 @@
     opacity: 1;
   }
 
-  .swipersmain {
-    height: 570px;
-    overflow: hidden;
-  }
 
   .imgcrav {
     margin-top: -128px;
@@ -2904,15 +2881,18 @@
   .collabrations-box {
     position: relative;
     overflow: hidden;
-    border-bottom: 3px solid #722425;
+    border-bottom: 3px solid #7224256e;
     min-height: 290px;
     cursor: pointer;
-     transition: 1s;
-  }
+    transition: 1s;
+}
 
-
+.our-collabrations-box .grid-basic.towcol {
+    width: 64%;
+    margin: 0 auto;
+}
 .our-collabrations-box .grid-basic p {
-    font-size: 1em;
+    font-size: 1.2em;
     position: absolute;
     bottom: -100%;
     transition: 1s;
@@ -2927,7 +2907,7 @@
     margin-top: -50px;
 }
 .our-collabrations-box {
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
   .colectionimg {
@@ -3614,12 +3594,9 @@
     background-clip: border-box;
     background-position: bottom center;
     padding-bottom: 70px;
-    min-height: 800px;
+    min-height: 860px;
   }
 
-  .about-us-section-1 .scrolling-div {
-    max-height: 350px;
-  }
 
   .about-us-section-1 .main-sec {
     display: flex;
@@ -3639,23 +3616,7 @@
     align-items: center;
     flex-direction: column;
   }
-
-  .about-us-section-1 .heading {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 700;
-  }
-
-  .about-us-section-1 .description {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%;
-  }
+ 
 
   .about-us-section-1 .content .line-dot .dot {
     --size: 0.5rem;
@@ -7628,16 +7589,14 @@ height: 14em;
     transition: ease-in-out 1s;
   }
 
-  .about-us-section-1 .scrolling-div {
-    max-height: 350px;
-  }
-
   .about-us-section-1 .main-sec {
     display: flex;
     align-items: flex-start;
     gap: 30px;
   }
-
+.container.founding-members {
+    padding-top: 70px;
+}
   .about-us-section-1 .section-title {
     position: sticky;
     top: 20px;
@@ -7648,7 +7607,7 @@ height: 14em;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
-    width: 117px;
+    width: 180px;
   }
 
   .about-us-section-1 .content {
@@ -7670,12 +7629,13 @@ height: 14em;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 20px;
   }
 
   .about-us-section-1 .description {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 17px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
@@ -7768,7 +7728,7 @@ height: 14em;
   }
 
   .about-us-section-2 {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     background-image: url(../img/about-us-sec-2-bg.jpg);
     background-position: top;
     background-repeat: no-repeat;
@@ -7778,7 +7738,7 @@ height: 14em;
 
   .about-us-section-2 .text {
     font-family: "Bodoni Moda 9pt", serif;
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 400;
     line-height: normal;
     color: rgb(145, 56, 50);
@@ -7788,10 +7748,6 @@ height: 14em;
   .about-us-section-3 .images {
     width: -webkit-fill-available;
     height: 100px;
-  }
-
-  .about-us-section-3 .top-padding {
-    padding-top: 150px;
   }
 
   .about-us-section-3 .scrolling-div {
@@ -7870,23 +7826,7 @@ height: 14em;
     transform: scale(1.2);
     transition: all 0.3s ease;
   }
-
-  .swipersmain.swiper-vertical .swiper-button-next {
-    left: 58px;
-    bottom: 260px;
-    width: 14px;
-    color: #fff;
-    z-index: 99;
-  }
-
-  .swipersmain.swiper-vertical .swiper-button-prev {
-    left: 58px;
-    top: 260px;
-    width: 14px;
-    color: #fff;
-  }
-
-
+  
   .about-us-section-3 .menu .text {
     color: #913832;
     text-align: center;
@@ -7897,7 +7837,7 @@ height: 14em;
   }
 
   .swipersmain {
-    height: 400px;
+    height: 590px;
     overflow: hidden;
   }
 
@@ -7925,7 +7865,8 @@ height: 14em;
     background-position: top center;
     background-clip: border-box;
     background-repeat: no-repeat;
-    padding: 70px 0px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 
   }
 
