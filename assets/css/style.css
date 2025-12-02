@@ -766,7 +766,7 @@
 
   .myswiper .swiper-button-next {
     left: 182px;
-    bottom: 10px !important;
+    bottom: 78px !important;
     top: auto;
     transform: translateY(50%);
     background: #f2e6da;
@@ -3566,7 +3566,7 @@ p.outreach-description {
     background-clip: border-box;
     background-position: bottom center;
     padding-bottom: 70px;
-    min-height: 930px;
+    min-height:1000px;
   }
 
 
