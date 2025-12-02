@@ -583,7 +583,21 @@ a.nav-link {
  .showactive .navbar-toggler .menuicon span.linemenu.lineone {
     transform: rotate(45deg) translate(6px, 5px);
   }
- 
+  .marquee-track-list a.position-relative.abc {
+    margin-left: -60px;
+}
+ .svgbg {
+    width: 400px; 
+}
+.sec-2 { 
+    padding-top: 80px;
+}
+.sec-2 .sign {
+    height: 130px;
+}
+.some-descrip {
+    padding-top: 40px;
+}
 }
 @media (max-width: 1500px) {
 .about-us-section-1 .heading { 
@@ -595,6 +609,8 @@ a.nav-link {
 .about-us-section-3 .main-image { 
     height: 425px; 
 }
+
+
 }
 @media (max-width: 1400px) {
   .the-rotary-foundation .information-1 {
@@ -912,7 +928,12 @@ button.navbar-toggler {
         .description.container-fluid.pb-0 {
         bottom: 14%;
     }
-      
+    .svgbg {
+    width: 330px; 
+}
+   .marquee-track-list a.position-relative.abc {
+    margin-left: -50px;
+}   
 }
 
 

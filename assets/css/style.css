@@ -3950,10 +3950,11 @@
   }
 
   /*****************Home css end******************************/
-  .svgbg {
-    width: 400px;
-    transition: 0.5s all ease;
-  }
+.svgbg {
+    width: 560px;
+    transition: 0.5s all 
+ease;
+}
 
   .svgbg svg {
     width: 100%;
@@ -3967,7 +3968,7 @@
     margin: 0 auto;
     top: 50%;
     transform: translateY(-50%);
-    max-width: 90%;
+    max-width: 85%;
     height: auto;
   }
 
@@ -4296,9 +4297,9 @@
     height: 4px;
   }
 
-  .marquee-track-list a.position-relative.abc {
-    margin-left: -59px;
-  }
+ .marquee-track-list a.position-relative.abc {
+    margin-left: -90px;
+}
 
   .mainerror {
     height: 100vh;
@@ -9665,7 +9666,7 @@ height: 14em;
   }
 
   .sec-7 .image {
-    width: 340px;
+    width: 480px;
     height: 450px;
     filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.1));
   }
