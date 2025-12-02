@@ -306,8 +306,12 @@ $(document).ready(function () {
     },
 
     breakpoints: {
-      0: {
+      0: {direction: "horizontal",    
         slidesPerView: 1,
+        autoplay: {
+          delay: 1000,
+          disableOnInteraction: false,
+        },
       },
       991: {
         slidesPerView: 1.7,

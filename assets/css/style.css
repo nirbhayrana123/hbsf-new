@@ -373,8 +373,8 @@
 
   .nav-item .background {
     position: relative;
-    background-image: url(../img/menubg.svg);
-    background-size: cover !important;
+    background-image: url(../img/nav-bg.png);
+    background-size:100% 100%;
     background-position: top;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -384,7 +384,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 #fullpage .sec-1 .nav-item .background {
     background-image: url(../img/dropbg.png);
@@ -1394,7 +1394,7 @@
     transition: all 0.3s ease;
   }
 
-  .swipersmain.swiper-vertical .swiper-button-next {
+  .swipersmain .swiper-button-next {
     left: 60px;
     bottom: 360px;
     width: 10px;
@@ -1402,7 +1402,7 @@
     z-index: 99;
   }
 
-  .swipersmain.swiper-vertical .swiper-button-prev {
+  .swipersmain .swiper-button-prev {
     left: 60px;
     top: 360px;
     width: 10px;
@@ -1737,14 +1737,7 @@
   .our-partner-1 .image-div:hover .image-38 {
     content: url(../img/our-partner-color-logo-38.png);
   }
-
-  /************************filter button************************/
-
-  .filter-box {
-    width: 330px;
-    position: relative;
-    z-index: 99;
-  }
+ 
 
   .filter-list {
     position: absolute;
@@ -2286,14 +2279,20 @@ span.v-divider {
     font-size: 34px;
     font-weight: 700;
   } 
- 
-  .bannerbg .iframe-tag {
+
+.bannervideo .iframe-tag {
     padding: 0px;
-    max-width: 650px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     border: 4px solid #913832;
-  }
+}
+.bannervideo {
+    padding-top: 40px;
+    height: 692px;
+    max-width: 80%;
+    margin: 0 auto;
+}
 
   .contentuser p {
     margin-top: 10px;
@@ -2439,7 +2438,7 @@ span.v-divider {
     right: 0;
     padding-right: 212px;
     top: 50%;
-    transform: translateY(-40%);
+    transform: translateY(-50%);
     padding-left: 90px;
   }
 
@@ -3697,13 +3696,7 @@ span.v-divider {
     width: 30px;
   }
  
-  .bannerbg .iframe-tag {
-    padding: 0px;
-    max-width: 650px;
-    height: 400px;
-    border-radius: 20px;
-    border: 4px solid #913832;
-  }
+ 
   .description .border-b::after { 
     width: 116px;
     height: 4px;
@@ -8181,17 +8174,18 @@ background-image: url(../img/vertycalams.png);
     font-style: italic;
     font-weight: 500;
   }
-
-  .news-narratives-page .input-tag {
-    max-width: 484px ;
-    background-color: transparent ;
+ 
+.news-narratives-page .input-tag {
+    width: 300px;
+    background-color: transparent;
     border-radius: 35px;
-    border: 1px solid rgba(145, 56, 50, 1) ;
-    padding: 17px 30px ;
+    border: 1px solid rgb(193 79 68);
+    padding: 13px 20px;
     font-family: "Bodoni Moda 9pt";
-    font-size: 21px;
-    font-weight: 400 ;
-  }
+    font-size: 1.2em;
+    font-weight: 400;
+    outline: none;
+}
 
   .news-narratives-page .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);
@@ -8238,13 +8232,7 @@ background-image: url(../img/vertycalams.png);
     font-weight: 700;
   }
  
-  .bannerbg .iframe-tag {
-    padding: 0px;
-    max-width: 650px;
-    height: 400px;
-    border-radius: 20px;
-    border: 4px solid #913832;
-  }
+ 
 
   .error-404 {
     background-image: url(../img/error-404-bg.jpg);
