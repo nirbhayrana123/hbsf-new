@@ -716,6 +716,9 @@
   .contact-us .address-div {
     left: -85px;
   }
+  h3 {
+    font-size: 2.2em;
+}
 }
 
 @media (max-width: 1250px) {
