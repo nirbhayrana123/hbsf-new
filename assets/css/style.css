@@ -2245,7 +2245,7 @@
 .bannerbg .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 32px;
+    font-size: 2.6em;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
@@ -2878,17 +2878,17 @@
     gap: 60px;
   }
 
-  .collabrations-box {
+.collabrations-box {
     position: relative;
     overflow: hidden;
     border-bottom: 3px solid #7224256e;
-    min-height: 290px;
+    padding-bottom: 15px;
     cursor: pointer;
     transition: 1s;
 }
 
 .our-collabrations-box .grid-basic.towcol {
-    width: 64%;
+    width: 75%;
     margin: 0 auto;
 }
 .our-collabrations-box .grid-basic p {
