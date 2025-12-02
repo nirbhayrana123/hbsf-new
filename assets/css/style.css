@@ -1737,14 +1737,7 @@
   .our-partner-1 .image-div:hover .image-38 {
     content: url(../img/our-partner-color-logo-38.png);
   }
-
-  /************************filter button************************/
-
-  .filter-box {
-    width: 330px;
-    position: relative;
-    z-index: 99;
-  }
+ 
 
   .filter-list {
     position: absolute;
@@ -8164,17 +8157,18 @@ background-image: url(../img/vertycalams.png);
     font-style: italic;
     font-weight: 500;
   }
-
-  .news-narratives-page .input-tag {
-    max-width: 484px ;
-    background-color: transparent ;
+ 
+.news-narratives-page .input-tag {
+    width: 300px;
+    background-color: transparent;
     border-radius: 35px;
-    border: 1px solid rgba(145, 56, 50, 1) ;
-    padding: 17px 30px ;
+    border: 1px solid rgb(193 79 68);
+    padding: 13px 20px;
     font-family: "Bodoni Moda 9pt";
-    font-size: 21px;
-    font-weight: 400 ;
-  }
+    font-size: 1.2em;
+    font-weight: 400;
+    outline: none;
+}
 
   .news-narratives-page .input-tag::placeholder {
     color: rgba(145, 56, 50, 1);

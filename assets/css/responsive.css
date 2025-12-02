@@ -432,16 +432,10 @@
   .dotsmap svg.map-size {
     width: 600px;
   }
-
-
-
-
+ 
   .bannerbg .view-article {
     font-size: 25px;
-  }
-
-
-
+  } 
   main {
     padding-top: 120px;
   }
@@ -2758,8 +2752,12 @@
     font-size: 14px;
   }
 
-
-
+.ifeect {
+    padding: 0 30px;
+}
+ul.pagination {
+    justify-content: center !important;
+}
   .sec-4 {
     padding-top: 70px;
   }
@@ -3148,7 +3146,9 @@
     left: 47px;
     top: 38%;
   }
-
+.news-narratives-page .input-tag {
+    width: 230px; 
+}
   .about-us-section-1 {
     background-size: cover;
     position: relative;
@@ -3159,12 +3159,7 @@
   .about-us-section-2 .text {
     font-size: 20px;
   }
-
-  .news-narratives-page .input-tag {
-    max-width: 220px !important;
-    padding: 10px 30px !important;
-  }
-
+ 
 
   .common-headingcolo {
     margin-top: 0px !important;
