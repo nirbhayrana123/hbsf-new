@@ -76,6 +76,7 @@
   body {
     padding: 0;
     margin: 0;
+    font-size: 18px;
   }
 
   html,
@@ -95,7 +96,7 @@
   }
 
   .main {
-    padding-top: 150px;
+    padding-top: 190px;
   }
 
   .pt0 {
@@ -2289,7 +2290,7 @@ h3 {
     background-size: cover;
     background-clip: border-box;
     background-position: bottom center; 
-    padding-top: 150px;
+    padding-top: 190px;
     overflow: hidden !important;
   }
 
@@ -7143,17 +7144,7 @@ ease;
     font-weight: 400;
     line-height: normal;
   }
-
-  .article-one {
-    background-image: url(../img/sector-in-focus-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: bottom center;
-    overflow: hidden !important;
-  }
-
-
+ 
 
   .article-one .text {
     color: #913832;
