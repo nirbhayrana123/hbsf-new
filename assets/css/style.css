@@ -3189,8 +3189,8 @@ h5.articlename {
     background-clip: border-box;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    /* padding-top: 70px; */
+   padding-bottom: 110px;
   }
 
   .sec-5 .image {
@@ -4440,7 +4440,7 @@ h5.articlename {
   .sec-2-text {
     font-family: "Bodoni Moda 9pt" !important;
     color: rgb(145, 56, 50);
-    font-size: 29px;
+   font-size: 1.8em;
     font-weight: 400;
     line-height: 2rem;
     margin-bottom: 23px !important;
@@ -4462,7 +4462,7 @@ h5.articlename {
   .contents p {
     font-family: "Bodoni Moda 9pt";
     font-weight: 400;
-    font-size: 55px;
+    font-size: 3em;
     line-height: 60px;
     text-align: center;
     color: rgb(145, 56, 50);
@@ -4481,7 +4481,7 @@ h5.articlename {
     border: 1px solid #913832;
     border-radius: 50px;
     text-decoration: none !important;
-    font-size: 25px;
+   font-size: 1.5em;
     font-family: Noto Sans;
     color: rgb(145, 56, 50);
     transition: 0.9s;
@@ -7159,7 +7159,7 @@ ease;
 
   .sec-1 .nav-link {
     font-family: Noto Sans;
-    font-size: 1.9em;
+    font-size: 1.8em;
     color: rgb(240, 230, 218);
     transition: ease-in 0.4s;
   }

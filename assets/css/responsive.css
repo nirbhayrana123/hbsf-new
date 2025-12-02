@@ -349,6 +349,12 @@
 body { 
     font-size: 12.5px;
 }
+.sec-1-content {
+    max-width: 773px;
+}
+.description.container-fluid.pb-0 {
+    bottom: 12%;
+}
 .bannerbg { 
     padding-top: 150px; 
 }
