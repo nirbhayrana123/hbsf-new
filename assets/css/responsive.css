@@ -613,6 +613,7 @@ a.nav-link {
 
 }
 @media (max-width: 1400px) {
+
   .the-rotary-foundation .information-1 {
     font-size: 28px;
   }
@@ -938,6 +939,14 @@ button.navbar-toggler {
 
 
 @media (max-width: 1250px) {
+      body {
+        font-size: 10px;
+    }
+.colectionimg {
+    height: auto;
+    width: 120px; 
+}
+
   .about-us-section-3 .top-images {
     top: 10px !important;
   }
@@ -2676,15 +2685,10 @@ nav.breadcrumb-nav {
   
  
 
-  .error-404 .error-div .text-2 {
-    margin-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 2rem;
-  }
 
   .error-404 .error-div .text {
-    font-size: 8rem;
-    line-height: 4.4rem;
+   font-size: 9rem;
+        letter-spacing: 0;
   }
 
   .trf-main .common-heading {
@@ -2711,13 +2715,16 @@ nav.breadcrumb-nav {
     font-size: 25px;
   }
 
-  .error-404 .error-div .text {
-    font-size: 200px;
-  }
+ .error-404 .error-div .text-3 {
+    margin-left: 0px;
+}
 
-  .error-404 .error-div .text-2 {
-    margin-top: -25px;
-  }
+
+      .error-404 .error-div .text-2 {
+        margin-top: 0px;
+        margin-left: 0;
+        font-size: 3em;
+    }
 
   h1 {
     font-size: 39px;
@@ -3338,6 +3345,9 @@ button.navbar-toggler {
 .plpr {
   padding-top: 10px;
 }
+.policy-contents {
+    padding-bottom: 60px;
+}
 
 
 .about-us-section-3 .bottom-padding {
@@ -3347,6 +3357,13 @@ button.navbar-toggler {
 .about-us-section-3 .bottom-padding-2 {
   padding-bottom: 150px;
 }
+.footer-terms-of a {
+    font-size: 1em;
+    border-right: 1px solid #efe5db;
+}
+.footer-logo {
+        width: 140px;
+    }
 
 .sdg-item {
   width: 100px;
@@ -3393,6 +3410,9 @@ button.navbar-toggler {
   /* Regular */
   font-size: 1.68rem;
   color: rgb(145, 56, 50);
+}
+.error-404 .error-div {
+    background-size: inherit;
 }
 
 

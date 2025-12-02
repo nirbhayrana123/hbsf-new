@@ -2245,7 +2245,7 @@
 .bannerbg .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 32px;
+    font-size: 2.6em;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
@@ -2878,17 +2878,17 @@
     gap: 60px;
   }
 
-  .collabrations-box {
+.collabrations-box {
     position: relative;
     overflow: hidden;
     border-bottom: 3px solid #7224256e;
-    min-height: 290px;
+    padding-bottom: 15px;
     cursor: pointer;
     transition: 1s;
 }
 
 .our-collabrations-box .grid-basic.towcol {
-    width: 64%;
+    width: 75%;
     margin: 0 auto;
 }
 .our-collabrations-box .grid-basic p {
@@ -4654,15 +4654,7 @@ ease;
     overflow: hidden !important;
   }
 
-  .error-404 .error-div {
-    background-image: url(../img/error-404.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: center top -20px;
-    text-align: center;
-    padding: 80px 0px;
-  }
+ 
 
   .errorpage {
     height: 100%;
@@ -8423,15 +8415,7 @@ height: 14em;
     padding-left: 40px;
   }
 
- .error-404 .error-div {
-    background-image: url(../img/error-404.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-position: center;
-    height: 450px;
-    width: auto;
-}
+
 
   .error-404 .error-div .text {
     color: #fff;
@@ -8441,7 +8425,7 @@ height: 14em;
     font-style: normal;
     font-weight: 700;
     line-height: 0.7em;
-    letter-spacing: -15.3px;
+    letter-spacing: -4px;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
   }
@@ -8459,6 +8443,18 @@ height: 14em;
     font-weight: 600;
     margin-left: 50px;
 }
+  .error-404 .error-div {
+    background-image: url(../img/error-404.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position: center top -20px;
+    text-align: center;
+    padding: 80px 0px;
+     height: 450px;
+    width: auto;
+    text-align: center;
+  }
 
   
 
