@@ -4793,12 +4793,7 @@ ease;
     opacity: 1;
   }
 
- .our-partner-1 .name-2 {
-    top: 0;
-    font-size: 2.8em;
-    font-weight: 500;
-    opacity: 1;
-}
+
 
   .our-partner-1 .name-2 {
     position: absolute;
@@ -4809,9 +4804,14 @@ ease;
     color: #913832;
     font-family: "Bodoni Moda 9pt";
     text-align: center;
-    transition: transform 0.5s ease, opacity 0.5s ease;
+    transition: transform 0.5s 
+ease, opacity 0.5s 
+ease;
     line-height: 1.4;
-  }
+    font-size: 2em;
+    font-weight: 500;
+    opacity: 1;
+}
 
   /* Hover state animations */
   .our-partner-1 .image-div:hover .name-2 {
