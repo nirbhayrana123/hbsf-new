@@ -1284,13 +1284,11 @@
     padding-right: 82px;
   }
 
-  .sec-1-content h1 {
-    font-size: 33px;
-  }
+    .sec-1-content h1 {
+        font-size: 39px;
+    }
 
-  .sec-1 .logo {
-    height: 6rem;
-  }
+ 
 
   .sec-1 .nav-link {
     font-size: 14px;
@@ -1350,6 +1348,23 @@
     width: 100%;
     max-width: 97%;
   }
+      .description.container-fluid.pb-0 {
+        bottom: 10%;
+    }
+    .post-slide {
+        height: 380px;
+    }
+    .sec-7-slider {
+    width: 100%; 
+}
+ .sec-5 { 
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.owl-buttons .owl-prev, .owl-buttons .owl-next { 
+    top: 75%; 
+}
+
 
 }
 
@@ -1417,6 +1432,9 @@
     max-width: 77vh;
     max-height: 580px;
   }
+      .post-slide {
+        height: 350px;
+    }
 }
 
 @media (max-width: 1024px) {
