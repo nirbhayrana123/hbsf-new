@@ -4342,12 +4342,13 @@ h5.articlename {
     text-align: center;
   }
 
-  .sec-1-content h1 {
+ .sec-1-content h1 {
     font-family: "Bodoni Moda 9pt";
     font-style: italic;
     font-size: 64px;
     line-height: 1.1;
-  }
+    font-weight: 500;
+}
 
   .navbar-collapse {
     padding-bottom: 190px;
@@ -7143,7 +7144,7 @@ ease;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
     z-index: 99;
     background-size: cover;
-    background-position: top -90px center;
+    background-position: top -150px center;
     padding-top: 0;
   }
 
