@@ -1497,9 +1497,6 @@
     font-weight: 400;
   }
 
-  .our-partner-1 .image-div {
-    max-height: 300px;
-  }
 
   .our-partner-1 .image-div .name {
     color: #913832;
@@ -1510,11 +1507,6 @@
     font-weight: 500;
   }
 
-  .our-partner-1 .image-div .line-img {
-    max-width: 200px;
-    height: 2px;
-    margin-top: 10px;
-  }
 
   .our-partner-1 .image {
     height: 150px;
@@ -1579,10 +1571,6 @@
 
  
 
-  .our-partner-1 .image-div {
-    text-align: center;
-    overflow: hidden;
-  }
 
   .our-partner-1 .image-div .image-1 {
     width: 100%;
@@ -1778,7 +1766,7 @@
     border-radius: 30px;
     padding: 10px 20px;
     color: #A93B3B;
-    font-size: 1.4em;
+    font-size: 1.2em;
     cursor: pointer;
     text-align: left;
     padding-left: 40px;
@@ -2240,7 +2228,18 @@ p.outreach-description {
     line-height: normal;
     transition: 1s;
 }
-
+.our-partner-1 .image-div::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 198px;
+    height: 2px;
+    background-color: #c25045;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
   .bannerbg .date {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -4792,6 +4791,9 @@ ease;
     display: flex;
     flex-direction: column;
     align-items: center;
+      max-height: 300px;
+     text-align: center;
+    overflow: visible;
   }
 
   /* Image styling */
@@ -4957,12 +4959,7 @@ ease;
     /* smooth stagger */
   }
 
-  /* Optional: Line below */
-  .our-partner-1 .line-img {
-    max-width: 200px;
-    height: 2px;
-    margin-top: 25px;
-  }
+ 
 
   /* -------------------------------------------- */
   /*                TAB MENU                      */
@@ -5118,11 +5115,7 @@ ease;
 
 
   /* Our Partner Image 1 */
-  .our-partner-1 .image-div {
-    text-align: center;
-    overflow: visible;
-    /* width: 30% !important; */
-  }
+ 
 
   .our-partner-1 .image-div .image-1 {
     width: 100%;
@@ -5139,10 +5132,7 @@ ease;
     transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
   }
 
-  .our-partner-1 .image-div {
-    text-align: center;
-    overflow: visible;
-  }
+   
 
   .our-partner-1 .image-div .image-2 {
     width: 100%;
@@ -5161,11 +5151,7 @@ ease;
     /* smooth, slow-mo feel */
   }
 
-  /* Our Partner Image 3 */
-  .our-partner-1 .image-div {
-    text-align: center;
-    overflow: visible;
-  }
+   
 
   .our-partner-1 .image-div .image-3 {
     width: 100%;
@@ -7887,7 +7873,7 @@ height: 14em;
     border: 1px solid rgba(145, 56, 50, 1);
     padding: 10px 30px;
     font-family: "Bodoni Moda 9pt";
-    font-size: 15px;
+    font-size: 1.2em;
     font-weight: 600;
     cursor: pointer;
     outline: none;
@@ -7911,9 +7897,6 @@ height: 14em;
 
 
 
-  .our-partner-1 .image-div {
-    max-height: 300px;
-  }
 
   .our-partner-1 .image-div .name {
     color: #913832;
@@ -7924,11 +7907,7 @@ height: 14em;
     font-weight: 500;
   }
 
-  .our-partner-1 .image-div .line-img {
-    max-width: 200px;
-    height: 2px;
-    margin-top: 10px;
-  }
+  
 
   .our-partner-1 .image {
     height: 150px;
@@ -7996,11 +7975,7 @@ height: 14em;
   content: url(../img/our-partner-color-logo-1.png);
 } */
 
-  .our-partner-1 .image-div {
-    text-align: center;
-    overflow: hidden;
-  }
-
+  
   .our-partner-1 .image-div .image-1 {
     width: 100%;
     max-width: 200px;

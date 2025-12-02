@@ -558,6 +558,9 @@ a.nav-link {
       top: -24px;
       width: 100%;
   }
+  .filter-list li { 
+    font-size: 1.2em; 
+}
 .main {
     padding-top: 145px;
 }
