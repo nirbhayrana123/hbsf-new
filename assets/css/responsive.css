@@ -643,6 +643,7 @@
   .about-us-section-1 .scrolling-div {
     max-height: 400px;
 }
+
 .myswiper .swiper-button-next { 
     bottom: 30px !important; 
 }
@@ -1642,7 +1643,7 @@
   }
 
   .about-us-section-1 {
-    padding-bottom: 700px;
+    padding-bottom: 150px;
   }
 
   .about-us-section-1 .main-image {
@@ -1887,11 +1888,7 @@
     margin-left: 50px;
   }
 
-  .about-us-section-1 {
-    padding-bottom: 0px;
-  }
-
-
+   
   .common-heading.stripbottom {
     color: #913832;
   }
@@ -2327,10 +2324,7 @@
   .pryaveyt .heading::after {
     content: "";
     display: none;
-  }
-
-
-
+  } 
 
   .our-partner-1 .heading-for-otherpage {
     margin-top: 0px;
@@ -2393,10 +2387,27 @@
   }
 
   .swipersmain {
-    height: 925px;
+   height: 1065px;
   }
+    .hovermove {
+        height: 480px;
+    }
 
-
+    .secondimgbg .torow.hovermove::before{
+      display: none;
+    }
+.secondimgbg .torow.hovermove::after, .secondimgbg .torow.hovermove::before{
+  display: none;
+}
+.secondimgbg .torow.hovermove::after{
+  display: none;
+}
+.imgbginner::after{
+display: none;
+}
+    .imgbginner::before {
+        display: none;
+    }
   .border-b::after {
     width: 75px;
     height: 2px;
@@ -2590,6 +2601,9 @@
 }
 
 @media (max-width: 767px) {
+    .about-us-section-1 {
+        padding-bottom: 0px;
+    }
 
   .grid-basic,.grid-basic.threecol,
   .our-collabrations-box .grid-basic.towcol,
@@ -3140,6 +3154,7 @@ ul.pagination {
   .about-us-section-1 .section-title {
     margin-left: 33px;
     margin-top: 25px;
+    left: -112px;
   }
 
   .timeline-line {
