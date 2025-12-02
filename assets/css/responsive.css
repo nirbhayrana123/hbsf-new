@@ -346,19 +346,38 @@
 }
 /*================================= min-width ==============================================*/
 @media (max-width: 1600px) {
+body { 
+    font-size: 12.5px;
+}
+.bannerbg { 
+    padding-top: 150px; 
+}
+
+.main { 
+    padding-top: 150px; 
+}
+
   .about-us-nav {
     padding-bottom: 5px;
     padding-top: 0px;
   }
+  .bannerbg {
+    padding-top: 161px;
+}
+ 
+.policy-contents h5 {
+    line-height: 1em;
+}
+nav.breadcrumb-nav ol.breadcrumb li a {
+    font-size: 16px;
+}
   .our-partner-1 .tab-menu .menus {
     font-size: 20px;
 }
   .our-partner-1 .text {
     line-height: 45px;
 }
-  h2 {
-    font-size: 35px;
-}
+ 
   p.outreach-description {
     font-size: 26px;
     font-weight: 500;
@@ -3946,9 +3965,7 @@ button.navbar-toggler {
     width: 15px;
   }
 
-  .bannerbg .gap .share {
-    font-size: 13px;
-  }
+ 
 
   .bannerbg .name {
     font-size: 11px;
