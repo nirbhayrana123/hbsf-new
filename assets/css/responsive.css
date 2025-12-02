@@ -564,6 +564,16 @@ a.nav-link {
   .the-rotary-foundation .information-1 {
     font-size: 28px;
   }
+  .about-us-section-3 .top-padding {
+    padding-top: 150px;
+}
+.swipersmain.swiper-vertical .swiper-button-next{
+  bottom: 340px;
+}
+.swipersmain.swiper-vertical .swiper-button-prev { 
+    top: 340px; 
+}
+
   .h3-gap h3 {
     font-size: 31px;
 }
