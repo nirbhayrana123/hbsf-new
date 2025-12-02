@@ -7196,7 +7196,9 @@ height: 14em;
     position: relative;
     align-items: center;
     background-color: #f3eae1;
+    height: 100vh;
   }
+
 
   .sec-2 .gap {
     gap: 15px;
