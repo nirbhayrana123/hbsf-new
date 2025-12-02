@@ -2410,6 +2410,9 @@
 .imgbginner::after{
 display: none;
 }
+    .imgbginner::before {
+        display: none;
+    }
   .border-b::after {
     width: 75px;
     height: 2px;
