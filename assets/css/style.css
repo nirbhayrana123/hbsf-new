@@ -2947,15 +2947,14 @@ span.v-divider {
   .imgtopshape img {
     width: 150px;
   }
-
-  .contact-us .address-div {
+.contact-us .address-div {
     padding: 1rem 0px 1rem 0px;
-
     display: flex;
     gap: 15px;
     position: absolute;
-  }
-
+    bottom: -190px;
+    top: auto;
+}
   .pl-contact {
     padding-left: 70px;
     position: relative;
@@ -8455,10 +8454,7 @@ background-image: url(../img/vertycalams.png);
     border-radius: 0px;
   }
 
-  .contact-us .image {
-    height: 300px;
-    width: 300px;
-  }
+ 
 
   .contact-us .submit-btn {
     margin-right: 20px;
@@ -8476,33 +8472,7 @@ background-image: url(../img/vertycalams.png);
     border-radius: 50px;
   }
 
-
-
-  .contact-us .address-div {
-    bottom: -85px;
-  }
-
-  .contact-us .address-name {
-    color: #913832;
-    font-family: "Noto Sans Devanagari";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 120%;
-  }
-
-  .contact-us .address {
-    color: #913832;
-    font-family: "Noto Sans Devanagari";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
-    margin-right: 50px;
-  }
-
-
-
+  
   /* Keyframe animations */
   @keyframes dropdownFadeIn {
     0% {
