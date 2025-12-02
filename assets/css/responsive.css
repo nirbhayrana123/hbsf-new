@@ -362,7 +362,7 @@ body {
     padding-bottom: 170px;
 }
 .description.container-fluid.pb-0 {
-    bottom: 12%;
+    bottom: 14%;
 }
 .bannerbg { 
     padding-top: 150px; 
@@ -418,10 +418,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     line-height: 53px;
   }
 
-  .bannerbg .description .text {
-    font-size: 25px;
-  }
-
+ 
   .bannerbg .view-article {
     font-size: 25px;
   }
@@ -433,15 +430,31 @@ nav.breadcrumb-nav ol.breadcrumb li a {
   main {
     padding-top: 120px;
   }
+
+.abou2section img.img-fluid.section-2-image {
+    width: 560px;
+}
+
+  .the-rotary-foundation .information-3 {
+    font-size: 25px;
+  }
+
+  .the-rotary-foundation .information-2 {
+    font-size: 22px;
+  }
+
+  .the-rotary-foundation .information-1 {
+    font-size: 30px;
+  }
+
  
   .about-us-section-2 .text {
-    font-size: 32px;
-    line-height: 1.4;
-    max-width: 885px;
+    font-size: 30px;
+    line-height: 1.4; 
   }
 
   .content-text h4 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .content-text p {
@@ -492,9 +505,7 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     height: 2px;
   }
 
-  .sec-1 {
-    background-position: top -30px center;
-  }
+ 
 
   .sec-1-content {
     margin-top: 0;
@@ -526,9 +537,9 @@ nav.breadcrumb-nav ol.breadcrumb li a {
     max-width: 88.5%;
   }
 
-  .sec-1-content h1 {
-    font-size: 55px;
-  }
+    .sec-1-content h1 {
+        font-size: 60px;
+    }
   .about-us-nav .nav-menu {
     max-width: 280px; 
 }
@@ -552,17 +563,55 @@ a.nav-link {
 .navbar-toggler .menuicon span.linemenu { 
     width: 23px; 
 }
+.post-slide { 
+    height: 528px;
+}
+.sec-1 .logo {
+    height: 15em; 
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+.sec-1 { 
+    max-height: 740px; 
+}
+.description .border-b::after {
+    width: 90px;
+    height: 3px;
+    margin: 0 auto;
+    bottom: -20px;
+}
+ .showactive .navbar-toggler .menuicon span.linemenu.lineone {
+    transform: rotate(45deg) translate(6px, 5px);
+  }
  
 }
+@media (max-width: 1500px) {
+.about-us-section-1 .heading { 
+    font-size: 35px; 
+}
+.about-us-section-1 .description { 
+    font-size: 25px; 
+}
+.about-us-section-3 .main-image { 
+    height: 425px; 
+}
+}
 @media (max-width: 1400px) {
-<<<<<<< HEAD
- 
-=======
   .the-rotary-foundation .information-1 {
     font-size: 28px;
   }
-  .sec-1-content h1 {
-        font-size: 43px;
+  .about-us-section-3 .top-padding {
+    padding-top: 150px;
+}
+.swipersmain.swiper-vertical .swiper-button-next{
+  bottom: 340px;
+}
+.swipersmain.swiper-vertical .swiper-button-prev { 
+    top: 340px; 
+}
+
+       .sec-1-content h1 {
+        font-size: 50px;
     }
     .button2 {
     padding: 8px 40px;
@@ -572,16 +621,22 @@ a.nav-link {
 .contents p {
     margin-bottom: 65px;
 }
-  .sec-1-content {
-        max-width: 595px;
-    }
+  
     .nav-item .background .list-text {
     font-size: 12px !important;
 }
->>>>>>> 5ff3059620ca4d771e328106cd0f587f8b881afe
   .h3-gap h3 {
     font-size: 31px;
 }
+.flesing {
+    max-width: 700px;
+}
+    .about-us-section-1 .description {
+        font-size: 20px;
+    }
+    .about-us-section-1 .heading {
+        font-size: 30px;
+    }
 .our-partner-1 .input-tag {
     font-size: 15px;
 }
@@ -752,7 +807,7 @@ a.nav-link {
   }
 
   .sec-1 .logo {
-    height: 9rem;
+    height: 10rem;
     margin-top: 20px;
   }
 
@@ -848,6 +903,16 @@ button.navbar-toggler {
 #fullpage .nav-item .background .list-text { 
     font-size: 11px !important; 
 }
+    .sec-1 {
+        max-height: 610px;
+    }
+    .sec-1-content {
+        max-width: 686px;
+    }
+        .description.container-fluid.pb-0 {
+        bottom: 14%;
+    }
+      
 }
 
 
@@ -923,10 +988,7 @@ button.navbar-toggler {
     gap: 40px;
   }
 
-  .bannerbg .description .text {
-    font-size: 25px;
-  }
-
+  
   .news-narratives-page .heading-for-otherpage {
     font-size: 20px;
     letter-spacing: normal;
@@ -1076,9 +1138,7 @@ button.navbar-toggler {
     padding-bottom: 100px;
   }
 
-  .bannerbg .description .text {
-    font-size: 25px;
-  }
+ 
 
   .thank-you-page .main-div .text {
     margin-top: -100px;
@@ -2640,9 +2700,7 @@ nav.breadcrumb-nav {
     font-size: 39px;
   }
 
-  .bannerbg .description .text {
-    font-size: 20px;
-  }
+ 
 
   .our-partner-1 .text {
     font-size: 33px;
@@ -2890,10 +2948,7 @@ nav.breadcrumb-nav {
     font-size: 39px;
   }
 
-  .bannerbg .description .text {
-    font-size: 20px;
-  }
-
+ 
   p.outreach-description {
     font-size: 20px;
     padding-bottom: 30px;

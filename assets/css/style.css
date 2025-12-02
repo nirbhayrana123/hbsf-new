@@ -202,7 +202,7 @@
 
   .section-height {
     padding: 100px 0px;
-}
+  }
 
   .navenenu a.homelink {
     font-family: "Noto Sans";
@@ -516,11 +516,7 @@
     overflow: hidden;
   }
 
-  .image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
+
 
   .carousel-inner .carousel-item.active,
   .carousel-inner .carousel-item-start,
@@ -715,11 +711,10 @@
     height: 400px;
     display: flex;
     align-items: center;
-    overflow: hidden;
   }
 
   .flesing {
-    max-width: 600px;
+    max-width: 850px;
   }
 
   .conentsliv {
@@ -886,12 +881,12 @@
   }
 
   .dot .year-label.section-title {
-    opacity: 0;
-    left: -80px;
+   opacity: 0;
+    left: -130px;
     position: absolute;
     top: -6px;
-    width: 75px;
-    font-size: 11px;
+    width: 130px;
+    font-size: 13px;
   }
 
   .nav-tabs {
@@ -1084,26 +1079,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-
-  .about-us-section-1 .heading {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-  .about-us-section-1 .description {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%;
-  }
-
+  } 
+ 
   .about-us-section-1 .content .line-dot .dot {
     --size: 0.5rem;
     width: var(--size);
@@ -1326,7 +1303,7 @@
   }
 
   .about-us-section-3 .top-padding {
-    padding-top: 150px;
+    padding-top: 200px;
   }
 
   .about-us-section-3 .bottom-padding {
@@ -1411,16 +1388,16 @@
   }
 
   .swipersmain.swiper-vertical .swiper-button-next {
-    left: 105px;
-    bottom: 329px;
+    left: 60px;
+    bottom: 360px;
     width: 10px;
     color: #fff;
     z-index: 99;
   }
 
   .swipersmain.swiper-vertical .swiper-button-prev {
-    left: 105px;
-    top: 340px;
+    left: 60px;
+    top: 360px;
     width: 10px;
     color: #fff;
     opacity: 1;
@@ -1437,7 +1414,7 @@
 
   .about-us-section-3 .main-image {
     width: auto;
-    height: 470px;
+    height: 580px;
     opacity: 0;
     transition: 0.2s all ease;
   }
@@ -1446,10 +1423,6 @@
     opacity: 1;
   }
 
-  .swipersmain {
-    height: 570px;
-    overflow: hidden;
-  }
 
   .imgcrav {
     margin-top: -128px;
@@ -2269,16 +2242,15 @@
     padding-top: 190px;
     overflow: hidden !important;
   }
-
-
-  .bannerbg .name {
+.bannerbg .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
     font-size: 32px;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
-  }
+    transition: 1s;
+}
 
   .bannerbg .date {
     color: #913832;
@@ -2318,10 +2290,6 @@
     line-height: normal;
     cursor: pointer;
     padding-left: 13px;
-  }
-
-  .bannerbg .description {
-    gap: 20px;
   }
 
 
@@ -2626,10 +2594,11 @@
     transform: rotate(-45deg) translate(6px, -5px);
   }
 
-  .showactive .navbar-toggler .menuicon span.linemenu.lineone {
-    transform: rotate(45deg) translate(10px, 10px);
-  }
+ 
 
+  .showactive .navbar-toggler .menuicon span.linemenu.lineone {
+    transform: rotate(45deg) translate(11px, 8px);
+}
   .showactive .navbar-toggler .menuicon span.linemenu.linetow {
     visibility: hidden;
     opacity: 0;
@@ -2905,11 +2874,49 @@
     opacity: 0;
   }
 
+  .our-collabrations-box .grid-basic {
+    gap: 60px;
+  }
+
+  .collabrations-box {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 3px solid #7224256e;
+    min-height: 290px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.our-collabrations-box .grid-basic.towcol {
+    width: 64%;
+    margin: 0 auto;
+}
+.our-collabrations-box .grid-basic p {
+    font-size: 1.2em;
+    position: absolute;
+    bottom: -100%;
+    transition: 1s;
+}
+
+ .collabrations-box:hover p {
+    bottom: 0%;
+}
+ 
+.collabrations-box:hover .name, .collabrations-box:hover .colectionimg {
+    opacity: 0;
+    margin-top: -50px;
+}
+.our-collabrations-box {
+    padding: 60px 0;
+}
+
   .colectionimg {
     height: 150px;
     width: 180px;
     position: relative;
     transition: all 1s;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .our-collaborations .image-div .image {
@@ -3105,7 +3112,7 @@
     font-size: medium;
     font-weight: 300;
   }
-
+ 
   .nav-item .background .list-text:hover {
     text-decoration: underline;
     padding: 20px;
@@ -3115,12 +3122,6 @@
 
   #myCarousel .carousel-inner {
     overflow: hidden;
-  }
-
-  .image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
   }
 
 
@@ -3147,7 +3148,7 @@
     max-width: 250px;
   }
 
- .sec-4 {
+  .sec-4 {
     background-image: url(../img/sec-4-bg.jpg);
     background-position: bottom center;
     background-size: 100% 100%;
@@ -3156,7 +3157,7 @@
     position: relative;
     padding-bottom: 230px;
     padding-top: 100px;
-}
+  }
 
   .sec-4 .gap {
     gap: 20px;
@@ -3187,7 +3188,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     /* padding-top: 70px; */
-   padding-bottom: 110px;
+    padding-bottom: 110px;
   }
 
   .sec-5 .image {
@@ -3593,12 +3594,9 @@
     background-clip: border-box;
     background-position: bottom center;
     padding-bottom: 70px;
-    min-height: 800px;
+    min-height: 860px;
   }
 
-  .about-us-section-1 .scrolling-div {
-    max-height: 350px;
-  }
 
   .about-us-section-1 .main-sec {
     display: flex;
@@ -3618,23 +3616,7 @@
     align-items: center;
     flex-direction: column;
   }
-
-  .about-us-section-1 .heading {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 700;
-  }
-
-  .about-us-section-1 .description {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%;
-  }
+ 
 
   .about-us-section-1 .content .line-dot .dot {
     --size: 0.5rem;
@@ -3724,7 +3706,7 @@
     display: flex;
     justify-content: space-between;
     gap: 0;
-    height: 530px;
+    height: 626px;
   }
 
 
@@ -3736,7 +3718,7 @@
   .description.container-fluid.pb-0 {
     padding-bottom: 0 !important;
     position: absolute;
-    bottom: 16%;
+    bottom: 10%;
 }
 
 
@@ -3745,17 +3727,6 @@
     width: 30px;
   }
 
-  .bannerbg .description {
-    gap: 20px;
-  }
-
-  .bannerbg .description .text {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-  }
 
   .bannerbg .back .text {
     color: #913832;
@@ -3769,6 +3740,12 @@
     border-radius: 20px;
     border: 4px solid #913832;
   }
+  .description .border-b::after { 
+    width: 116px;
+    height: 4px;
+    margin: 0 auto;
+    bottom: -30px;
+}
 
   .sec-1 .nav-item.dropdown {
     z-index: 9;
@@ -3790,14 +3767,22 @@
   .the-rotary-foundation .the-rotary-foundation-img {
     width: -webkit-fill-available;
   }
-.grid-basic.onecol {
+
+  .grid-basic.onecol {
     grid-template-columns: 100%;
     margin-top: 40px;
-}
+  }
+
   .grid-basic.towcol {
     grid-template-columns: 1fr 1fr;
     margin-top: 40px;
   }
+
+  .grid-basic.threecol {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+  }
+
 
   .grid-basic {
     display: grid;
@@ -4001,7 +3986,7 @@
   .sec-1 .nav-item.dropdown .dropdown-menu {
     left: 0;
     width: 175px;
-    top: 30px;
+    top: 40px;
   }
 
   .sdg-grid .sdg-item:first-child {
@@ -4341,18 +4326,18 @@
   }
 
  .sec-1-content {
-    max-width: 1040px;
+    max-width: 1060px;
     margin-top: 10%;
     text-align: center;
-}
+  }
 
- .sec-1-content h1 {
+  .sec-1-content h1 {
     font-family: "Bodoni Moda 9pt";
     font-style: italic;
-    font-size: 5em;
+    font-size: 5.47em;
     line-height: 1.1;
     font-weight: 500;
-}
+  }
 
   .navbar-collapse {
     padding-bottom: 190px;
@@ -4411,9 +4396,9 @@
 
 
 
- .some-descrip {
+  .some-descrip {
     padding-top: 60px;
-}
+  }
 
   .sec-2 .text {
     font-family: Bodoni Moda 9pt;
@@ -4445,7 +4430,7 @@
   .sec-2-text {
     font-family: "Bodoni Moda 9pt" !important;
     color: rgb(145, 56, 50);
-   font-size: 1.8em;
+    font-size: 1.8em;
     font-weight: 400;
     line-height: 2rem;
     margin-bottom: 23px !important;
@@ -4473,25 +4458,25 @@
     color: rgb(145, 56, 50);
     margin-bottom: 95px;
     font-style: italic;
-}
+  }
 
- .contents {
+  .contents {
     margin-top: 90px;
     text-align: center;
-}
+  }
 
- .button2 {
+  .button2 {
     padding: 15px 66px;
     background-color: transparent;
     border: 1px solid #913832;
     border-radius: 50px;
     text-decoration: none !important;
-   font-size: 1.5em;
+    font-size: 1.5em;
     font-family: Noto Sans;
     color: rgb(145, 56, 50);
     transition: 0.9s;
     box-shadow: inset 0px 0px 0px 0px rgb(145, 56, 50);
-}
+  }
 
   .button2:hover {
     color: #fff;
@@ -7094,23 +7079,23 @@
   }
 
   .sec-1 {
-    height: 100vh !important;
-    position: relative;
+position: relative;
     background-image: url(../img/bannderbg.jpg);
     background-repeat: no-repeat;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
     z-index: 99;
-    background-size: cover;
-    background-position: top -66px center;
+    background-size: 100% 100%; 
     padding-top: 0;
+    max-height: 940px;
+    height: 100%;
   }
 
 
 
   .sec-1 .logo {
-    height: 15em;
+height: 14em;
     width: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 1.7rem;
   }
 
@@ -7140,9 +7125,9 @@
     justify-content: center;
     display: flex;
     align-items: flex-start;
-}
-
-  .sec-1 .bottom-img {
+     
+  }
+ .sec-1 .bottom-img {
     width: 140px;
     height: 3px;
   }
@@ -7182,7 +7167,9 @@
     position: relative;
     align-items: center;
     background-color: #f3eae1;
+    height: 100vh;
   }
+
 
   .sec-2 .gap {
     gap: 15px;
@@ -7197,7 +7184,7 @@
   }
 
   .sec-2 .sign {
-    height: 110px;
+    height: 180px;
   }
 
   .sec-2 .sign-name {
@@ -7594,16 +7581,14 @@
     transition: ease-in-out 1s;
   }
 
-  .about-us-section-1 .scrolling-div {
-    max-height: 350px;
-  }
-
   .about-us-section-1 .main-sec {
     display: flex;
     align-items: flex-start;
     gap: 30px;
   }
-
+.container.founding-members {
+    padding-top: 70px;
+}
   .about-us-section-1 .section-title {
     position: sticky;
     top: 20px;
@@ -7614,7 +7599,7 @@
     font-style: italic;
     font-weight: 400;
     line-height: normal;
-    width: 117px;
+    width: 180px;
   }
 
   .about-us-section-1 .content {
@@ -7636,12 +7621,13 @@
     font-style: italic;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 20px;
   }
 
   .about-us-section-1 .description {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 17px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
@@ -7734,7 +7720,7 @@
   }
 
   .about-us-section-2 {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     background-image: url(../img/about-us-sec-2-bg.jpg);
     background-position: top;
     background-repeat: no-repeat;
@@ -7744,7 +7730,7 @@
 
   .about-us-section-2 .text {
     font-family: "Bodoni Moda 9pt", serif;
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 400;
     line-height: normal;
     color: rgb(145, 56, 50);
@@ -7756,9 +7742,6 @@
     height: 100px;
   }
 
-  .about-us-section-3 .top-padding {
-    padding-top: 150px;
-  }
   .about-us-section-3 .scrolling-div {
     max-height: 350px;
   }
@@ -7835,23 +7818,7 @@
     transform: scale(1.2);
     transition: all 0.3s ease;
   }
-
-  .swipersmain.swiper-vertical .swiper-button-next {
-    left: 58px;
-    bottom: 260px;
-    width: 14px;
-    color: #fff;
-    z-index: 99;
-  }
-
-  .swipersmain.swiper-vertical .swiper-button-prev {
-    left: 58px;
-    top: 260px;
-    width: 14px;
-    color: #fff;
-  }
-
-
+  
   .about-us-section-3 .menu .text {
     color: #913832;
     text-align: center;
@@ -7862,7 +7829,7 @@
   }
 
   .swipersmain {
-    height: 400px;
+    height: 590px;
     overflow: hidden;
   }
 
@@ -7890,7 +7857,8 @@
     background-position: top center;
     background-clip: border-box;
     background-repeat: no-repeat;
-    padding: 70px 0px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 
   }
 
@@ -8375,23 +8343,7 @@
     cursor: pointer;
   }
 
-
-  .bannerbg .name {
-    color: #913832;
-    font-family: "Bodoni Moda 9pt";
-    font-size: 32px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-
-  .bannerbg .description {
-    gap: 20px;
-  }
-
-
-
+ 
   .bannerbg .view-article {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -9688,7 +9640,7 @@
   }
 
 
- .sec-7 {
+  .sec-7 {
     overflow: hidden;
     /* min-height: 100vh; */
     display: flex;
@@ -9706,7 +9658,7 @@
     padding-top: 100px;
     padding-bottom: 80px;
     height: auto;
-}
+  }
 
   .sec-7 .image {
     width: 340px;
