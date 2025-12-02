@@ -877,9 +877,7 @@
     font-size: 25px;
   }
 
-  .contact-us .image {
-    margin-left: -150px;
-  }
+ 
 
   .thank-you-page .row-gap {
     padding-top: 300px;
@@ -2075,6 +2073,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
+    justify-content: center;
   }
 
 
