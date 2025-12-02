@@ -567,6 +567,7 @@ a.nav-link {
  
 }
 @media (max-width: 1400px) {
+
   .the-rotary-foundation .information-1 {
     font-size: 28px;
   }
@@ -868,6 +869,14 @@ button.navbar-toggler {
 
 
 @media (max-width: 1250px) {
+      body {
+        font-size: 10px;
+    }
+.colectionimg {
+    height: auto;
+    width: 120px; 
+}
+
   .about-us-section-3 .top-images {
     top: 10px !important;
   }
