@@ -4336,7 +4336,7 @@ h5.articlename {
   }
 
  .sec-1-content {
-    max-width: 929px;
+    max-width: 1040px;
     margin-top: 10%;
     text-align: center;
 }
@@ -4344,7 +4344,7 @@ h5.articlename {
  .sec-1-content h1 {
     font-family: "Bodoni Moda 9pt";
     font-style: italic;
-    font-size: 72px;
+    font-size: 5em;
     line-height: 1.1;
     font-weight: 500;
 }
