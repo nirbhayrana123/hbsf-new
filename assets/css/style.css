@@ -8526,19 +8526,14 @@
     100% {
       opacity: 1;
     }
-  }
-
-  /* Smooth transition for all nav items */
+  } 
   .nav-item {
     transition: transform 0.3s ease;
   }
 
   .nav-item:hover {
     transform: translateY(-2px);
-  }
-
-  /* Note from the founders  */
-  /* Your existing sec-3 styles */
+  } 
   .sec-3 {
     overflow: hidden;
     overflow-x: hidden;
