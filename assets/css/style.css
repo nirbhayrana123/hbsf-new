@@ -133,14 +133,14 @@
     line-height: 1.3em;
   }
 
-  .pl-contact h3 {
+.pl-contact h3 {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 25px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 4px;
-  }
+}
 
   h5.articlename {
     color: #913832;
@@ -2504,10 +2504,10 @@
     text-align: center;
   }
 
-  .contact-us .image {
-    height: 280px;
-    width: 280px;
-  }
+ .contact-us .image {
+    height: 420px;
+    width: auto;
+}
 
   .contact-us .submit-btn {
     margin-right: 20px;
@@ -2957,29 +2957,27 @@
   }
 
 
-  .imgtopshape img {
-    width: 150px;
-  }
-
+.imgtopshape img {
+    width: 290px;
+}
   .contact-us .address-div {
     padding: 1rem 0px 1rem 0px;
     display: flex;
-    gap: 15px;
-    position: absolute;
-    bottom: -190px;
-    top: auto;
+    gap: 15px; 
   }
 
-  .pl-contact {
-    padding-left: 70px;
+.pl-contact {
+    padding-left: 60px;
     position: relative;
-    padding-top: 20px;
-  }
+    padding-top: 40px;
+    height: 100%;
+}
 
   .prdiingcontact {
     padding-right: 25px;
     border-left: 2px solid #91393270;
     padding-left: 20px;
+    padding-bottom: 0px;
   }
 
 
