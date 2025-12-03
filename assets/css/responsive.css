@@ -4478,6 +4478,9 @@ img.right-shaf {
     margin-left: auto;
     margin-right: 6px;
   }
+     .sec-1-content h1 {
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 374px) {
@@ -4593,7 +4596,5 @@ img.right-shaf {
   .our-collaborations .common-heading {
     font-size: 1.3rem !important;
   }
-      .sec-1-content h1 {
-        font-size: 35px;
-    }
+   
 }
