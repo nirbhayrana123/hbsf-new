@@ -155,9 +155,7 @@
     text-align: left;
   }
 
-  .border-b {
-    position: relative;
-  }
+ 
 
   .border-b::after {
     content: "";
@@ -2745,6 +2743,34 @@
   #fullpage header {
     display: none;
   }
+
+img.left-shaf {
+    width: 472px;
+    position: absolute;
+    bottom: -112px;
+    left: -41px;
+    transform: rotate(344deg);
+    pointer-events: none;
+}
+
+
+img.right-shaf {
+    width: 455px;
+    position: absolute;
+    bottom: -137px;
+    right: -31px;
+    transform: rotate(349deg);
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
 
 
   .sec-1 .nav-link {
@@ -6979,9 +7005,9 @@
     color: rgb(145, 56, 50);
   }
 
-  .sec-1 {
+/* .sec-1 {
     position: relative;
-    background-image: url(../img/bannderbg.jpg);
+    background-image: url(../img/topnav-shaf.png);
     background-repeat: no-repeat;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
     z-index: 99;
@@ -6989,9 +7015,49 @@
     padding-top: 0;
     max-height: 940px;
     height: 100%;
-  }
+    overflow: hidden;
+} */
 
+.homebanner nav.navbar {
+    position: relative;
+    top: -88px;
+    z-index: 3;
+}
+.homebanner {
+    position: relative;
+    overflow: hidden;
+    max-height: 100vh;
+    height: 100vh;
+}
 
+img.headerbg {
+    position: absolute;
+    top: -24%;
+    width: 105%;
+    transform: rotate(356deg);
+    z-index: 2;
+}
+
+.banner-bottom-description {
+    position: absolute;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    z-index: 5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.banner-bottom-description .border-b {
+    position: relative;
+    max-width: 60%;
+    font-size: 4.56em;
+    font-weight: 500;
+    font-style: italic;
+}
 
   .sec-1 .logo {
     height: 14em;

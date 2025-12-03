@@ -581,9 +581,9 @@
     margin-bottom: 14px;
   }
 
-  .sec-1 {
-    max-height: 740px;
-  }
+    /* .sec-1 {
+        max-height: 620px;
+    } */
 
   .description .border-b::after {
     width: 90px;
@@ -615,28 +615,35 @@
   .some-descrip {
     padding-top: 40px;
   }
-  .pl-contact h3 { 
-    font-size: 26px; 
-}
-.contact-us .address { 
-    font-size: 17px; 
-    font-weight: 400; 
+
+  .pl-contact h3 {
+    font-size: 26px;
+  }
+
+  .contact-us .address {
+    font-size: 17px;
+    font-weight: 400;
     margin-top: 10px;
-}
-.contact-us .image {
-    height: 360px; 
-}
-.imgtopshape img {
+  }
+
+  .contact-us .image {
+    height: 360px;
+  }
+
+  .imgtopshape img {
     width: 190px;
-}
-textarea.form-control, textarea.form-control:focus { 
-    min-height: 110px; 
-}
-.bannerbg .name { 
-    font-size: 2.2em; 
+  }
+
+  textarea.form-control,
+  textarea.form-control:focus {
+    min-height: 110px;
+  }
+
+  .bannerbg .name {
+    font-size: 2.2em;
     max-width: 90%;
-        margin: 0 auto;
-}
+    margin: 0 auto;
+  }
 
 }
 
@@ -662,9 +669,10 @@ textarea.form-control, textarea.form-control:focus {
   .about-us-section-1 .scrolling-div {
     max-height: 400px;
   }
-.contentuser p {
+
+  .contentuser p {
     font-size: 15px;
-}
+  }
 
 
   .myswiper .swiper-button-next {
@@ -904,7 +912,7 @@ textarea.form-control, textarea.form-control:focus {
     font-size: 25px;
   }
 
- 
+
 
   .thank-you-page .row-gap {
     padding-top: 300px;
@@ -1006,17 +1014,20 @@ textarea.form-control, textarea.form-control:focus {
   .main {
     padding-top: 130px;
   }
-  .bannerbg .name { 
-      font-size: 2em; 
-          max-width: 60%;
-        margin: 0 auto;
+
+  .bannerbg .name {
+    font-size: 2em;
+    max-width: 60%;
+    margin: 0 auto;
   }
-  .collabrations-box { 
+
+  .collabrations-box {
     min-height: 240px;
-} 
-.img-fluid-2 {
-        height: 520px;
-    }
+  }
+
+  .img-fluid-2 {
+    height: 520px;
+  }
 }
 
 
@@ -1025,7 +1036,7 @@ textarea.form-control, textarea.form-control:focus {
     font-size: 10px;
   }
 
-  .colectionimg { 
+  .colectionimg {
     width: 120px;
   }
 
@@ -1046,7 +1057,9 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 @media (max-width: 1200px) {
-
+img.headerbg { 
+    top: -12%; 
+}
   .carousel-inner .carousel-item>div {
     display: none;
   }
@@ -1757,10 +1770,7 @@ textarea.form-control, textarea.form-control:focus {
     margin-left: 5px;
   }
 
-  .sec-1 .logo {
-    margin-top: unset;
-    height: 119px;
-  }
+ 
 
   .section-height {
     height: auto;
@@ -1854,12 +1864,7 @@ textarea.form-control, textarea.form-control:focus {
     padding-top: 220px;
     padding-bottom: 50px;
   }
-
-  .sec-1 .logo {
-    margin-top: unset;
-    height: 119px;
-  }
-
+ 
 
   .sdg-grid .sdg-item:first-child {
     margin-left: 0px;
@@ -2093,11 +2098,11 @@ textarea.form-control, textarea.form-control:focus {
 
   }
 
- .contact-us .address-div {
-        width: 228px;
-        left: 70px;
-        bottom: 70px;
-    }
+  .contact-us .address-div {
+    width: 228px;
+    left: 70px;
+    bottom: 70px;
+  }
 
   .imgtopshape {
     display: none;
@@ -2124,19 +2129,20 @@ textarea.form-control, textarea.form-control:focus {
     left: 0;
     right: 0;
   }
-.leftimg {
+
+  .leftimg {
     text-align: center;
     width: 100%;
     padding: 20px 70px;
     margin: 68px 20px;
-}
+  }
 
 
 
 
   .prdiingcontact {
     padding-right: 90px;
-    padding-left:90px;
+    padding-left: 90px;
     border-left: 0;
   }
 
@@ -2425,8 +2431,6 @@ textarea.form-control, textarea.form-control:focus {
     display: none !important;
   }
 
-
-
   .imgcrav {
     width: 100%;
     text-align: center;
@@ -2515,22 +2519,18 @@ textarea.form-control, textarea.form-control:focus {
     display: none;
   }
 
-  .sec-1 .logo {
-    margin-top: unset;
-    height: 119px;
-  }
+ 
 
   .contact-us .image {
     margin-left: 0px;
   }
 
-.pl-contact h3
- {
+  .pl-contact h3 {
     order: 2;
     position: relative;
-}
-.pl-contact h3::after
- {
+  }
+
+  .pl-contact h3::after {
     content: "";
     width: 70px;
     height: 2px;
@@ -2540,7 +2540,7 @@ textarea.form-control, textarea.form-control:focus {
     background: #913832;
     left: 0;
     right: 0;
-}
+  }
 
 
   .yt-menu {
@@ -2583,7 +2583,6 @@ textarea.form-control, textarea.form-control:focus {
     padding: 3%;
   }
 
-  /*************************/
   .sec-2-text {
     line-height: 1.8rem;
   }
@@ -2630,10 +2629,7 @@ textarea.form-control, textarea.form-control:focus {
     min-height: 210px;
   }
 
-  .sec-1 .logo {
-    margin-top: 25px;
-    height: 190px;
-  }
+ 
 
   .sec-1>nav>.container>button.navbar-toggler.border-0 {
     display: none;
@@ -2651,15 +2647,25 @@ textarea.form-control, textarea.form-control:focus {
     left: -90px;
   }
 
-  
-     .contact-us .image
- {
-        height: auto;
-        width: 100%;
-        max-width: 100%;
-        border-left: 2px solid #7e2a2a;
-        border-right: 2px solid #7e2a2a;
-        border-radius: 0;
+
+  .contact-us .image {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    border-left: 2px solid #7e2a2a;
+    border-right: 2px solid #7e2a2a;
+    border-radius: 0;
+  }
+
+img.left-shaf {
+    width: 360px; 
+}
+img.right-shaf {
+    width: 385px; 
+}
+    .sec-1 .logo {
+        margin-top: 25px;
+        height: 135px;
     }
 }
 
@@ -2852,10 +2858,12 @@ textarea.form-control, textarea.form-control:focus {
     max-height: 150px;
     font-size: 14px;
   }
-.leftimg {
-        padding: 20px 30px;
-        margin-top: 100px;
-    }
+
+  .leftimg {
+    padding: 20px 30px;
+    margin-top: 100px;
+  }
+
   .ifeect {
     padding: 0 30px;
   }
@@ -3484,8 +3492,13 @@ textarea.form-control, textarea.form-control:focus {
     line-height: 36px;
   }
 
+img.left-shaf { 
+    bottom: 0; 
+}
 
-
+img.right-shaf { 
+    bottom: -170px; 
+}
   .sec-1 .m-logo {
     display: inline-block;
     position: absolute;
@@ -3584,19 +3597,21 @@ textarea.form-control, textarea.form-control:focus {
   .sec-4 .content {
     padding: 0rem;
   }
-      .contentuser p  {
-        font-size: 13px;
-    }
-    .contentuser { 
-    bottom: 0px; 
-    max-width: 95%; 
-    width: 100%;  
-}
-    
 
-    .img-fluid-2 {
-        height: auto;
-    }
+  .contentuser p {
+    font-size: 13px;
+  }
+
+  .contentuser {
+    bottom: 0px;
+    max-width: 95%;
+    width: 100%;
+  }
+
+
+  .img-fluid-2 {
+    height: auto;
+  }
 
   .sec-4 .content .about-content h6 {
     font-size: x-large;
@@ -3625,31 +3640,38 @@ textarea.form-control, textarea.form-control:focus {
     padding-bottom: 20px;
     font-size: 16px;
   }
-      .navbar-nav .dropdown-menu {
-        left: 62px;
-        top: 63px;
-    }
-.filterbox {
-        margin-top: 35px;
-        margin-bottom: 30px;
-    }
-h3.border-b.common-heading {
+
+  .navbar-nav .dropdown-menu {
+    left: 62px;
+    top: 63px;
+  }
+
+  .filterbox {
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+
+  h3.border-b.common-heading {
     font-size: 16px;
-}
-    .our-partner-1 .tab-menu .menus {
-        font-size: 10px;
-    }
-    .our-partner-1 .input-tag {
-        font-size: 12px;
-    }
-        .our-partner-1 .text-2 {
-        font-size: 18px;
-        padding-top: 20px;
-    }
-    .h3-gap {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+  }
+
+  .our-partner-1 .tab-menu .menus {
+    font-size: 10px;
+  }
+
+  .our-partner-1 .input-tag {
+    font-size: 12px;
+  }
+
+  .our-partner-1 .text-2 {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  .h3-gap {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
 }
 
@@ -3942,10 +3964,11 @@ h3.border-b.common-heading {
   .main {
     padding-top: 100px;
   }
-    .contact-us .address-div
- {
-        left: 40px;
-    }
+
+  .contact-us .address-div {
+    left: 40px;
+  }
+
   .hovermove {
     height: 375px;
   }
@@ -4115,9 +4138,7 @@ h3.border-b.common-heading {
     font-size: 40px;
   }
 
-  .sec-1 .logo {
-    display: none;
-  }
+ 
 
   .sec-1-line {
     margin-right: 1rem;
@@ -4307,9 +4328,11 @@ h3.border-b.common-heading {
   body {
     font-size: 7px;
   }
-.pl-contact h3 {
+
+  .pl-contact h3 {
     font-size: 20px;
-}
+  }
+
   .thankyoucontent {
     padding-right: 40px;
   }
