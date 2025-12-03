@@ -151,7 +151,7 @@
 
                 <ul class="nav nav-tabs tab-menu row align-items-center text-center" id="myTab">
                     <li class="col-3 nav-item tab-block left-tab d-flex justify-content-start" data-tab="current">
-                        <button class="nav-link menus active" data-bs-target="#content1">Current Partnership</button>
+                        <button class="nav-link menus active" data-bs-target="#content1">CURRENT PARTNERSHIP</button>
                     </li>
 
 
@@ -171,7 +171,7 @@
 
                     <div class="tab-pane fade show active" id="content1" role="tabpanel" aria-labelledby="reg-open">
                         <div class="tab-pane-inner">
-                             <div class="row justify-content-center pt-5">
+                             <div class="row justify-content-center pt-lg-5">
                             </div>
                             <div class="row align-items-end justify-content-center">
                                 <div class="text-2 my-3 ">
@@ -179,7 +179,7 @@
                                 </div>
                             </div>
 
-                            <div class="row align-items-end justify-content-center pt-5">
+                            <div class="row align-items-end justify-content-center pt-lg-5">
 
                                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center image-div partners-section">
                                     <a href="./partner-details-page.html">
@@ -704,7 +704,7 @@
                     <div class="tab-pane fade" id="content2" role="tabpanel" aria-labelledby="upcoming">
                         <div class="tab-pane-inner">
 
-                            <div class="row justify-content-center pt-5">
+                            <div class="row justify-content-center pt-lg-5">
                             </div>
                             <div class="row align-items-end justify-content-center">
                                 <div class="text-2 my-3 ">
@@ -714,7 +714,7 @@
                                 </div>
                             </div>
 
-                            <div class="row align-items-end justify-content-center mt-5 mt-md-0 mt-lg-5 pt-5">
+                            <div class="row align-items-end justify-content-center mt-5 mt-md-0 mt-lg-5 pt-lg-5">
                                 <div
                                     class="tab-2 col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center linesboreders partners-section">
                                     <div class="text-wrapper-2">
@@ -937,6 +937,37 @@
     head.addEventListener("click", () => {
         list.classList.toggle("open");
     });
+
+
+    
+
 </script> -->
+
+<script>
+   const tabBlocks = document.querySelectorAll(".tab-block");
+const heading = document.querySelector(".center-label h3");
+
+tabBlocks.forEach((block) => {
+  block.addEventListener("click", function () {
+    
+    // sabse pehle sabse active hatao
+    tabBlocks.forEach((b) =>
+      b.querySelector("button").classList.remove("active")
+    );
+
+    // jis par click hua usko active add
+    this.querySelector("button").classList.add("active");
+
+    // Center heading text change
+    if (this.dataset.tab === "current") {
+      heading.textContent = "CURRENT PARTNERSHIP";
+    } else {
+      heading.textContent = "PAST PARTNERSHIP";
+    }
+  });
+});
+
+    </script>
+
 
 </html>

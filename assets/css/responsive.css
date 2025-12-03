@@ -639,6 +639,10 @@
   .about-us-section-1 .scrolling-div {
     max-height: 400px;
   }
+.contentuser p {
+    font-size: 15px;
+}
+
 
   .myswiper .swiper-button-next {
     bottom: 30px !important;
@@ -877,9 +881,7 @@
     font-size: 25px;
   }
 
-  .contact-us .image {
-    margin-left: -150px;
-  }
+ 
 
   .thank-you-page .row-gap {
     padding-top: 300px;
@@ -1032,9 +1034,6 @@
   }
 
 
-  .contact-us .image {
-    margin-left: -70px;
-  }
 
 
 
@@ -1219,7 +1218,7 @@
   }
 
   .contact-us .address {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .contact-us .submit-btn {
@@ -2058,13 +2057,15 @@
     background-position: left;
     padding-top: 100px;
     position: relative;
+    padding-bottom: 190px;
+
   }
 
-  .contact-us .address-div {
-    top: 72px;
-    width: 228px;
-    left: 60px;
-  }
+ .contact-us .address-div {
+        width: 228px;
+        left: 70px;
+        bottom: 70px;
+    }
 
   .imgtopshape {
     display: none;
@@ -2075,6 +2076,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
+    justify-content: center;
   }
 
 
@@ -2090,21 +2092,19 @@
     left: 0;
     right: 0;
   }
-
-  .contact-us .image {
-    height: auto;
-    width: auto;
-    max-width: 100%;
-  }
-
-  .leftimg {
+.leftimg {
     text-align: center;
     width: 100%;
-  }
+    padding: 20px 70px;
+    margin: 68px 20px;
+}
+
+
+
 
   .prdiingcontact {
-    padding-right: 65px;
-    padding-left: 65px;
+    padding-right: 90px;
+    padding-left:90px;
     border-left: 0;
   }
 
@@ -2492,10 +2492,24 @@
     margin-left: 0px;
   }
 
+.pl-contact h3
+ {
+    order: 2;
+    position: relative;
+}
+.pl-contact h3::after
+ {
+    content: "";
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    bottom: -21px;
+    margin: 0 auto;
+    background: #913832;
+    left: 0;
+    right: 0;
+}
 
-  .contact-us .address-div {
-    left: 0px;
-  }
 
   .yt-menu {
     padding-top: 20px !important;
@@ -2604,6 +2618,17 @@
   .dot .year-label.section-title {
     left: -90px;
   }
+
+  
+     .contact-us .image
+ {
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+        border-left: 2px solid #7e2a2a;
+        border-right: 2px solid #7e2a2a;
+        border-radius: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -2795,7 +2820,10 @@
     max-height: 150px;
     font-size: 14px;
   }
-
+.leftimg {
+        padding: 20px 30px;
+        margin-top: 100px;
+    }
   .ifeect {
     padding: 0 30px;
   }
@@ -3424,9 +3452,7 @@
     line-height: 36px;
   }
 
-  .contact-us {
-    padding-top: 90px;
-  }
+
 
   .sec-1 .m-logo {
     display: inline-block;
@@ -3554,16 +3580,37 @@
     padding-bottom: 20px;
     font-size: 16px;
   }
-
-
+      .navbar-nav .dropdown-menu {
+        left: 62px;
+        top: 63px;
+    }
+.filterbox {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+h3.border-b.common-heading {
+    font-size: 16px;
+}
+    .our-partner-1 .tab-menu .menus {
+        font-size: 10px;
+    }
+    .our-partner-1 .input-tag {
+        font-size: 12px;
+    }
+        .our-partner-1 .text-2 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .h3-gap {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 
 }
 
 @media (max-width: 650px) {
   .contact-us .address-div {
-    top: 72px;
     width: 228px;
-    left: 28px;
   }
 
   .news-narratives-page .bottom-div {
@@ -3850,7 +3897,10 @@
   .main {
     padding-top: 100px;
   }
-
+    .contact-us .address-div
+ {
+        left: 40px;
+    }
   .hovermove {
     height: 375px;
   }
@@ -4004,7 +4054,6 @@
   }
 
   .contact-us {
-    padding-top: 10px;
     padding-bottom: 0;
   }
 
@@ -4213,7 +4262,9 @@
   body {
     font-size: 7px;
   }
-
+.pl-contact h3 {
+    font-size: 20px;
+}
   .thankyoucontent {
     padding-right: 40px;
   }
