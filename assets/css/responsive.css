@@ -4447,6 +4447,10 @@ img.right-shaf {
   section.thank-you-page {
     padding-bottom: 0;
   }
+      .contact-us .submit-btn {
+        margin-left: auto;
+        margin-right: 6px;
+    }
 }
 
 @media (max-width: 374px) {
