@@ -121,6 +121,7 @@
     line-height: 1.3em;
     color: rgb(145, 56, 50);
     font-family: "Bodoni Moda 9pt", serif;
+    position: relative;
   }
 
   h3 {
