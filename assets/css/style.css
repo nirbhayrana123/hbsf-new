@@ -1196,11 +1196,11 @@
     row-gap: 20px;
   }
 
-  .background-black .col-12 {
+  .background-black .blackbg  {
     background-color: #514c47;
   }
 
-  .background-black.offwhites .col-12 {
+  .background-black.offwhites .blackbg  {
     background-color: #f3eae1;
   }
 
@@ -4030,7 +4030,7 @@
     height: 720px;
   }
 
-  .background-black.offwhites-2 .col-12 {
+  .background-black.offwhites-2 .blackbg {
     background-color: transparent;
   }
 

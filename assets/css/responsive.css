@@ -615,28 +615,35 @@
   .some-descrip {
     padding-top: 40px;
   }
-  .pl-contact h3 { 
-    font-size: 26px; 
-}
-.contact-us .address { 
-    font-size: 17px; 
-    font-weight: 400; 
+
+  .pl-contact h3 {
+    font-size: 26px;
+  }
+
+  .contact-us .address {
+    font-size: 17px;
+    font-weight: 400;
     margin-top: 10px;
-}
-.contact-us .image {
-    height: 360px; 
-}
-.imgtopshape img {
+  }
+
+  .contact-us .image {
+    height: 360px;
+  }
+
+  .imgtopshape img {
     width: 190px;
-}
-textarea.form-control, textarea.form-control:focus { 
-    min-height: 110px; 
-}
-.bannerbg .name { 
-    font-size: 2.2em; 
+  }
+
+  textarea.form-control,
+  textarea.form-control:focus {
+    min-height: 110px;
+  }
+
+  .bannerbg .name {
+    font-size: 2.2em;
     max-width: 90%;
-        margin: 0 auto;
-}
+    margin: 0 auto;
+  }
 
 }
 
@@ -662,9 +669,10 @@ textarea.form-control, textarea.form-control:focus {
   .about-us-section-1 .scrolling-div {
     max-height: 400px;
   }
-.contentuser p {
+
+  .contentuser p {
     font-size: 15px;
-}
+  }
 
 
   .myswiper .swiper-button-next {
@@ -904,7 +912,7 @@ textarea.form-control, textarea.form-control:focus {
     font-size: 25px;
   }
 
- 
+
 
   .thank-you-page .row-gap {
     padding-top: 300px;
@@ -1006,17 +1014,20 @@ textarea.form-control, textarea.form-control:focus {
   .main {
     padding-top: 130px;
   }
-  .bannerbg .name { 
-      font-size: 2em; 
-          max-width: 60%;
-        margin: 0 auto;
+
+  .bannerbg .name {
+    font-size: 2em;
+    max-width: 60%;
+    margin: 0 auto;
   }
-  .collabrations-box { 
+
+  .collabrations-box {
     min-height: 240px;
-} 
-.img-fluid-2 {
-        height: 520px;
-    }
+  }
+
+  .img-fluid-2 {
+    height: 520px;
+  }
 }
 
 
@@ -1025,7 +1036,7 @@ textarea.form-control, textarea.form-control:focus {
     font-size: 10px;
   }
 
-  .colectionimg { 
+  .colectionimg {
     width: 120px;
   }
 
@@ -1557,6 +1568,40 @@ textarea.form-control, textarea.form-control:focus {
     height: 480px;
     max-width: 100%;
   }
+  .imgbginner::after {
+    opacity: 0;
+    display: none;
+}
+    .secondimgbg .torow.hovermove::before {
+        display: none;
+        opacity: 0;
+    }
+    .imgbginner::before{
+      display: none;
+      opacity: 0;
+    }
+
+    .background-black .blackbg:nth-child(3) .tothree.hovermove::after {
+        content: "";
+        width: 90px;
+        height: 100%;
+        position: absolute;
+        left: auto;
+        top: 0;
+        background-image: url(../img/off-white-shap.svg);
+        background-repeat: no-repeat;
+        z-index: 999;
+        object-fit: contain;
+        background-size: contain;
+        right: -80px;
+    }
+    .background-black .blackbg:nth-child(5) .torow.hovermove::after{
+      content: "";
+left: auto;
+right: -55px;
+    }
+
+
 
   .sdg-grid {
     display: flex;
@@ -2093,12 +2138,12 @@ textarea.form-control, textarea.form-control:focus {
 
   }
 
- .contact-us .address-div {
-        width: 228px;
-        left: 70px;
-        bottom: 70px;
-        position: absolute;
-    }
+  .contact-us .address-div {
+    width: 228px;
+    left: 70px;
+    bottom: 70px;
+    position: absolute;
+  }
 
   .imgtopshape {
     display: none;
@@ -2125,19 +2170,20 @@ textarea.form-control, textarea.form-control:focus {
     left: 0;
     right: 0;
   }
-.leftimg {
+
+  .leftimg {
     text-align: center;
     width: 100%;
     padding: 20px 70px;
     margin: 68px 20px;
-}
+  }
 
 
 
 
   .prdiingcontact {
     padding-right: 90px;
-    padding-left:90px;
+    padding-left: 90px;
     border-left: 0;
   }
 
@@ -2525,13 +2571,12 @@ textarea.form-control, textarea.form-control:focus {
     margin-left: 0px;
   }
 
-.pl-contact h3
- {
+  .pl-contact h3 {
     order: 2;
     position: relative;
-}
-.pl-contact h3::after
- {
+  }
+
+  .pl-contact h3::after {
     content: "";
     width: 70px;
     height: 2px;
@@ -2541,7 +2586,7 @@ textarea.form-control, textarea.form-control:focus {
     background: #913832;
     left: 0;
     right: 0;
-}
+  }
 
 
   .yt-menu {
@@ -2652,23 +2697,27 @@ textarea.form-control, textarea.form-control:focus {
     left: -90px;
   }
 
-  
-     .contact-us .image
+
+  .contact-us .image {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    border-left: 2px solid #7e2a2a;
+    border-right: 2px solid #7e2a2a;
+    border-radius: 0;
+  }
+}
+@media (max-width: 900px) {
+      .hovermove
  {
-        height: auto;
-        width: 100%;
-        max-width: 100%;
-        border-left: 2px solid #7e2a2a;
-        border-right: 2px solid #7e2a2a;
-        border-radius: 0;
+        height: 430px;
     }
 }
-
 @media (max-width: 767px) {
   .about-us-section-1 {
     padding-bottom: 0px;
   }
-
+ 
   .text-center {
     margin-top: 25px !important;
   }
@@ -2853,10 +2902,12 @@ textarea.form-control, textarea.form-control:focus {
     max-height: 150px;
     font-size: 14px;
   }
-.leftimg {
-        padding: 20px 30px;
-        margin-top: 100px;
-    }
+
+  .leftimg {
+    padding: 20px 30px;
+    margin-top: 100px;
+  }
+
   .ifeect {
     padding: 0 30px;
   }
@@ -3093,10 +3144,12 @@ textarea.form-control, textarea.form-control:focus {
 
 
   .hovermove {
-    height: 485px;
-    overflow: hidden;
+    height: 350px;
     width: 100%;
   }
+    .secondimgbg .torow.hovermove::after {
+        left: -50px;
+    }
 
   .imgbginner {
     width: 100%;
@@ -3371,27 +3424,30 @@ textarea.form-control, textarea.form-control:focus {
     padding-top: 0;
   }
 
-  .imgbginner::after,
-  .imgbginner::before,
-  .secondimgbg .torow.hovermove::after,
-  .secondimgbg .torow.hovermove::before {
-    opacity: 0;
-  }
-
-  .hovermove:hover .imgbginner::after,
-  .hovermove:hover .imgbginner::before {
-    opacity: 0;
-  }
+ .content-text h4 {
+        font-size: 20px;
+    }
 
   .background-black {
-    row-gap: 0px;
+    row-gap: 10px;
   }
-
+    .background-black .blackbg:nth-child(3) .tothree.hovermove::after {
+ 
+        right: -40px;
+    }
+.background-black .blackbg:nth-child(5) .torow.hovermove::after {
+      
+        right: -35px;
+            width: 70px;
+    }
   #news-slider .owl-pagination .owl-page {
     width: 8px;
     height: 8px;
     margin: 0 3px;
   }
+    .contentuser { 
+        max-width: 78%; 
+    }
 
   owl-buttons .owl-prev,
   .owl-buttons .owl-next {
@@ -3585,19 +3641,21 @@ textarea.form-control, textarea.form-control:focus {
   .sec-4 .content {
     padding: 0rem;
   }
-      .contentuser p  {
-        font-size: 13px;
-    }
-    .contentuser { 
-    bottom: 0px; 
-    max-width: 95%; 
-    width: 100%;  
-}
-    
 
-    .img-fluid-2 {
-        height: auto;
-    }
+  .contentuser p {
+    font-size: 13px;
+  }
+
+  .contentuser {
+    bottom: 0px;
+    max-width: 95%;
+    width: 100%;
+  }
+
+
+  .img-fluid-2 {
+    height: auto;
+  }
 
   .sec-4 .content .about-content h6 {
     font-size: x-large;
@@ -3626,31 +3684,38 @@ textarea.form-control, textarea.form-control:focus {
     padding-bottom: 20px;
     font-size: 16px;
   }
-      .navbar-nav .dropdown-menu {
-        left: 62px;
-        top: 63px;
-    }
-.filterbox {
-        margin-top: 35px;
-        margin-bottom: 30px;
-    }
-h3.border-b.common-heading {
+
+  .navbar-nav .dropdown-menu {
+    left: 62px;
+    top: 63px;
+  }
+
+  .filterbox {
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+
+  h3.border-b.common-heading {
     font-size: 16px;
-}
-    .our-partner-1 .tab-menu .menus {
-        font-size: 10px;
-    }
-    .our-partner-1 .input-tag {
-        font-size: 12px;
-    }
-        .our-partner-1 .text-2 {
-        font-size: 18px;
-        padding-top: 20px;
-    }
-    .h3-gap {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+  }
+
+  .our-partner-1 .tab-menu .menus {
+    font-size: 10px;
+  }
+
+  .our-partner-1 .input-tag {
+    font-size: 12px;
+  }
+
+  .our-partner-1 .text-2 {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  .h3-gap {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
 }
 
@@ -3658,7 +3723,23 @@ h3.border-b.common-heading {
   .contact-us .address-div {
     width: 228px;
   }
+    .hovermove {
+        height: 290px; 
+    }
+        .secondimgbg .torow.hovermove::after {
+        left: -18px;
+    }
 
+    .background-black .blackbg:nth-child(3) .tothree.hovermove::after {
+        content: "";
+        width: 50px; 
+    }
+
+.contentuser
+ {
+        max-width: 75%;
+        width: 100%;
+    }
   .news-narratives-page .bottom-div {
     justify-content: center !important;
   }
@@ -3823,10 +3904,26 @@ h3.border-b.common-heading {
     padding-top: 160px;
     font-size: 35px;
   }
-
+    .contentuser
+ {
+        max-width: 90%;
+        width: 100%;
+    }
+        .secondimgbg .torow.hovermove::after {
+        left: 0;
+        display: none;
+    }
+        .background-black .blackbg:nth-child(3) .tothree.hovermove::after {
+        
+        display: none;
+    }
   .container.founding-members {
     padding-top: 0;
   }
+      .hovermove
+ {
+        overflow: hidden;
+    }
 
   .sec-1 .description {
     padding-top: 160px;
@@ -3943,15 +4040,16 @@ h3.border-b.common-heading {
   .main {
     padding-top: 100px;
   }
-  .leftimg 
- { 
-        margin-top: 48px;
-        margin-bottom: 48px;
-    }
-    .contact-us .address-div
- {
-        left: 40px;
-    }
+
+  .leftimg {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .contact-us .address-div {
+    left: 40px;
+  }
+
   .hovermove {
     height: 375px;
   }
@@ -4249,10 +4347,12 @@ h3.border-b.common-heading {
   .bannerbg .gap {
     gap: 7px;
   }
-    .leftimg {
-        margin-top: 30px;
-        margin-bottom: 20px;
-    }
+
+  .leftimg {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
   .swipersmain {
     height: 600px;
   }
@@ -4260,9 +4360,11 @@ h3.border-b.common-heading {
   .hovermove {
     height: 335px;
   }
-    .pl-contact h3 {
-        font-size: 22px;
-    }
+
+  .pl-contact h3 {
+    font-size: 22px;
+  }
+
   .bannerbg .gap .icons {
     height: 15px;
     width: 15px;
@@ -4318,9 +4420,11 @@ h3.border-b.common-heading {
   body {
     font-size: 7px;
   }
-.pl-contact h3 {
+
+  .pl-contact h3 {
     font-size: 20px;
-}
+  }
+
   .thankyoucontent {
     padding-right: 40px;
   }
@@ -4384,6 +4488,10 @@ h3.border-b.common-heading {
 @media (max-width: 365px) {
   .sec-1 .description {
     font-size: 30px;
+  }
+
+  .contact-us .labels {
+    font-size: 11px;
   }
 
   .overview-page-main .common-heading {
