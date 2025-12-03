@@ -3584,6 +3584,19 @@ textarea.form-control, textarea.form-control:focus {
   .sec-4 .content {
     padding: 0rem;
   }
+      .contentuser p  {
+        font-size: 13px;
+    }
+    .contentuser { 
+    bottom: 0px; 
+    max-width: 95%; 
+    width: 100%;  
+}
+    
+
+    .img-fluid-2 {
+        height: auto;
+    }
 
   .sec-4 .content .about-content h6 {
     font-size: x-large;
