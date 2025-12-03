@@ -2690,7 +2690,9 @@
   img.right-shaf {
     width: 385px;
   }
-
+.banner-bottom-description .border-b { 
+    max-width: 60%; 
+}
  
 }
 
@@ -3730,9 +3732,9 @@ img.right-shaf {
     margin-bottom: 40px;
   }
 
-  section.homebanner.sec-1.section-height.panel {
-    padding-top: 64px;
-  }
+    section.homebanner.sec-1.section-height.panel {
+        padding-top: 90px;
+    }
 
   img.headerbg {
     top: -5%;
@@ -3744,11 +3746,10 @@ img.right-shaf {
   .contact-us .address-div {
     width: 228px;
   }
-
-  img.left-shaf {
-    bottom: 140px;
-    transform: rotate(10deg);
-  }
+    img.left-shaf {
+        bottom: 200px;
+        transform: rotate(10deg);
+    }
 
   .banner-bottom-description {
     padding-bottom: 22%;
@@ -4388,7 +4389,9 @@ img.right-shaf {
     gap: 7px;
   }
 
- 
+     .banner-bottom-description {
+        padding-bottom: 35%;
+    }
 
   .leftimg {
     margin-top: 30px;

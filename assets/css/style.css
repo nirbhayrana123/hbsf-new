@@ -7022,9 +7022,9 @@ img.right-shaf {
     color: rgb(145, 56, 50);
   }
 
-/* .sec-1 {
+.sec-1 {
     position: relative;
-    background-image: url(../img/topnav-shaf.png);
+    background-image: url(../img/bannderbg.jpg);
     background-repeat: no-repeat;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
     z-index: 99;
@@ -7033,9 +7033,9 @@ img.right-shaf {
     max-height: 940px;
     height: 100%;
     overflow: hidden;
-} */
+} 
 
-.homebanner nav.navbar {
+/* .homebanner nav.navbar {
     position: relative;
     top: -88px;
     z-index: 3;
@@ -7045,8 +7045,8 @@ img.right-shaf {
     overflow: hidden;
     max-height: 100vh;
     height: 100vh;
-}
-
+} */
+/* 
 img.headerbg {
     position: absolute;
     top: -24%;
@@ -7070,12 +7070,12 @@ img.headerbg {
 
 .banner-bottom-description .border-b {
     position: relative;
-    max-width: 60%;
+    max-width: 820px;
     font-size: 4.56em;
     font-weight: 500;
     font-style: italic;
     z-index: 9;
-}
+} */
 
   .sec-1 .logo {
     height: 14em;
