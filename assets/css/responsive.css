@@ -1014,6 +1014,9 @@ textarea.form-control, textarea.form-control:focus {
   .collabrations-box { 
     min-height: 240px;
 } 
+.img-fluid-2 {
+        height: 520px;
+    }
 }
 
 
