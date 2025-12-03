@@ -9025,7 +9025,7 @@
 
     .swiper-button-next,
     ~.swiper-button-next {
-      bottom: var(--swiper-navigation-sides-offset, 4px);
+      /* bottom: var(--swiper-navigation-sides-offset, 4px); */
       top: auto;
 
       .swiper-navigation-icon {
