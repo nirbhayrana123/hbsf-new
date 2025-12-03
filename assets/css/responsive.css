@@ -2715,7 +2715,9 @@
     .about-us-section-1 {
       padding-bottom: 0px;
     }
-
+.fullimgeslider { 
+    height: calc(100% - 20px); 
+}
     span.share-text {
       padding-left: 0px;
     }
@@ -3743,7 +3745,9 @@
     .contact-us .address-div {
       width: 228px;
     }
-
+.fullimgeslider { 
+    height: calc(100% - 75px); 
+}
     .hovermove {
       height: 290px;
     }
