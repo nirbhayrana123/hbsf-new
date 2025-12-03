@@ -121,6 +121,7 @@
     line-height: 1.3em;
     color: rgb(145, 56, 50);
     font-family: "Bodoni Moda 9pt", serif;
+    position: relative;
   }
 
   h3 {
@@ -3785,22 +3786,29 @@ img.right-shaf {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 40px;
-    margin-bottom: 15px;
-  }
+    margin-bottom: 50px;
+}
   .italics {
     font-style: italic;
     text-decoration: none;
 }
 
 
-  .grid-basic h5 {
+ .grid-basic h5 {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 2.1em;
+    font-size: 2.5em;
     font-style: italic;
     font-weight: 400;
     line-height: 1.4em;
-  }
+}
+.grid-basic h4 {
+    color: #913832;
+    font-family: "Bodoni Moda 9pt";
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
 
   .grid-basic p {
     color: #913832;
