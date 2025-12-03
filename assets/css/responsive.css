@@ -644,6 +644,12 @@
     max-width: 90%;
     margin: 0 auto;
   }
+     
+    span.v-divider {
+        height: 35px;
+        width: 2px;
+    }
+ 
 
 }
 
@@ -669,8 +675,12 @@
   .about-us-section-1 .scrolling-div {
     max-height: 400px;
   }
-
-  .contentuser p {
+      span.v-divider {
+        height: 35px;
+        width: 2px;
+    }
+  
+.contentuser p {
     font-size: 15px;
   }
 
@@ -2717,7 +2727,16 @@ right: -55px;
   .about-us-section-1 {
     padding-bottom: 0px;
   }
- 
+  span.share-text { 
+    padding-left: 0px;
+}
+    span.v-divider { 
+        margin-left: 0px;
+    }
+    .grid-basic.towcol { 
+    margin-top: 25px;
+}
+
   .text-center {
     margin-top: 25px !important;
   }
@@ -2849,8 +2868,8 @@ right: -55px;
   }
 
   .article-link {
-    font-size: 2.1em;
-  }
+        font-size: 1.7em;
+    }
 
   .sec-5 .carousel-item a:hover .bottom-div .description-text {
     max-height: 150px;
@@ -3671,10 +3690,9 @@ right: -55px;
   }
 
 
-  .grid-basic p {
-    margin-bottom: 0px;
-
-  }
+.grid-basic p {
+        margin-bottom: 15px;
+    }
 
   .partner-description p {
     margin-bottom: 13px;
