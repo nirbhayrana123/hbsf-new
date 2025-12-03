@@ -2713,6 +2713,9 @@
   .about-us-section-1 {
     padding-bottom: 0px;
   }
+  .sec-1 .logo { 
+    margin-top: 8px; 
+}
 
   span.share-text {
     padding-left: 0px;
