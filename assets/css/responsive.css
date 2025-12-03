@@ -2690,7 +2690,16 @@
   img.right-shaf {
     width: 385px;
   }
-
+    .sec-1 {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../img/mobilemainheader.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: 5;
+        position: relative;
+    }
  
 }
 

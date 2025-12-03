@@ -7022,9 +7022,9 @@ img.right-shaf {
     color: rgb(145, 56, 50);
   }
 
-/* .sec-1 {
-    position: relative;
-    background-image: url(../img/topnav-shaf.png);
+.sec-1 {
+        position: relative;
+    background-image: url(../img/bannderbg.jpg);
     background-repeat: no-repeat;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
     z-index: 99;
@@ -7032,8 +7032,7 @@ img.right-shaf {
     padding-top: 0;
     max-height: 940px;
     height: 100%;
-    overflow: hidden;
-} */
+}
 
 .homebanner nav.navbar {
     position: relative;
