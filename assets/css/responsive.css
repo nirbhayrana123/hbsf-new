@@ -4428,7 +4428,10 @@ right: -55px;
     width: 2px;
     height: 18px;
   }
-
+    .contact-us .labels
+ {
+        font-size: 11px;
+    }
   section.thank-you-page {
     padding-bottom: 0;
   }
