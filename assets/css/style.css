@@ -7052,12 +7052,12 @@ img.headerbg {
     width: 100%;
     top: auto;
     bottom: 0;
-    z-index: 5;
+    z-index: 0;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
 }
 
 .banner-bottom-description .border-b {
@@ -7066,6 +7066,7 @@ img.headerbg {
     font-size: 4.56em;
     font-weight: 500;
     font-style: italic;
+    z-index: 9;
 }
 
   .sec-1 .logo {
