@@ -2097,6 +2097,7 @@ textarea.form-control, textarea.form-control:focus {
         width: 228px;
         left: 70px;
         bottom: 70px;
+        position: absolute;
     }
 
   .imgtopshape {
@@ -3942,6 +3943,11 @@ h3.border-b.common-heading {
   .main {
     padding-top: 100px;
   }
+  .leftimg 
+ { 
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
     .contact-us .address-div
  {
         left: 40px;
@@ -4243,7 +4249,10 @@ h3.border-b.common-heading {
   .bannerbg .gap {
     gap: 7px;
   }
-
+    .leftimg {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
   .swipersmain {
     height: 600px;
   }
@@ -4251,7 +4260,9 @@ h3.border-b.common-heading {
   .hovermove {
     height: 335px;
   }
-
+    .pl-contact h3 {
+        font-size: 22px;
+    }
   .bannerbg .gap .icons {
     height: 15px;
     width: 15px;
