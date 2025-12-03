@@ -644,15 +644,12 @@
     max-width: 90%;
     margin: 0 auto;
   }
-<<<<<<< HEAD
-=======
      
     span.v-divider {
         height: 35px;
         width: 2px;
     }
  
->>>>>>> d3dcaa5e7fc7eb3ce21ad9dbf399cd9a8301cfcf
 
 }
 
@@ -678,17 +675,12 @@
   .about-us-section-1 .scrolling-div {
     max-height: 400px;
   }
-<<<<<<< HEAD
-
-  .contentuser p {
-=======
       span.v-divider {
         height: 35px;
         width: 2px;
     }
   
 .contentuser p {
->>>>>>> d3dcaa5e7fc7eb3ce21ad9dbf399cd9a8301cfcf
     font-size: 15px;
   }
 
@@ -2154,10 +2146,7 @@ right: -55px;
     width: 228px;
     left: 70px;
     bottom: 70px;
-<<<<<<< HEAD
-=======
     position: absolute;
->>>>>>> d3dcaa5e7fc7eb3ce21ad9dbf399cd9a8301cfcf
   }
 
   .imgtopshape {
@@ -2250,7 +2239,6 @@ right: -55px;
 
   .navbar-nav .dropdown-menu a.dropdown-item.nav-link.p-1.list-text {
     border-bottom: 0;
-    /* text-align: right; */
   }
 
   /************************************* home.css*****************/
@@ -2297,16 +2285,6 @@ right: -55px;
     height: 600px;
   }
 
-  /* .sec-1 {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../img/mobilemainheader.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    z-index: 5;
-    position: relative;
-  } */
 
   .footer-bottom-text {
     max-width: 100%;
@@ -2722,6 +2700,7 @@ img.right-shaf {
     .sec-1 .logo {
         margin-top: 25px;
         height: 135px;
+}
 }
 @media (max-width: 900px) {
       .hovermove
@@ -4070,14 +4049,11 @@ img.right-shaf {
     padding-top: 100px;
   }
 
-<<<<<<< HEAD
-=======
   .leftimg {
     margin-top: 48px;
     margin-bottom: 48px;
   }
 
->>>>>>> d3dcaa5e7fc7eb3ce21ad9dbf399cd9a8301cfcf
   .contact-us .address-div {
     left: 40px;
   }
