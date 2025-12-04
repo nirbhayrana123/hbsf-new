@@ -3781,8 +3781,7 @@ img.right-shaf {
     height: 445px;
   }
       .sec-1>nav>.container>button.navbar-toggler.border-0 {
-       display: block;
-        pointer-events: none;
+        display: block;  
         top: 190px;
         position: absolute;
         right: 28px;
