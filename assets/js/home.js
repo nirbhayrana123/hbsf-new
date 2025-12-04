@@ -317,3 +317,10 @@ window.addEventListener("scroll", function () {
     header.classList.remove("active");
   }
 }); 
+
+
+$(document).ready(function () {
+  $('.topheader').on('click', function () {
+    $('.about-us-nav').toggleClass('active');
+  });
+});

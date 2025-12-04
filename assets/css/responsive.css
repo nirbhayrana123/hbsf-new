@@ -3782,7 +3782,6 @@ img.right-shaf {
   }
       .sec-1>nav>.container>button.navbar-toggler.border-0 {
        display: block;
-        pointer-events: none;
         top: 190px;
         position: absolute;
         right: 28px;
@@ -4475,13 +4474,22 @@ h2.border-b.common-heading {
   .thankyoucontent h4 {
     font-size: 1.5em;
   }
+      .sec-1 .logo {
+        margin-top: 29px;
+    }
+    .sec-1>nav>.container>button.navbar-toggler.border-0 {
+        top: 148px;
+    }
 }
 
 @media (max-width: 400px) {
   .bannerbg .gap {
     gap: 7px;
   }
-      
+      .mins-highr{
+        min-height: auto!important;
+        padding-bottom: 100px;
+      }
 
      .banner-bottom-description {
         padding-bottom: 35%;
@@ -4566,6 +4574,17 @@ h2.border-b.common-heading {
     }
         .description.container-fluid.pb-0 {
         bottom: 16%;
+    }
+        .sec-1 .logo
+ {
+        margin-top: 8px;
+    }
+        .sec-1>nav>.container>button.navbar-toggler.border-0
+ {
+        top: 100px;
+    }
+    .sec-4 {
+      padding-bottom: 70px;
     }
 }
 
