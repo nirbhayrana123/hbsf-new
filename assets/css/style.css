@@ -134,14 +134,14 @@
     line-height: 1.3em;
   }
 
-.pl-contact h3 {
+  .pl-contact h3 {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 4px;
-}
+  }
 
   h5.articlename {
     color: #913832;
@@ -156,7 +156,7 @@
     text-align: left;
   }
 
- 
+
 
   .border-b::after {
     content: "";
@@ -1195,20 +1195,15 @@
     row-gap: 20px;
   }
 
-  .background-black .blackbg  {
+  .background-black .blackbg {
     background-color: #514c47;
   }
 
-  .background-black.offwhites .blackbg  {
+  .background-black.offwhites .blackbg {
     background-color: #f3eae1;
   }
 
-  .hovermove:hover .bordersline {
-    opacity: 1;
-    left: -10px;
-    width: 2px;
-    height: 100%;
-  }
+
 
 
 
@@ -1516,11 +1511,7 @@
   }
 
 
-  .our-partner-1 .image {
-    height: 150px;
-    width: 180px;
-    object-fit: contain;
-  }
+ 
 
   .our-partner-1 .image-div:hover .image {
     height: 150px;
@@ -1580,12 +1571,8 @@
 
 
 
-  .our-partner-1 .image-div .image-1 {
-    width: 100%;
-    max-width: 200px;
-    transition: transform 0.9s ease, filter 0.9s ease;
-  }
-/* 
+
+  /* 
   .our-partner-1 .image-div:hover .image-1 {
     content: url(../img/our-partner-color-logo-1.png);
     transform: scale(1.08);
@@ -2201,7 +2188,7 @@
   .bannerbg .name {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
-    font-size: 2.6em; 
+    font-size: 2.6em;
     font-weight: 500;
     line-height: normal;
     transition: 1s;
@@ -2219,6 +2206,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   .animatiobox::after {
     content: "";
     position: absolute;
@@ -2230,7 +2218,7 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
   .bannerbg .date {
     color: #913832;
@@ -2270,17 +2258,17 @@
     font-weight: 400;
   }
 
- .topser {
+  .topser {
     margin-top: 5px;
     margin-right: 15px;
-}
+  }
 
-span.v-divider {
+  span.v-divider {
     background: #913832;
     width: 3px;
     height: 46px;
     margin-left: 6px;
-}
+  }
 
   span.share-text {
     color: #913832;
@@ -2292,7 +2280,7 @@ span.v-divider {
     line-height: normal;
     cursor: pointer;
     padding-left: 5px;
-}
+  }
 
 
   .bannerbg .view-article {
@@ -2519,10 +2507,10 @@ span.v-divider {
     text-align: center;
   }
 
- .contact-us .image {
+  .contact-us .image {
     height: 420px;
     width: auto;
-}
+  }
 
   .contact-us .submit-btn {
     margin-right: 20px;
@@ -2762,24 +2750,24 @@ span.v-divider {
     display: none;
   }
 
-img.left-shaf {
+  img.left-shaf {
     width: 472px;
     position: absolute;
     bottom: -112px;
     left: -41px;
     transform: rotate(344deg);
     pointer-events: none;
-}
+  }
 
 
-img.right-shaf {
+  img.right-shaf {
     width: 455px;
     position: absolute;
     bottom: -137px;
     right: -31px;
     transform: rotate(349deg);
     pointer-events: none;
-}
+  }
 
 
 
@@ -3000,21 +2988,22 @@ img.right-shaf {
   }
 
 
-.imgtopshape img {
+  .imgtopshape img {
     width: 290px;
-}
+  }
+
   .contact-us .address-div {
     padding: 1rem 0px 1rem 0px;
     display: flex;
-    gap: 15px; 
+    gap: 15px;
   }
 
-.pl-contact {
+  .pl-contact {
     padding-left: 60px;
     position: relative;
     padding-top: 40px;
     height: 100%;
-}
+  }
 
   .prdiingcontact {
     padding-right: 25px;
@@ -3786,7 +3775,7 @@ img.right-shaf {
   .grid-basic.towcol {
     grid-template-columns: 1fr 1fr;
     margin-top: 70px;
-}
+  }
 
   .grid-basic.threecol {
     grid-template-columns: 1fr 1fr 1fr;
@@ -3799,28 +3788,30 @@ img.right-shaf {
     grid-template-columns: 1fr 2fr;
     gap: 40px;
     margin-bottom: 50px;
-}
+  }
+
   .italics {
     font-style: italic;
     text-decoration: none;
-}
+  }
 
 
- .grid-basic h5 {
+  .grid-basic h5 {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
     font-size: 2.5em;
     font-style: italic;
     font-weight: 400;
     line-height: 1.4em;
-}
-.grid-basic h4 {
+  }
+
+  .grid-basic h4 {
     color: #913832;
     font-family: "Bodoni Moda 9pt";
     font-size: 1.8em;
     font-weight: 400;
     line-height: 1.4em;
-}
+  }
 
   .grid-basic p {
     color: #913832;
@@ -4771,13 +4762,13 @@ img.right-shaf {
     font-weight: 400;
   }
 
- .our-partner-1 .image-div {
+  .our-partner-1 .image-div {
     transition: all 0.4s ease;
     position: relative;
     padding: 20px 0;
     text-align: center;
     overflow: visible;
-}
+  }
 
   /* Image styling */
   .our-partner-1 .image-div .image {
@@ -4786,23 +4777,18 @@ img.right-shaf {
     object-fit: contain;
     transition: transform 0.4s ease;
     margin-bottom: 15px;
-        filter: grayscale(1);
+    filter: grayscale(1);
+    max-width: 200px;
   }
 
-  /* Image moves up slightly on hover */
   .our-partner-1 .image-div:hover .image {
     transform: translateY(-10px);
   }
 
- 
 
-  /* Common text styles */
-  /* Common text styles */
-  /* Keep text-wrapper positioned relative for absolute children */
   .our-partner-1 .text-wrapper {
     position: relative;
     width: 100%;
-    /* enough space for description + read more */
   }
 
   .our-partner-1 .text-wrapper-2 {
@@ -4821,12 +4807,11 @@ img.right-shaf {
     margin-top: 12px;
   }
 
-  /* Common text styles */
   .our-partner-1 .name,
   .our-partner-1 .description,
   .our-partner-1 .description-3,
-  .our-partner-1 .description-2 { 
-    left: 50%; 
+  .our-partner-1 .description-2 {
+    left: 50%;
     width: 90%;
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -4907,7 +4892,7 @@ img.right-shaf {
 
   /* Hover state animations */
   .our-partner-1 .image-div:hover .name {
-    opacity: 0; 
+    opacity: 0;
   }
 
   .our-partner-1 .image-div:hover .description {
@@ -5078,7 +5063,7 @@ img.right-shaf {
   }
 
 
-  
+
 
 
   .our-collaborations .text {
@@ -6320,8 +6305,8 @@ img.right-shaf {
     color: rgb(145, 56, 50);
   }
 
-.sec-1 {
-        position: relative;
+  .sec-1 {
+    position: relative;
     background-image: url(../img/bannderbg.jpg);
     background-repeat: no-repeat;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.5);
@@ -6330,9 +6315,9 @@ img.right-shaf {
     padding-top: 0;
     max-height: 940px;
     height: 100%;
-}
+  }
 
-/* .homebanner nav.navbar {
+  /* .homebanner nav.navbar {
     position: relative;
     top: -88px;
     z-index: 3;
@@ -6343,7 +6328,7 @@ img.right-shaf {
     max-height: 100vh;
     height: 100vh;
 } */
-/* 
+  /* 
 img.headerbg {
     position: absolute;
     top: -24%;
@@ -6936,10 +6921,7 @@ img.headerbg {
   }
 
 
-  .hovermove:hover .coverlec {
-    background-color: #913832;
-    top: 0;
-  }
+
 
 
   .hovermove:hover .imgbginner::after,
@@ -7229,11 +7211,7 @@ img.headerbg {
 
 
 
-  .our-partner-1 .image {
-    height: 150px;
-    width: 180px;
-    object-fit: contain;
-  }
+  
 
   .our-partner-1 .image-div:hover .image {
     height: 150px;
@@ -7739,14 +7717,16 @@ img.headerbg {
     100% {
       opacity: 1;
     }
-  } 
+  }
+
   .nav-item {
     transition: transform 0.3s ease;
   }
 
   .nav-item:hover {
     transform: translateY(-2px);
-  } 
+  }
+
   .sec-3 {
     overflow: hidden;
     overflow-x: hidden;
