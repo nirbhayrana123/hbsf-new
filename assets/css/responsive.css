@@ -2466,7 +2466,7 @@
 
 
   .hovermove {
-    height: 480px;
+    height: 100%;
   }
 
   .border-b::after {
@@ -2696,11 +2696,7 @@
  
 }
 
-@media (max-width: 900px) {
-  .hovermove {
-    height: 430px;
-  }
-}
+ 
 
 @media (max-width: 767px) {
   .about-us-section-1 {
@@ -3194,19 +3190,12 @@
   }
 
 
-  .hovermove {
-    height: 350px;
-    width: 100%;
-  }
+  
 
   .secondimgbg .torow.hovermove::after {
     left: -50px;
   }
-
-  .imgbginner {
-    width: 100%;
-  }
-
+ 
   .about-us-section-3 .heading {
     margin-bottom: 0;
   }
@@ -3860,10 +3849,7 @@ h2.border-b.common-heading {
   .banner-bottom-description {
     padding-bottom: 22%;
   }
-
-  .hovermove {
-    height: 290px;
-  }
+ 
 .about-us-section-2 .text br {
     display: none;
 }
@@ -4026,7 +4012,10 @@ h2.border-b.common-heading {
   .partner-title {
     min-height: auto;
   }
-
+.contentuser { 
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
   .partner-description {
     font-size: 16px;
     min-height: auto;
@@ -4035,6 +4024,12 @@ h2.border-b.common-heading {
   .bottom-text {
     font-size: 18px;
   }
+      .content-text h4 {
+        font-size: 15px;
+    }
+    .contentuser p {
+        font-size: 8px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -4195,9 +4190,7 @@ h2.border-b.common-heading {
     bottom: 50px;
   }
 
-  .hovermove {
-    height: 375px;
-  }
+   
 
   .myswiper .swiper-button-next {
     transform: translateY(-200%);
@@ -4416,13 +4409,8 @@ h2.border-b.common-heading {
     font-size: 40px;
   }
 
-    .hovermove {
-        height: 335px;
-    }
-    .imgbginner {
-        width: 100%;
-        height: 100%;
-    }
+  
+    
 .fullimgeslider {
     width: 100%;
     height: 100%;
@@ -4520,11 +4508,7 @@ h2.border-b.common-heading {
 
  
   
-
-  .hovermove {
-    height: 335px;
-  }
-
+ 
   .pl-contact h3 {
     font-size: 22px;
   }
