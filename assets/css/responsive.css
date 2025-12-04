@@ -4564,6 +4564,9 @@ h2.border-b.common-heading {
      .sec-1-content h1 {
         font-size: 35px;
     }
+        .description.container-fluid.pb-0 {
+        bottom: 16%;
+    }
 }
 
 @media (max-width: 374px) {
