@@ -3864,7 +3864,9 @@ h2.border-b.common-heading {
   .hovermove {
     height: 290px;
   }
-
+.about-us-section-2 .text br {
+    display: none;
+}
   .secondimgbg .torow.hovermove::after {
     left: -18px;
   }
