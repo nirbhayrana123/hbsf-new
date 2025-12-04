@@ -4146,8 +4146,14 @@ h2.border-b.common-heading {
   .right-social img {
     height: 18px;
   }
-
-
+    .background-black .blackbg:nth-child(3) .tothree.hovermove::after
+ {
+        right: -20px;
+    }
+    .secondimgbg .torow.hovermove::after
+ {
+        left: -29px;
+    }
   .article-one .back img {
     height: 15px;
   }
