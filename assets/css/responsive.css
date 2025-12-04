@@ -3507,7 +3507,7 @@
 
   .background-black .blackbg:nth-child(5) .torow.hovermove::after {
 
-    right: -35px;
+           right: -45px;
     width: 70px;
   }
 
@@ -4074,7 +4074,7 @@ h2.border-b.common-heading {
   }
 
   .contentuser {
-    max-width: 90%;
+           max-width: 85%;
     width: 100%;
   }
 
