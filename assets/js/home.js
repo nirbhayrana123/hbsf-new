@@ -327,7 +327,7 @@ $(document).ready(function() {
         rewindSpeed: 800,
         itemsDesktop:[1199,4],
         itemsDesktopSmall:[980,3],
-        itemsMobile : [600,1],
+        itemsMobile : [600,1.2],
         loop:true,
     });
 });
