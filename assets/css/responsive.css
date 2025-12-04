@@ -2713,9 +2713,10 @@
       .thank-you-page .text-center {
         margin-top: 0px !important;
     }
-    .grid-basic h5 { 
-    font-style: normal; 
-}
+      .grid-basic h5 {
+        font-style: normal;
+        font-size: 2em;
+    }
   .description.container-fluid.pb-0 {
         bottom: 17%;
     }
