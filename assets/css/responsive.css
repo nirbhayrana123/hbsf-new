@@ -3835,6 +3835,10 @@ h2.border-b.common-heading {
         .sec-7 .image {
         width: 230px !important;
     }
+
+    .grid-basic div h5 {
+    font-size: 1.7em;
+}
 }
 
 @media (max-width: 650px) {
