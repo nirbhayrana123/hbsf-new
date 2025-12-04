@@ -2728,7 +2728,8 @@
         bottom: 17%;
     }
     .mins-highr {
-    min-height: 65vh !important;
+    min-height: auto !important;
+    padding-bottom: 100px!important;
 }
      .swipersmain .swiper-button-prev { 
         bottom: 30px;
@@ -3875,7 +3876,9 @@ h2.border-b.common-heading {
   .hovermove {
     height: 290px;
   }
-
+.about-us-section-2 .text br {
+    display: none;
+}
   .secondimgbg .torow.hovermove::after {
     left: -18px;
   }
@@ -4504,11 +4507,7 @@ h2.border-b.common-heading {
   .bannerbg .gap {
     gap: 7px;
   }
-      .mins-highr{
-        min-height: auto!important;
-        padding-bottom: 100px;
-      }
-
+     
      .banner-bottom-description {
         padding-bottom: 35%;
     }

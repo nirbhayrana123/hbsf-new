@@ -263,18 +263,41 @@ window.addEventListener("resize", () => {
 
 
 
+// $(document).ready(function () {
+//   $('.dropdown-toggle').on('click', function () {
+//     $(this).toggleClass('show');
+//     $('.dropdown-menu').toggleClass('show');
+//   });
+//   $('.dropdown-item.nav-link').on('click', function () {
+//     $('.dropdown-toggle').toggleClass('show');
+//     $('.dropdown-menu').toggleClass('show');
+//   });
+// });
+
 $(document).ready(function () {
-  $('.dropdown-toggle').on('click', function () {
-    $(this).toggleClass('show');
-    $('.dropdown-menu').toggleClass('show');
+  
+  $('.dropdown-toggle').on('click', function (e) {
+    e.preventDefault();
+
+    let parent = $(this).closest('.dropdown');
+
+    // sab close karo except jis par click hua
+    $('.dropdown').not(parent).removeClass('show')
+                  .find('.dropdown-menu').removeClass('show');
+
+    // current dropdown toggle
+    parent.toggleClass('show');
+    parent.find('.dropdown-menu').toggleClass('show');
   });
+
+  // dropdown ke item click par menu close ho jaye
   $('.dropdown-item.nav-link').on('click', function () {
-    $('.dropdown-toggle').toggleClass('show');
-    $('.dropdown-menu').toggleClass('show');
+    let parent = $(this).closest('.dropdown');
+    parent.removeClass('show');
+    parent.find('.dropdown-menu').removeClass('show');
   });
+
 });
-
-
 
 // $(document).ready(function() {
 //     $("#news-slider").owlCarousel({
