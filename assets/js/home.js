@@ -141,94 +141,94 @@ window.addEventListener("resize", () => {
 // ============================================
 // SECTION 4 ANIMATION (About Us)
 // ============================================
-const sec4Timeline = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".sec-4",
-    start: "top 70%",
-    end: "top 10%",
-    scrub: 1,
-    // markers: true, // Uncomment for debugging
-  },
-});
+// const sec4Timeline = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: ".sec-4",
+//     start: "top 70%",
+//     end: "top 10%",
+//     scrub: 1,
+//     // markers: true, // Uncomment for debugging
+//   },
+// });
 
-sec4Timeline
-  .from(".sec-4 .common-heading", {
-    y: 30,
-    opacity: 0,
-    scale: 0.9,
-    duration: 1,
-    ease: "power2.out",
-  })
-  .from(
-    ".sec-4 .common-bottom-line",
-    {
-      y: 20,
-      opacity: 0,
-      duration: 0.6,
-    },
-    "-=0.4"
-  )
-  .from(
-    ".sec-4 .about-content h6",
-    {
-      y: 30,
-      opacity: 0,
-      duration: 0.8,
-      stagger: 0.4, // Stagger the two h6 elements
-    },
-    "-=0.3"
-  )
-  .from(
-    ".sec-4 .common-read-more-btn",
-    {
-      y: 20,
-      opacity: 0,
-      duration: 0.8,
-    },
-    "-=0.3"
-  );
+// sec4Timeline
+//   .from(".sec-4 .common-heading", {
+//     y: 30,
+//     opacity: 0,
+//     scale: 0.9,
+//     duration: 1,
+//     ease: "power2.out",
+//   })
+//   .from(
+//     ".sec-4 .common-bottom-line",
+//     {
+//       y: 20,
+//       opacity: 0,
+//       duration: 0.6,
+//     },
+//     "-=0.4"
+//   )
+//   .from(
+//     ".sec-4 .about-content h6",
+//     {
+//       y: 30,
+//       opacity: 0,
+//       duration: 0.8,
+//       stagger: 0.4, // Stagger the two h6 elements
+//     },
+//     "-=0.3"
+//   )
+//   .from(
+//     ".sec-4 .common-read-more-btn",
+//     {
+//       y: 20,
+//       opacity: 0,
+//       duration: 0.8,
+//     },
+//     "-=0.3"
+//   );
 
 // ============================================
 // SECTION 7 ANIMATION (Note from the founders - Slider)
 // ============================================
-const sec7Timeline = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".sec-7",
-    start: "top 70%",
-    end: "top 10%",
-    scrub: 1,
-    // markers: true, // Uncomment for debugging
-  },
-});
+// const sec7Timeline = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: ".sec-7",
+//     start: "top 70%",
+//     end: "top 10%",
+//     scrub: 1,
+//     // markers: true, // Uncomment for debugging
+//   },
+// });
 
-sec7Timeline
-  .from(".sec-7 .common-heading", {
-    y: 30,
-    opacity: 0,
-    scale: 0.9,
-    duration: 1,
-    ease: "power2.out",
-  })
-  .from(
-    ".sec-7 .common-bottom-line",
-    {
-      y: 20,
-      opacity: 0,
-      duration: 0.6,
-    },
-    "-=0.4"
-  )
-  .from(
-    ".sec-7-c", // Animate each card
-    {
-      y: 40,
-      opacity: 0,
-      duration: 0.8,
-      stagger: 0.2, // Stagger the cards
-      ease: "back.out(1.7)",
-    },
-    "-=0.3"
-  );
+// sec7Timeline
+//   .from(".sec-7 .common-heading", {
+//     y: 30,
+//     opacity: 0,
+//     scale: 0.9,
+//     duration: 1,
+//     ease: "power2.out",
+//   })
+//   .from(
+//     ".sec-7 .common-bottom-line",
+//     {
+//       y: 20,
+//       opacity: 0,
+//       duration: 0.6,
+//     },
+//     "-=0.4"
+//   )
+//   .from(
+//     ".sec-7-c", // Animate each card
+//     {
+//       y: 40,
+//       opacity: 0,
+//       duration: 0.8,
+//       stagger: 0.2, // Stagger the cards
+//       ease: "back.out(1.7)",
+//     },
+//     "-=0.3"
+//   );
 
 // ============================================
 // SMOOTH WHEEL SCROLLING

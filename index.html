@@ -33,7 +33,7 @@
 </head>
 
 <body>
-  <div id="cursor" class="cursor">
+  <!-- <div id="cursor" class="cursor"> -->
     <div class="ring">
       <div><!--Border--></div>
     </div>
@@ -125,10 +125,14 @@
           <a href="index.html">
             <img src="./assets/img/logo.png" class="img-fluid logo" />
           </a>
-          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <img src="./assets/img/nav-btn-img.png" class="border-0 btn-img" />
+          <button class="navbar-toggler border-0" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation" id="navbarButton">
+            <div id="toggleIcon" class="menuicon">
+              <span class="linemenu lineone"></span>
+              <span class="linemenu linetow"></span>
+              <span class="linemenu linethree"></span>
+            </div>
           </button>
           <div class="collapse navbar-collapse justify-content-center pt-3 pt-lg-0 mt-3" id="navbarNavAltMarkup">
             <div class="navbar-nav nav-menu gap flex-row align-items-center align-items-md-start">
@@ -205,7 +209,7 @@
     </section>
 
     <!-- Note from the founders -->
-    <section class="sec-2 section-height animationsec" data-aos="fade-down" data-aos-duration="2000">
+    <section class="sec-2 section-height animationsec">
             
 
       <div class="container text-center h-100">
@@ -213,7 +217,7 @@
           <div class="col-12" id="main-sec-2">
 
             <div class="row justify-content-center">
-              <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
+              <div class="col-12">
 
                 <h2 class="border-b common-heading">Note from the founders</h2>
 
@@ -223,21 +227,21 @@
 
             <div class="row justify-content-center gap" id="sec-2-content">
               <div class="some-descrip">
-                <p class="sec-2-text mb-3" data-aos="fade-up" data-aos-duration="2000">
+                <p class="sec-2-text mb-3">
                   Some of the most meaningful moments in our lives have come
                   from simply being there<br /> for someone—listening, learning, and
                   sharing what we could.
                 </p>
-                <p class="sec-2-text mb-3" data-aos="fade-up" data-aos-duration="1500">
+                <p class="sec-2-text mb-3">
                   That instinct is what led us to start this foundation.
                 </p>
-                <p class="sec-2-text mb-3" data-aos="fade-up" data-aos-duration="1000">
+                <p class="sec-2-text mb-3" >
                   Philanthropy will always be about choice: the choice to
                   stand beside people doing <br /> important work, to rethink norms
                   where needed, and to let responsibility and compassion <br /> guide
                   the way.
                 </p>
-                <p class="sec-2-text mb-4" data-aos="fade-up" data-aos-duration="500">
+                <p class="sec-2-text mb-4" >
                   As you walk your journey—whether in giving, creating, or
                   caring—be free with your ideas<br /> and your heart because
                   lasting change comes from the sum of all our deeds.
@@ -280,7 +284,6 @@
                 <div class="col-md-3 d-flex justify-content-center">
                   <a class="position-relative abc">
                     <div class="svgbg">
-
                       <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_d_5788_5324)">
                           <path
@@ -311,7 +314,7 @@
                           </linearGradient>
                         </defs>
                       </svg>
-                      <img src="./assets/img/mr1.png" class="image" />
+                      <img src="./assets/img/Sports.svg" class="image" />
                     </div>
 
                     <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
@@ -357,7 +360,7 @@
                           </linearGradient>
                         </defs>
                       </svg>
-                      <img src="./assets/img/star.png" class="image" />
+                      <img src="./assets/img/AnC.svg" class="image" />
                     </div>
 
                     <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
@@ -403,11 +406,11 @@
                           </linearGradient>
                         </defs>
                       </svg>
-                      <img src="./assets/img/img2.png" class="image" />
+                      <img style="max-width:250px"  src="./assets/img/ER.svg" class="image" />
                     </div>
 
                     <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
-                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
+                      <img   src="./assets/img/sec-3-line.jpg" class="sector-img" />
                       <div class="text">Economic Reforms</div>
                     </div>
                   </a>
@@ -450,7 +453,7 @@
                           </linearGradient>
                         </defs>
                       </svg>
-                      <img src="./assets/img/img3.png" class="image" />
+                      <img src="./assets/img/Education.svg" class="image" />
                     </div>
 
                     <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
@@ -497,7 +500,7 @@
                           </linearGradient>
                         </defs>
                       </svg>
-                      <img src="./assets/img/image (1).png" class="image" />
+                      <img src="./assets/img/ES.svg" class="image" />
                     </div>
 
                     <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
@@ -544,7 +547,7 @@
                           </linearGradient>
                         </defs>
                       </svg>
-                      <img src="./assets/img/mr6.png" class="image" />
+                      <img src="./assets/img/Health.svg" class="image" />
                     </div>
 
                     <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
@@ -591,7 +594,7 @@
                           </linearGradient>
                         </defs>
                       </svg>
-                      <img src="./assets/img/mr7.png" class="image" />
+                      <img src="./assets/img/LA.svg" class="image" />
                     </div>
 
                     <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
@@ -638,7 +641,7 @@
                           </linearGradient>
                         </defs>
                       </svg>
-                      <img src="./assets/img/mr8.png" class="image" />
+                      <img src="./assets/img/Livelihood.svg" class="image" />
                     </div>
 
                     <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
@@ -649,381 +652,7 @@
                 </div>
               </div>
 
-
-              <!-- Card 1 -->
-              <div class="sec-7-c">
-                <div class="col-md-3 d-flex justify-content-center">
-                  <a class="position-relative abc">
-                    <div class="svgbg">
-
-                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_d_5788_5324)">
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
-                            fill="url(#paint0_linear_5788_5324)" />
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
-
-                        </g>
-                        <defs>
-                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feColorMatrix in="SourceAlpha" type="matrix"
-                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="22.5" />
-                            <feComposite in2="hardAlpha" operator="out" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
-                              result="shape" />
-                          </filter>
-                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
-                            gradientUnits="userSpaceOnUse">
-                            <stop offset="0.5" stop-color="#F0E6DA" />
-                            <stop offset="0.9" stop-color="#D2BDA6" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                      <img src="./assets/img/mr1.png" class="image" />
-                    </div>
-
-                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
-                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
-                      <div class="text">Sports</div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <!-- Card 2 -->
-              <div class="sec-7-c">
-                <div class="col-md-3 d-flex justify-content-center">
-                  <a class="position-relative abc">
-                    <div class="svgbg">
-
-                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_d_5788_5324)">
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
-                            fill="url(#paint0_linear_5788_5324)" />
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
-
-                        </g>
-                        <defs>
-                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feColorMatrix in="SourceAlpha" type="matrix"
-                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="22.5" />
-                            <feComposite in2="hardAlpha" operator="out" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
-                              result="shape" />
-                          </filter>
-                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
-                            gradientUnits="userSpaceOnUse">
-                            <stop offset="0.5" stop-color="#F0E6DA" />
-                            <stop offset="0.9" stop-color="#D2BDA6" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                      <img src="./assets/img/star.png" class="image" />
-                    </div>
-
-                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
-                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
-                      <div class="text">Art and Culture</div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <!-- Card 3 -->
-              <div class="sec-7-c">
-                <div class="col-md-3 d-flex justify-content-center">
-                  <a class="position-relative abc">
-                    <div class="svgbg">
-
-                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_d_5788_5324)">
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
-                            fill="url(#paint0_linear_5788_5324)" />
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
-
-                        </g>
-                        <defs>
-                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feColorMatrix in="SourceAlpha" type="matrix"
-                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="22.5" />
-                            <feComposite in2="hardAlpha" operator="out" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
-                              result="shape" />
-                          </filter>
-                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
-                            gradientUnits="userSpaceOnUse">
-                            <stop offset="0.5" stop-color="#F0E6DA" />
-                            <stop offset="0.9" stop-color="#D2BDA6" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                      <img src="./assets/img/img2.png" class="image" />
-                    </div>
-
-                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
-                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
-                      <div class="text">Economic Reforms</div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <!-- Card 4 -->
-              <div class="sec-7-c">
-                <div class="col-md-3 d-flex justify-content-center">
-                  <a class="position-relative abc">
-                    <div class="svgbg">
-
-                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_d_5788_5324)">
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
-                            fill="url(#paint0_linear_5788_5324)" />
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
-
-                        </g>
-                        <defs>
-                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feColorMatrix in="SourceAlpha" type="matrix"
-                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="22.5" />
-                            <feComposite in2="hardAlpha" operator="out" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
-                              result="shape" />
-                          </filter>
-                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
-                            gradientUnits="userSpaceOnUse">
-                            <stop offset="0.5" stop-color="#F0E6DA" />
-                            <stop offset="0.9" stop-color="#D2BDA6" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                      <img src="./assets/img/img3.png" class="image" />
-                    </div>
-
-                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
-                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
-                      <div class="text">Education</div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <!-- Card 5-->
-              <div class="sec-7-c">
-                <div class="col-md-3 d-flex justify-content-center">
-                  <a class="position-relative abc">
-                    <div class="svgbg">
-
-                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_d_5788_5324)">
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
-                            fill="url(#paint0_linear_5788_5324)" />
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
-
-                        </g>
-                        <defs>
-                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feColorMatrix in="SourceAlpha" type="matrix"
-                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="22.5" />
-                            <feComposite in2="hardAlpha" operator="out" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
-                              result="shape" />
-                          </filter>
-                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
-                            gradientUnits="userSpaceOnUse">
-                            <stop offset="0.5" stop-color="#F0E6DA" />
-                            <stop offset="0.9" stop-color="#D2BDA6" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                      <img src="./assets/img/image (1).png" class="image" />
-                    </div>
-
-                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
-                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
-                      <div class="text">Environment</div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <!-- Card 6-->
-              <div class="sec-7-c">
-                <div class="col-md-3 d-flex justify-content-center">
-                  <a class="position-relative abc">
-                    <div class="svgbg">
-
-                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_d_5788_5324)">
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
-                            fill="url(#paint0_linear_5788_5324)" />
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
-
-                        </g>
-                        <defs>
-                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feColorMatrix in="SourceAlpha" type="matrix"
-                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="22.5" />
-                            <feComposite in2="hardAlpha" operator="out" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
-                              result="shape" />
-                          </filter>
-                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
-                            gradientUnits="userSpaceOnUse">
-                            <stop offset="0.5" stop-color="#F0E6DA" />
-                            <stop offset="0.9" stop-color="#D2BDA6" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                      <img src="./assets/img/mr6.png" class="image" />
-                    </div>
-
-                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
-                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
-                      <div class="text">Health</div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <!-- Card 7-->
-              <div class="sec-7-c">
-                <div class="col-md-3 d-flex justify-content-center">
-                  <a class="position-relative abc">
-                    <div class="svgbg">
-
-                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_d_5788_5324)">
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
-                            fill="url(#paint0_linear_5788_5324)" />
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
-
-                        </g>
-                        <defs>
-                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feColorMatrix in="SourceAlpha" type="matrix"
-                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="22.5" />
-                            <feComposite in2="hardAlpha" operator="out" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
-                              result="shape" />
-                          </filter>
-                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
-                            gradientUnits="userSpaceOnUse">
-                            <stop offset="0.5" stop-color="#F0E6DA" />
-                            <stop offset="0.9" stop-color="#D2BDA6" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                      <img src="./assets/img/mr7.png" class="image" />
-                    </div>
-
-                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
-                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
-                      <div class="text">Legal Aid</div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <!-- Card 8-->
-              <div class="sec-7-c">
-                <div class="col-md-3 d-flex justify-content-center">
-                  <a class="position-relative abc">
-                    <div class="svgbg">
-
-                      <svg viewBox="0 0 589 801" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g filter="url(#filter0_d_5788_5324)">
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z"
-                            fill="url(#paint0_linear_5788_5324)" />
-                          <path
-                            d="M481.6 45C451.683 195.708 481.1 319.868 508.363 434.145C534.881 545.305 558.885 645.791 530.011 756H107.043C134.922 639.644 109.13 533.997 83.3895 426.097C55.7857 310.389 27.715 190.615 58.2852 45H481.6Z" />
-
-                        </g>
-                        <defs>
-                          <filter id="filter0_d_5788_5324" x="0" y="0" width="588.137" height="801"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feColorMatrix in="SourceAlpha" type="matrix"
-                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="22.5" />
-                            <feComposite in2="hardAlpha" operator="out" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5788_5324" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5788_5324"
-                              result="shape" />
-                          </filter>
-                          <linearGradient id="paint0_linear_5788_5324" x1="294.068" y1="45" x2="294.068" y2="756"
-                            gradientUnits="userSpaceOnUse">
-                            <stop offset="0.5" stop-color="#F0E6DA" />
-                            <stop offset="0.9" stop-color="#D2BDA6" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                      <img src="./assets/img/mr8.png" class="image" />
-                    </div>
-
-                    <div class="d-flex flex-row align-items-center position-absolute justify-content-start bottom-div">
-                      <img src="./assets/img/sec-3-line.jpg" class="sector-img" />
-                      <div class="text">Livelihood</div>
-                    </div>
-                  </a>
-                </div>
-              </div> 
-
+ 
             </div>
 
 
@@ -1056,7 +685,7 @@
     </section>
 
     <!-- LATEST UPDATE -->
-    <section class="sec-5 section-height">
+    <section class="sec-5 section-height mins-highr">
       <!-- Top Heading -->
       <div class="container text-center">
         <div class="row justify-content-center">

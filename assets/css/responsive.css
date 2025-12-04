@@ -2282,10 +2282,7 @@
     max-width: 100%;
   }
 
-  section.sec-4.section-height {
-    background-size: 150% 100%;
-    padding-bottom: 215px;
-  }
+  
 
   .sec-4 .text {
     font-size: 25px;
@@ -2465,9 +2462,9 @@
     margin-bottom: 0;
   }
 
-  .swipersmain {
-    height: 520px;
-  }
+   
+
+
 
   .hovermove {
     height: 480px;
@@ -2713,6 +2710,27 @@
   .about-us-section-1 {
     padding-bottom: 0px;
   }
+  .description.container-fluid.pb-0 {
+        bottom: 17%;
+    }
+    .mins-highr {
+    min-height: 65vh !important;
+}
+     .swipersmain .swiper-button-prev { 
+        bottom: 30px;
+    }
+        .customepagition.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 40px;
+    }
+        .swipersmain .swiper-button-next { 
+        bottom: 30px; 
+    }
+        .about-us-gallery { 
+        padding-top: 30px;
+    }
+    .about-us-section-3 .top-padding {
+        padding-top: 2px;
+    }
   .sec-1 .logo { 
     margin-top: 8px; 
 }
@@ -2729,9 +2747,9 @@
     margin-top: 53px;
   }
 
-  .text-center {
-    margin-top: 25px !important;
-  }
+ .text-center {
+        margin-top: 50px !important;
+    }
 
   .h3-gap {
     margin-top: 40px;
@@ -2920,7 +2938,7 @@
   }
 
   .leftimg {
-    padding: 20px 30px;
+    padding: 0px 0px;
     margin-top: 100px;
   }
 
@@ -2950,11 +2968,23 @@
     max-width: 100%;
   }
 
-  .image-div {
-    width: 100% !important;
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
-  }
+  .our-partner-1 .image-div::after {
+    width: 100px;
+}
+.our-partner-1 img {
+    width: 120px !important; 
+    height: auto !important;
+}
+.our-partner-1 .image-div .image-35 { 
+    max-width: 80px; 
+}
+.our-partner-1 .image-div .image-24 {
+    max-width: 60px; 
+}
+.our-partner-1 .image-div .image-30 {
+    max-width: 70px; 
+}
+
 
   .error-404 .error-div .text {
     font-size: 9rem;
@@ -3255,9 +3285,7 @@
     padding-bottom: 0px;
   }
 
-  .swipersmain {
-    height: 620px;
-  }
+   
 
   .text-2.my-3 p {
     margin-top: 0px;
@@ -3430,14 +3458,16 @@
     padding-left: 15px;
   }
 
-  .section-height {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    padding: 60px 0;
-    padding-top: 0;
-  }
+ .section-height {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-bottom: 30px;
+        padding-top: 0;
+                padding-left: 0;
+        padding-right: 0;
+    }
 
   .content-text h4 {
     font-size: 20px;
@@ -3476,7 +3506,7 @@
     width: 13px;
     height: 23px;
     background-size: 10px;
-    right: 40px;
+    right: 0px;
     bottom: -53px;
     background-repeat: no-repeat;
   }
@@ -3488,7 +3518,7 @@
     width: 13px;
     height: 23px;
     background-size: 10px;
-    left: 40px;
+    left: 0px; 
     bottom: -54px;
     background-repeat: no-repeat;
   }
@@ -3750,6 +3780,66 @@ img.right-shaf {
     top: -5%;
     height: 445px;
   }
+      .sec-1>nav>.container>button.navbar-toggler.border-0 {
+       display: block;
+        pointer-events: none;
+        top: 190px;
+        position: absolute;
+        right: 28px;
+    }
+        .sec-1 .logo {
+        margin-top: 44px;
+    }
+          .sec-1 .navbar-toggler .menuicon span.linemenu {
+        width: 33px;
+        background-color: #fff;
+        height: 2px;
+    }
+    .contents {
+    margin-top: 40px; 
+}
+h2.border-b.common-heading {
+    font-size: 25px;
+}
+    .contactbgmain { 
+        background-position: top center;
+        padding-top: 20px; 
+        padding-bottom: 170px;
+        background-size: contain;
+    }
+      .contact-us .image {
+        width: 60%;
+        border-left: none;
+        border-right: none;
+    }
+          .sec-5 .image {
+        width: 334px;
+        height: 540px;
+    } 
+
+    .leftimg { 
+        width: 76%; 
+        border-left: 2px solid #7e2a2a;
+        border-right: 2px solid #7e2a2a;
+          margin-top: 71px;
+        margin-bottom: 27px;
+    }
+        .pl-contact h3 {
+        font-size: 20px;
+    }
+
+      section.sec-4.section-height {
+        padding-top: 25px;
+        margin-top: -32px;
+    } 
+    .sec-4 {
+        background-image: url(../img/bgphone.png);
+        background-position: bottom center;
+        background-size: cover;
+        min-height: 90vh;
+    }
+
+    
 }
 
 @media (max-width: 650px) {
@@ -3810,9 +3900,8 @@ img.right-shaf {
     transform: translateY(10px);
   }
 
-  .sec-5 .image {
-    width: 300px;
-  }
+ 
+  
 
   .sec-3 .image {
     width: 300px;
@@ -3870,9 +3959,7 @@ img.right-shaf {
     transform: translateY(10px);
   }
 
-  .sec-5 .image {
-    width: 300px;
-  }
+  
 
   .sec-3 .image {
     width: 300px;
@@ -4015,9 +4102,8 @@ img.right-shaf {
     width: 100%;
   }
 
-  .swipersmain {
-    height: 728px;
-  }
+ 
+  
 
   .thank-you-page .main-div {
     background-position: top center;
@@ -4097,10 +4183,7 @@ img.right-shaf {
     padding-top: 100px;
   }
 
-  .leftimg {
-    margin-top: 48px;
-    margin-bottom: 48px;
-  }
+   
 
   .contact-us .address-div {
     left: 40px;
@@ -4119,9 +4202,9 @@ img.right-shaf {
     padding-top: 100px;
   }
 
-  .sec-4 .common-heading {
-    margin-top: 0rem;
-  }
+ .sec-4 .common-heading {
+        margin-top: 4rem;
+    }
 
   .our-partner-1 .text {
     font-size: 25px;
@@ -4398,6 +4481,7 @@ img.right-shaf {
   .bannerbg .gap {
     gap: 7px;
   }
+      
 
      .banner-bottom-description {
         padding-bottom: 35%;
@@ -4408,9 +4492,8 @@ img.right-shaf {
     margin-bottom: 20px;
   }
 
-  .swipersmain {
-    height: 600px;
-  }
+ 
+  
 
   .hovermove {
     height: 335px;
