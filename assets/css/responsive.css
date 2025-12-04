@@ -587,9 +587,7 @@
     bottom: -20px;
   }
 
-  .showactive .navbar-toggler .menuicon span.linemenu.lineone {
-    transform: rotate(45deg) translate(6px, 5px);
-  }
+ 
 
   .marquee-track-list a.position-relative.abc {
     margin-left: -60px;
@@ -2249,8 +2247,15 @@
     max-width: 100%;
   }
 
-
-
+ .logoto2 {
+    height: 80px; 
+    top: 0;
+  }
+.showactive img.logoto2 {
+    opacity: 1;
+    height: 80px;
+    top: 28%;
+}
   #myCarousel {
     margin-top: 50px !important;
   }
@@ -2370,44 +2375,26 @@
     background-image: url(../img/footerbgmobile.png) !important;
   }
 
-
+ 
   .showactive img.logoto2 {
     opacity: 0;
 
-  }
-
-  .showactive img.one.logoto2 {
-    opacity: 1;
-  }
+  } 
 
   button.navbar-toggler {
     margin-top: 5px !important;
   }
 
-  .showactive img.logoto2 {
-    top: auto;
-    bottom: 50px;
-    height: 115px;
-  }
-
-  .showactive img.logoto2 {
-    opacity: 0;
-  }
+    
 
   .showactive img.one.logoto2 {
     opacity: 1;
+    top: 0; 
   }
 
-  .logoto2 {
-    top: auto;
-    bottom: 30px;
-  }
+ 
 
-  .showactive img.logoto2 {
-    top: auto;
-    bottom: 50px;
-    height: 115px;
-  }
+ 
 
   .contact-us .address-div img {
     width: 14px;
@@ -2497,10 +2484,7 @@
     font-size: 25px;
   }
 
-  .showactive img.one.logoto2 {
-    top: auto;
-    bottom: 50px;
-  }
+  
 
 
   .about-us-nav .nav-menu {
@@ -3348,11 +3332,7 @@
   .about-us-nav {
     padding-bottom: 0px;
   }
-
-  .logoto2 {
-    height: 95px;
-    bottom: 13px;
-  }
+ 
 
   .about-us-section-1 .menu {
     padding-left: 28px;
@@ -4494,10 +4474,7 @@ h2.border-b.common-heading {
     z-index: 8;
   }
 
-  .logoto2 {
-    height: 80px;
-    bottom: 35px;
-  }
+ 
 
   button.navbar-toggler {
     margin-top: 3px !important;
