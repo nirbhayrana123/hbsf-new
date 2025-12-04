@@ -568,7 +568,8 @@
   }
 
   .navbar-toggler .menuicon span.linemenu {
-    width: 23px;
+    width: 33px;
+        height: 2px;
   }
 
   .post-slide {
@@ -643,7 +644,10 @@
     height: 35px;
     width: 2px;
   }
-
+.sec-7 .image 
+ {
+    width: 280px; 
+}
 
 }
 
@@ -2717,6 +2721,9 @@
         font-style: normal;
         font-size: 2em;
     }
+    .our-collabrations-box {
+    padding-top: 0px;
+}
   .description.container-fluid.pb-0 {
         bottom: 17%;
     }
@@ -3791,7 +3798,7 @@ img.right-shaf {
         display: block;  
         top: 190px;
         position: absolute;
-        right: 28px;
+        right: 40px;
     }
         .sec-1 .logo {
         margin-top: 44px;
@@ -3844,8 +3851,12 @@ h2.border-b.common-heading {
         background-size: cover;
         min-height: 90vh;
     }
-
-    
+.our-partner-1 .text-wrapper::after { 
+    width: 90%; 
+}
+        .sec-7 .image {
+        width: 230px !important;
+    }
 }
 
 @media (max-width: 650px) {

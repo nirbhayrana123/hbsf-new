@@ -2219,6 +2219,18 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .animatiobox::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 198px;
+    height: 2px;
+    background-color: #913832;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 
   .bannerbg .date {
     color: #913832;
@@ -4763,8 +4775,6 @@ img.right-shaf {
     transition: all 0.4s ease;
     position: relative;
     padding: 20px 0;
-    min-height: 320px;
-    max-height: 300px;
     text-align: center;
     overflow: visible;
 }
@@ -4776,6 +4786,7 @@ img.right-shaf {
     object-fit: contain;
     transition: transform 0.4s ease;
     margin-bottom: 15px;
+        filter: grayscale(1);
   }
 
   /* Image moves up slightly on hover */
@@ -4791,7 +4802,6 @@ img.right-shaf {
   .our-partner-1 .text-wrapper {
     position: relative;
     width: 100%;
-    min-height: 6.5rem;
     /* enough space for description + read more */
   }
 
@@ -4815,10 +4825,8 @@ img.right-shaf {
   .our-partner-1 .name,
   .our-partner-1 .description,
   .our-partner-1 .description-3,
-  .our-partner-1 .description-2 {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 30px);
+  .our-partner-1 .description-2 { 
+    left: 50%; 
     width: 90%;
     color: #913832;
     font-family: "Bodoni Moda 9pt";
@@ -4899,8 +4907,7 @@ img.right-shaf {
 
   /* Hover state animations */
   .our-partner-1 .image-div:hover .name {
-    opacity: 0;
-    transform: translateX(-50%) translateY(-10px);
+    opacity: 0; 
   }
 
   .our-partner-1 .image-div:hover .description {
