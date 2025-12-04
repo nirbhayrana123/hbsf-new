@@ -4573,6 +4573,13 @@ h2.border-b.common-heading {
   body {
     font-size: 7px;
   }
+  .contents p {
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+        .sec-4 .common-heading {
+        margin-top: 0rem;
+    }
 
   .pl-contact h3 {
     font-size: 20px;
