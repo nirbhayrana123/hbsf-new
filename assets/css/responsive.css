@@ -3697,7 +3697,7 @@ img.right-shaf {
     font-size: 13px;
   }
 
-  .contentuser {
+  .imgbginner .contentuser {
     bottom: 0px;
     max-width: 95%;
     width: 100%;
@@ -4034,7 +4034,7 @@ h2.border-b.common-heading {
       .content-text h4 {
         font-size: 15px;
     }
-    .contentuser p {
+    .imgbginner .contentuser p {
         font-size: 8px;
     }
 }
