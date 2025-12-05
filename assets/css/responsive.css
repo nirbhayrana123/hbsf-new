@@ -2663,7 +2663,9 @@ h1 {
   .scpetop {
     margin-top: 20px;
 }
-
+.address br {
+    display: none;
+}
   .img-text h5 {
     margin-top: 1px !important;
     font-weight: 600;
