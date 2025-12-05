@@ -3519,7 +3519,7 @@
 
   .marquee-track {
     display: inline-flex;
-    animation: marquee-horizontal 160s linear infinite;
+    animation: marquee-horizontal 20s linear infinite;
   }
 
   .marquee-track:hover {
@@ -8682,8 +8682,6 @@ img.headerbg {
     background-clip: border-box;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-left: 10rem;
-    padding-right: 10rem;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
     padding-top: 100px;
     padding-bottom: 80px;
@@ -8701,7 +8699,7 @@ img.headerbg {
   }
 
   .sec-7 .bottom-div .text {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     color: white;
   }
