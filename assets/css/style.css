@@ -4155,7 +4155,6 @@
 
 
   .footer {
-    min-height: auto !important;
     padding-top: 60px;
     padding-bottom: 30px;
     background-image: url(../img/footer-bg.jpg);
@@ -4180,7 +4179,7 @@
   .footer-terms-of a {
     color: #efe5db;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.5em;
     border-right: 2px solid #efe5db;
     padding-bottom: 2px;
     padding-right: 10px;
