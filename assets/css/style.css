@@ -2571,15 +2571,15 @@
   }
 
   .showactive .navbar-toggler .menuicon span.linemenu.linethree {
-    transform: rotate(-40deg) translate(4px, -3px);
+    transform: rotate(-44deg) translate(3px, -3px);
   }
  .showactive .navbar-toggler .menuicon span.linemenu.lineone {
-    transform: rotate(45deg) translate(6px, 5px);
+       transform: rotate(44deg) translate(10px, 9px);
   }
 
 
   .showactive .navbar-toggler .menuicon span.linemenu.lineone {
-    transform: rotate(45deg) translate(11px, 8px);
+  transform: rotate(43deg) translate(10px, 9px);
   }
 
   .showactive .navbar-toggler .menuicon span.linemenu.linetow {
