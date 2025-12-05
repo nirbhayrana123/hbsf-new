@@ -344,6 +344,15 @@ window.addEventListener("scroll", function () {
 
 $(document).ready(function () {
   $('.topheader').on('click', function () {
+
+    // Toggle menu
     $('.about-us-nav').toggleClass('active');
+
+    // Scroll only when menu opens
+    if ($('.about-us-nav').hasClass('active')) {
+      $('html, body').animate({
+        scrollTop: 300
+      }, 500);
+    }
   });
 });
