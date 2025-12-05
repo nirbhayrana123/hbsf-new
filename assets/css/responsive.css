@@ -619,9 +619,18 @@
     margin-top: 10px;
   }
 
-  .contact-us .image {
-    height: 360px;
-  }
+.contact-us .image {
+        height: 250px;
+    }
+    ol.breadcrumb {
+    margin-bottom: 10px;
+}
+.contact-us {
+    padding-bottom: 30px;
+}
+    .contactbgmain {
+        padding-bottom: 25px;
+    }
 
   .imgtopshape img {
     width: 190px;
@@ -858,9 +867,15 @@ h1 {
   }
 
 
-  .contact-us .labels {
-    font-size: 17px;
-  }
+      .contact-us .labels {
+        font-size: 15px;
+    }
+        .imgtopshape img {
+        width: 130px;
+    }
+    .imgtopshape { 
+    padding-bottom: 0px;
+}
 
   .contact-us .address-name {
     font-size: 17px;
@@ -905,9 +920,12 @@ h1 {
     height: 334px;
   }
 
-  .contactbgmain {
-    padding-bottom: 60px;
-  }
+     .contactbgmain {
+        padding-bottom: 20px;
+    }
+    .pl-contact { 
+    padding-top: 15px; 
+}
 
   .thank-you-page .main-div .text {
     font-size: 28px;

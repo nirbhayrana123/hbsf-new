@@ -2514,23 +2514,7 @@
     width: auto;
   }
 
-  .contact-us .submit-btn {
-    margin-right: 20px;
-    background: transparent;
-    max-width: 171px;
-    height: 43px;
-    color: #913832;
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    border: 1px solid #913832;
-    border-radius: 50px;
-    transition: 0.5s all;
-    text-transform: uppercase;
-  }
+ 
 
   .contact-us .submit-btn:hover {
     background: #913832;
@@ -7669,18 +7653,20 @@ img.headerbg {
   .contact-us .submit-btn {
     margin-right: 10px;
     background: transparent;
-    max-width: 171px;
-    height: 43px;
     color: #913832;
     text-align: center;
     font-family: "Noto Sans";
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     border: 1px solid #913832;
     border-radius: 50px;
-  }
+    transition: 0.5s all;
+    text-transform: uppercase;
+    padding: 9px 0px;
+    width: 170px;
+}
 
 
   /* Keyframe animations */
