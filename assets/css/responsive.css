@@ -837,6 +837,22 @@ h1 {
 .grid-basic h5 { 
     font-size: 2em; 
 }
+    .contact-us .image {
+        height: 183px;
+    }
+        .contact-us .address-name {
+        font-size: 15px;
+    }
+    .contact-us .address {
+        font-size: 15px;
+    }
+        .contact-us .address-div img {
+        width: 15px;
+    }
+    .contactbgmain {  
+    padding-top: 71px;
+}
+    
   .imgbginner::before {
     width: 45px;
     height: 289px;
@@ -871,13 +887,8 @@ h1 {
     padding-bottom: 0px;
 }
 
-  .contact-us .address-name {
-    font-size: 17px;
-  }
-
-  .contact-us .address {
-    font-size: 17px;
-  }
+  
+ 
 
   .overview-page .img-text {
     font-size: 20px;
@@ -915,7 +926,7 @@ h1 {
   }
 
      .contactbgmain {
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
     .pl-contact { 
     padding-top: 15px; 
