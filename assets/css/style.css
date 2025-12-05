@@ -1660,10 +1660,9 @@ right: 0;  }
     color: #913832;
     font-family: "Bodoni Moda 9pt";
     text-align: center;
-    transition: transform 0.5s 
-ease, opacity 0.5s 
-ease;
+    transition: 1s;
     line-height: 1.4;
+    transform: translateY(15px);
     font-size: 1.7em;
 }
 .contenttowtabs p {
@@ -1686,9 +1685,11 @@ ease;
 .contenttowtabs {
     overflow: hidden;
     position: relative;
-    min-height: 79px;
+    min-height:140px;
 }
-
+.borderbottom:hover h4 {
+    transform: translateY(0px);
+}
 .borderbottom:hover p {
     bottom: 0;
 }
