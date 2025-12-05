@@ -664,6 +664,12 @@ h1 {
 span.share-text { 
     font-size: 1.2em; 
 }
+.imgthankyu { 
+    max-width: 1000px;
+    margin: 0 auto;
+            margin-top: -35px;
+
+}
 }
 
 
@@ -685,6 +691,9 @@ span.share-text {
 }
 
 @media (max-width: 1400px) {
+      .imgthankyu {
+        max-width: 750px; 
+    }
 
   h2{
     font-size: 2em;
@@ -1325,7 +1334,7 @@ h1 {
   }
 
   .contact-us .labels {
-    font-size: 12px;
+    font-size: 18px;
     margin-bottom: 0;
   }
 
@@ -1363,11 +1372,7 @@ h1 {
     font-size: 14px;
   }
 
-  .contact-us .submit-btn {
-    max-width: 148px;
-    height: 36px;
-    font-size: 14px;
-  }
+  
 
   .contact-us .address {
     margin-right: 0px;
@@ -2690,7 +2695,9 @@ h1 {
   .scpetop {
     margin-top: 20px;
 }
-
+.address br {
+    display: none;
+}
   .img-text h5 {
     margin-top: 1px !important;
     font-weight: 600;
@@ -2798,12 +2805,19 @@ h1 {
         z-index: 5;
         position: relative;
     }
+    ul.dropdown-menu.show 
+ {
+    z-index: 999;
+}
  
 }
 
  
 
 @media (max-width: 767px) {
+      .imgthankyu { 
+        margin-top: 0;
+    }
   .about-us-section-1 {
     padding-bottom: 0px;
   }
@@ -3285,7 +3299,7 @@ h1 {
 
 
   .footer-bottom-text p {
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 9px;
   }
 
@@ -3511,7 +3525,7 @@ h1 {
 
   .footer {
     padding-top: 20px !important;
-    padding-bottom: 30px !important;
+    padding-bottom: 7px !important;
   }
 
   .tab-label.active-label {
@@ -3742,9 +3756,7 @@ img.right-shaf {
     margin-top: 15px !important;
   }
 
-  .footer {
-    min-height: 1px;
-  }
+  
 
   .plpr {
     padding-top: 10px;
@@ -3759,7 +3771,7 @@ img.right-shaf {
   }
 
   .footer-terms-of a {
-    font-size: 1.5em;
+    font-size: 1.2em;
     border-right: 1px solid #efe5db;
   }
 

@@ -1596,7 +1596,7 @@
     border-radius: 30px;
     padding: 10px 20px;
     color: #A93B3B;
-    font-size: 1.2em;
+    font-size: 1.1em;
     cursor: pointer;
     text-align: left;
     padding-left: 40px;
@@ -2284,6 +2284,9 @@ right: 0;  }
   .imgthankyu {
     position: relative;
     padding-bottom: 90px;
+        max-width: 1150px;
+        margin: 0 auto;
+    margin-top: -90px;
   }
 
   .imgthankyu img {
@@ -3997,7 +4000,6 @@ right: 0;  }
 
 
   .footer {
-    min-height: auto !important;
     padding-top: 60px;
     padding-bottom: 30px;
     background-image: url(../img/footer-bg.jpg);
@@ -4022,7 +4024,7 @@ right: 0;  }
   .footer-terms-of a {
     color: #efe5db;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.5em;
     border-right: 2px solid #efe5db;
     padding-bottom: 2px;
     padding-right: 10px;
@@ -6984,8 +6986,8 @@ img.headerbg {
   }
 
   .filterbox {
-    margin-top: 50px;
-  }
+    margin-top: 10px;
+}
 
   h3.border-b.common-heading {
     text-transform: uppercase;
