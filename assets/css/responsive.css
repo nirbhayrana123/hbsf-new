@@ -810,7 +810,9 @@
     height: 450px;
   }
 
-
+h1 { 
+    font-size: 4em; 
+}
 
   .thank-you-page .row-gap {
     padding-top: 300px;
@@ -820,13 +822,20 @@
     width: 45px;
     height: 318px;
   }
-
+.grid-basic h5 { 
+    font-size: 2em; 
+}
   .imgbginner::before {
     width: 45px;
     height: 289px;
     left: -43px;
   }
-
+.grid-basic p { 
+    font-size: 1.5em; 
+}
+.grid-basic h4{
+   font-size: 1.7em;
+}
   .secondimgbg .torow.hovermove::before {
     right: -37px;
   }
