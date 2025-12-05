@@ -3446,10 +3446,12 @@
     font-size: 25px;
   }
 
-  .sec-5 .post-slide a:hover .bottom-div .description-text {
-    max-height: 150px;
-    font-size: 14px;
-  }
+    .sec-5 .post-slide a:hover .bottom-div .description-text {
+        max-height: 150px; 
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 12px !important;
+    }
 
   p.outreach-description {
     font-size: 15px;
