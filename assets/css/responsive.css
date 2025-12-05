@@ -2124,7 +2124,6 @@ h1 {
   }
 
   .conentsliv {
-    text-align: right;
     padding-left: 185px;
     padding-top: 30px;
     padding-right: 20px;
@@ -2157,7 +2156,12 @@ h1 {
     padding-left: 0px;
     max-width: 100%;
   }
-
+.dot:last-child::after { 
+    height: 100px; 
+}
+    .timeline-wrapper {
+        height: 350px;
+    }
   .about-us-section-3 .heading {
     font-size: 22px;
   }
@@ -3449,7 +3453,7 @@ h1 {
 
   .timeline-line {
     left: 39px;
-    top: 38%;
+    top: 35%;
   }
 
   .dots-container {
