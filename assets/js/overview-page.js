@@ -2,7 +2,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
 // Wait for page to load
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
   const mapContainer = document.querySelector('.overview-page .col-12');
   const mapImage = document.querySelector('.overview-page .map-img');
 
@@ -18,11 +18,11 @@ window.addEventListener('load', function() {
     mapWrapper.style.position = 'relative';
     mapWrapper.style.display = 'inline-block';
     mapWrapper.style.cursor = 'default'; // Ensure no hover cursor
-    
+
     // Wrap the image
     mapImage.parentNode.insertBefore(mapWrapper, mapImage);
     mapWrapper.appendChild(mapImage);
-    
+
     // Create the overlay image (map with states)
     const overlayImage = document.createElement('img');
     overlayImage.src = './assets/img/overview-page-image-2.png';
@@ -35,43 +35,43 @@ window.addEventListener('load', function() {
     overlayImage.style.opacity = '0';
     overlayImage.style.pointerEvents = 'none';
     overlayImage.style.cursor = 'default';
-    
+
     mapWrapper.appendChild(overlayImage);
-    
+
     // Disable any hover effects on the wrapper
-    mapWrapper.onmouseenter = function(e) {
+    mapWrapper.onmouseenter = function (e) {
       e.stopPropagation();
       return false;
     };
-    
-    mapWrapper.onmouseleave = function(e) {
+
+    mapWrapper.onmouseleave = function (e) {
       e.stopPropagation();
       return false;
     };
-    
+
     // Create automatic timeline animation (starts on page load)
     const tl = gsap.timeline({
-      delay: 0.5 // Small delay before animation starts
+      delay: 2 // Animation starts 2 seconds after page load
     });
-    
+
     // Fade out original map (without states) in first half
     tl.to(mapImage, {
       opacity: 0,
       duration: 1.5,
       ease: 'power2.in'
     }, 0)
-    
-    // Fade in overlay map (with states) throughout full animation
-    .to(overlayImage, {
-      opacity: 1,
-      duration: 2.5,
-      ease: 'power2.inOut'
-    }, 0);
-    
+
+      // Fade in overlay map (with states) throughout full animation
+      .to(overlayImage, {
+        opacity: 1,
+        duration: 2.5,
+        ease: 'power2.inOut'
+      }, 0);
+
     // Optional: Add fade-in animation for "Our Presence" text
     const presenceText = document.querySelector('.overview-page .img-text');
     const circleImg = document.querySelector('.overview-page .circle-img');
-    
+
     if (presenceText && circleImg) {
       gsap.from([circleImg, presenceText], {
         opacity: 0,
@@ -86,7 +86,7 @@ window.addEventListener('load', function() {
 });
 
 // Additional safety: Remove any hover events that might be attached elsewhere
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   // Remove any hover event listeners that might be in main.js or other files
   const mapElements = document.querySelectorAll('.overview-page img, .overview-page .col-12');
   mapElements.forEach(element => {
