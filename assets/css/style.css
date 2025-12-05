@@ -1569,164 +1569,6 @@
   }
 
 
-
-
-
-  /* 
-  .our-partner-1 .image-div:hover .image-1 {
-    content: url(../img/our-partner-color-logo-1.png);
-    transform: scale(1.08);
-  }
-
-  .our-partner-1 .image-div:hover .image-2 {
-    content: url(../img/our-partner-color-logo-2.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-3 {
-    content: url(../img/our-partner-color-logo-3.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-4 {
-    content: url(../img/our-partner-color-logo-4.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-5 {
-    content: url(../img/our-partner-color-logo-5.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-6 {
-    content: url(../img/our-partner-color-logo-6.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-7 {
-    content: url(../img/our-partner-color-logo-7.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-8 {
-    content: url(../img/our-partner-color-logo-8.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-9 {
-    content: url(../img/our-partner-color-logo-9.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-10 {
-    content: url(../img/our-partner-color-logo-10.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-11 {
-    content: url(../img/our-partner-color-logo-11.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-12 {
-    content: url(../img/our-partner-color-logo-12.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-13 {
-    content: url(../img/our-partner-color-logo-13.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-14 {
-    content: url(../img/our-partner-color-logo-14.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-15 {
-    content: url(../img/our-partner-color-logo-15.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-16 {
-    content: url(../img/our-partner-color-logo-16.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-17 {
-    content: url(../img/our-partner-color-logo-17.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-18 {
-    content: url(../img/our-partner-color-logo-18.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-19 {
-    content: url(../img/our-partner-color-logo-19.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-20 {
-    content: url(../img/our-partner-color-logo-20.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-21 {
-    content: url(../img/our-partner-color-logo-21.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-22 {
-    content: url(../img/our-partner-color-logo-22.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-23 {
-    content: url(../img/our-partner-color-logo-23.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-24 {
-    content: url(../img/our-partner-color-logo-24.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-25 {
-    content: url(../img/our-partner-color-logo-25.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-26 {
-    content: url(../img/our-partner-color-logo-26.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-27 {
-    content: url(../img/our-partner-color-logo-27.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-28 {
-    content: url(../img/our-partner-color-logo-28.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-29 {
-    content: url(../img/our-partner-color-logo-29.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-30 {
-    content: url(../img/our-partner-color-logo-30.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-31 {
-    content: url(../img/our-partner-color-logo-31.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-32 {
-    content: url(../img/our-partner-color-logo-32.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-33 {
-    content: url(../img/our-partner-color-logo-33.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-34 {
-    content: url(../img/our-partner-color-logo-34.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-35 {
-    content: url(../img/our-partner-color-logo-35.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-36 {
-    content: url(../img/our-partner-color-logo-36.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-37 {
-    content: url(../img/our-partner-color-logo-37.png);
-  }
-
-  .our-partner-1 .image-div:hover .image-38 {
-    content: url(../img/our-partner-color-logo-38.png);
-  } */
-
-
   .filter-list {
     position: absolute;
     display: none;
@@ -1785,7 +1627,10 @@
     font-style: italic;
     font-weight: 500;
     will-change: transform, opacity;
-  }
+    position: absolute;
+    bottom: 0;
+    left: 0;
+right: 0;  }
 
   .partners-section:hover .contants-approch {
     transform: translateY(0) scale(1);
@@ -4772,7 +4617,7 @@
   }
 
   .our-partner-1 .image-div:hover .image {
-    transform: translateY(-10px);
+    transform: translateY(-50px);
   }
 
 
