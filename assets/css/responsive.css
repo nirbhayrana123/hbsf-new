@@ -619,9 +619,18 @@
     margin-top: 10px;
   }
 
-  .contact-us .image {
-    height: 360px;
-  }
+.contact-us .image {
+        height: 250px;
+    }
+    ol.breadcrumb {
+    margin-bottom: 10px;
+}
+.contact-us {
+    padding-bottom: 30px;
+}
+    .contactbgmain {
+        padding-bottom: 25px;
+    }
 
   .imgtopshape img {
     width: 190px;
@@ -676,10 +685,23 @@ span.share-text {
 }
 
 @media (max-width: 1400px) {
+
+  h2{
+    font-size: 2em;
+  }
+  .error-404 .error-div .text { 
+    font-size: 10em; 
+}
+.error-404 .error-div .text-2 { 
+    font-size: 3em; 
+}
   .about-us-section-1 .scrolling-div {
     max-height: 400px;
   }
-
+.error-404 .error-div { 
+    padding: 100px 0px;
+    height: 420px; 
+}
   span.v-divider {
     height: 35px;
     width: 2px;
@@ -695,9 +717,11 @@ span.share-text {
   }
 
   .timeline-wrapper {
-    height: 375px;
+    height: 310px;
   }
-
+.about-us-section-1 .heading { 
+    margin-bottom: 15px;
+}
   .about-us-section-1 .main-image {
     max-height: 600px;
   }
@@ -743,13 +767,29 @@ span.share-text {
   .flesing {
     max-width: 700px;
   }
+  .dot .year-label.section-title {
+    font-size: 12px;
+}
 
   .about-us-section-1 .description {
-    font-size: 20px;
+    font-size: 19px;
   }
+    .about-us-section-2 .text {
+        font-size: 28px; 
+    }
+    .about-us-section-3 .heading { 
+    font-size: 28px; 
+}
+.about-us-section-3 .heading-2 { 
+    font-size: 19px; 
+}
+.about-us-section-3 .description { 
+    font-size: 17px; 
+}
+
 
   .about-us-section-1 .heading {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .our-partner-1 .input-tag {
@@ -780,9 +820,11 @@ span.share-text {
   nav.breadcrumb-nav ol.breadcrumb li a {
     font-size: 12px;
   }
-
+.partner-title h5{
+  font-size: 1.8;
+}
   .text p {
-    font-size: 30px;
+    font-size: 25px;
     width: 920px;
     line-height: 40px;
   }
@@ -790,13 +832,17 @@ span.share-text {
   .img-text h5 {
     font-size: 20px;
   }
-
+.partner-description p { 
+    font-size: 1em; 
+}
 
   .post-slide {
     height: 450px;
   }
 
-
+h1 { 
+    font-size: 4em; 
+}
 
   .thank-you-page .row-gap {
     padding-top: 300px;
@@ -806,13 +852,36 @@ span.share-text {
     width: 45px;
     height: 318px;
   }
-
+.grid-basic h5 { 
+    font-size: 2em; 
+}
+    .contact-us .image {
+        height: 183px;
+    }
+        .contact-us .address-name {
+        font-size: 15px;
+    }
+    .contact-us .address {
+        font-size: 15px;
+    }
+        .contact-us .address-div img {
+        width: 15px;
+    }
+    .contactbgmain {  
+    padding-top: 71px;
+}
+    
   .imgbginner::before {
     width: 45px;
     height: 289px;
     left: -43px;
   }
-
+.grid-basic p { 
+    font-size: 1.5em; 
+}
+.grid-basic h4{
+   font-size: 1.7em;
+}
   .secondimgbg .torow.hovermove::before {
     right: -37px;
   }
@@ -826,24 +895,25 @@ span.share-text {
   }
 
 
-  .contact-us .labels {
-    font-size: 17px;
-  }
+      .contact-us .labels {
+        font-size: 15px;
+    }
+        .imgtopshape img {
+        width: 130px;
+    }
+    .imgtopshape { 
+    padding-bottom: 0px;
+}
 
-  .contact-us .address-name {
-    font-size: 17px;
-  }
-
-  .contact-us .address {
-    font-size: 17px;
-  }
+  
+ 
 
   .overview-page .img-text {
     font-size: 20px;
   }
 
   .content-text h4 {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .contact-us .address-div img {
@@ -873,9 +943,12 @@ span.share-text {
     height: 334px;
   }
 
-  .contactbgmain {
-    padding-bottom: 60px;
-  }
+     .contactbgmain {
+        padding-bottom: 30px;
+    }
+    .pl-contact { 
+    padding-top: 15px; 
+}
 
   .thank-you-page .main-div .text {
     font-size: 28px;
@@ -940,7 +1013,7 @@ span.share-text {
   }
 
   h3 {
-    font-size: 2.2em;
+    font-size: 2em;
   }
 
   .dropdownul li a {
@@ -1029,7 +1102,7 @@ span.share-text {
   }
 
   .bannerbg .name {
-    font-size: 2em;
+    font-size: 1.8em;
     max-width: 60%;
     margin: 0 auto;
   }
@@ -1316,7 +1389,7 @@ span.share-text {
   }
 
   .text p {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.5;
   }
 
@@ -2598,6 +2671,9 @@ span.share-text {
     top: 76px;
     right: -1px;
   }
+  .scpetop {
+    margin-top: 20px;
+}
 
   .img-text h5 {
     margin-top: 1px !important;
@@ -2715,6 +2791,9 @@ span.share-text {
   .about-us-section-1 {
     padding-bottom: 0px;
   }
+  .scpetop {
+    margin-top: 20px;
+}
       .thank-you-page .text-center {
         margin-top: 0px !important;
     }
@@ -3824,11 +3903,11 @@ h2.border-b.common-heading {
         height: 540px;
     } 
 
-    .leftimg { 
-        width: 75%; 
+       .leftimg {
+        width: 75%;
         border-left: 2px solid #7e2a2a;
         border-right: 2px solid #7e2a2a;
-          margin-top: 71px;
+        margin-top: 85px;
         margin-bottom: 27px;
     }
         .pl-contact h3 {
@@ -4527,9 +4606,9 @@ h2.border-b.common-heading {
  
   
  
-  .pl-contact h3 {
-    font-size: 22px;
-  }
+      .pl-contact h3 {
+        font-size: 18px;
+    }
 
   .bannerbg .gap .icons {
     height: 15px;
