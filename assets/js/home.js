@@ -321,9 +321,9 @@ $(document).ready(function() {
         navigation:true,
         navigationText:["",""],
         pagination:true,
-        // autoPlay: 6000,               // Correct autoplay for v1
-        slideSpeed: 1200,             // Smooth speed (lower = slower, higher = faster)
-        paginationSpeed: 1200,
+         autoPlay: true,               // Correct autoplay for v1
+        slideSpeed: 1000,             // Smooth speed (lower = slower, higher = faster)
+        paginationSpeed: 1000,
         rewindSpeed: 800,
         itemsDesktop:[1199,4],
         itemsDesktopSmall:[980,3],

@@ -2238,12 +2238,14 @@
     margin-top: 51px;
     margin-bottom: 0;
   }
-
+.dropdown-item:active{
+  background-color: transparent;
+}
   .linesboreders::after {
     content: "";
     width: 170px;
     height: 2px;
-    background-color: #ca5548;
+    background-color: #913832;
     right: 0;
     left: 0;
     bottom: 108px;
@@ -2569,9 +2571,11 @@
   }
 
   .showactive .navbar-toggler .menuicon span.linemenu.linethree {
-  transform: rotate(-47deg) translate(6px, -4px);
+    transform: rotate(-40deg) translate(4px, -3px);
   }
-
+ .showactive .navbar-toggler .menuicon span.linemenu.lineone {
+    transform: rotate(45deg) translate(6px, 5px);
+  }
 
 
   .showactive .navbar-toggler .menuicon span.linemenu.lineone {
@@ -2887,7 +2891,7 @@
 
   .collabrations-box {
     position: relative;
-    border-bottom: 3px solid #7224256e;
+    border-bottom: 3px solid #913832;
     padding-bottom: 15px;
     cursor: pointer;
     transition: 1s;
@@ -5079,7 +5083,7 @@
     max-width: 484px;
     background-color: transparent;
     border-radius: 35px;
-    border: 1px solid rgba(145, 56, 50, 1);
+    border: 1px solid #913832;
     padding: 17px 30px;
     font-family: "Bodoni Moda 9pt";
     font-size: 21px;
@@ -7172,7 +7176,7 @@ img.headerbg {
     max-width: 484px;
     background-color: transparent;
     border-radius: 35px;
-    border: 1px solid rgba(145, 56, 50, 1);
+    border: 1px solid #913832;
     padding: 10px 30px;
     font-family: "Bodoni Moda 9pt";
     font-size: 1.2em;
@@ -7383,7 +7387,7 @@ img.headerbg {
     width: 300px;
     background-color: transparent;
     border-radius: 35px;
-    border: 1px solid rgb(193 79 68);
+    border: 1px solid #913832;
     padding: 13px 20px;
     font-family: "Bodoni Moda 9pt";
     font-size: 1.2em;
