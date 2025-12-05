@@ -814,7 +814,7 @@
   }
 
   .text p {
-    font-size: 30px;
+    font-size: 25px;
     width: 920px;
     line-height: 40px;
   }
@@ -822,7 +822,9 @@
   .img-text h5 {
     font-size: 20px;
   }
-
+.partner-description p { 
+    font-size: 1em; 
+}
 
   .post-slide {
     height: 450px;
@@ -1001,7 +1003,7 @@ h1 {
   }
 
   h3 {
-    font-size: 2.2em;
+    font-size: 2em;
   }
 
   .dropdownul li a {
@@ -1374,7 +1376,7 @@ h1 {
   }
 
   .text p {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.5;
   }
 
