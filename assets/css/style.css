@@ -4178,6 +4178,9 @@ right: 0;  }
     font-family: "Noto Sans";
     border-color: none;
   }
+  ol.breadcrumb {
+    margin-bottom: 40px;
+}
 
   .sec-1 .line-img {
     height: 45px;
