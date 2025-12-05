@@ -4207,7 +4207,7 @@
     gap: 6px;
     position: absolute;
     right: 0;
-    bottom: -90px;
+    bottom: 0px;
   }
 
   svg .sector1 {
@@ -7261,10 +7261,9 @@ img.headerbg {
     transform: translateY(0);
     pointer-events: auto;
   }
-
-  .our-partner-1 .tab-menu {
-    margin-top: 100px;
-  }
+.our-partner-1 .tab-menu {
+    margin-top: 30px;
+}
 
   .our-partner-1 .tab-menu .menus {
     background-color: transparent;
