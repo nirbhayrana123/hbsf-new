@@ -646,7 +646,15 @@
  {
     width: 280px; 
 }
-
+h1 { 
+    font-size: 4em; 
+}
+.right-social img.social-img {
+    max-width: 30px;
+}
+span.share-text { 
+    font-size: 1.2em; 
+}
 }
 
 
@@ -1033,6 +1041,9 @@
   .img-fluid-2 {
     height: 520px;
   }
+  h1 { 
+    font-size: 4em; 
+}
 }
 
 
@@ -3424,6 +3435,7 @@
   .news-narratives-page .description {
     font-size: 14px;
     margin-top: 0 !important;
+    display: none;
   }
 
   .news-narratives-page .read-more {
