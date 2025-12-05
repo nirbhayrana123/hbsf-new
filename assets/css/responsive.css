@@ -681,13 +681,19 @@
   h2{
     font-size: 2em;
   }
+  .error-404 .error-div .text { 
+    font-size: 10em; 
+}
+.error-404 .error-div .text-2 { 
+    font-size: 3em; 
+}
   .about-us-section-1 .scrolling-div {
     max-height: 400px;
   }
-      .pl-contact h3 {
-        font-size: 20px;
-    }
-
+.error-404 .error-div { 
+    padding: 100px 0px;
+    height: 420px; 
+}
   span.v-divider {
     height: 35px;
     width: 2px;
