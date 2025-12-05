@@ -2801,6 +2801,10 @@ h1 {
         z-index: 5;
         position: relative;
     }
+    ul.dropdown-menu.show 
+ {
+    z-index: 999;
+}
  
 }
 
