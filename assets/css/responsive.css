@@ -2658,6 +2658,9 @@ h1 {
     top: 76px;
     right: -1px;
   }
+  .scpetop {
+    margin-top: 20px;
+}
 
   .img-text h5 {
     margin-top: 1px !important;
@@ -3886,11 +3889,11 @@ h2.border-b.common-heading {
         height: 540px;
     } 
 
-    .leftimg { 
-        width: 75%; 
+       .leftimg {
+        width: 75%;
         border-left: 2px solid #7e2a2a;
         border-right: 2px solid #7e2a2a;
-          margin-top: 71px;
+        margin-top: 85px;
         margin-bottom: 27px;
     }
         .pl-contact h3 {
@@ -4589,9 +4592,9 @@ h2.border-b.common-heading {
  
   
  
-  .pl-contact h3 {
-    font-size: 22px;
-  }
+      .pl-contact h3 {
+        font-size: 18px;
+    }
 
   .bannerbg .gap .icons {
     height: 15px;
