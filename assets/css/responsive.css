@@ -4408,7 +4408,9 @@
   .article-one .back img {
     height: 15px;
   }
-
+.contenttowtabs { 
+    min-height: 120px;
+}
   .thank-you-page .row-gap {
     padding-top: 275px;
     padding-bottom: 100px;
