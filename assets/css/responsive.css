@@ -3309,7 +3309,9 @@
   .marquee-track-list a.position-relative.abc {
     margin-left: -40px;
   }
-
+.contact-us .submit-btn {
+    margin-right: 10px;}
+    
   .sdg-grid {
     padding-bottom: 50px;
   }
@@ -3456,7 +3458,7 @@
         display: flex;
         flex-direction: column;
         justify-content: start;
-        padding-bottom: 30px;
+                padding-bottom: 40px;
         padding-top: 0;
                 padding-left: 0;
         padding-right: 0;
@@ -4484,7 +4486,7 @@ h2.border-b.common-heading {
         margin-top: 29px;
     }
     .sec-1>nav>.container>button.navbar-toggler.border-0 {
-        top: 148px;
+        top: 170px;
     }
            .sec-5 .image {
         width: 306px;
@@ -4585,7 +4587,7 @@ h2.border-b.common-heading {
     }
         .sec-1>nav>.container>button.navbar-toggler.border-0
  {
-        top: 100px;
+                top: 140px;
     }
     .sec-4 {
       padding-bottom: 70px;
