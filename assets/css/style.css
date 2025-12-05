@@ -2345,9 +2345,9 @@ right: 0;  }
     margin-top: -90px;
   }
 
-  .imgthankyu img {
-    width: 100%;
-  }
+ .imgthankyu img {
+    width: 95%;
+}
 
   .thankyoucontent {
     position: absolute;
