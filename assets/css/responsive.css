@@ -748,9 +748,10 @@
     font-size: 15px;
   }
 
-  .contents p {
-    line-height: 44px;
-  }
+ .contents p {
+        line-height: 40px;
+        font-size: 2.2em;
+    }
 
   .our-partner-1 .text-2 {
     font-size: 23px;
@@ -913,7 +914,7 @@
   }
 
   .sec-2-text {
-    font-size: 25px;
+    font-size: 22px;
   }
 
 
