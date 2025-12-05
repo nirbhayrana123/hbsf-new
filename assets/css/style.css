@@ -4020,7 +4020,7 @@ ease;
   .child-card {
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
+    /* border-radius: 8px; */
   }
 
   .abou2section img.img-fluid.section-2-image {
