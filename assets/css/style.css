@@ -4154,7 +4154,7 @@
   .footer {
     min-height: auto !important;
     padding-top: 60px;
-    padding-bottom: 57px;
+    padding-bottom: 30px;
     background-image: url(../img/footer-bg.jpg);
     background-size: cover;
     background-clip: border-box;
