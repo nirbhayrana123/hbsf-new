@@ -668,6 +668,10 @@
 }
 
 @media (max-width: 1400px) {
+
+  h2{
+    font-size: 2em;
+  }
   .about-us-section-1 .scrolling-div {
     max-height: 400px;
   }
@@ -687,9 +691,11 @@
   }
 
   .timeline-wrapper {
-    height: 375px;
+    height: 310px;
   }
-
+.about-us-section-1 .heading { 
+    margin-bottom: 15px;
+}
   .about-us-section-1 .main-image {
     max-height: 600px;
   }
@@ -735,13 +741,29 @@
   .flesing {
     max-width: 700px;
   }
+  .dot .year-label.section-title {
+    font-size: 12px;
+}
 
   .about-us-section-1 .description {
-    font-size: 20px;
+    font-size: 19px;
   }
+    .about-us-section-2 .text {
+        font-size: 28px; 
+    }
+    .about-us-section-3 .heading { 
+    font-size: 28px; 
+}
+.about-us-section-3 .heading-2 { 
+    font-size: 19px; 
+}
+.about-us-section-3 .description { 
+    font-size: 17px; 
+}
+
 
   .about-us-section-1 .heading {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .our-partner-1 .input-tag {
@@ -835,7 +857,7 @@
   }
 
   .content-text h4 {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .contact-us .address-div img {
