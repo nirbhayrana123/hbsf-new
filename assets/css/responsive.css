@@ -1124,7 +1124,19 @@ h1 {
     height: 520px;
   }
   h1 { 
-    font-size: 4em; 
+    font-size: 3.5em; 
+}
+.right-social img.social-img {
+        max-width: 25px;
+    }
+    .left-links .publisher { 
+    font-size: 1.5em; 
+}
+.bannerbg .date { 
+    font-size: 1.1em; 
+}
+.article-link { 
+    font-size: 1.5em; 
 }
 }
 
