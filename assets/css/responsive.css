@@ -812,7 +812,9 @@
   nav.breadcrumb-nav ol.breadcrumb li a {
     font-size: 12px;
   }
-
+.partner-title h5{
+  font-size: 1.8;
+}
   .text p {
     font-size: 25px;
     width: 920px;
@@ -1092,7 +1094,7 @@ h1 {
   }
 
   .bannerbg .name {
-    font-size: 2em;
+    font-size: 1.8em;
     max-width: 60%;
     margin: 0 auto;
   }
