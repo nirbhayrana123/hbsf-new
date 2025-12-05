@@ -1754,7 +1754,7 @@
     border-radius: 30px;
     padding: 10px 20px;
     color: #A93B3B;
-    font-size: 1.2em;
+    font-size: 1.1em;
     cursor: pointer;
     text-align: left;
     padding-left: 40px;
@@ -7142,8 +7142,8 @@ img.headerbg {
   }
 
   .filterbox {
-    margin-top: 50px;
-  }
+    margin-top: 10px;
+}
 
   h3.border-b.common-heading {
     text-transform: uppercase;
