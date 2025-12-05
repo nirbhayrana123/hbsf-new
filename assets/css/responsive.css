@@ -664,6 +664,12 @@ h1 {
 span.share-text { 
     font-size: 1.2em; 
 }
+.imgthankyu { 
+    max-width: 1000px;
+    margin: 0 auto;
+            margin-top: -35px;
+
+}
 }
 
 
@@ -685,6 +691,9 @@ span.share-text {
 }
 
 @media (max-width: 1400px) {
+      .imgthankyu {
+        max-width: 750px; 
+    }
 
   h2{
     font-size: 2em;
@@ -2788,6 +2797,9 @@ h1 {
  
 
 @media (max-width: 767px) {
+      .imgthankyu { 
+        margin-top: 0;
+    }
   .about-us-section-1 {
     padding-bottom: 0px;
   }

@@ -2439,6 +2439,9 @@
   .imgthankyu {
     position: relative;
     padding-bottom: 90px;
+        max-width: 1150px;
+        margin: 0 auto;
+    margin-top: -90px;
   }
 
   .imgthankyu img {
