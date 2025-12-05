@@ -1334,7 +1334,7 @@ h1 {
   }
 
   .contact-us .labels {
-    font-size: 12px;
+    font-size: 18px;
     margin-bottom: 0;
   }
 
@@ -1372,11 +1372,7 @@ h1 {
     font-size: 14px;
   }
 
-  .contact-us .submit-btn {
-    max-width: 148px;
-    height: 36px;
-    font-size: 14px;
-  }
+  
 
   .contact-us .address {
     margin-right: 0px;
