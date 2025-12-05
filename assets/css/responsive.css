@@ -1604,7 +1604,7 @@
   .background-black .blackbg:nth-child(5) .torow.hovermove::after {
     content: "";
     left: auto;
-    right: -55px;
+            right: -48px;
   }
 
 
@@ -3479,7 +3479,7 @@
 
   .background-black .blackbg:nth-child(5) .torow.hovermove::after {
 
-           right: -45px;
+                   right: -37px;
     width: 70px;
   }
 
@@ -4135,7 +4135,7 @@ h2.border-b.common-heading {
     }
     .secondimgbg .torow.hovermove::after
  {
-        left: -29px;
+              left: -35px;
     }
   .article-one .back img {
     height: 15px;
