@@ -3834,7 +3834,9 @@
   .about-us-nav {
     background-position: bottom 0px center;
   }
-
+.contentuser { 
+    padding-bottom: 8px;
+}
   button.navbar-toggler {
     margin-top: 15px !important;
   }
@@ -4483,6 +4485,9 @@
   .our-partner-1 .text {
     font-size: 25px;
   }
+    .contentuser p {
+        font-size: 10px;
+    }
 
   .about-us-section-2 .text {
     font-size: 20px;
