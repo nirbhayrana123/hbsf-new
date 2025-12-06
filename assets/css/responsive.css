@@ -1731,7 +1731,7 @@
   .background-black .blackbg:nth-child(3) .tothree.hovermove::after {
     content: "";
     width: 90px;
-    height: 100%;
+    height: 102%;
     position: absolute;
     left: auto;
     top: 0;
