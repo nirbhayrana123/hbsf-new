@@ -2884,7 +2884,9 @@
   .about-us-section-1 {
     padding-bottom: 0px;
   }
-
+.founding-members .row .col-6:nth-child(4) .imgbg.hovermove {
+    overflow: inherit;
+}
   .scpetop {
     margin-top: 20px;
   }
