@@ -2339,8 +2339,7 @@ right: 0;  }
 
   .imgthankyu {
     position: relative;
-    padding-bottom: 30px;
-        /* max-width: 1150px; */
+        padding-bottom: 15px; 
         margin: 0 auto; 
   }
 

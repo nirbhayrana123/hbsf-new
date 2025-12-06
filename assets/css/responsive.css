@@ -668,12 +668,12 @@
     font-size: 1.2em;
   }
 
-  .imgthankyu {
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: -35px;
-
-  }
+     .imgthankyu {
+        max-width: 1182px;
+        margin: 0 auto;
+        margin-top: 0px;
+        padding-bottom: 0;
+    }
 }
 
 
@@ -695,9 +695,12 @@
 }
 
 @media (max-width: 1400px) {
-      .imgthankyu {
-        max-width: 920px;
+    .imgthankyu {
+        max-width: 1060px;
     }
+    .thankyoucontent h4 { 
+    font-size: 2em; 
+}
 
   h2 {
     font-size: 2em;
