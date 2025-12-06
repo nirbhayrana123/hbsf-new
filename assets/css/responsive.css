@@ -3551,11 +3551,6 @@
   }
 
 
-  .timeline-line {
-    left: 39px;
-    top: 35%;
-  }
-
   .dots-container {
     left: 47px;
     top: 35%;
@@ -3577,7 +3572,7 @@
 
   .timeline-line {
     left: 47px;
-    top: 38%;
+    top: 35%;
   }
 
   .news-narratives-page .input-tag {
