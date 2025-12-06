@@ -2391,6 +2391,7 @@
 
   .about-us-nav .nav-item:hover {
     transform: scale(1) translatex(0px);
+    z-index: 9999;
   }
 
   .about-us-nav .nav-item {
