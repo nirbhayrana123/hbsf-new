@@ -2872,7 +2872,47 @@
   ul.dropdown-menu.show {
     z-index: 999;
   }
+.founding-members .row .col-6:first-child .imgbginner::after,
+  .founding-members .row .col-6:nth-child(3) .imgbginner::after,
+  .founding-members .row .col-6:nth-child(5) .imgbginner::after {
+    content: "";
+    background: url(../img/trip2.png);
+    width: 29px;
+    height: 180px;
+    position: absolute;
+    right: -1px;
+    top: 0;
+    background-size: cover;
+    opacity: 0;
+    z-index: 9;
+    transition: 1.3s all ease;
+    display: block;
+  }
 
+  .founding-members .row .col-6:nth-child(2n) .imgbginner::after,
+  .founding-members .row .col-6:nth-child(4) .imgbginner::after {
+    content: "";
+    background: url(../img/trip.png);
+    width: 29px;
+    height: 180px;
+    position: absolute;
+    right: auto;
+    top: 0;
+    left: -28px;
+    background-size: cover;
+    opacity: 0;
+    z-index: 9;
+    transition: 2s;
+    display: block;
+  }
+
+  .founding-members .row .col-6:first-child .hovermove:hover .imgbginner::after,
+  .founding-members .row .col-6:nth-child(3) .hovermove:hover .imgbginner::after,
+  .founding-members .row .col-6:nth-child(5) .hovermove:hover .imgbginner::after,
+  .founding-members .row .col-6:nth-child(2n) .hovermove:hover .imgbginner::after,
+  .founding-members .row .col-6:nth-child(4) .hovermove:hover .imgbginner::after {
+    opacity: 1;
+  }
 }
 
 
@@ -4061,47 +4101,7 @@
     font-size: 1.7em;
   }
 
-  .founding-members .row .col-6:first-child .imgbginner::after,
-  .founding-members .row .col-6:nth-child(3) .imgbginner::after,
-  .founding-members .row .col-6:nth-child(5) .imgbginner::after {
-    content: "";
-    background: url(../img/trip2.png);
-    width: 29px;
-    height: 180px;
-    position: absolute;
-    right: -1px;
-    top: 0;
-    background-size: cover;
-    opacity: 0;
-    z-index: 9;
-    transition: 1.3s all ease;
-    display: block;
-  }
-
-  .founding-members .row .col-6:nth-child(2n) .imgbginner::after,
-  .founding-members .row .col-6:nth-child(4) .imgbginner::after {
-    content: "";
-    background: url(../img/trip.png);
-    width: 29px;
-    height: 180px;
-    position: absolute;
-    right: auto;
-    top: 0;
-    left: -28px;
-    background-size: cover;
-    opacity: 0;
-    z-index: 9;
-    transition: 2s;
-    display: block;
-  }
-
-  .founding-members .row .col-6:first-child .hovermove:hover .imgbginner::after,
-  .founding-members .row .col-6:nth-child(3) .hovermove:hover .imgbginner::after,
-  .founding-members .row .col-6:nth-child(5) .hovermove:hover .imgbginner::after,
-  .founding-members .row .col-6:nth-child(2n) .hovermove:hover .imgbginner::after,
-  .founding-members .row .col-6:nth-child(4) .hovermove:hover .imgbginner::after {
-    opacity: 1;
-  }
+  
 
 
 
