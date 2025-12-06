@@ -1936,10 +1936,11 @@
 .contants-approch { 
    transition: none;
         display: -webkit-box;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
+        font-size: 10px;
 }
 .our-partner-1 .image-div {
     transition:none; 
@@ -2936,7 +2937,9 @@
   .imgthankyu {
     margin-top: 0;
   }
-
+.our-partner-1 .image-div .name {
+        font-size: 15px;
+    }
   .about-us-section-1 {
     padding-bottom: 0px;
   }
@@ -2944,7 +2947,9 @@
   .scpetop {
     margin-top: 20px;
   }
-
+.contants-approch a {
+    font-size: 10px;
+}
   .thank-you-page .text-center {
     margin-top: 0px !important;
   }
