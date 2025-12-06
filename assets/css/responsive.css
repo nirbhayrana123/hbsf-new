@@ -1174,17 +1174,7 @@
   .article-link {
     font-size: 1.5em;
   }
-     .thankyoucontent 
- {
-        position: absolute;
-        left: 230px;
-        right: 0;
-        padding-right: 0px;
-        top: 53%;
-        transform: translateY(-53%);
-        padding-left: 0px;
-        width: 309px;
-    }
+    
 }
 
 
@@ -1720,8 +1710,7 @@
     max-width: 100%;
   }
       .thankyoucontent {
-        left: 170px;
-        width: 379px;
+        width: auto;
     }
 
   .imgbginner::after {
@@ -4447,9 +4436,9 @@
   }
 
    .thankyoucontent {
-        padding-right: 60px;
-        padding-left: 10px;
-        left: 35px;
+        padding-right: 40px;
+        padding-left: 10px; 
+        left: 0;
     }
 
   .thank-you-page .row-gap {
