@@ -2342,6 +2342,9 @@ right: 0;  }
         padding-bottom: 15px; 
         margin: 0 auto; 
   }
+  .delay-link {
+    transition: opacity 0.5s ease;
+}
 
  .imgthankyu img {
     width: 100%;
