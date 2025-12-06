@@ -2344,6 +2344,7 @@ right: 0;  }
   }
   .delay-link {
     transition: opacity 0.5s ease;
+    text-decoration: none;
 }
 
  .imgthankyu img {
