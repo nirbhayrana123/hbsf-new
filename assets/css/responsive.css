@@ -484,7 +484,7 @@
 
   .partners-grid {
     grid-template-columns: repeat(4, 1fr);
-    gap: 50px 30px;
+    gap: 50px 80px;
     margin: 0px;
   }
 
