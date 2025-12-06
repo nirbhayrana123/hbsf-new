@@ -1719,6 +1719,10 @@
     height: 480px;
     max-width: 100%;
   }
+      .thankyoucontent {
+        left: 170px;
+        width: 379px;
+    }
 
   .imgbginner::after {
     opacity: 0;
@@ -3504,11 +3508,11 @@
     display: block;
   }
 
-  .thankyoucontent {
-    padding-right: 112px;
-    padding-left: 10px;
-  }
-
+     .thankyoucontent {
+        padding-right: 112px;
+        padding-left: 10px;
+        left: 33px;
+    }
 
   .pt-md-4 {
     padding-top: 0.5rem !important;
@@ -4442,10 +4446,11 @@
     display: block;
   }
 
-  .thankyoucontent {
-    padding-right: 60px;
-    padding-left: 10px;
-  }
+   .thankyoucontent {
+        padding-right: 60px;
+        padding-left: 10px;
+        left: 35px;
+    }
 
   .thank-you-page .row-gap {
     padding-top: 275px;
@@ -4907,9 +4912,10 @@
     font-size: 20px;
   }
 
-  .thankyoucontent {
-    padding-right: 40px;
-  }
+      .thankyoucontent {
+        padding-right: 40px;
+        left: 10px;
+    }
 
   .prdiingcontact {
     padding-right: 30px;
