@@ -965,7 +965,7 @@
     document.querySelectorAll(".delay-link").forEach(link => {
         link.addEventListener("click", function (e) {
             e.preventDefault(); // normal redirect rokna
-            let url = this.getAttribute("data-href");
+            let url = this.getAttribute("href");
 
             // Optional: click ka small animation
             this.style.opacity = "0.6";
