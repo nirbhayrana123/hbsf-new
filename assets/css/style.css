@@ -2331,7 +2331,7 @@ right: 0;  }
     color: #a93b3b;
     text-align: center;
     font-family: "Bodoni Moda 9pt";
-    font-size: 2.3em;
+    font-size: 1.7em;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
@@ -2339,25 +2339,24 @@ right: 0;  }
 
   .imgthankyu {
     position: relative;
-    padding-bottom: 90px;
-        max-width: 1150px;
-        margin: 0 auto;
-    margin-top: -90px;
+    padding-bottom: 30px;
+        /* max-width: 1150px; */
+        margin: 0 auto; 
   }
 
  .imgthankyu img {
-    width: 95%;
+    width: 100%;
 }
 
   .thankyoucontent {
     position: absolute;
     left: 0;
     right: 0;
-    padding-right: 212px;
-    top: 50%;
-    transform: translateY(-50%);
-    padding-left: 90px;
-  }
+    padding-right: 249px;
+    top: 53%;
+    transform: translateY(-53%);
+    padding-left: 0px;
+}
 
 
   .imgtopshape {
@@ -4234,8 +4233,8 @@ right: 0;  }
     font-family: "Noto Sans";
     border-color: none;
   }
-  ol.breadcrumb {
-    margin-bottom: 40px;
+.thnkyous{
+  margin-top: 0px;
 }
 
   .sec-1 .line-img {

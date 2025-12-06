@@ -695,9 +695,9 @@
 }
 
 @media (max-width: 1400px) {
-  .imgthankyu {
-    max-width: 750px;
-  }
+      .imgthankyu {
+        max-width: 920px;
+    }
 
   h2 {
     font-size: 2em;
@@ -1174,6 +1174,17 @@
   .article-link {
     font-size: 1.5em;
   }
+     .thankyoucontent 
+ {
+        position: absolute;
+        left: 230px;
+        right: 0;
+        padding-right: 0px;
+        top: 53%;
+        transform: translateY(-53%);
+        padding-left: 0px;
+        width: 309px;
+    }
 }
 
 
