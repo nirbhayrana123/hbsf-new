@@ -1924,12 +1924,19 @@
   .sec-4 .text {
     font-size: 25px;
   }
-
+.our-partner-1 .image-div:hover .image {
+    transform: translateY(-18px);
+}
   .sec-3 {
     padding-top: 100px;
   }
 .contants-approch { 
-    transition: none; 
+   transition: none;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
 }
 .our-partner-1 .image-div {
     transition:none; 
